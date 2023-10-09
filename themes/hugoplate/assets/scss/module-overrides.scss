@@ -1,0 +1,77 @@
+// table of contents
+.table-of-content {
+  @apply overflow-hidden rounded;
+}
+
+// share icons
+.share-icons {
+  .share-link {
+    @apply h-9 w-9 rounded leading-9;
+    @apply bg-primary hover:bg-primary;
+  }
+  .share-icon svg {
+  }
+}
+
+// tab
+.tab {
+  @apply border-border  overflow-hidden rounded-lg border;
+  &-nav {
+    @apply border-border bg-theme-light   pl-4;
+
+    &-item {
+      @apply text-dark  px-8 text-lg #{!important};
+      &.active {
+        @apply border-dark;
+      }
+    }
+  }
+  &-content {
+    &-panel {
+      @apply px-4 pt-0 #{!important};
+    }
+  }
+}
+
+// accordion
+.accordion {
+  @apply border-border bg-theme-light   mb-6 overflow-hidden rounded-lg border;
+  &-header {
+    @apply text-dark;
+  }
+}
+
+// cookie consent
+.cookie-box {
+  @apply rounded-lg #{!important};
+}
+
+// search
+.search-wrapper {
+  .search-wrapper-content {
+  }
+  input {
+    @apply focus:ring-0;
+  }
+  kbd {
+  }
+  .search-wrapper-body {
+  }
+  &.search-page {
+    .search-wrapper-body {
+    }
+  }
+  .search-result-info em {
+  }
+  .search-result-item {
+    @apply p-4;
+    .search-title {
+    }
+    u {
+    }
+    &:focus,
+    &.search-item-selected,
+    &:hover {
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{{ define "main" }}
+
+  <!-- Banner -->
+  {{ with .Params.banner }}
+    <section class="section">
+      <div class="container">
+        <div class="row">
+          <div class="lg:col-8 text-left">
+            <h1 class="mb-4">
+              {{ .title | markdownify }}
+            </h1>
+            <p class="mb-8">
+              {{ .content | markdownify }}
+            </p>
+            {{ with .button }}
+              {{ if .enable }}
+                <a class="btn btn-primary" href="{{ .link | absURL }}">
+                  {{ .label }}
+                  <i class="fa fa-arrow-right pl-2"></i>
+                </a>
+              {{ end }}
+            {{ end }}
+          </div>
+          {{/*  <div class="col-12">
+            {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class" "mx-auto" "Size" "800x") }}
+          </div>  */}}
+        </div>
+      </div>
+    </section>
+  {{ end }}
+  <!-- /Banner -->
+
+  <!-- blog posts -->
+  <section class="section">
+    <div class="container">
+      <div class="lg:col mb-8 text-left">
+        <h3>Recent Posts</h3>
+      </div>
+      <div class="row">
+        <div class="lg:col">
+          <div class="row">
+            {{ $paginator:= .Paginate (where .Site.RegularPages "Section" "blog")  }}
+            {{ range $paginator.Pages }}
+              <div class="col-3 mb-6">
+                {{ partial "components/blog-card-minimal" . }}
+              </div>
+            {{ end }}
+          </div>
+            <a class="btn btn-primary" href="/blog">
+              {{ i18n "read_more" }}
+              <i class="fa fa-arrow-right pl-2"></i>
+            </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- blog posts -->
+{{ end }}
