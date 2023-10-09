@@ -1,4 +1,4 @@
-(./assets/images/logo_tdc_horizontal_monochrome_black.png)
+![DeFi Collective Logo](./assets/images/logo_tdc_horizontal_monochrome_black.png)
 
 # DeFi Collective Website
 
