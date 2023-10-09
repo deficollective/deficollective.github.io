@@ -1,6 +1,8 @@
 ![DeFi Collective Logo](./assets/images/logo_tdc_horizontal_monochrome_black.png)
 
-# DeFi Collective Website
+# 🐜 DeFi Collective Website
+
+This repository contains the source code to the DeFi Collective's website and blog.
 
 ## 🚀 Getting Started
 
@@ -44,8 +46,6 @@ Build your project locally with the following command. It will purge all the unu
 ```bash
 npm run build
 ```
-
----
 
 ## 🐞 Reporting Issues
 
