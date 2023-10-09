@@ -7,5 +7,5 @@ banner:
   button:
     enable: true
     label: "Support DeFi"
-    link: "/support"
+    link: "support"
 ---
