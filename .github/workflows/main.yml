@@ -6,6 +6,9 @@ on:
   push:
     branches: ["main"]
 
+  # Allows to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
@@ -18,8 +21,12 @@ env:
   HUGO_VERSION: "0.118.2"
   GO_VERSION: "1.20.5"
   NODE_VERSION: "18.15.0"
-  TINA_CLIENT_ID: ${{ vars.TINA_CLIENT_ID }}
-  TINA_TOKEN: ${{ vars.TINA_TOKEN }}
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
   # Build job
@@ -47,9 +54,6 @@ jobs:
           echo "export PATH=$PATH:/usr/local/go/bin" >> $GITHUB_ENV
           rm go${{ env.GO_VERSION }}.linux-amd64.tar.gz
           go version
-
-      - name: Setup Project
-        run: npm run project-setup
 
       - name: Install npm dependencies
         run: npm install
