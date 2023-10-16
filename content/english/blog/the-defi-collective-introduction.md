@@ -3,7 +3,7 @@ title: "Introducing The DeFi Collective: a mesh network to support trustless and
 meta_title: ""
 description: "The Collective is a one-of-a-kind structure intended to support and help grow in any relevant capacity the sturdiest DeFi protocols"
 date: 2023-10-16T05:00:00Z
-image: "./assets/images/twitter_banner.png"
+image: "/images/twitter_banner.png"
 categories: ["Internal"]
 author: "tokenbrice"
 tags: ["Collective"]
@@ -98,9 +98,9 @@ The Collective is at the forefront of advancing the decentralization of financia
 **Contributions**: There are numerous ways in which you can support and participate in the Collective:
 
 
-- **Join the Ant colony: **Join the action on our [Discord](https://discord.gg/MYHf8zqWJ2), the place to share ideas and get feedback on initiatives that help advance the decentralization of financial infrastructure.
-- **Expertise & brainpower: **Whether you're a developer, researcher, marketer, policy expert, or simply someone passionate about our mission, your insights and skills can make a significant difference. The Collective offers different tiers with special access rights to our Discord including **contributor **and **friend **to individuals and projects involved in DeFi with unique expertise, and who agree to help the Collective on a case-by-case basis and paid or unpaid basis. We welcome and value your expertise as a fellow Ant supporter!
-- **Membership: **The Collective is a Swiss nonprofit association, ultimately driven by its members. Members of the Collective are highly value-aligned individuals or organizations with a proven track record in supporting the advancement of DeFi in various fields. By becoming a member, you will play a direct role in the Collective shaping the future of DeFi.
-- **Partnerships: **Collaborating with like-minded organizations and individuals amplifies our impact. If you believe in a partnership that can drive mutual goals in the DeFi space, let's connect.
+- **Join the Ant colony:** Join the action on our [Discord](https://discord.gg/MYHf8zqWJ2), the place to share ideas and get feedback on initiatives that help advance the decentralization of financial infrastructure.
+- **Expertise & brainpower:** Whether you're a developer, researcher, marketer, policy expert, or simply someone passionate about our mission, your insights and skills can make a significant difference. The Collective offers different tiers with special access rights to our Discord including **contributor **and **friend **to individuals and projects involved in DeFi with unique expertise, and who agree to help the Collective on a case-by-case basis and paid or unpaid basis. We welcome and value your expertise as a fellow Ant supporter!
+- **Membership:** The Collective is a Swiss nonprofit association, ultimately driven by its members. Members of the Collective are highly value-aligned individuals or organizations with a proven track record in supporting the advancement of DeFi in various fields. By becoming a member, you will play a direct role in the Collective shaping the future of DeFi.
+- **Partnerships:** Collaborating with like-minded organizations and individuals amplifies our impact. If you believe in a partnership that can drive mutual goals in the DeFi space, let's connect.
 
 Join the Collective Discord to keep up with the Ants news and take part in **[its introduction call, scheduled Thursday 19 at 7PM [GMT+2]](https://discord.gg/h34FvEcsth?event=1163463885211312259)**.
