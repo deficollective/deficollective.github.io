@@ -1,5 +1,5 @@
 ---
-title: TokenBrice
+title: tokenbrice
 email: tokenbrice@deficollective.org
 image: "/images/avatar-tokenbrice.png"
 description: Introduction of TokenBrice, liquidity engineer and governance specialist of the DeFi Collective.
