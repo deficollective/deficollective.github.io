@@ -1,11 +1,11 @@
 ---
 # Banner
 banner:
-  title: "Advance the decentralization of financial infrastructure"
-  content: "We are a non-profit organization harnessing relevant on-chain and off-chain resources to support decentralized finance (DeFi) on its mission to transform financial services into a secure, transparent and inclusive public infrastructure."
+  title: "Advance the **decentralization** of financial **infrastructure**"
+  content: "We are a non-profit organization and engage in *research*, *self-policing*, *education*, *governance*, and *liquidity provisioning* activities with the goal to support decentralized finance (DeFi) on its mission to transform financial services into a secure, transparent and efficient public infrastructure."
   image: "/images/image-placeholder.png"
   button:
     enable: true
-    label: "Get in touch"
-    link: "https://discord.gg/Z467Ehv6VU"
+    label: "Support DeFi"
+    link: "support"
 ---

@@ -1,1 +1,28 @@
 // Add your own custom styles here
+/* For title */
+h1, h2, h3, h4, h5, h6, a {
+    font-stretch: Expanded;
+    font-family: "Fredoka", sans-serif;
+}
+
+h1 {
+    font-weight: 300;
+}
+
+/* For link */
+a {
+    font-stretch: normal;
+}
+
+a.nav-link {
+    font-stretch: Expanded;
+}
+
+a.btn {
+    font-weight: 400;
+}
+
+/* For the rest of the content */
+body {
+    font-family: 'Alegreya', serif;
+}
