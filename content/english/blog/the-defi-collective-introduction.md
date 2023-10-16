@@ -20,7 +20,7 @@ On [Curve](https://curve.fi/) and [Uniswap](https://uniswap.org/), users can swa
 
 While the protocols presented above are ideals of what DeFi can be, its reality often lies at the middle ground that re-introduces some level of trust and custody of user assets. This backtracks to a fundamental imbalance: fully embracing the open, public good and trustless nature of blockchains often comes at the expense of having fewer resources to grow and compete with incumbents. In other words, **DeFi suffers from an inherent tension between delivering on its core values and the alleged compromises needed for further growth and adoption**.
 
-![DeFi Collective Banner](/images/twitter_banner.png)
+![deFi collective banner](./images/twitte_banner.png)
 
 ## Introducing The DeFi Collective
 
