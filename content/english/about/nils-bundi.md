@@ -1,7 +1,7 @@
 ---
 title: Nils Bundi
 email: nils@deficollective.org
-image: "/images/avatar.png"
+image: "/images/nilsbundi_profil.jpeg"
 description: Introduction of Nils, protocol architect and developer for The DeFi Collective.
 social:
   - name: github
@@ -13,4 +13,4 @@ social:
     link: https://www.linkedin.com/in/nils-bundi-6246b998
 ---
 
-Nils is a DeFi protocol architect and developer with a background in financial engineering. As an experienced DeFi builder, he knows the challenges of building “truly decentralized” protocols. Apart from the technical depth, Nils will also support the Collective with his expertise in the operational requirements, ensuring secure and trusted DeFi services. 
+Nils is a DeFi protocol architect and developer with a background in financial engineering, he understands the challenges of building “truly decentralized” protocols and embedding these in the broader financial industry. Nils will further support the Collective in the area of self-policing for the DeFi industry with the goal of enhancing security, building trust in the public, and accelerating adoption.
