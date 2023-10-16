@@ -20,7 +20,7 @@ On [Curve](https://curve.fi/) and [Uniswap](https://uniswap.org/), users can swa
 
 While the protocols presented above are ideals of what DeFi can be, its reality often lies at the middle ground that re-introduces some level of trust and custody of user assets. This backtracks to a fundamental imbalance: fully embracing the open, public good and trustless nature of blockchains often comes at the expense of having fewer resources to grow and compete with incumbents. In other words, **DeFi suffers from an inherent tension between delivering on its core values and the alleged compromises needed for further growth and adoption**.
 
-![DeFi Collective Banner](/assets/images/twitter_banner.png)
+![DeFi Collective Banner](/images/twitter_banner.png)
 
 ## Introducing The DeFi Collective
 
@@ -99,7 +99,7 @@ The Collective is at the forefront of advancing the decentralization of financia
 
 
 - **Join the Ant colony:** Join the action on our [Discord](https://discord.gg/MYHf8zqWJ2), the place to share ideas and get feedback on initiatives that help advance the decentralization of financial infrastructure.
-- **Expertise & brainpower:** Whether you're a developer, researcher, marketer, policy expert, or simply someone passionate about our mission, your insights and skills can make a significant difference. The Collective offers different tiers with special access rights to our Discord including **contributor **and **friend **to individuals and projects involved in DeFi with unique expertise, and who agree to help the Collective on a case-by-case basis and paid or unpaid basis. We welcome and value your expertise as a fellow Ant supporter!
+- **Expertise & brainpower:** Whether you're a developer, researcher, marketer, policy expert, or simply someone passionate about our mission, your insights and skills can make a significant difference. The Collective offers different tiers with special access rights to our Discord including **contributor** and **friend** to individuals and projects involved in DeFi with unique expertise, and who agree to help the Collective on a case-by-case basis and paid or unpaid basis. We welcome and value your expertise as a fellow Ant supporter!
 - **Membership:** The Collective is a Swiss nonprofit association, ultimately driven by its members. Members of the Collective are highly value-aligned individuals or organizations with a proven track record in supporting the advancement of DeFi in various fields. By becoming a member, you will play a direct role in the Collective shaping the future of DeFi.
 - **Partnerships:** Collaborating with like-minded organizations and individuals amplifies our impact. If you believe in a partnership that can drive mutual goals in the DeFi space, let's connect.
 
