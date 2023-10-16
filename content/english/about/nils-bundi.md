@@ -2,7 +2,7 @@
 title: Nils Bundi
 email: nils@deficollective.org
 image: "/images/avatar.png"
-description: this is meta description
+description: Introduction of Nils, protocol architect and developer for The DeFi Collective.
 social:
   - name: github
     icon: fa-brands fa-github
