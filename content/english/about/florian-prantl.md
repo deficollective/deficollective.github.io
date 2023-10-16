@@ -4,10 +4,6 @@ email: florian@deficollective.org
 image: "/images/avatar.png"
 description: Introduction of Florian, lawyer and policy specialist for The DeFi Collective.
 social:
-  - name: github
-    icon: fa-brands fa-github
-    link: https://github.com
-
   - name: twitter
     icon: fa-brands fa-twitter
     link: https://twitter.com/floowp_
