@@ -1,16 +1,16 @@
 ---
 title: TokenBrice
 email: tokenbrice@deficollective.org
-image: "/images/avatar.png"
-description: this is meta description
+image: "/images/avatar-tokenbrice.png"
+description: Introduction of TokenBrice, liquidity engineer and governance specialist of the DeFi Collective.
 social:
   - name: github
     icon: fa-brands fa-github
-    link: [https://github.com/](https://github.com/TokenBrice/)
+    link: https://github.com/TokenBrice
 
   - name: twitter
     icon: fa-brands fa-twitter
-    link: [https://twitter.com](https://twitter.com/TokenBrice)
+    link: https://twitter.com/TokenBrice
 
   - name: linkedin
     icon: fa-brands fa-linkedin
