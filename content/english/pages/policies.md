@@ -12,7 +12,7 @@ We operate under a number of policies that ensure transparency and operational e
 
 | Name                         |      Link    |  Release |
 | ---------------------------- | :----------- | :---- |
-| **Articles of Association**  | [Google Doc](https://docs.google.com/document/d/1ZtxheQp8UpX0uhrGu7nrhR7Afc48WXSIal-DRSVMaHg/edit?usp=sharing) | 2023-10-01 |
+| **Articles of Association**  | [Google Doc](https://docs.google.com/document/d/1ZtxheQp8UpX0uhrGu7nrhR7Afc48WXSIal-DRSVMaHg/edit?usp=sharing) | 2023-09-28 |
 | **Funding Policy**           | TODO         |   unreleased |
 | **Treasury Policy**          | TODO         |   unreleased |
 | **Protocol Guidelines**      | TODO         |   unreleased |
