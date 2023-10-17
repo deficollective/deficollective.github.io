@@ -53,9 +53,9 @@ show_categories = true
 # seo meta data for OpenGraph / Twitter Card
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
-keywords = ["Boilerplate", "Hugo"]
-description = "Hugo & Tailwindcss Starter"
-author = "zeon.studio"
+keywords = ["DeFi", "Decentralized Finance", "Unstoppable DeFi", "Non-profit"]
+description = "The DeFi Collective"
+author = "DeFi Collective"
 image = "images/og-image.png"
 
 
