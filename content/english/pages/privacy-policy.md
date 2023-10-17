@@ -68,7 +68,7 @@ We may disclose your personal data in the good faith belief that such action is 
 * To prevent or investigate possible wrongdoing in connection with us;
 * To defend ourselves against legal liability.
 
-**Data security**
+### Data security
 
 We take reasonable technical and organizational security measures that we deem appropriate to protect your stored data against manipulation, loss, or unauthorized third-party access. We continually aim to adapt our security measures to technological developments.
 
