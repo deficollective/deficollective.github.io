@@ -94,7 +94,7 @@ Other than the above, both You and the Collective retain all rights, titles and 
 
 **Entire Agreement:** These Terms constitutes the entire agreement between the Collective and You relating to the use of the Website, and supersedes all prior agreements. The Collective may enter into additional agreements with You relating to other subject matters.
 
-**Changes to Terms and modification of Website: **The Collective may, from time to time and in its sole discretion, change these Terms without prior notice. Additionally, the Collective may modify, suspend or discontinue the Website or any of its content without prior notice, for any reason whatsoever.
+**Changes to Terms and modification of Website:** The Collective may, from time to time and in its sole discretion, change these Terms without prior notice. Additionally, the Collective may modify, suspend or discontinue the Website or any of its content without prior notice, for any reason whatsoever.
 
 **Links:** The Website may contain third party content or links to third party websites. The Collective does not assume any responsibility for and does not make any warranties or representations as to any third party content or websites, including but not limited to the accuracy, subject matter, quality, or timeliness.
 
