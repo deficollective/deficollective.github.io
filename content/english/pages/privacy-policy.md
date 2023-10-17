@@ -9,7 +9,7 @@ draft: false
 ---
 
 
-**About us**
+## About us
 
 This privacy policy ("**Privacy Policy**") explains how we process and protect your personal data when you use this Website provided via https://deficollective.org ("**Website**").
 
@@ -19,19 +19,17 @@ The Website is operated by DeFi Collective, Dammstrasse 16, 6300 Zug (the "**Col
 
 Unless otherwise defined in this Privacy Policy or our Terms, the definitions used in this Privacy Policy have the same meaning as in the Swiss Federal Act on Data Protection or the EU General Data Protection Regulation.
 
-**Personal data we collect**
+## Personal data we collect
 
 We may collect or receive personal information for a number of purposes connected with our operations when you use our Website or contact us. This may include user requests (e.g. details about your inquiries) and certain limited Website visitor details (e.g. IP address, logfiles).
 
-**How we collect your personal data**
+### How we collect your personal data
 
-We may collect information about our users when they use our Website, including taking certain actions within it. This includes  when users correspond with us by electronic means and when users access, use, or otherwise interact with our Website.
+We may collect information about our users when they use our Website, including taking certain actions within it. This includes when users correspond with us by electronic means and when users access, use, or otherwise interact with our Website.
 
-**Legal Basis and purpose**
+### Legal Basis and purpose
 
 Our legal basis for collecting and using the personal data described in this Privacy Policy depends on the personal data we collect and the specific purposes for which we collect it.
-
-
 
 1. **Contract**: To perform our contractual obligations or take steps linked to a contract (e.g., our Terms) with you. In particular:
 * To provide our Website and our content.
@@ -47,11 +45,11 @@ Our legal basis for collecting and using the personal data described in this Pri
 * To comply with applicable regulations and legislation.
 * For the legal enforcement of claims and rights.
 
-**Data retention**
+### Data retention
 
 We retain personal data for so long as it is needed for the purposes for which it was collected or in line with legal and regulatory requirements or contractual arrangements.
 
-**Service Providers**
+### Service Providers
 
 The Collective may engage third party companies ("**Service Providers**") to facilitate the operation of our Website, assist in analyzing the usage of the Website, or perform Website-related services, such as the provision of IT infrastructure services. These third parties have access to the user’s personal data only to the extent necessary to perform these tasks on behalf of the Collective.
 
@@ -59,7 +57,7 @@ We particularly use the Services of Matomo, an [open source](https://en.wikipedi
 
 If a third country transfer takes place and there is no adequacy decision or appropriate safeguards, it is possible and there is a risk that authorities in the third country (e.g. intelligence services) can gain access to the transferred data and that the enforceability of your data subject's rights cannot be guaranteed**.**
 
-**Data disclosure**
+### Data disclosure
 
 We may disclose your personal data in the good faith belief that such action is necessary:
 
@@ -78,7 +76,7 @@ We also take internal data privacy very seriously. Our team and the Service Prov
 
 The security of your personal data is important to us but remember that no method of transmission over the Internet or electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your personal data, we cannot guarantee its absolute security. We recommend using antivirus software, a firewall, and other similar software to safeguard your system.
 
-**Your rights**
+## Your rights
 
 You have the below data protection rights. To exercise these rights, you may contact the above address or send an e-mail to: hello@deficollective.org. Please note that we may ask you to verify your identity before responding to such requests.
 
@@ -93,7 +91,7 @@ You have the below data protection rights. To exercise these rights, you may con
 * Right to object to processing: Where the legal basis for our processing of your personal data is our legitimate interest, you have the right to object to such processing on grounds relating to your particular situation. We will abide by your request unless we have a compelling legal basis for the processing which overrides your interests or if we need to continue to process the personal data for the exercise or defence of a legal claim.
 * Right to lodge a complaint with a supervisory authority: You have the right of appeal to a data protection supervisory authority if you believe that the processing of your personal data violates data protection law. The competent data protection authority in Switzerland is the Federal Data Protection and Information Commissioner ([www.edoeb.admin.ch/edoeb/en/home.html](http://www.edoeb.admin.ch/edoeb/en/home.html)). For the EU, you can exercise this right, for example, before a supervisory authority in the Member State of your residence, your place of work or the place of the alleged infringement.
 
-**Links to third party apps or sites**
+## Links to third party apps or sites
 
 Our website may contain links to websites or apps that are not operated by us. When you click on a third party link, you will be directed to that third party's website or app. We have no control over, and assume no responsibility for, the content, privacy policies, or practices of any third party websites or services.
 
@@ -106,13 +104,13 @@ We maintain online presences on social networks to, among other things, communic
 * YouTube:[ Privacy Policy](https://policies.google.com/privacy?)
 * LinkedIn:[ Privacy Policy](https://www.linkedin.com/legal/privacy-policy?)
 
-**Changes to this Privacy Policy**
+## Changes to this Privacy Policy
 
 We may update our Privacy Policy from time to time. We, therefore, encourage you to review this Privacy Policy periodically for any changes.
 
 Changes to this Privacy Policy are effective when they are posted on this page.
 
-**Contact us**
+## Contact us
 
 If you have any questions about this Privacy Policy, do not hesitate to get in touch with us at: hello@deficollective.org.
 
