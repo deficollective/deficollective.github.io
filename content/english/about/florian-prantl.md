@@ -1,7 +1,7 @@
 ---
 title: Florian Prantl
 email: florian@deficollective.org
-image: "/images/florian-avatar.png"
+image: "/images/avatar-florian.jpg"
 description: Introduction of Florian, lawyer, and policy specialist for The DeFi Collective.
 social:
   - name: twitter
