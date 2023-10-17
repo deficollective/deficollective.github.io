@@ -56,8 +56,7 @@ show_categories = true
 keywords = ["DeFi", "Decentralized Finance", "Unstoppable DeFi", "Non-profit"]
 description = "The DeFi Collective"
 author = "DeFi Collective"
-image = "images/og-image.png"
-
+image = "images/logo_tdc_horizontal_monochrome_black.png"
 
 # site verifications
 # verification module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/site-verifications
