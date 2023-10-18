@@ -103,4 +103,4 @@ The Collective is at the forefront of advancing the decentralization of financia
 - **Membership:** The Collective is a Swiss nonprofit association, ultimately driven by its members. Members of the Collective are highly value-aligned individuals or organizations with a proven track record in supporting the advancement of DeFi in various fields. By becoming a member, you will play a direct role in the Collective shaping the future of DeFi.
 - **Partnerships:** Collaborating with like-minded organizations and individuals amplifies our impact. If you believe in a partnership that can drive mutual goals in the DeFi space, let's connect.
 
-Join the Collective Discord to keep up with the Ants news and take part in **[its introduction call, scheduled Thursday 19 at 7 PM [GMT+2]](https://discord.gg/h34FvEcsth?event=1163463885211312259)**.
+Join the Collective Discord to keep up with the Ants news and take part in **[its introduction call, scheduled Thursday 19 at 7 PM [GMT+2]](https://discord.gg/NsaQNpC65C?event=1164186718375772261)**.
