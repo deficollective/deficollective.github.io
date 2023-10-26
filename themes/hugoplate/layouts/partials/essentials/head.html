@@ -28,16 +28,6 @@
 {{ partialCached "custom-script.html" . }}
 
 
-<!-- google analytics -->
-{{ if and site.Config.Services.GoogleAnalytics.ID (ne site.Config.Services.GoogleAnalytics.ID "G-MEASUREMENT_ID") }}
-  {{ template "_internal/google_analytics.html" . }}
-{{ end }}
-
-
-<!-- google tag manager -->
-{{ partialCached "gtm.html" . }}
-
-
 <!-- search index -->
 {{ partial "search-index.html" . }}
 
