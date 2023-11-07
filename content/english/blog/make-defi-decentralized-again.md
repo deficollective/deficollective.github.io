@@ -2,7 +2,7 @@
 title: "Make DeFi Decentralized (Again)"
 meta_title: ""
 description: "We discuss the challenges of defining decentralization in DeFi, explore the trade-offs when trying to achieve decentralization and propose steps to advance decentralization."
-date: 2023-11-07T18:00:00Z
+date: 2023-11-08T15:00:00Z
 image: "/images/decentralized-banner.png"
 categories: ["Research"]
 author: "nilsbundi"
@@ -47,13 +47,13 @@ Decentralization is hard. As a DeFi project, as the DeFi industry, we have to be
 
 ![Scalability Trilemma](https://vitalik.ca/images/sharding-files/trilemma.png "Scalability Trilemma according to Vitalik Buterin" )
 
-*Figure 2: Scalability Trilemma faced by Blockchain Systems according to Vitalik Buterin. Source: [Buterin](https://vitalik.ca/general/2021/04/07/sharding.html)*
+*Figure 2: Trilemma faced by Blockchain Systems. Source: [Buterin](https://vitalik.ca/general/2021/04/07/sharding.html)*
 
-Similarly, the [Stablecoin Trilemma](https://cepr.org/voxeu/columns/algorithmic-stablecoins-and-devaluation-risk) says that stablecoins, one of the main DeFi applications in terms of TVL, face a tradeoff as they attempt to achieve the desired properties of *Stability*, *Efficiency* and *Decentralization*. The trilemma argues that a stablecoin can only achieve two of these three properties simultaneously. Thus, stablecoin systems pay a price for achieving decentralization, which is that they either are unstable because the stablecoin chooses to be decentralized and efficient, or they are inefficient if the system optimizes for being decentralized and stable.
+Similarly, the [Stablecoin Trilemma](https://static1.squarespace.com/static/564100e0e4b08c9445a5fc5d/t/5c71e43ef9619ae6c83c30af/1550967911994/The+State+of+Stablecoins+2019_Report+2_20_19.pdf) says that stablecoins, one of the main DeFi applications in terms of TVL, face a tradeoff as they attempt to achieve the desired properties of *Stability*, *Efficiency* and *Decentralization* (in the original paper linked above the properties were described with the terms *Collateralization*, *Capital Efficiency* and *Decentralization*). The trilemma argues that a stablecoin can only achieve two of these three properties simultaneously. Thus, stablecoin systems pay a price for achieving decentralization, which is that they either are unstable because the stablecoin chooses to be decentralized and efficient, or they are inefficient if the system optimizes for being decentralized and stable.
 
 ![Stablecoin Trilemma](https://cepr.org/sites/default/files/styles/flexible_wysiwyg/public/image/FromMay2014/ganesh13mayfig1.png?itok=i6kVoVMH "Stablecoin Trilemma according to Viswanath-Natraj and Amit Chaudhary")
 
-*Figure 3: Stablecoin Trilemma faced by Stablecoin Systems. Source: [Viswanath-Natraj and Amit Chaudhary](https://cepr.org/voxeu/columns/algorithmic-stablecoins-and-devaluation-risk)*
+*Figure 3: Trilemma faced by Stablecoin Systems. Source: [Viswanath-Natraj and Amit Chaudhary](https://cepr.org/voxeu/columns/algorithmic-stablecoins-and-devaluation-risk)*
 
  
 We find similar trade-offs in other DeFi systems, such as staking services, oracle systems, lending markets, and exchanges. Fundamentally, **the choice for decentralization means to give up control over a system**. A (fully) decentralized system can thus never have a central point of control, no matter whether control is exercised by an individual or groups of individuals. The implication is that decentralized systems must implement autonomous mechanisms to respond to all sorts of (adverse) activity. This requires more careful design, planning, and implementation, resulting in higher engineering costs and longer go-to-market times. Decentralized systems also often suffer from certain unattractive features, such as higher transaction costs and slower finality; like DeFi services running on a decentralized and secure (but not scalable) blockchain compared to services that run on a secure and scalable (but not decentralized) blockchain.
