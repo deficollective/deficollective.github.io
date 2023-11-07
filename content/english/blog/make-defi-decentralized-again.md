@@ -2,7 +2,7 @@
 title: "Make DeFi Decentralized (Again)"
 meta_title: ""
 description: "We discuss the challenges of defining decentralization in DeFi, explore the trade-offs when trying to achieve decentralization and propose steps to advance decentralization."
-date: 2023-11-07T10:00:00Z
+date: 2023-11-07T18:00:00Z
 image: "/images/decentralized-banner.png"
 categories: ["Research"]
 author: "nilsbundi"
