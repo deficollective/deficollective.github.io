@@ -2,7 +2,7 @@
 title: "Make DeFi Decentralized (Again)"
 meta_title: ""
 description: "We discuss the challenges of defining decentralization in DeFi, explore the trade-offs when trying to achieve decentralization and propose steps to advance decentralization."
-date: 2023-11-08T15:00:00Z
+date: 2023-11-09T16:00:00Z
 image: "/images/decentralized-banner.png"
 categories: ["Research"]
 author: "nilsbundi"
@@ -35,11 +35,12 @@ Buterin's characterization points to the realization that decentralization is no
 
 Given the ambiguity around the characteristics of decentralized systems in general, it does not come as a surprise that **no clear definition for decentralization in DeFi systems has emerged** so far. At the same time, the degree of centralization of DeFi systems has increasingly gained attention recently. On the one hand, this can be explained by significant losses of consumer funds following exploits of vulnerabilities in DeFi systems and the resulting uncertainty around their security. On the other hand, policymakers and regulators have increasingly taken an interest in the subject, resulting in new regulations that, once implemented, demand clarification of the concepts.
 
-We will not be able to define decentralization in DeFi systems in this article. Still, we can draw some conclusions from the discussion that may help develop a definition in the future:
+{{< notice "note" >}} We will not be able to define decentralization in DeFi systems in this article. Still, we can draw some conclusions from the discussion that may help develop a definition in the future:
 
 - **Decentralization is a spectrum**: decentralization is not a binary property but comes in different shapes
 - **Decentralization is multi-dimensional**: decentralization is characterized along different dimensions of a (computer) system
-- **Decentralization is dynamic**: decentralization is not a static property, but systems rather change their characteristics, including their decentralization properties, over time
+- **Decentralization is dynamic**: decentralization is not a static property, but systems rather change their characteristics, including their decentralization properties, over time 
+{{< /notice >}} 
 
 ## Decentralization has a price
 
@@ -56,7 +57,7 @@ Similarly, the [Stablecoin Trilemma](https://static1.squarespace.com/static/5641
 *Figure 3: Trilemma faced by Stablecoin Systems. Source: [Viswanath-Natraj and Amit Chaudhary](https://cepr.org/voxeu/columns/algorithmic-stablecoins-and-devaluation-risk)*
 
  
-We find similar trade-offs in other DeFi systems, such as staking services, oracle systems, lending markets, and exchanges. Fundamentally, **the choice for decentralization means to give up control over a system**. A (fully) decentralized system can thus never have a central point of control, no matter whether control is exercised by an individual or groups of individuals. The implication is that decentralized systems must implement autonomous mechanisms to respond to all sorts of (adverse) activity. This requires more careful design, planning, and implementation, resulting in higher engineering costs and longer go-to-market times. Decentralized systems also often suffer from certain unattractive features, such as higher transaction costs and slower finality; like DeFi services running on a decentralized and secure (but not scalable) blockchain compared to services that run on a secure and scalable (but not decentralized) blockchain.
+We find similar trade-offs in other DeFi systems, such as staking services, oracle systems, lending markets, and exchanges. Fundamentally, **the choice for decentralization means to give up control over a system**. A (fully) decentralized system can thus never have a central point of control, no matter whether control is exercised by an individual or groups of individuals. The implication is that decentralized systems must implement autonomous mechanisms to respond to all sorts of (adverse) activity. This requires more careful design, planning, and implementation, resulting in higher engineering costs and longer go-to-market times. Decentralized systems also often suffer from certain unattractive features, such as higher transaction costs and slower finality - like DeFi services running on a decentralized and secure (but not scalable) blockchain compared to services that run on a secure and scalable (but not decentralized) blockchain.
 
 ## Advancing decentralization
 
@@ -66,11 +67,12 @@ Without a clear and widely accepted framework for this crucial foundation, the D
 
 With this recogniton, the need for clarity becomes even more prevalent as the clarity offered by these new regulations critically depends on an appropriate implementation of the decentralization principle in the first hand. Whether it is to harness the benefits or to ensure compliance with specific regulations, furthering our understanding of decentralization is of paramount importance for the prosperity of our industry.
 
-To advance the decentralization of finance, the DeFi Collective has taken the initiative to develop decentralization principles. We have identified three main objectives such principles should have
+{{< notice "info" >}} To advance the decentralization of finance, the DeFi Collective has taken the initiative to develop decentralization principles. We have identified three main objectives such principles should have
 
 - **Development guidelines**: support DeFi architects and developers in making educated design decisions
 - **Transparency framework**: provide a framework to assess and make transparent centralization vectors in DeFi services 
 - **Communication tool**: enable the DeFi industry and its advocates to more effectively communicate to its stakeholders
+{{< /notice >}} 
 
 ## Conclusion
 
