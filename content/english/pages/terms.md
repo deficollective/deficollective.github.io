@@ -1,5 +1,5 @@
 ---
-title: "Terms v.1 (October 17 2023)"
+title: "Terms v.2 (November 22, 2023)"
 # meta title
 meta_title: "The DeFi Collective - Terms"
 # meta description
@@ -34,9 +34,8 @@ You furthermore understand and acknowledge that DeFi technology in particular, a
 
 The Website outlines a number of possibilities how You can support the Collective, including through donations and other ways of contributions.
 
+* **Donations**: Any donations made by You to the account [grantsfortheants.eth](https://etherscan.io/address/0xDc6f869d2D34E4aee3E89A51f2Af6D54F0F7f690) (0xDc6f869d2D34E4aee3E89A51f2Af6D54F0F7f690), on any of the supported chains: Ethereum Mainnet, Arbitrum, Base, Optimism, Polygon-POS and Polygon-zkEVM, are subject to our [Donation Terms](../donation-terms). The Collective and You may enter into a separate agreement governing your donation and/or other support, in which case (unless specifically agreed otherwise) such separate agreement prevails.
 
-
-* **Donations**: Any donations will be attributed to the Swiss association DeFi Collective, Dammstrasse 16, 6300 Zug, Switzerland. Donations are not deductible for tax income purposes under Swiss law, and You are solely responsible for understanding and complying with any tax or similar obligations in connection with any donation. You will receive no direct support or reciprocation (e.g., goods or services)  in return for Your donation. The Collective may use donations only in line with its purpose as laid out in the current version of the Collective's articles of association and further funding and governance policies (as introduced and amended from time to time, and as publicly available on the Website). You agree that within these limitations, the Collective has sole discretion on how to allocate and use donations and any donations by You are made free of any conditions, provisions, or similar, and, for the avoidance of doubt, do not need to be returned to You. The Collective and You may enter into a separate agreement governing your donation and/or other support, in which case (unless specifically agreed otherwise) such separate agreement prevails.
 * **Contributions**: There are numerous ways in which You can directly support and participate in the Collective beyond donations as laid out above. The further details of Your contributions, including the scope and mode of collaboration, potential remuneration, etc., may be defined in a separate agreement between You and the Collective.
 
 ## Collective social media channels

@@ -56,3 +56,8 @@ weight = 5
 name = "Terms"
 url = "terms/"
 weight = 6
+
+[[footer]]
+name = "Donation Terms"
+url = "donation-terms/"
+weight = 7
