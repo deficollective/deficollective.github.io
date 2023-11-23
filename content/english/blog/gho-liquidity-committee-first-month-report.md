@@ -110,7 +110,7 @@ Once such a pool is created, it is wrapped within a “Boosted Pool,” which st
 
 On [Merkl](https://merkl.angle.money/), although the result is similar, the method is different. Merkl is an incentivization mechanism for Uniswap V3. It allows projects to create liquidity-mining campaigns for their UNI-v3 pools. **Merkl offers much customization regarding the distribution formula, including the ability to edit the weights allocated to each token and fees**.
 
-Thus, it enabled the LC to create LUSD/USDC, and LUSD/USDT campaigns where the rewards are allocated in favor of the pairing assets, such as the primary campaigns ran through November:
+Thus, it enabled the LC to create GHO/USDC, and GHO/USDT campaigns where the rewards are allocated in favor of the pairing assets, such as the primary campaigns ran through November:
 
 
 
