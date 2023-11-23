@@ -246,7 +246,7 @@ Considering this makes the repegging effort more costly, we diverted resources a
    </td>
    <td>1 day
    </td>
-   <td>45,000$
+   <td>4,500$
    </td>
    <td>2,340,000$
    </td>
