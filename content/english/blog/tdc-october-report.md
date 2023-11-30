@@ -10,7 +10,7 @@ tags: ["TDC Monthly Report", "Liquidity Management", "Liquidity-driving Tokens",
 draft: false
 ---
 
-The DeFi Collective, a non-profit association harnessing all relevant onchain & offchain means to support the most resilient DeFi protocols, was officially introduced on October 16. Core to our activity is the management of a proprietary onchain treasury, including liquidity-driving positions currently on six different chains, allowing the Collective to direct liquidity to pairs involving tokens from supported projects and harness them directly when relevant. On top of supporting projects relevant to the Collective, this activity is **sustainably profitable**.
+The DeFi Collective, a non-profit association harnessing all relevant onchain & offchain means to support the most resilient DeFi protocols, was officially introduced on October 16. Core to our mission is the management of a proprietary onchain treasury, including liquidity-driving positions currently on six different chains, allowing the Collective to direct liquidity to pairs involving tokens from supported projects and harness them directly when relevant. On top of supporting projects relevant to the Collective, this activity is **sustainably profitable**.
 
 We sometimes describe the Collective as a militant organization here to promote a specific vision of DeFi, maximizing resilience, autonomy, and trustlessness. However, it’s only half of the story, as **the Collective also walks the talk by deploying its own assets where its mouth is**. The Collective itself is also living proof that supporting the highest quality of DeFi protocols can also prove to be a profitable behavior.
 
@@ -68,15 +68,14 @@ Most of our revenues are currently earned in stablecoins, ETH, and relevant DEX 
 Before we dive into the metrics, allow us to clarify our accounting logic by explaining the main principles we enforce.
 
 
-### Pessimistic accounting
+### Risk-adjusted accounting
 
-Our accounting logic is “pessimistic,” meaning that if there is a spread with the effective data, it’s to the downside (revenues are under-estimated). Why would we need such a principle in the first place? Simply because there are situations where accurate pricing of a given asset is impossible.
+Our accounting logic is “pessimistic,” meaning that if there is a spread with the effective data, it’s to the downside (revenues are under-estimated). The revenue, thus is price-adjusted for the risk carried by the denominating token, most of which is embodied in the liquidity-related risks (slippage and volatility). Why would we need such a principle in the first place? Simply because there are situations where accurate pricing of a given asset is impossible.
 
 Let’s illustrate this with two examples:
 
 1. The Collective controls a veRETRO position, allowing it to direct RETRO emissions to pools of its choice. Doing so earns trading fees generated on the pool and bribes. Some bribes earned include bveZERO, a token redeemable for veZERO once the Zero Exchange launches on Polygon zkEVM (fork of RETRO). Since those tokens are currently illiquid, they are not accounted for in our books (value = 0).
-2. The Collective supplies LUSD on some Aave markets, including Optimism and Arbitrum. While those positions generate yield, it’s hard to track and is not included in our net revenue figure. Since we also measure “Liquid Position Value” in $, the yield accrued is reflected in the progressive, week-by-week balance increase recorded.
-
+2. Several positions managed by the Collective generate yield in low-liquidity tokens, such as liqLIT. We thus need to account for the slippage we would face if we sell the tokens.
 
 ### Four weeks delta
 
@@ -85,7 +84,7 @@ Today's report covers the first four weeks of activity of the Collective treasur
 
 ### Realized = Claimed
 
-Some yields are accrued continuously (such as emission-based LP yield), while some are delivered at a specific time (weekly rewards for a veNFT). In our accounting perspective, a given yield does not exist unless it’s been claimed. Yields reported are always claimed beforehand: **unrealized (=unclaimed) yields are not included in our revenue figure**.
+Some yields are accrued continuously (such as emission-based LP yield), while some are delivered at a specific time (weekly rewards for a veNFT). Our monthly public reporting only considers realized yield; **unrealized (=unclaimed) yields are not included in our revenue figure**. Furthermore, we do not report revenue generated through capital gains in the reporting period.
 
 
 ### L1 vs L2 accounting Logic
@@ -106,7 +105,7 @@ Finally, we used **[Smoldapp’s Multisafe tool](https://smold.app/safe) to depl
 
 ## III. Treasury Report
 
-The initial treasury of the Collective has been established thanks to one-off contributions received from projects supportive of its vision, including the Liquity, Maverick, CatInAbox, DYAD, Diva, Retro, and Zero teams. Upon reception in early October, the total worth of these assets was $1,055M. Thanks to the productive deployment of these assets and the overall markets appreciating, by the end of October, the Collective was controlling north of $1.3M of its own assets.
+The initial treasury of the Collective has been established thanks to a combination of donations and loans received from projects supportive of its vision, including the Liquity, Maverick, CatInAbox, DYAD, Diva, Retro, and Zero teams. Upon reception in early October, the total worth of these assets was $1,055M. Thanks to the productive deployment of these assets and the overall markets appreciating, by the end of October, the Collective was controlling north of $1.3M of its own assets.
 
 **The primary exposure comprises liquidity-driving tokens**, including veAERO, veRAM, veRETRO, vlLIQ & vlAURA, making up about 40% of the total asset value. The rest of the exposure comprises tokens mobilized in liquidity-providing positions, most of which are stablecoins (>25% of the total asset value) and ETH, as well as ARB, MATIC, OP & LQTY.
 
