@@ -6,7 +6,7 @@ date: 2023-11-30T05:00:00Z
 image: "/images/tdc-october-report.png"
 categories: ["Internal"]
 author: "tokenbrice"
-tags: ["TDC Monthly Report", "Liquidity Management", "Liquidity-driving Tokens"]
+tags: ["TDC Monthly Report", "Liquidity Management", "Liquidity-driving Tokens", "Collective"]
 draft: false
 ---
 
