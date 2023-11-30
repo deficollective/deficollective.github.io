@@ -19,7 +19,7 @@ Indeed, the Collective has been self-sufficient from day one, generating more we
 In this first Treasury Report, we will disclose data about the Collective revenues, expenses, and impact achieved so far. We will publish these reports every month — although this first one is unique and bulky, as we wanted to include the full context to help our readers understand the Collective activities and how they are synergetic to its mission.
 
 
-## I/ Where is the revenue coming from?
+## I. Where is the revenue coming from?
 
 Let’s start with the most pressing question: where are the ants generating revenue from? From their treasury! But where does the treasury come from? Simple: teams and projects that resonate with the Collective’s vision can help it by supporting it with brainpower and resources. So far, the Liquity, Maverick, Cat-in-a-Box, DYAD, Diva, Retro, and Zero teams have supported the Collective in their own way, helping it build a proprietary treasury large enough to be sustainable from day one.
 
@@ -63,7 +63,7 @@ Through its onchain activities, the Collective generates three primary sources o
 Most of our revenues are currently earned in stablecoins, ETH, and relevant DEX tokens such as Ramses’s RAM or Velodrome’s VELO.
 
 
-## II/ Accounting Logic
+## II. Accounting Logic
 
 Before we dive into the metrics, allow us to clarify our accounting logic by explaining the main principles we enforce.
 
@@ -104,7 +104,7 @@ To ease the accounting of gas expenses, we consolidate the execution of the tran
 Finally, we used **[Smoldapp’s Multisafe tool](https://smold.app/safe) to deploy our safe, enabling us to have the same address for our safes on all the chains we are active on** (mainnet, Arbitrum, Optimism, Base, Polygon-Pos, Polygon-zkEVM). It dramatically facilitates tracking the gas balance, accounting, and bridging operations.
 
 
-## III/ Treasury Report
+## III. Treasury Report
 
 The initial treasury of the Collective has been established thanks to one-off contributions received from projects supportive of its vision, including the Liquity, Maverick, CatInAbox, DYAD, Diva, Retro, and Zero teams. Upon reception in early October, the total worth of these assets was $1,055M. Thanks to the productive deployment of these assets and the overall markets appreciating, by the end of October, the Collective was controlling north of $1.3M of its own assets.
 
@@ -113,7 +113,7 @@ The initial treasury of the Collective has been established thanks to one-off co
 The Collective is active on six chains, but **most assets are deployed on mainnet, Optimism, and Arbitrum**. Its presence on Polygon-PoS, Polygon-zkEVM, and Base is currently moderate but poised to grow rapidly as more assets are deployed and positions compounded.
 
 
-## IV/ Expenses Report
+## IV. Expenses Report
 
 The Collective started its activities on October 6th, and expenses such as contributors’ compensations are paid with a one-month delay; thus, **the expenses for the October period are minimal**. Over the October period, most expenses are gas costs.
 
@@ -125,7 +125,7 @@ In October, the Collective spent $237.94 in gas-related expenses, most of which 
 Recurring expenses include $4k for two contributors, with another currently onboarded, adding another $1.5K/month (for a $5.5k / month total). The Collective also has non-recurring expenses, such as the legal costs of setting up the structure. The activities of the Collective's board of directors are uncompensated and, hence, do not incur any expenses.
 
 
-## V/ Revenues Report
+## V. Revenues Report
 
 Over October, the Collective started its activities, the positions have been progressively deployed through the month, and the revenue generated on the mainnet was marginal.
 
@@ -148,7 +148,7 @@ This surplus is further reallocated into tokens & projects that are in the Colle
 Other usages of the surplus include supporting initiatives that benefit the whole space (we hope to disclose our first one shortly), as well as donations to projects of public interest, such as the $500 donated in November to BlueChip, the stablecoin rating agency.
 
 
-## VI/ Impact Report
+## VI. Impact Report
 
 The Collective undertook many actions to benefit supported projects in October. 
 
