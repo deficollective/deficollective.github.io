@@ -57,7 +57,7 @@ While we do so, we also gain exposure to the trading fees collected on such pair
 Through its onchain activities, the Collective generates three primary sources of revenue:
 
 1. The trading fees collected thanks to our voting activity with the veNFT we control
-2. The bribes collected thanks to our voting activity with the veNFT we control
+2. The vote incentives collected thanks to our voting activity with the veNFT we control
 3. And finally, the collective is also supplying liquidity and staking various tokens, helping it to secure a third yield source.
 
 Most of our revenues are currently earned in stablecoins, ETH, and relevant DEX tokens such as Ramses’s RAM or Velodrome’s VELO.
@@ -74,7 +74,7 @@ Our accounting logic is “pessimistic,” meaning that if there is a spread wit
 
 Let’s illustrate this with two examples:
 
-1. The Collective controls a veRETRO position, allowing it to direct RETRO emissions to pools of its choice. Doing so earns trading fees generated on the pool and bribes. Some bribes earned include bveZERO, a token redeemable for veZERO once the Zero Exchange launches on Polygon zkEVM (fork of RETRO). Since those tokens are currently illiquid, they are not accounted for in our books (value = 0).
+1. The Collective controls a veRETRO position, allowing it to direct RETRO emissions to pools of its choice. Doing so earns trading fees generated on the pool and vote incentives. Some vote incentives earned include bveZERO, a token redeemable for veZERO once the Zero Exchange launches on Polygon zkEVM (fork of RETRO). Since those tokens are currently illiquid, they are not accounted for in our books (value = 0).
 2. Several positions managed by the Collective generate yield in low-liquidity tokens, such as liqLIT. We thus need to account for the slippage we would face if we sell the tokens.
 
 ### Four weeks delta
@@ -94,7 +94,7 @@ Our base accounting logic and principles are the same across all layers, either 
 
 ### Tools & Solutions Used
 
-The accounting process is currently basic, with the data in beefy Google Sheets documents and imputed weekly at each harvest. While our current accounting process allows us a deep level of accuracy and a breakdown of revenues between three distinct sources (Fees Collected, Bribes Collected & LP yields) across six different chains, we are aware that the time dedicated to the task will scale up with the number of chains the Collective is present on, and protocols used. Thus, we are exploring solutions that could automate the process.
+The accounting process is currently basic, with the data in beefy Google Sheets documents and imputed weekly at each harvest. While our current accounting process allows us a deep level of accuracy and a breakdown of revenues between three distinct sources (Fees Collected, vote incentives Collected & LP yields) across six different chains, we are aware that the time dedicated to the task will scale up with the number of chains the Collective is present on, and protocols used. Thus, we are exploring solutions that could automate the process.
 
 Parallel to our current sheets-based accounting, we started harnessing **[Den](https://www.onchainden.com/) bookkeeping features**, enabling us to tag, potentially according to rules, all our tokens inbound. As the rule-building process takes time, and we just started with Den, we are currently using the two solutions in parallel. This solution is particularly relevant to us, as we already use the Den UI to interact with our safe, enabling the annotation of transactions and the tagging of contracts we interact with.
 
