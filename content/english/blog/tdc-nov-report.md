@@ -59,7 +59,7 @@ Thus, despite the increase in expenses, **the Collective earnings (revenues - al
 In November, the focus was put on growing the Collective’s presence and impact for supported projects on the Base network: a LUSD/USDCb pool was created and supported with vote incentives, votes, and liquidity providing, helping it reach a TVL of $92k by Nov 30:
 
 
-![alt_text](images/image4.png "image_tooltip")
+![aero-lusd-usdc]([images/image4.png](https://raw.githubusercontent.com/TokenBrice/blog/master/static/img/others/tdc/tdc-nov-report/aero-lusd-usdc.png) "LUSD/USDC pool on Aerodrome")
 
 
 The ants’ support goes beyond liquidity–driving and can be all-encompassing! Indeed, the ants also directly contributed to the proper support and technical integration of LUSD on the Base chain with various additional initiatives, including:
