@@ -1,4 +1,3 @@
-```
 ---
 title: "The DeFi Collective - November Report"
 meta_title: ""
@@ -10,7 +9,6 @@ author: "tokenbrice"
 tags: ["TDC Monthly Report", "Liquidity Management", "Liquidity-driving Tokens", "Collective"]
 draft: false
 ---
-```
 
 Welcome to the DeFi Collective’s second report, covering the month of November. The DeFi Collective is a Swiss nonprofit organization managing its proprietary onchain treasury to support the highest quality DeFi protocols.
 
