@@ -1,13 +1,32 @@
-<div class="bg-body ">
+<div class="bg-card p-8">
+  {{ $categories:= .Params.categories }}
+  {{ range $i,$p:= $categories }}
+    <a class="tag-uppercase inline-block mb-3"
+      href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}/"
+      >{{ . | humanize }}{{ if ne $i (sub (len $categories) 1) }}
+        {{ ", " }}
+      {{ end }}
+    </a>
+  {{ end }}
   <h5 class="mb-3">
     <a href="{{ .RelPermalink }}">
       {{ .Title }}
     </a>
   </h5>
+  <p class="mb-3">{{ .Summary }}</p>
   <ul class="mb-3">
-    <li class="mr-4 inline-block">
-      <a href="{{ `authors/` | relLangURL }}{{ .Params.Author | urlize }}/">
-        <i class="fa-regular fa-circle-user mr-2"></i>{{ .Params.author }}
+    <li class="mr-4 flex items-center">
+      <a class="flex items-center" href="{{ `authors/` | relLangURL }}{{ .Params.Author | urlize }}/">
+        {{ $authorName := .Params.author }}
+        {{ $author := site.GetPage (print "authors/" $authorName) }}
+        {{ if $author }}
+            <!-- Add author's avatar -->
+            {{ if $author.Params.image }}
+                <img class="inline-block rounded-2xl mr-2" src="{{ $author.Params.image }}" alt="Avatar of {{ $author.Title }}" width="24" height="24">
+            {{ end }}
+            <!-- Display author information here -->
+            {{ $author.Title }}
+        {{ end }}        
       </a>
     </li>
     {{/*  <li class="mr-4 inline-block">
@@ -24,8 +43,7 @@
       {{ end }}
     </li>  */}}
   </ul>
-  <p class="mb-3">{{ .Summary }}</p>
-  <a class="btn btn-outline-primary btn-sm" href="{{ .RelPermalink }}">
-    {{ i18n "read_more" }}
+  <a class="highlight" href="{{ .RelPermalink }}">
+    {{ i18n "read_more" }}<i class="fa fa-arrow-right highlight pl-2"></i>
   </a>
 </div>
