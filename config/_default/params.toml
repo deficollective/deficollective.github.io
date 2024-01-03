@@ -1,19 +1,22 @@
 #################### default parameters ################################
 # favicon
-favicon = "images/symbol_tdc_black.png"
+favicon = "images/symbol_tdc_color.png"
 # logo
-logo = "images/logo_tdc_horizontal_monochrome_black.png"
+logo = "images/logo_tdc_horizontal_color.svg"
+logo_darkmode = "images/logo_tdc_horizontal_white.svg"
 # use `px` or `x` with logo_width, example: "100px".
 # Note: logo_width is not work with .svg file
-logo_width = "160px"
-logo_height = "32px"
+logo_width = "304px"
+logo_height = "55px"
 # if logo_webp set false, will not generate WEBP version of logo | default is true
 logo_webp = true
 # logo text will only show when logo is missing.
-logo_text = "DeFi Collective"
+logo_text = "The DeFi Collective"
 # navbar fixed to top
 navbar_fixed = true
 # theme-mode
+theme_switcher = true
+theme_default = "system" # available options [light/dark/system]
 # Main Sections
 mainSections = ["blog"]
 # contact form action
@@ -35,7 +38,7 @@ link = "support"
 # search module: https://github.com/gethugothemes/hugo-modules/tree/master/search
 [search]
 enable = true
-primary_color = "#121212"
+primary_color = "#4800b9"
 include_sections = ["blog"]
 show_image = true
 show_description = true
@@ -49,7 +52,7 @@ show_categories = true
 keywords = ["DeFi", "Decentralized Finance", "Unstoppable DeFi", "Non-profit"]
 description = "The DeFi Collective"
 author = "DeFi Collective"
-image = "images/logo_tdc_horizontal_monochrome_black.png"
+image = "images/logo_tdc_horizontal_color.svg"
 
 # site verifications
 # verification module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/site-verifications
