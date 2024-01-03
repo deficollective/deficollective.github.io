@@ -1,28 +1,324 @@
+/* CSS variables for default colors */
+:root {
+    --primary-color: #4800b9;
+    --body-color: #170048;
+    --border-color: #ffffff;
+    --theme-light: #ffffff;
+    --theme-dark: #F4F3FF;
+
+    --text-default:#2a006c;
+    --text-dark: #766cb0;
+    --text-light: #4800b9;
+
+    --primary-gradient: radial-gradient(122.7% 122.7% at 50% 119.53%, #DEDBFF 0%, #F4F3FF 100%);
+    --theme-header: #f3f2ff;
+    --highlight-gradient: linear-gradient(270deg, #DE81FF 3.36%, #A265FF 100%);
+    --link-default: #7b65b0;
+    --link-light: #6200ff;
+    --link-dark: #756bfc;
+}
+
+/* CSS variables for dark colors */
+.dark {
+    --primary-color: #4800b9;
+    --body-color: #170048;
+    --border-color: #440099;
+    --theme-light: #170048;
+    --theme-dark: #290064;
+
+    --text-default:#ddd7ff;
+    --text-dark: #766cb0;
+    --text-light: #ffffff;
+
+    --primary-gradient: radial-gradient(153.69% 94.49% at 89.11% 34.14%, #5A00BC 0%, #170048 100%);
+    --theme-header:#3c0089;
+    --highlight-gradient: linear-gradient(270deg, #DE81FF 3.36%, #A265FF 100%);
+    --link-default: #c1aee1;
+    --link-light: #d48eff;
+    --link-dark: #a36aff;
+}
+
+/* CSS variables for fonts */
+:root {
+    --font-primary: 'Red Hat Display', sans-serif;
+    --font-secondary: 'Fredoka', sans-serif;
+    --font-stretch: ultra-expanded;
+}
+
 // Add your own custom styles here
-/* For title */
-h1, h2, h3, h4, h5, h6, a {
-    font-stretch: Expanded;
-    font-family: "Fredoka", sans-serif;
-}
-
-h1 {
-    font-weight: 300;
-}
-
-/* For link */
-a {
-    font-stretch: normal;
-}
-
-a.nav-link {
-    font-stretch: Expanded;
-}
-
-a.btn {
-    font-weight: 400;
-}
-
-/* For the rest of the content */
+/* GENERAL */
 body {
-    font-family: 'Alegreya', serif;
+    background: var(--body-color);
+    text-underline-offset: 0.3rem;
+}
+
+.header, .dark .header {
+    background: var(--theme-header); 
+}
+
+main, .dark main {
+    background: var(--primary-gradient);
+}
+
+footer, .dark footer {
+    background-color: var(--body-color);
+    color: var(--text-dark);
+}
+
+.bg-partners, .dark .bg-partners {
+    background-color: var(--theme-dark);    
+}
+
+.bg-image {
+    background-image: url(images/background-image.png);
+    background-repeat: no-repeat;
+    background-size: 800px 800px;
+}
+
+.bg-top-left, .bg-bottom-left {
+    background-position: left;
+}
+
+.bg-top-center, .bg-bottom-center {
+    background-position: center;
+}
+
+.bg-top-right, .bg-bottom-right {
+    background-position: right;
+}
+
+.bg-top-left, .bg-top-center, .bg-top-right {
+    background-position-y: top;
+}
+
+.bg-bottom-left, .bg-bottom-center, .bg-bottom-right {
+    background-position-y: bottom;
+}
+
+.max-w-800 {
+    max-width: 800px;
+}
+
+.shadow-b-16 {
+}
+
+.theme-switcher .fa-sun {
+    color: var(--link-default);
+}
+
+.theme-switcher .fa-moon {
+    color: var(--link-default);
+}
+
+.theme-switcher span, .dark .theme-switcher span  {
+    background-color: var(--theme-light);
+}
+
+.theme-switcher label, .dark .theme-switcher label {
+    background-color: var(--theme-dar);
+}
+
+/* FONT GLOBAL */
+h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .title, i, .nav-link, footer a {
+    font-family: var(--font-secondary);
+    font-stretch: var(--font-stretch);
+    transition: filter 0.3s ease;
+    color: var(--text-light);
+}
+
+:is(.dark h1), :is(.dark h2), :is(.dark h3), :is(.dark h4), :is(.dark h5), :is(.dark h6) {
+    color: var(--text-light);
+}
+
+p, span, strong, b, em, i, blockquote, q, abbr, cite, code, pre, mark, del, ins, sub, sup, small, li {
+    font-family: var(--font-primary);
+}
+
+blockquote {
+    border: none;
+    background-color: var(--link-light);
+}
+
+/* LINK */
+a {
+    font-weight: 600;
+}
+
+a.highlight, a>i.highlight, .dark a.highlight, .dark a>i.highlight {
+    color: var(--link-light);
+    transition: filter 0.3s ease;
+}
+
+a:hover, .dark a:hover {
+    text-decoration: underline dotted;
+    text-underline-offset: 0.3rem;
+}
+
+a:hover:not(.navbar-brand, .bg-tag), a.highlight:hover, i.highlight:hover, .bg-card .bg-tag:hover {
+    filter: brightness(75%); 
+}
+
+.dark a:hover:not(.navbar-brand, .bg-tag), .dark a.highlight:hover, .dark i.highlight:hover, .dark .bg-card .bg-tag:hover {
+    filter: brightness(135%); 
+}
+
+.btn:not(i), .dark .btn:not(i) {
+    background: transparent;
+    color: var(--link-light);
+    border: 2px solid var(--link-light);
+}
+
+.btn i, .dark .btn i {
+    color: var(--link-light);
+}
+
+.btn:hover, .dark .btn:hover {
+    background: transparent;
+    color: var(--link-default);
+    text-decoration: none;
+    border: 2px dotted var(--link-default);
+}
+
+.social-icons a, .dark .social-icons:hover {
+    text-decoration: none;
+}
+
+/* SPECIFIC */
+.nav-link, .navlink i, footer a, .dark .nav-link, .dark .nav-link i, .dark footer a {
+    color: var(--link-default);
+}
+
+.title {
+    font-size: 3.3rem;
+    line-height: 3.3rem;
+    font-weight: 500;
+    strong {
+        font-family: var(--font-secondary);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        background-image: var(--highlight-gradient);
+    }
+}
+
+.content :is(:where(h1, h2, h3, h4, h5, h6):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
+    margin-bottom: 0.8em;
+    margin-top: 1.6em;
+    color: var(--text-light);
+    font-size: 160%;
+}
+
+.content :where(img):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+    border-radius: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.content img[src$=".png"]:not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+    padding: 2rem;
+    background-color: #ffffff;
+}
+
+.tag-uppercase, .dark .tag-uppercase {
+    font-family: var(--font-secondary);
+    font-stretch: var(--font-stretch);
+    color: var(--link-dark);
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.bg-card, .dark .bg-card {
+    border-radius: 16px;
+    background: var(--theme-light);
+    box-shadow: 0px 0px 16px 0px rgba(255, 255, 255, 0.10);
+}
+
+.bg-card .bg-tag, .dark .bg-card .bg-tag {
+    background-color: var(--link-light);
+    color: var(--link-default);
+}
+
+.bg-card .bg-tag:hover, .dark .bg-card .bg-tag:hover {
+    background-color: var(--link-dark);
+    color: var(--theme-light);
+    filter: brightness(125%);
+    text-decoration: none;
+}
+
+.share-icons svg, .dark .share-icons svg {
+    fill: var(--link-light);
+}
+
+.bg-card picture:first-of-type {
+    border-radius: 16px 16px 0 0 !important; 
+}
+
+
+/* Styles for search-wrapper */
+.search-wrapper-content {
+    background-color: var(--theme-dark);
+}
+
+.search-wrapper-footer kbd {
+    background-color: var(--theme-dark);
+    color: var(--theme-light);
+}
+
+.search-wrapper-footer .search-result-info em {
+    color: var(--theme-dark);
+}
+
+/* Styles for search-modal */
+.search-modal .search-wrapper-body {
+    background-color: var(--search-input-bg);
+    box-shadow: none;
+}
+
+.search-modal .search-wrapper-header input,
+.search-modal .search-result-item {
+    background-color: var(--search-result-bg);
+    border-color: var(--search-result-border);
+}
+
+.search-modal .search-wrapper-header input {
+    color: var(--search-input-bg);
+}
+
+.search-modal .search-wrapper-header input:focus,
+.search-modal .search-result-item:focus, 
+.search-modal .search-result-item.search-item-selected, 
+.search-modal .search-result-item:hover {
+    border-color: var(--color-primary);
+}
+
+.search-modal .search-result-item .search-result-item-title {
+    color: var(--search-result-color);
+}
+
+/* Styles for search in the page */
+.search-page .search-wrapper-header input,
+.search-page .search-result-item {
+    background-color: var(--search-input-bg);
+    color: var(--search-input-color);
+    border-color: var(--search-input-border);
+}
+
+.search-page .search-wrapper-header input:focus,
+.search-page .search-result-item:focus, 
+.search-page .search-result-item.search-item-selected, 
+.search-page .search-result-item:hover {
+    border-color: var(--search-input-border);
+}
+
+.search-page .search-result-item-title {
+    color: var(--text-light);
+}
+
+/* Styles for search fields */
+.search-input-body input,
+.search-title {
+    background-color: var(--search-input-bg);
+    color: var(--text-light);
 }
