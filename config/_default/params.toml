@@ -19,6 +19,11 @@ mainSections = ["blog"]
 # contact form action
 contact_form_action = "#" # contact form works with [https://airform.io/] or [https://formspree.io]
 
+# Author info (eg for RSS)
+[author]
+email = "hello@deficollective.org"
+name = "Webmaster"
+
 # Preloader
 # preloader module: https://github.com/gethugothemes/hugo-modules/tree/master/components/preloader
 [preloader]

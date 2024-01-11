@@ -14,6 +14,11 @@
       "name": "linkedin",
       "icon": "fab fa-linkedin",
       "link": "https://www.linkedin.com/company/defi-collective"
+    },
+    {
+      "name": "rss",
+      "icon": "fa fa-rss-square",
+      "link": "/index.xml"
     }
   ]
 }
