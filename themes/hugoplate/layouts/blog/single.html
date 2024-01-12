@@ -53,14 +53,13 @@
                 <div class="row">
                   <div class="col-10 mx-auto mb-10">
                     <div class="row items-start justify-between article-interactions">
-                      <div class="col-6 flex items-center">
-                        <h5 class="tag-title">{{ i18n "tags" }} :</h5>
+                      <div class="col-8 flex items-center">
                         <ul>
                           {{ $tags:= .Params.tags }}
                           {{ range $i,$p:= $tags }}
                             <li class="inline-block">
                               <a
-                                class="bg-tag bg-theme-dark hover:bg-primary m-1 block rounded px-3 py-1 hover:text-white"
+                                class="bg-tag m-1 block rounded px-3 py-1 hover:text-white"
                                 href="{{ `tags/` | relLangURL }}{{ . | urlize | lower }}/">
                                 {{ . | humanize }}
                               </a>
@@ -96,7 +95,7 @@
               <h2 class="h4 mb-12">{{ i18n "related_posts" }}</h2>
               <div class="row">
                 {{ range . }}
-                  <div class="lg:col-4">
+                  <div class="lg:col-4 sm:mb-8">
                     {{ partial "components/blog-card" . }}
                   </div>
                 {{ end }}

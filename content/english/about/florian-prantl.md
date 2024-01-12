@@ -5,7 +5,7 @@ image: "/images/avatar-florian.png"
 description: Introduction of Florian, lawyer, and policy specialist for The DeFi Collective.
 social:
   - name: twitter
-    icon: fa-brands fa-twitter
+    icon: fa-brands fa-x-twitter
     link: https://twitter.com/floowp_
 
   - name: linkedin

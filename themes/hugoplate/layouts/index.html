@@ -2,7 +2,8 @@
   
   <!-- Banner -->
   {{ with .Params.banner }}
-    <section class="section bg-cover bg-top-right">
+  <div class="bg-main bg-right-top">
+    <section class="section">
       <div class="container">
         <div class="row">
           <div class="lg:col-8 text-left">
@@ -41,7 +42,7 @@
           <div class="flex flex-wrap mb-4">
             {{ $paginator:= .Paginate (where .Site.RegularPages "Section" "blog")  }}
             {{ range $paginator.Pages }}
-              <div class="w-full md:w-1/3 mb-4 md:pr-6 md:last:pr-0">
+              <div class="w-full md:w-1/3 mb-4 sm:mb-8 md:pr-6 md:last:pr-0">
                 {{ partial "components/blog-card-minimal" . }}
               </div>
             {{ end }}
@@ -54,6 +55,7 @@
       </div>
     </div>
   </section>
+  </div>
   <!-- blog posts -->
 
   <!-- partners -->
@@ -82,16 +84,17 @@
     
               <!-- Logo Mosaic Section -->
               <div class="mb:md-0 {{ if not (modBool $i 2) }} md:order-2 {{ end }} md:col-7">
-                  <div class="grid grid-cols-4 gap-8 justify-center place-items-center">
+                  <div class="grid grid-cols-3 gap-8 justify-center place-items-center">
                       <!-- Individual logos will go here -->
-                      {{ range .logo }}
-                      <div class="flex justify-center items-center">
-                        <div class="logo-light"><img src="{{ .light }}" alt="{{ .alt }}" style="height: {{ .height }};"></div>
-                        <div class="logo-dark"><img src="{{ .dark }}" alt="{{ .alt }}" style="height: {{ .height }};"></div>
-                      </div>
-                      {{ end }}
+                        {{ range .logo }}
+                        <div class="flex justify-center items-center">
+                          <div class="logo-light"><img src="{{ .light }}" alt="{{ .alt }}" style="height: {{ .height }};"></div>
+                          <div class="logo-dark"><img src="{{ .dark }}" alt="{{ .alt }}" style="height: {{ .height }};"></div>
+                        </div>
+                        {{ end }}
                   </div>
               </div>
+              
 
         </div>
       </div>

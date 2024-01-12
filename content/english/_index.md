@@ -16,65 +16,50 @@ partners:
       enable: false
       label: "Support DeFi"
       link: "#"
-      
     logo:
-    - id: aave
-      alt: "Logo Aave"
-      light: "/images/partners/aave-light.svg"
-      dark: "/images/partners/aave-dark.svg"
-      height: "40px"
-
-    - id: blueprint
-      alt: "Logo Blueprint"
-      light: "/images/partners/blueprint-light.svg"
-      dark: "/images/partners/blueprint-dark.svg"
-      height: "45px"
-
-    - id: cat-in-a-box
-      alt: "Logo Cat in a Box"
-      light: "/images/partners/cat-in-a-box-light.svg"
-      dark: "/images/partners/cat-in-a-box-dark.svg"
-      height: "50px"
-
-    - id: diva
-      alt: "Logo Diva"
-      light: "/images/partners/diva-light.svg"
-      dark: "/images/partners/diva-dark.svg"
-      height: "45px"
-
-    - id: dyad
-      alt: "Logo Dyad"
-      light: "/images/partners/dyad-light.svg"
-      dark: "/images/partners/dyad-dark.svg"
-      height: "55px"
-
-    - id: liquity
-      alt: "Logo Liquity"
-      light: "/images/partners/liquity-light.svg"
-      dark: "/images/partners/liquity-dark.svg"
-      height: "40px"
-
-    - id: maverick
-      alt: "Logo Maverick"
-      light: "/images/partners/maverick-light.svg"
-      dark: "/images/partners/maverick-dark.svg"
-      height: "55px"
-
-    - id: polygon-labs
-      alt: "Logo Polygon Labs"
-      light: "/images/partners/polygon-labs-light.svg"
-      dark: "/images/partners/polygon-labs-dark.svg"
-      height: "40px"
-
-    - id: retro
-      alt: "Logo Retro"
-      light: "/images/partners/retro-light.svg"
-      dark: "/images/partners/retro-dark.svg"
-      height: "45px"
-
-    - id: zero
-      alt: "Logo Zero"
-      light: "/images/partners/zero-light.svg"
-      dark: "/images/partners/zero-dark.svg"
-      height: "45px"
+      - id: blueprint
+        light: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/405c5fe175252e339a58cb2f3850655118578339/assets/images/partners/blueprint-light.svg"
+        dark: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/405c5fe175252e339a58cb2f3850655118578339/assets/images/partners/blueprint-dark.svg"
+        alt: "Logo Blueprint"
+        height: "45px"
+      - id: cat-in-a-box
+        light: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/405c5fe175252e339a58cb2f3850655118578339/assets/images/partners/cat-in-a-box-light.svg"
+        dark: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/405c5fe175252e339a58cb2f3850655118578339/assets/images/partners/cat-in-a-box-dark.svg"
+        alt: "Logo Cat in a Box"
+        height: "50px"
+      - id: diva
+        light: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/405c5fe175252e339a58cb2f3850655118578339/assets/images/partners/diva-light.svg"
+        dark: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/405c5fe175252e339a58cb2f3850655118578339/assets/images/partners/diva-dark.svg"
+        alt: "Logo Diva"
+        height: "45px"
+      - id: dyad
+        light: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/405c5fe175252e339a58cb2f3850655118578339/assets/images/partners/dyad-light.svg"
+        dark: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/405c5fe175252e339a58cb2f3850655118578339/assets/images/partners/dyad-dark.svg"
+        alt: "Logo Dyad"
+        height: "55px"
+      - id: liquity
+        light: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/405c5fe175252e339a58cb2f3850655118578339/assets/images/partners/liquity-light.svg"
+        dark: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/405c5fe175252e339a58cb2f3850655118578339/assets/images/partners/liquity-dark.svg"
+        alt: "Logo Liquity"
+        height: "40px"
+      - id: maverick
+        light: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/405c5fe175252e339a58cb2f3850655118578339/assets/images/partners/maverick-light.svg"
+        dark: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/405c5fe175252e339a58cb2f3850655118578339/assets/images/partners/maverick-dark.svg"
+        alt: "Logo Maverick"
+        height: "55px"
+      - id: polygon-labs
+        light: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/405c5fe175252e339a58cb2f3850655118578339/assets/images/partners/polygon-labs-light.svg"
+        dark: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/405c5fe175252e339a58cb2f3850655118578339/assets/images/partners/polygon-labs-dark.svg"
+        alt: "Logo Polygon Labs"
+        height: "40px"
+      - id: retro
+        light: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/405c5fe175252e339a58cb2f3850655118578339/assets/images/partners/retro-light.svg"
+        dark: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/405c5fe175252e339a58cb2f3850655118578339/assets/images/partners/retro-dark.svg"
+        alt: "Logo Retro"
+        height: "45px"
+      - id: zero
+        light: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/405c5fe175252e339a58cb2f3850655118578339/assets/images/partners/zero-light.svg"
+        dark: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/405c5fe175252e339a58cb2f3850655118578339/assets/images/partners/zero-dark.svg"
+        alt: "Logo Zero"
+        height: "45px"
 ---

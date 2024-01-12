@@ -5,7 +5,7 @@ image: "/images/nilsbundi_profil.jpeg"
 description: Introduction of Nils, protocol architect and developer for The DeFi Collective.
 social:
   - name: twitter
-    icon: fa-brands fa-twitter
+    icon: fa-brands fa-x-twitter
     link: https://twitter.com/nilsbundi
 
   - name: linkedin
