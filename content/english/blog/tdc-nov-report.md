@@ -1,7 +1,7 @@
 ---
 title: "The DeFi Collective - November Report"
 meta_title: ""
-description: "Every month, we report on the activities of our treasuries, the revenues it generated and the impact produced for supported project: welcome to the very first report, covering November."
+description: "Every month, we report on the activities of our treasuries, the revenues it generated and the impact produced for supported project: welcome to the second report, covering November 2023."
 date: 2023-12-28T05:00:00Z
 image: "/images/tdc-november-report.png"
 categories: ["Internal"]
