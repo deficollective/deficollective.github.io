@@ -121,6 +121,6 @@ December was another incredible month for the ants, where the vision for a self-
 
 We’ll publish a consolidated trimestrial report in the coming days, offering a clear overview of the first full quarter of the Collective’s activities (Q4 2023). We’ll also discuss our past results and future projects at the **next Community Call, scheduled for Thursday, 18 at 3 PM GMT+1**; as always, it will happen on our Discord server; feel[ free to join us](https://discord.gg/mdQN2dJXMy?event=1194651058249662514).
 
-
+_Thanks to [Ricogourmette](https://twitter.com/bottexloan) who produced the visuals included in this report & the PDF version._
 
 — TokenBrice, on behalf of the treasury and liquidity management team of the DeFi Collective: Abmis, Luude, and myself.
