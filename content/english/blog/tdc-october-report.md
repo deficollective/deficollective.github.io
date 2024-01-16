@@ -4,7 +4,7 @@ meta_title: ""
 description: "Every month, we report on the activities of our treasuries, the revenues it generated and the impact produced for supported project: welcome to the very first report, covering October, and expliciting the broader context of our accounting logic and activities."
 date: 2023-11-30T05:00:00Z
 image: "/images/tdc-october-report.png"
-categories: ["Internal"]
+categories: ["Internal", "Treasury Report", "Monthly"]
 author: "tokenbrice"
 tags: ["TDC Monthly Report", "Liquidity Management", "Liquidity-driving Tokens", "Collective"]
 draft: false
