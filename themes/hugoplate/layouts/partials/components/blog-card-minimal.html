@@ -1,3 +1,9 @@
+{{ $image:= .Params.image }}
+{{ if $image }}
+<div class="image-card">
+  <img src="{{ $image }}" alt="{{ .Title }}">
+</div>
+{{ end }}
 <div class="bg-card p-8">
   {{ $categories:= .Params.categories }}
   {{ range $i,$p:= $categories }}
@@ -14,20 +20,17 @@
     </a>
   </h5>
   <p class="mb-3">{{ .Summary }}</p>
+
+  {{ $authorName := .Params.author }}
+  {{ $author := site.GetPage (print "authors/" $authorName) }}
+  {{ if $author }}
   <ul class="mb-3">
     <li class="mr-4 flex items-center">
-      <a class="flex items-center" href="{{ `authors/` | relLangURL }}{{ .Params.Author | urlize }}/">
-        {{ $authorName := .Params.author }}
-        {{ $author := site.GetPage (print "authors/" $authorName) }}
-        {{ if $author }}
             <!-- Add author's avatar -->
             {{ if $author.Params.image }}
                 <img class="inline-block rounded-2xl mr-2" src="{{ $author.Params.image }}" alt="Avatar of {{ $author.Title }}" width="24" height="24">
-            {{ end }}
             <!-- Display author information here -->
             {{ $author.Title }}
-        {{ end }}        
-      </a>
     </li>
     {{/*  <li class="mr-4 inline-block">
       <i class="fa-regular fa-folder mr-2"></i>
@@ -43,6 +46,10 @@
       {{ end }}
     </li>  */}}
   </ul>
+  {{ else }}
+  {{ end }}
+{{ end }}        
+
   <a class="highlight" href="{{ .RelPermalink }}">
     {{ i18n "read_more" }}<i class="fa fa-arrow-right highlight pl-2"></i>
   </a>

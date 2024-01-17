@@ -2,21 +2,16 @@
 {{ $class := .Class }}
 {{ if site.Params.theme_switcher }}
   <div class="theme-switcher {{ $class }}">
-    <input id="theme-switcher" data-theme-switcher type="checkbox" />
-    <label for="theme-switcher">
-      <span class="sr-only">theme switcher</span>
-      <span>
+    <button class="inline-block text-xl mr-2" aria-label="theme switcher" id="theme-switcher" data-theme-switcher class="theme-switcher-button">
         <!-- sun -->
-        <i class="absolute left-[6px] top-[6px] z-10 opacity-0 dark:opacity-100 fa-solid fa-moon"></i>
+        <i class="z-10 dark:hidden fa-regular fa-sun" width="15"></i>
         
         <!-- moon -->
-        <i class="absolute left-[6px] top-[6px] z-10 opacity-100 dark:opacity-0 fa-solid fa-sun"></i>
-
-      </span>
-    </label>
+        <i class="z-10 hidden dark:block fa-regular fa-moon" width="15"></i>
+    </button>
   </div>
 
-  <!-- theme switcher -->
+  <!-- theme switcher script -->
   {{ if site.Params.theme_switcher }}
   <script>
     var darkMode = {{if eq site.Params.theme_default "dark"}}true{{else}}false{{end}};
@@ -27,19 +22,16 @@
 
     if (localStorage.getItem("theme") === "dark"){darkMode = true}
     else if (localStorage.getItem("theme") === "light"){darkMode = false}
-    if (darkMode){document.documentElement.classList.toggle("dark")}
-    var themeSwitch = document.querySelectorAll("[data-theme-switcher]");
+    if (darkMode){document.documentElement.classList.add("dark")}
+    var themeSwitch = document.getElementById("theme-switcher");
 
     document.addEventListener("DOMContentLoaded", () => {
-      [].forEach.call(themeSwitch, function (ts) {
-        ts.checked = darkMode ? true : false;
-        ts.addEventListener("click", () => {
-          document.documentElement.classList.toggle("dark");
-          localStorage.setItem(
-            "theme",
-            document.documentElement.classList.contains("dark") ? "dark" : "light"
-          );
-        });
+      themeSwitch.addEventListener("click", () => {
+        document.documentElement.classList.toggle("dark");
+        localStorage.setItem(
+          "theme",
+          document.documentElement.classList.contains("dark") ? "dark" : "light"
+        );
       });
     });
   </script>

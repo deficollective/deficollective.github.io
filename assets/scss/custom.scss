@@ -68,21 +68,6 @@ footer, .dark footer {
     max-width: 800px;
 }
 
-.theme-switcher .fa-sun, .theme-switcher .fa-moon {
-    color: var(--text-light);
-}
-
-.theme-switcher label {
-    background-color: var(--link-default);
-}
-
-.theme-switcher span, .dark .theme-switcher span  {
-    background-color: var(--theme-light);
-    top: -0.35rem;
-    height: 1.75rem;
-    width: 1.75rem;
-}
-
 /* HOME */
 .bg-main {
     background-image: url('https://raw.githubusercontent.com/deficollective/deficollective.github.io/design/assets/images/background-ants.png');
@@ -195,6 +180,28 @@ a.btn:hover, .dark a.btn:hover {
     }
 }
 
+
+.title::before {
+    content: '';
+    position: absolute;
+    left: -250px;
+    top: 0;
+    width: 1131px;
+    height: 781px;
+    background-image: url('https://raw.githubusercontent.com/deficollective/deficollective.github.io/design/assets/images/background-gems-vertical.png');
+    background-repeat: no-repeat;
+    pointer-events: none; 
+  }
+
+  .bg-article {  
+    background-size: 1659px;
+    background-position: 50% 2%;
+    background-image: url('https://raw.githubusercontent.com/deficollective/deficollective.github.io/design/assets/images/background-gems-horizontal.png');
+    background-repeat: no-repeat;
+    pointer-events: none; 
+  }
+
+
 .tag-uppercase, .dark .tag-uppercase {
     font-family: var(--font-secondary);
     font-stretch: var(--font-stretch);
@@ -227,10 +234,13 @@ a.btn:hover, .dark a.btn:hover {
 
 
 /* Header */
-:is(.dark .nav-link) {
-    color: var(--link-dark);
+:is(.nav-link, .dark .nav-link) {
+    color: var(--text-default);
 }
 
+button[aria-label="search"] {
+    border-color: #766cb0;
+}
 
 /* Footer */
 footer a, .dark footer a {
@@ -268,8 +278,8 @@ footer i {
 
 
 /* Image */
-.video-thumbnail + .bg-card {
-    border-radius: 0 0 16px 16px;
+.image-card + .bg-card {
+    border-radius: 0 0 16px 16px !important;
 }
 
 .content :where(img):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
@@ -289,7 +299,15 @@ footer i {
     text-align: center;
 }
 
-.bg-card picture>img:first-of-type, .video-thumbnail img {
+.image-card img {
+    border-radius: 16px 16px 0 0 !important; 
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.bg-card picture>img:first-of-type {
     border-radius: 16px 16px 0 0 !important; 
 }
 
