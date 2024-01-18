@@ -4,7 +4,7 @@ meta_title: ""
 description: "Every month, we report on the activities of our treasuries, the revenues it generated and the impact produced for supported project: welcome to third report, covering December 2023."
 date: 2024-01-16T05:00:00Z
 image: "/images/tdc-dec-report.png"
-categories: ["Internal", "Treasury Report", "Monthly"]
+categories: ["Internal", "Monthly Treasury Report"]
 author: "tokenbrice"
 tags: ["TDC Monthly Report", "Liquidity Management", "Liquidity-driving Tokens", "Collective"]
 draft: false
