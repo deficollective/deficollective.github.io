@@ -1,28 +1,422 @@
-// Add your own custom styles here
-/* For title */
-h1, h2, h3, h4, h5, h6, a {
-    font-stretch: Expanded;
-    font-family: "Fredoka", sans-serif;
+/* CSS variables for default colors */
+:root {
+    --primary-color: #4800b9;
+    --body-color: #170048;
+    --border-color: #ffffff;
+    --theme-light: #ffffff;
+    --theme-dark: #F4F3FF;
+
+    --text-default:#6d60b9;
+    --text-dark: #2a006c;
+    --text-light: #4800b9;
+
+    --primary-gradient: radial-gradient(80.82% 31.59% at 90.31% 35.07%, #F4F3FF 0%, #DEDBFF 75.73%, #DEDBFF 100%);
+    --theme-header: #DEDBFF;
+    --highlight-gradient: linear-gradient(270deg, #DE81FF 3.36%, #A265FF 100%);
+    --link-default: #4800b9;
+    --link-light: #6200ff;
+    --link-dark: #664ba5;
 }
 
-h1 {
-    font-weight: 300;
+/* CSS variables for dark colors */
+.dark {
+    --primary-color: #4800b9;
+    --body-color: #170048;
+    --border-color: #440099;
+    --theme-light: #170048;
+    --theme-dark: #230069;
+
+    --text-default:#a9a1db;
+    --text-dark: #766cb0;
+    --text-light: #ffffff;
+
+    --primary-gradient: radial-gradient(80.82% 31.59% at 90.31% 35.07%, #7A00FF 0%, #2B0087 75.73%, #2B0087 100%);
+    --theme-header:#2B0087;
+    --highlight-gradient: linear-gradient(270deg, #DE81FF 3.36%, #A265FF 100%);
+    --link-default: #ac80ff;
+    --link-light: #d48eff;
+    --link-dark: #a36aff;
 }
 
-/* For link */
-a {
-    font-stretch: normal;
+/* CSS variables for fonts */
+:root {
+    --font-primary: 'Red Hat Display', sans-serif;
+    --font-secondary: 'Fredoka', sans-serif;
+    --font-stretch: ultra-expanded;
 }
 
-a.nav-link {
-    font-stretch: Expanded;
-}
-
-a.btn {
-    font-weight: 400;
-}
-
-/* For the rest of the content */
+/* GENERAL */
 body {
-    font-family: 'Alegreya', serif;
+    background: var(--body-color);
+    text-underline-offset: 0.3rem;
+}
+
+.header, .dark .header {
+    background: var(--theme-header); 
+}
+
+main, .dark main {
+    background: var(--primary-gradient);
+}
+
+footer, .dark footer {
+    background-color: var(--body-color);
+    color: var(--text-default);
+}
+
+.max-w-800 {
+    max-width: 800px;
+}
+
+/* HOME */
+.bg-main {
+    background-image: url('https://raw.githubusercontent.com/deficollective/deficollective.github.io/design/assets/images/background-ants.png');
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    background-position: calc(50% + 600px) 50%;
+    background-blend-mode: lighten;
+}
+
+.bg-partners {
+    background-color: var(--theme-dark);
+    background-image: url('https://raw.githubusercontent.com/deficollective/deficollective.github.io/design/assets/images/background-anthill.svg');
+    background-repeat: no-repeat;
+    background-size: 800px;
+}
+
+.dark .bg-partners {
+    background-blend-mode: saturation;
+}
+
+.bg-top-left, .bg-bottom-left {
+    background-position: left;
+}
+
+.bg-top-center, .bg-bottom-center {
+    background-position: center;
+}
+
+.bg-top-right, .bg-bottom-right {
+    background-position: right;
+}
+
+.bg-top-left, .bg-top-center, .bg-top-right {
+    background-position-y: top;
+}
+
+.bg-bottom-left, .bg-bottom-center, .bg-bottom-right {
+    background-position-y: bottom;
+}
+
+
+/* FONT GLOBAL */
+h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .title, .nav-link, footer a, .search-title {
+    font-family: var(--font-secondary);
+    font-stretch: var(--font-stretch);
+    transition: filter 0.3s ease;
+    color: var(--text-light);
+}
+
+.dark.dark :is(h1, h2, h3, h4, h5, h6) {
+    color: var(--text-light);
+}
+
+p, span, strong, b, em, blockquote, q, abbr, cite, code, pre, mark, del, ins, sub, sup, small, ul, li, .text-primary {
+    font-family: var(--font-primary);
+    color: var(--text-default);
+}
+
+blockquote {
+    border: none;
+    background-color: var(--link-light);
+}
+
+/* LINK */
+a, a.text-primary {
+    font-weight: 600;
+    color: var(--link-default);
+}
+
+a.highlight, a>i.highlight, .dark a.highlight, .dark a>i.highlight {
+    font-weight: 700;
+    transition: filter 0.3s ease;
+}
+
+a:hover:not(.navbar-brand, .bg-tag, .search-title, i), a.highlight:hover, i.highlight:hover, .bg-card .bg-tag:hover {
+    color: var(--link-default);
+    text-decoration: underline dotted;
+    text-decoration-thickness: 1px; 
+    text-underline-offset: 0.3rem;
+}
+
+.dark a:hover:not(.navbar-brand, .bg-tag, .search-title), .dark a.highlight:hover, .dark i.highlight:hover, .dark .bg-card .bg-tag:hover, .btn i:hover, .dark .btn i:hover, button i:hover {
+    color: var(--text-light);
+}
+
+.btn:not(i), .dark .btn:not(i) {
+    background: transparent;
+    border: 2px solid var(--link-dark);
+    text-decoration: none;
+}
+
+a.btn:hover, .dark a.btn:hover {
+    background: transparent;
+    text-decoration: none;
+    border: 2px dotted var(--text-light);
+}
+
+/* Font specific */
+.title {
+    position: relative;
+    font-size: 3.3rem;
+    line-height: 3.3rem;
+    font-weight: 500;
+    strong {
+        font-family: var(--font-secondary);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        background-image: var(--highlight-gradient);
+    }
+}
+
+
+.title::before {
+    content: '';
+    position: absolute;
+    left: -250px;
+    top: 0;
+    width: 1131px;
+    height: 781px;
+    background-image: url('https://raw.githubusercontent.com/deficollective/deficollective.github.io/design/assets/images/background-gems-vertical.png');
+    background-repeat: no-repeat;
+    pointer-events: none; 
+  }
+
+  .bg-article {  
+    background-size: 1659px;
+    background-position: 50% 2%;
+    background-image: url('https://raw.githubusercontent.com/deficollective/deficollective.github.io/design/assets/images/background-gems-horizontal.png');
+    background-repeat: no-repeat;
+    pointer-events: none; 
+  }
+
+
+.tag-uppercase, .dark .tag-uppercase {
+    font-family: var(--font-secondary);
+    font-stretch: var(--font-stretch);
+    color: var(--link-dark);
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+
+/* Table */
+.content :is(:where(th):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
+    font-weight: 700;
+    color: var(--text-dark);
+    opacity: 0.9;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.content :is(:where(tbody):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
+    background-color: var(--theme-dark);
+    color: var(--text-dark);
+    opacity: 0.9;
+}
+
+.content :is(:where(td):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+
+/* Header */
+:is(.nav-link, .dark .nav-link) {
+    color: var(--text-default);
+}
+
+button[aria-label="search"] {
+    border-color: #766cb0;
+}
+
+/* Footer */
+footer a, .dark footer a {
+    color: var(--text-default);
+}
+
+footer i {
+    color: var(--text-light);
+}
+
+
+/* Article */
+.content :is(:where(p, strong, li):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
+    color: var(--text-default);
+}
+
+.content :is(:where(strong):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
+    font-weight: 700;
+}
+
+.content :is(:where(a):not(:where([class~="not-prose"],[class~="not-prose"] *))), :is(.dark .content) :is(:where(a):not(:where([class~="not-prose"],[class~="not-prose"] *)))  {
+    color: var(--link-dark);
+}
+
+.content :is(:where(h1, h2, h3, h4, h5, h6):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
+    margin-bottom: 0.8em;
+    margin-top: 1.6em;
+    color: var(--text-light);
+    font-size: 160%;
+}
+
+:is(.dark.share-title h5) {
+    color: var(--link-dark);
+}
+
+
+/* Image */
+.image-card + .bg-card {
+    border-radius: 0 0 16px 16px !important;
+}
+
+.content :where(img):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+    border-radius: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 2rem;
+    background-color: var(--theme-dark);
+}
+
+.content img[src$=".png"]:not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+    background-color: #ffffff;
+}
+
+.content p:has(img):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
+    text-align: center;
+}
+
+.image-card img {
+    border-radius: 16px 16px 0 0 !important; 
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.bg-card picture>img:first-of-type {
+    border-radius: 16px 16px 0 0 !important; 
+}
+
+
+/* Card */
+.bg-card, .dark .bg-card {
+    border-radius: 16px;
+    background: var(--theme-light);
+    box-shadow: 0px 0px 48px 0px rgba(255, 255, 255, 0.10);
+}
+
+.bg-card .bg-tag, .dark .bg-card .bg-tag, .share-icons .share-link, .dark .share-icons .share-link {
+    background-color: var(--theme-header);
+    color: var(--link-dark);
+}
+
+.bg-card .bg-tag:hover, .share-icons .share-link:hover,  .social-icons a:hover {
+    background-color: var(--theme-header);
+    filter: brightness(108%);
+    text-decoration: none;
+}
+
+.dark .bg-card .bg-tag:hover, .dark .share-icons .share-link:hover {
+    text-decoration: none;
+}
+
+
+/* Social icon button */
+.share-icons .share-link {
+    margin: 0.2em;
+}
+
+.share-icons .share-link svg, .dark .share-icons .share-link svg {
+    fill: var(--link-dark);
+}
+
+.share-icons .share-link svg:hover, .dark .share-icons .share-link svg:hover {
+    fill: var(--text-default);
+}
+
+.social-icons li a, :is(.dark .social-icons li a) {
+    color: var(--text-light);
+    background-color: var(--theme-dark);
+}
+
+/* Search */
+.search-modal .search-wrapper-content {
+    background-color: var(--theme-light);
+}
+
+.search-wrapper-content {
+    background-color: var(--theme-dark);
+}
+
+.search-wrapper-footer .search-result-info em {
+    color: var(--text-default);
+}
+
+.search-result-item:focus *, .search-result-item.search-item-selected *, .search-result-item:hover * {
+    color: var(--text-light);
+}
+
+.search-wrapper-footer kbd {
+    background-color: var(--theme-light);
+    color: var(--text-light);
+}
+
+.search-wrapper-footer .search-result-info em {
+    color: var(--theme-dark);
+}
+
+.search-modal .search-wrapper-body {
+    background-color: var(--theme-light);
+    box-shadow: none;
+}
+
+.search-result-item {
+    background-color: var(--theme-dark);
+    padding: 2rem;
+}
+
+.search-result-item:hover {
+    background-color: var(--theme-light);
+    border-color: var(--link-default);
+}
+
+.search-modal .search-wrapper-header input {
+    background-color: var(--theme-header);
+    border-color: var(--border-color);
+}
+
+.search-modal .search-wrapper-header input {
+    color: var(--theme-light);
+}
+
+.search-modal .search-wrapper-header input:focus,
+.search-modal .search-result-item:focus, 
+.search-modal .search-result-item.search-item-selected, 
+.search-modal .search-result-item:hover {
+    border-color: var(--color-primary);
+}
+
+.search-page .search-result-item-title {
+    color: var(--text-light);
+}
+
+.search-input-body input {
+    background-color: var(--theme-header);
+}
+.search-title {
+    color: var(--text-light);
 }

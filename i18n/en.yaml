@@ -4,6 +4,9 @@
 - id: read_more
   translation: Read More
 
+- id: explore
+  translation: Explore
+
 - id: send
   translation: Send
 
