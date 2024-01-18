@@ -4,7 +4,7 @@ meta_title: ""
 description: "The Collective is a one-of-a-kind structure intended to support and help grow in any relevant capacity the sturdiest DeFi protocols"
 date: 2023-10-16T05:00:00Z
 image: "/images/twitter_banner.png"
-categories: ["Internal"]
+categories: ["Announcement"]
 author: "tokenbrice"
 tags: ["Collective"]
 draft: false
