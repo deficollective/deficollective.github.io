@@ -28,7 +28,7 @@ Our first quarter was heavily focused on treasury management, as it is the lifeb
 Indeed, our first challenge was demonstrating the Collective's viability—covering our expenses while preserving a hefty premium to grow the treasury, enabling us to scale our onchain activity. On that front, it’s a tremendous success!
 
 
-![tdc-q1-consolidated-report](https://raw.githubusercontent.com/TokenBrice/blog/master/static/img/others/tdc/tdc-q1-report/q1-total-stats.png)
+![tdc-q1-consolidated-report](https://raw.githubusercontent.com/TokenBrice/blog/a29a217cb21b42507d1e037728776e9a67a748d1/static/img/others/tdc/tdc-q1-report/tdc-Q1-report.jpg)
 
 
 First, with **$87 183 of total revenues over the period,** the Collective demonstrated that supporting the top-of-the-notch DeFi protocols can be profitable. Now, thanks to expenses kept to the bare minimum, **the earnings are also satisfactory, settling at $70 078**.
