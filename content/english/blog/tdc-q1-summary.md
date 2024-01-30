@@ -3,7 +3,7 @@ title: "The DeFi Collective - 1st Quarter Summary [Q4 2023]"
 meta_title: ""
 description: "The Collective is 3 months old and going places: it's time to reflect on what has been achieved so far, and where our focus lies for the next quarter."
 date: 2024-01-18T05:00:00Z
-image: "/images/q1-summary-cover.png"
+image: "/images/articles/tdc-q1-summary.jpg"
 categories: ["Quarterly Summary"]
 author: "tokenbrice"
 tags: ["TDC Monthly Report", "Liquidity Management",  "Collective"]

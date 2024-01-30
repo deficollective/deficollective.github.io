@@ -68,20 +68,30 @@ footer, .dark footer {
     max-width: 800px;
 }
 
+
+@media (max-width: 720px) {
+    .navbar-brand image {
+        max-height: 60%;
+        max-width: 60%;
+      }
+}
+
+
 /* HOME */
 .bg-main {
-    background-image: url('https://raw.githubusercontent.com/deficollective/deficollective.github.io/design/assets/images/background-ants.png');
+    background-image: url('https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/background-ants.png');
     background-repeat: no-repeat;
-    background-size: 1000px;
-    background-position: calc(50% + 600px) 50%;
+    background-position: calc(50% + 250px) calc(50% + 100px);
+    background-size: 2392px 1230px;
     background-blend-mode: lighten;
 }
 
 .bg-partners {
     background-color: var(--theme-dark);
-    background-image: url('https://raw.githubusercontent.com/deficollective/deficollective.github.io/design/assets/images/background-anthill.svg');
+    background-image: url('https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/background-anthill.svg');
     background-repeat: no-repeat;
     background-size: 800px;
+    background-size: contain;
 }
 
 .dark .bg-partners {
@@ -180,23 +190,42 @@ a.btn:hover, .dark a.btn:hover {
     }
 }
 
+.article-card {
+    transition: box-shadow 1s ease;
+    border-radius: 16px;
+}
 
-.title::before {
-    content: '';
-    position: absolute;
-    left: -250px;
-    top: 0;
-    width: 1131px;
-    height: 781px;
-    background-image: url('https://raw.githubusercontent.com/deficollective/deficollective.github.io/design/assets/images/background-gems-vertical.png');
-    background-repeat: no-repeat;
-    pointer-events: none; 
-  }
+.article-card:hover {
+    transition: box-shadow 1s ease;
+    border-radius: 16px;
+    box-shadow: 0 0 32px 32px rgba(72, 0, 185, 0.05);
+}
+
+.limited-height {
+    max-height: 100px; /* Hauteur maximale du paragraphe */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Limite le texte à 3 lignes */
+    -webkit-box-orient: vertical;
+}
+
+@media (max-width: 600px) {
+    .title {
+        font-size: 2.2rem;
+        line-height: 2.2rem;
+        font-weight: 600;
+    }
+
+    .bg-main::before {
+        display: none;
+    }
+}
 
   .bg-article {  
     background-size: 1659px;
     background-position: 50% 2%;
-    background-image: url('https://raw.githubusercontent.com/deficollective/deficollective.github.io/design/assets/images/background-gems-horizontal.png');
+    background-image: url('https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/background-gems-horizontal.png');
     background-repeat: no-repeat;
   }
 
@@ -301,7 +330,7 @@ footer i {
 .image-card img {
     border-radius: 16px 16px 0 0 !important; 
     width: 100%;
-    height: 140px;
+    height: 180px;
     object-fit: cover;
     object-position: center;
 }
@@ -324,6 +353,12 @@ footer i {
 }
 
 .bg-card .bg-tag:hover, .share-icons .share-link:hover,  .social-icons a:hover {
+    background-color: var(--theme-header);
+    filter: brightness(108%);
+    text-decoration: none;
+}
+
+.bg-card .media-tag {
     background-color: var(--theme-header);
     filter: brightness(108%);
     text-decoration: none;
