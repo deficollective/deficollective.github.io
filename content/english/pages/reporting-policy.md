@@ -36,7 +36,7 @@ Let’s illustrate this with two examples:
 
 ### RP.3: Yields are accounted for only once claimed
 
-Some yields are accrued continuously (such as emission-based LP yield), while some are delivered at a specific time (weekly rewards for a veNFT). Our monthly public reporting only considers realized yield; **unrealized (=unclaimed) yields are not included in our revenue figure**. Furthermore,** we do not report revenue generated through capital gains in the reporting period.**
+Some yields are accrued continuously (such as emission-based LP yield), while some are delivered at a specific time (weekly rewards for a veNFT). Our monthly public reporting only considers realized yield; **unrealized (=unclaimed) yields are not included in our revenue figure**. Furthermore, **revenue generated through capital gains are not included in the revenue figures of the monthly reports.**
 
 
 ### RP.4: Expenses Reporting Logic
