@@ -14,7 +14,7 @@ Welcome to the monthly report of the Collective, covering December, a packed and
 
 This report is also available in [PDF format.](https://github.com/TokenBrice/blog/blob/8684c06bc1ffbb1f5eaedb53b73dd992308e200d/static/img/others/tdc/tdc-dec-report/tdc-report-dec.pdf)
 
-_For more information on the Collective activities, where the revenues come from, and the accounting logic, please refer to [Reporting Policy, which provides extensive context]([https://deficollective.org/blog/tdc-october-report/](https://deficollective.org/reporting-policy/)._
+_For more information on the Collective activities, where the revenues come from, and the accounting logic, please refer to [Reporting Policy, which provides extensive context](https://deficollective.org/reporting-policy/)._
 
 
 ## Treasury Report
