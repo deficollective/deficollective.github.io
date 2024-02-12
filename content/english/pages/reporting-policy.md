@@ -102,4 +102,4 @@ Finally, we used [Smoldapp’s Multisafe tool](https://smold.app/safe) to deploy
 
 ## Transparency & history of this document
 
-Like all policy documents, this document history is preserved thanks to its publication in markdown format in a GitHub repository. You can easily track all changes here [INSERT LINK]. Each new document version is also given a version number and exported in a PDF format.
+Like all policy documents, this document history is preserved thanks to its publication in markdown format in a GitHub repository. [You can easily track all changes here](https://github.com/deficollective/deficollective.github.io/commits/main/content/english/pages/reporting-policy.md). Each new document version is also given a version number and exported in a PDF format.
