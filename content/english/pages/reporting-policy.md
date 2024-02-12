@@ -17,12 +17,12 @@ The Collective is leading by example with the transparency offered on its treasu
 This document is v1 of the Collective’s Reporting Policy, released on February 12th, 2024. Seven reporting policies are currently enforced:
 
 
-### AP.1: Two weeks delta
+### RP.1: Two weeks delta
 
 **Treasury data is reported with a two-week delta**, meaning monthly reports are published before the 15th of the following month. This delay enables us to process the data calmly and prepare a clear and comprehensive report. The delta was initially set at four weeks and lowered to two starting December 2023.
 
 
-### AP.2: Risk-adjusted reporting
+### RP.2: Risk-adjusted reporting
 
 The Collective’s reporting logic is “pessimistic,” meaning that if there is a spread with the effective data, it’s to the downside (revenues are under-estimated). **The revenue, thus, is price-adjusted for the risk carried by the denominating token**, most of which is embodied in the liquidity-related risks (slippage and volatility). This policy is needed because there are situations where accurate pricing of a given asset is impossible.
 
@@ -34,12 +34,12 @@ Let’s illustrate this with two examples:
 2. Several positions managed by the Collective generate yield in low-liquidity tokens, such as liqLIT. We thus need to account for the slippage we would face if we sell the tokens.
 
 
-### AP.3: Yields are accounted for only once claimed
+### RP.3: Yields are accounted for only once claimed
 
 Some yields are accrued continuously (such as emission-based LP yield), while some are delivered at a specific time (weekly rewards for a veNFT). Our monthly public reporting only considers realized yield; **unrealized (=unclaimed) yields are not included in our revenue figure**. Furthermore,** we do not report revenue generated through capital gains in the reporting period.**
 
 
-### AP.4: Expenses Reporting Logic
+### RP.4: Expenses Reporting Logic
 
 The Collective faces both onchain and offchain expenses that operate under different temporalities. A logic similar to AP.3 is applied for expenses: expenses are accounted for on the day they are effectively paid out. Let’s explicit it with examples:
 
@@ -59,7 +59,7 @@ Expenses are sorted into five categories:
 5. **Other**: anything else not fitting in the four categories highlighted above.
 
 
-### AP.5: L1 vs L2 reporting Logic
+### RP.5: L1 vs L2 reporting Logic
 
 **The Collective’s base reporting logic and principles are the same across all layers, either mainnet or L2 —** however, the temporality of the reporting changes to reflect the different gas costs of each layer:
 
@@ -71,7 +71,7 @@ Expenses are sorted into five categories:
 LP yields, vote incentives, and fees collected are accounted for separately on each Layer 2 the Collective is active on, as well as liquid positions and locked positions value. The data presented in the monthly reports is an aggregate of all Layer 2.
 
 
-### AP.6: veNFT Reporting
+### RP.6: veNFT Reporting
 
 Core to the Collective’s activities is managing and developing veNFT positions: locked tokens providing liquidity-driving capabilities – allowing the Collective to direct token emissions to liquidity pairs of its choosing and producing revenues through trading fees and vote incentives.
 
@@ -80,7 +80,7 @@ These vePositions are locked for four years and thus can hardly be sold at their
 The positions' growth and valuation are tracked thanks to a monthly snapshot of each position, taken at the beginning of each month, which includes the total number of locked tokens and their value. The $-value communicated does not include the OTC discount mentioned above, as it can be hard to assess: it uses the face value of the position (for instance, a 5.8M veVELO position is evaluated at the price of 5.8M VELO tokens)
 
 
-### AP.7: Donations & Grants:
+### RP.7: Donations & Grants:
 
 As a Swiss non-profit organization supporting DeFi's most resilient and ideologically aligned protocols that can use the extra support compared to their competition, the Collective actively seeks grants to assist with this goal. 
 
