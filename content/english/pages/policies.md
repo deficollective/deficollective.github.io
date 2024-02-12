@@ -15,6 +15,6 @@ Policies are maintained in markdown documents, enabling the easy tracking of the
 | Name / Link                  |  Status |
 | ---------------------------- | :---- |
 | [**Articles of Association**](../articles-of-association) | v.1 (2023-09-28) |
-| [**Reporting Policy**](../reporting-policy.md)           | v.1  (2024-02-12) |
+| [**Reporting Policy**](../reporting-policy)           | v.1  (2024-02-12) |
 | **Treasury Policy**          | unreleased |
 | **Protocol Guidelines**      | unreleased |
