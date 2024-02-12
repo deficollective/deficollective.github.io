@@ -12,7 +12,7 @@ url = "about/"
 weight = 2
 
 [[main]]
-name = "Policy"
+name = "Policies"
 url = "policies/"
 weight = 3
 
@@ -33,7 +33,7 @@ url = "about/"
 weight = 1
 
 [[footer]]
-name = "Policy"
+name = "Policies"
 url = "policies/"
 weight = 2
 
