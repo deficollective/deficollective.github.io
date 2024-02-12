@@ -8,11 +8,13 @@ description: "Policies under which we and supported DeFi projects operate"
 draft: false
 ---
 
-We operate under a number of policies that ensure transparency and operational excellence. Moreover, we develop and advocate policies and guidelines under which DeFi projects should operate in order to ensure security and build trust among users, regulators and the broader public.
+We operate under a number of policies that ensure transparency and operational excellence. Moreover, we develop and advocate policies and guidelines under which DeFi projects should operate to ensure security and build trust among users, regulators, and the broader public.
+
+Policies are maintained in markdown documents, enabling the easy tracking of their changes and updates thanks to the GitHub file history.
 
 | Name / Link                  |  Status |
 | ---------------------------- | :---- |
 | [**Articles of Association**](../articles-of-association) | v.1 (2023-09-28) |
-| **Funding Policy**           | unreleased |
+| [**Reporting Policy**](../reporting-policy.md)           | v.1  (2024-02-12) |
 | **Treasury Policy**          | unreleased |
 | **Protocol Guidelines**      | unreleased |
