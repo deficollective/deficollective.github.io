@@ -56,7 +56,7 @@ Gas costs are lower than December’s figure due to reduced activity and average
 
 You might notice the massive revenue spread between the first and last week: a lesson hard learned for the ants. Indeed, launching new chains is usually, at least at first, a costly endeavor, as it comes with increased vote incentive expenditures. At the same time, revenues usually lag by at least a few weeks. Vote incentives have since been reduced and refocused to restore the performance for the following weeks.
 
-Thanks to this new revenue ATH and moderate expenses, **the Earnings figure also marks a monthly ATH, settling at $42,945.86, **a 40.15% monthly increase.
+Thanks to this new revenue ATH and moderate expenses, **the Earnings figure also marks a monthly ATH, settling at $42,945.86,** a 40.15% monthly increase.
 
 
 ![tdc-jan-2024-consolidated-report](https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/tdc-jan-2024-report/consolidated-report.jpg)
