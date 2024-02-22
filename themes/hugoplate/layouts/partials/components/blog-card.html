@@ -1,55 +1,51 @@
-<div class="bg-card">
-  {{ $image:= .Params.image }}
-  {{ if $image }}
-    {{ partial "image" (dict "Src" $image "Alt" .Title "Class" "w-full rounded") }}
-  {{ end }}
-  <div class="p-8">
-    {{ $categories:= .Params.categories }}
-    {{ range $i,$p:= $categories }}
-      <a class="tag-uppercase inline-block mb-3" 
-        href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}/"
-        >{{ . | humanize }}{{ if ne $i (sub (len $categories) 1) }}
-          {{ ", " }}
-        {{ end }}
-      </a>
-    {{ end }}
-    <h4 class="h5 mb-3">
-      <a href="{{ .RelPermalink }}">
-        {{ .Title }}
-      </a>
-    </h4>
-    <p class="mb-6">{{ .Summary }}</p>
+<div class="article-card">
 
-    {{ $authorName := .Params.author }}
-    {{ $author := site.GetPage (print "authors/" $authorName) }}
-    {{ if $author }}
-    <ul class="mb-3">
-      <li class="mr-4 flex items-center">
-              {{ if $author.Params.image }}
-                  <img class="inline-block rounded-2xl mr-2" src="{{ $author.Params.image }}" alt="Avatar of {{ $author.Title }}" width="24" height="24">
-              {{ $author.Title }}
-      </li>
-      {{/*  <li class="mr-4 inline-block">
-        <i class="fa-regular fa-folder mr-2"></i>
-        {{ $categories:= .Params.categories }}
-        {{ range $i,$p:= $categories }}
-          <a
-            href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}/"
-            class="ms-1"
-            >{{ . | humanize }}{{ if ne $i (sub (len $categories) 1) }}
-              {{ ", " }}
-            {{ end }}
-          </a>
-        {{ end }}
-      </li>  */}}
-    </ul>
-    {{ else }}
-    {{ end }}
-  {{ end }}        
-
-    <a class="highlight" href="{{ .RelPermalink }}">
-      {{ i18n "read_more" }}<i class="fa fa-arrow-right highlight pl-2"></i>
+{{ $image:= .Params.image }}
+{{ if $image }}
+<div class="image-card">
+  <a href="{{ .RelPermalink }}">
+    <img src="{{ $image }}" alt="{{ .Title }}">
+  </a>
+</div>
+{{ end }}
+<div class="bg-card p-8">
+  <a href="{{ .RelPermalink }}">
+  {{ $categories:= .Params.categories }}
+  {{ range $i,$p:= $categories }}
+    <a class="tag-uppercase inline-block mb-3"
+      href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}/"
+      >{{ . | humanize }}{{ if ne $i (sub (len $categories) 1) }}
+        {{ ", " }}
+      {{ end }}
     </a>
-    
-  </div>
+  {{ end }}
+  <h5 class="mb-3">
+    <a href="{{ .RelPermalink }}">
+      {{ .Title }}
+    </a>
+  </h5>
+  <p class="mb-3 limited-height">{{ .Summary }}</p>
+
+  {{ $authorName := .Params.author }}
+  {{ $author := site.GetPage (print "authors/" $authorName) }}
+  {{ if $author }}
+  <ul class="mb-3">
+    <li class="mr-4 flex items-center">
+            <!-- Add author's avatar -->
+            {{ if $author.Params.image }}
+                <img class="inline-block rounded-2xl mr-2" src="{{ $author.Params.image }}" alt="Avatar of {{ $author.Title }}" width="24" height="24">
+            <!-- Display author information here -->
+            {{ $author.Title }}
+    </li>
+  </ul>
+  {{ else }}
+  {{ end }}
+{{ end }}        
+
+  <a class="highlight" href="{{ .RelPermalink }}">
+    {{ i18n "read_more" }}<i class="fa fa-arrow-right highlight pl-2"></i>
+  </a>
+  </a>
+</div>
+
 </div>

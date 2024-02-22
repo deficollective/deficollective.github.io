@@ -3,7 +3,7 @@ title: "GHO Liquidity Committee: First month report"
 meta_title: ""
 description: "The ants have been actively involved with the GHO Liquidity Committee, helping to repeg GHO. It's now time to report on the insights gathered through this first large scale experimentation of directional liquidity."
 date: 2023-11-23T05:00:00Z
-image: "/images/glc_report.png"
+image: "/images/articles/gho-liquidity-committee-first-month-report.jpg"
 categories: ["GHO Liquidity Committee"]
 author: "tokenbrice"
 tags: ["GHO", "Liquidity Management", "Directional Liquidity"]

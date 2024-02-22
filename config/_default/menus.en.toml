@@ -26,6 +26,11 @@ name = "Blog"
 url = "blog/"
 weight = 5
 
+[[main]]
+name = "Media"
+url = "media/"
+weight = 6
+
 # footer menu
 [[footer]]
 name = "About"

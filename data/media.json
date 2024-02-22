@@ -1,0 +1,34 @@
+{
+    "2024": [
+        {
+            "tags": ["Video", "Interview"],
+            "name": "The DeFi Collective, le meilleur de la DeFi avec Token Brice",
+            "host": "Journal du Coin",
+            "link": "https://youtu.be/JCtE1msgWQs",
+			"language": "fr"
+        },
+        {
+            "tags": ["Video", "Interview"],
+            "name": "Token Brice : 1er rapport de The DeFi Collective, le meilleur de la DeFi !",
+            "host": "Journal du Coin",
+            "link": "https://youtu.be/4w62EMqCHyA",
+			"language": "fr"
+        }
+    ],
+    "2023": [
+        {
+            "tags": ["Video", "Community Call"],
+            "name": "The DeFi Collective Introduction Call, with Florian, Nils, Tokenbrice & Abmis",
+            "host": "DeFi Collective",
+            "link": "https://youtu.be/C__AJe4Ryws",
+			"language": "en"
+        },
+        {
+            "tags": ["Video", "Community Call"],
+            "name": "Community Call #2 - Summary of the first quarter of The DeFi Collective & forward outlook",
+            "host": "DeFi Collective",
+            "link": "https://youtu.be/3s0_9dqGmuA",
+			"language": "en"
+        }
+    ]
+}

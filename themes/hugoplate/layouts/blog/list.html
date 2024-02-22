@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-  <section class="section">
+  <section class="section-sm">
     <div class="container">
       <div class="row justify-center">
         <div class="lg:col-12">
@@ -12,7 +12,7 @@
           </div>
           <!-- blog posts -->
           <div class="row">
-            <div class="lg:col-9 sm:mb-14">
+            <div class="lg:col-8 sm:mb-14 mr-6">
               <div class="row">
                 {{ $paginator:= .Paginate .RegularPages }}
                 {{ range $paginator.Pages }}
@@ -35,3 +35,5 @@
     </div>
   </section>
 {{ end }}
+
+

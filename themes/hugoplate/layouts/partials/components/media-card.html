@@ -1,0 +1,39 @@
+{{ $mediaItems := .Site.Data.media }}
+
+{{ $years := slice }}
+{{ range $year, $mediaList := $mediaItems }}
+  {{ $years = $years | append $year }}
+{{ end }}
+{{ $reversedYears := slice }}
+{{ $numYears := len $years }}
+{{ $reversedIndex := sub $numYears 1 }}
+{{ range $i, $year := $years }}
+  {{ $reversedYears = $reversedYears | append (index $years $reversedIndex) }}
+  {{ $reversedIndex = sub $reversedIndex 1 }}
+{{ end }}
+{{ range $year := $reversedYears }}
+  <h4 class="mb-6">{{ $year }}</h4>
+  {{ range $mediaItem := index $mediaItems $year }}
+    <div class="md:col-6 mb-4">
+        <div class="bg-card p-8">
+          <ul class="mb-4">
+            {{ if in .language "fr" }}
+            <img class="inline-block mr-1" src="https://hatscripts.github.io/circle-flags/flags/fr.svg" width="24">
+            {{ else if in .language "en" }}
+            <img class="inline-block mr-1" src="https://hatscripts.github.io/circle-flags/flags/gb.svg" width="24">
+            {{ end }}
+            {{ range $tag := .tags }}
+              <li class="inline-block media-tag m-1 rounded px-3 py-1">
+                  {{ $tag }}
+              </li>
+            {{ end }}
+          </ul>
+          <h5 class="mb-2">
+            <a href="{{ .link }}">{{ .name }}</a>
+          </h5>
+          <p>Hosted by: <strong>{{ .host }}</strong></p>
+        </div>
+    </div>
+  {{ end }}
+  <div class="mb-10"></div>
+{{ end }}
