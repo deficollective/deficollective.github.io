@@ -8,6 +8,13 @@
 			"language": "en"
         },
         {
+            "tags": ["Audio", "Twitter Space"],
+            "name": "AMA: Blueprint x DYAD on the future of liquidity on ETH Mainnet",
+            "host": "Blueprint",
+            "link": "https://twitter.com/blueprintfi_eth/status/1762040406538416262",
+			"language": "en"
+        },
+        {
             "tags": ["Video", "Interview"],
             "name": "The DeFi Collective, le meilleur de la DeFi avec Token Brice",
             "host": "Journal du Coin",
@@ -23,6 +30,20 @@
         }
     ],
     "2023": [
+        {
+            "tags": ["Audio", "Twitter Space"],
+            "name": "lApps and decentralizing frontends",
+            "host": "Liquity",
+            "link": "https://twitter.com/DeFiCollective_/status/1734611895917916317",
+			"language": "en"
+        },
+        {
+            "tags": ["Video", "Interview"],
+            "name": "Defi's World War 🐜 w/ TokenBrice from The DeFi Collective",
+            "host": "Exit Liquidity",
+            "link": "https://twitter.com/i/broadcasts/1kvJpvNXmXkKE",
+			"language": "en"
+        },
         {
             "tags": ["Video", "Community Call"],
             "name": "The DeFi Collective Introduction Call, with Florian, Nils, Tokenbrice & Abmis",
