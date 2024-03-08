@@ -45,10 +45,17 @@
 			"language": "en"
         },
         {
-            "tags": ["Video", "Community Call"],
-            "name": "The DeFi Collective Introduction Call, with Florian, Nils, Tokenbrice & Abmis",
-            "host": "DeFi Collective",
-            "link": "https://youtu.be/C__AJe4Ryws",
+            "tags": ["Audio", "Twitter Space"],
+            "name": "RWA-free Stablecoins with crvUSD, f(x), Liquity & Gravita",
+            "host": "The DeFi Collective",
+            "link": "https://twitter.com/DeFiCollective_/status/1716381990713241886",
+			"language": "en"
+        },
+        {
+            "tags": ["Audio", "Twitter Space"],
+            "name": "AMA with the ZeroFI team",
+            "host": "TokenBrice",
+            "link": "https://twitter.com/TokenBrice/status/1715095496488882384",
 			"language": "en"
         },
         {
@@ -56,6 +63,13 @@
             "name": "Community Call #2 - Summary of the first quarter of The DeFi Collective & forward outlook",
             "host": "DeFi Collective",
             "link": "https://youtu.be/3s0_9dqGmuA",
+			"language": "en"
+        },
+        {
+            "tags": ["Video", "Community Call"],
+            "name": "The DeFi Collective Introduction Call, with Florian, Nils, Tokenbrice & Abmis",
+            "host": "DeFi Collective",
+            "link": "https://youtu.be/C__AJe4Ryws",
 			"language": "en"
         }
     ]
