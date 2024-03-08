@@ -2,6 +2,13 @@
     "2024": [
         {
             "tags": ["Video", "Interview"],
+            "name": "Taptalk 75: TokenBrice Edition: The Collective, CDP Design, Tapioca & more",
+            "host": "Tapioca DAO",
+            "link": "https://twitter.com/tapioca_dao/status/1765061051245301938",
+			"language": "en"
+        },
+        {
+            "tags": ["Video", "Interview"],
             "name": "The DeFi Collective, le meilleur de la DeFi avec Token Brice",
             "host": "Journal du Coin",
             "link": "https://youtu.be/JCtE1msgWQs",
