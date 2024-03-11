@@ -29,8 +29,8 @@ Grow the DeFi Collective’s community: be present, manage and engage with our c
 
 
 
-* Keeping a pulse on what is happening in the Collective and supported communities, and being part of the discussion.
-* Management of the Collective social media accounts on a frequent (daily) basis: Currently, on [Twitter](https://twitter.com/DeFiCollective_), we are open to considering developing a presence on more, especially web3 socials.
+* Keeping a pulse on what is happening in the Collective and supported communities and being part of the discussion.
+* Management of the Collective social media accounts on a frequent (daily) basis: Currently, on [Twitter](https://twitter.com/DeFiCollective_), we are open to considering developing a presence on more social media, especially Web3.
 * Animate the Collective’s Discord daily and inform the community about ongoing initiatives.
 * Develop the media presence of the Collective: interviews, podcasts, events, etc. (someone else can man them)
 * Work hand-in-hand with Content Strategist to develop & implement  a long-term efficient social media + content strategy
@@ -41,18 +41,16 @@ Grow the DeFi Collective’s community: be present, manage and engage with our c
 
 
 
-* **People-person: **Much of your job involves talking to people on various channels. You should have** **excellent communication, interpersonal, organizational, and problem-solving skills.
+* **People-person:** Much of your job involves talking to people on various channels. You should have** **excellent communication, interpersonal, organizational, and problem-solving skills.
 * **Availability**: We’re looking for a part-time contributor, and you’re absolutely free to allocate your time. However, managing socials will typically require some presence daily.
 * **Value alignment**: We do & promote DeFi there, the real one, not re-staked centralized multisig-powered marketing stunts.
-* **DeFi native & onchain presence**: You should understand** **DeFi and how to communicate with a web3 crowd. In DeFi, you learn by doing. During the interview, you’ll be asked to share a wallet.
-* **Autonomous and self-driven: **You will have no manager and need to be able to self-appoint and deliver on tasks** **relevant to your objectives.
+* **DeFi native & onchain presence**: You should understand DeFi and how to communicate with a web3 crowd. In DeFi, you learn by doing. During the interview, you’ll be asked to share a wallet.
+* **Autonomous and self-driven:** You will have no manager and need to be able to self-appoint and deliver on tasks** **relevant to your objectives.
 
 
 ## Working Conditions
 
 The Collective offers fair and transparent working conditions to any individual looking to devote his/her skill to better DeFi. Contributors are always hired part-time, with a maximum of 50% of their working time dedicated to the Collective. A maximal spread of 2x is maintained between contributors' compensation, with the lowest compensation currently at 1500 LUSD /month and the highest at 2500. We are entirely remote and looking for suitable Contributors from anywhere. Provisions are possible in the employment contract to avoid revealing publicly the identity of anonymous contributors.
-
-
 
 
 # Content Strategist / “Strategy Person”
@@ -83,7 +81,7 @@ You shape DeFi’s narrative. You obsess about finding new ways to explain and s
 * **Value alignment**: We do & promote DeFi there, the real one, not re-staked centralized multisig-powered marketing stunts.
 * **A profound understanding of DeFi** and the main protocol models. You’ll need in particular, to be knowledgeable about DEXes (both incentive models and liquidity structures) and decentralized stablecoin designs (CDP, Reserve)
 * **Onchain presence**: In DeFi, you learn by doing. During the interview, you’ll be asked to share a wallet.
-* **Autonomous and self-driven: **You will have no manager and need to be able to self-appoint and deliver on tasks** **relevant to your objectives.
+* **Autonomous and self-driven:** You will have no manager and need to be able to self-appoint and deliver on tasks** **relevant to your objectives.
 * **Good with words**: Much of your job will involve producing content: you need to be able to write clearly, consistently, and with style.
 
 
