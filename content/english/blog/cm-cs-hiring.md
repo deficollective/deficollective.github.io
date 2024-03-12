@@ -91,4 +91,4 @@ The Collective offers fair and transparent working conditions to any individual 
 
 [You can submit your application here if you are interested in either of the two jobs offered.](https://docs.google.com/forms/d/e/1FAIpQLSeeItVgC63xyrHaQAD58ByEDAukS8yV3vGv94vuLtBjj2Lphw/viewform?usp=sf_link)
 
-If you’d like more context and information about the various ways to get involved with the DeFi Collective, [read this previous article](https://deficollective.org/blog/contributing-to-the-collective/), and if you have more questions, the [join the Discord server is the best place to ask](https://discord.gg/wvRXrHffXR) them.
+If you’d like more context and information about the various ways to get involved with the DeFi Collective, [read this previous article](https://deficollective.org/blog/contributing-to-the-collective/), and if you have more questions, [join the Discord server to ask them](https://discord.gg/wvRXrHffXR) them.
