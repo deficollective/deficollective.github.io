@@ -17,7 +17,7 @@ If you are unfamiliar with the DeFi Collective, we invite you to browse this web
 The two profiles will work closely together, as they essentially work towards a common goal — raising the public profile of the Collective and growing its community, but with different means. The Community Manager is focused on the day-to-day tactics, while the Content Strategist will oversee the longer-term strategy and its implementation.
 
 
-# Community Manager / Growth Hacker = “People Person”
+# Community Manager / Growth Hacker
 
 
 ## Purpose
@@ -53,7 +53,7 @@ Grow the DeFi Collective’s community: be present, manage and engage with our c
 The Collective offers fair and transparent working conditions to any individual looking to devote his/her skill to better DeFi. Contributors are always hired part-time, with a maximum of 50% of their working time dedicated to the Collective. A maximal spread of 2x is maintained between contributors' compensation, with the lowest compensation currently at 1500 LUSD /month and the highest at 2500. We are entirely remote and looking for suitable Contributors from anywhere. Provisions are possible in the employment contract to avoid revealing publicly the identity of anonymous contributors.
 
 
-# Content Strategist / “Strategy Person”
+# Content Strategist
 
 
 ## Purpose
