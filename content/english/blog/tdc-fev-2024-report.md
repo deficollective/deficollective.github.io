@@ -3,7 +3,7 @@ title: "The DeFi Collective - February 2024 Report"
 meta_title: ""
 description: "Monthly report for the Collective treasury operations in February 2024. Highlights: a new net-worth ATH & sustained earnings despite increased expenses."
 date: 2024-03-13T05:00:00Z
-image: "/images/tdc-feb-2024-report/article_banner.png"
+image: "/images/tdc-fev-2024-report.png"
 categories: ["Monthly Report"]
 author: "tokenbrice"
 tags: ["TDC Monthly Report", "Liquidity Management", "Liquidity-driving Tokens", "Collective"]
@@ -14,6 +14,7 @@ Welcome to February’s monthly report for the Collective. It marks the first-ev
 
 For more information on the Collective activities, where the revenues come from, and the accounting logic, please refer to [the Reporting Policy](https://deficollective.org/reporting-policy/).
 
+This report is also [available in PDF format.](https://github.com/deficollective/deficollective.github.io/blob/main/assets/images/tdc-fev-2024-report/tdc-feb-2024-report.pdf)
 
 ## Treasury Report
 
