@@ -1,6 +1,20 @@
 {
     "2024": [
         {
+            "tags": ["Text", "Gov. Proposal"],
+            "name": "Improve HAI & KITE liquidity strategy thanks to several optimizations",
+            "host": "HAI.money DAO",
+            "link": "https://commonwealth.im/lets-get-hai/discussion/16622-improve-hai-kite-liquidity-strategy-thanks-to-several-optimizations-fee-adjustment-for-kite-haikite-hailusd-pools-haieth-pool-migration",
+			"language": "en"
+        },
+        {
+            "tags": ["Text", "Gov. Proposal"],
+            "name": "[RFC] PTBR-16: The DeFi Collective",
+            "host": "PoolTogether DAO",
+            "link": "https://gov.pooltogether.com/t/rfc-ptbr-16-the-defi-collective/3219",
+			"language": "en"
+        },
+        {
             "tags": ["Video", "Interview"],
             "name": "Llama Party feat. TokenBrice of the DeFi Collective",
             "host": "Leviathan News",
