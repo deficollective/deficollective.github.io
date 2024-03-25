@@ -3,7 +3,7 @@ title: "Treasury Management Policy v.1 (March 25 2024)"
 # meta title
 meta_title: "The DeFi Collective - Treasury Management Policy"
 # meta description
-description: "The Treasury Management Policy details the logic governing the operations of the Collective's treasuries to maximize the support provided to mission-critical projects and tokens while minimzing risks incurred."
+description: "The Treasury Management Policy details the logic governing the operations of the Collective's treasuries to maximize the support provided to mission-critical projects and tokens while minimizing risks incurred."
 # save as draft
 draft: false
 ---
