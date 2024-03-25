@@ -115,4 +115,4 @@ While borrowing a given stablecoin, such as DYAD, the Collective retains exposur
 
 ## Transparency & history of this document
 
-Like all policy documents, this document history is preserved thanks to its publication in markdown format in a GitHub repository. You can easily track all changes here .
+Like all policy documents, this document history is preserved thanks to its publication in markdown format in a GitHub repository. You can easily [track all changes here](https://github.com/deficollective/deficollective.github.io/commits/main/content/english/pages/treasury-management-policy.md).
