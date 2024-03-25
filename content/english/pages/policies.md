@@ -16,5 +16,5 @@ Policies are maintained in markdown documents, enabling the easy tracking of the
 | ---------------------------- | :---- |
 | [**Articles of Association**](../articles-of-association) | v.1 (2023-09-28) |
 | [**Reporting Policy**](../reporting-policy)           | v.1  (2024-02-12) |
-| [**Treasury Management Policy**](../treasury-management/policy)          | v1 (2024.04.25) |
+| [**Treasury Management Policy**](../treasury-management-policy)          | v1 (2024.04.25) |
 | **Mission Critical Protocol Guidelines**      | Stated for Q1 2024 |
