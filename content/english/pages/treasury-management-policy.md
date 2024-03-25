@@ -45,7 +45,7 @@ Expenses are kept to the bare minimum required for the operations of the Collect
 
 ### TMP.4: Performative Farming
 
-The Collective** analyzes the yield opportunities quantitatively (returns) and qualitatively.** In the real world, like in DeFi, we vote mostly with our wallets. While generating revenues is a necessary goal, other dimensions of the examined yield earning opportunities will be considered, such as:
+The Collective **analyzes the yield opportunities quantitatively (returns) and qualitatively.** In the real world, like in DeFi, we vote mostly with our wallets. While generating revenues is a necessary goal, other dimensions of the examined yield earning opportunities will be considered, such as:
 
 
 
