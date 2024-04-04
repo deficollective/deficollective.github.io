@@ -89,7 +89,7 @@ Other than the above, both You and the Collective retain all rights, titles and 
 ## Miscellaneous
 
 
-**Privacy**: The Collective is committed to protecting Your personal information and helping You understand exactly how Your personal information is being used. Please refer to our [Privacy Policy](./privacy-policy.md) for more details.
+**Privacy**: The Collective is committed to protecting Your personal information and helping You understand exactly how Your personal information is being used. Please refer to our [Privacy Policy](./privacy-policy) for more details.
 
 **Entire Agreement:** These Terms constitutes the entire agreement between the Collective and You relating to the use of the Website, and supersedes all prior agreements. The Collective may enter into additional agreements with You relating to other subject matters.
 
