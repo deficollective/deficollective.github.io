@@ -84,7 +84,7 @@ Each dollar traded earns you trading points. The points you earned will be displ
 
 **NB: Only volume traded through the [Kaskade interface](https://www.kaskade.finance/) is eligible for the incentives.**
 
-30k LUSD will be distributed over 30 days, meaning 7,500 LUSD will be distributed weekly. If you generate, for example, 5% of the total trading volume on Kaskade for that week, you will be able to claim 5% of 7500 = 375 LUSD. 
+30k LUSD will be distributed to users who trade the LUSD/USDC over the next three weeks, meaning 10,500 LUSD will be distributed weekly. If you generate, for example, 5% of the total trading volume on Kaskade for that week, you will be able to claim 5% of 10 000 = 500 LUSD. 
 
 
 ### What’s next
