@@ -3,7 +3,7 @@ title: "Kaskade LUSD Volume Incentivization Campaign Launch"
 meta_title: ""
 description: "The DeFi Collective is launching a 30-day incentive program to help boost the liquidity and volume of the LUSD/USDC pair on Uniswap and Maverick, leveraging the new and upcoming Kaskade tech."
 date: 2024-04-10T05:00:00Z
-image: "/images/articles/kaskade-launch-campaign/article-cover.png"
+image: "/images/kaskade-launch-cover.png"
 categories: ["Campaign"]
 author: "tokenbrice"
 tags: ["Liquidity Management", "Liquidity-driving Tokens", "Collective"]
@@ -34,13 +34,13 @@ Kaskade is a brand new project that has already shown the efficiency of its new 
 Kaskade’s novel approach is based on the observation that incentives on the supply side of the liquidity pools do not inherently generate demand. What we mean by incentives on the supply side is rewarding liquidity providers based on the TVL they add to the pool only. This approach efficiently attracts capital to the liquidity pools, but it does not help with other aspects of the token's actual liquidity. 
 
 
-![alt_text](/images/articles/kaskade-launch-campaign/image1.gif)
+![alt_text](https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/kaskade-campaign-launch/image1.gif)
 
 
 Volume is a key part of liquidity, and it is unclear that TVL attracts trading volume by itself. You can always build it; it’s not so sure they will come. In current incentive programs, a large chunk of the TVL attracted by the incentive programs does not produce any value. To quote Kaskade, “A lot of that liquidity is just sitting there, getting inflationary rewards and not being used.” ([source](https://medium.com/@KaskadeFinance/liquidity-is-fractured-cfbd2403c6fd)).
 
 
-![alt_text](/images/articles/kaskade-launch-campaign/image2.jpg)
+![alt_text](https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/kaskade-campaign-launch/image2.jpg)
 
 
 Kaskade tackles the chicken-and-egg problem of bootstrapping liquidity from a new lens. Kaskade will incentivize traders by rewarding them with points that can be converted into tokens. This will definitely attract volume as it is directly spent for that goal, and traders will notice. In turn, the volume of the liquidity pools will increase, which means that the fees for liquidity providers will increase. As APYs on those pools increase, more liquidity providers will allocate their funds to the pool.
@@ -74,7 +74,7 @@ We view this incentive program as an experiment. We believe the Collective’s r
 We want to support innovative and value-aligned projects like Kaskade and help them grow so they can help the industry grow and thrive. 
 
 
-![alt_text](/images/articles/kaskade-launch-campaign/image3.gif)
+![alt_text](https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/kaskade-campaign-launch/image3.gif)
 
 
 
