@@ -1,7 +1,7 @@
-![image](https://github.com/deficollective/deficollective.github.io/assets/28776588/3c51e7bc-befb-4daf-92db-3f948f83632b)---
+---
 title: "Empowering fun & resilient finance: zoom in on the collaboration between the Collective and PoolTogether"
 meta_title: ""
-description: "The Collaboration between the Collective and PoolTogether is moving to the next stage, after the reception on a POOL donation enacted by PT's governance which enables to sustainably scale up the efforts."
+description: "The Collaboration between the Collective and PoolTogether is moving to the next stage, after the reception of a POOL donation enacted by PT's governance, which enables to scale up the efforts sustainably."
 date: 2024-04-15T05:00:00Z
 image: "/images/pttdc-cover.png"
 categories: ["Campaign"]
