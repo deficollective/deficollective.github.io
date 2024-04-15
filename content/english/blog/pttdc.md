@@ -75,7 +75,7 @@ The DeFi Collective will support PoolTogether in this evolution, committed to us
 ## What This Means for the DeFi Ecosystem
 
 
-### Our collaboration with PoolTogether and the recent proposal's success underscores a significant leap toward enhancing DeFi's ecosystem. By strategically increasing liquidity across leading Layer 2 networks and DEXs, we aim to:
+Our collaboration with PoolTogether and the recent proposal's success underscores a significant leap toward enhancing DeFi's ecosystem. By strategically increasing liquidity across leading Layer 2 networks and DEXs, we aim to:
 
 
 
