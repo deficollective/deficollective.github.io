@@ -1,4 +1,4 @@
----
+![image](https://github.com/deficollective/deficollective.github.io/assets/28776588/3c51e7bc-befb-4daf-92db-3f948f83632b)---
 title: "Empowering fun & resilient finance: zoom in on the collaboration between the Collective and PoolTogether"
 meta_title: ""
 description: "The Collaboration between the Collective and PoolTogether is moving to the next stage, after the reception on a POOL donation enacted by PT's governance which enables to sustainably scale up the efforts."
@@ -22,7 +22,7 @@ Since December, the DeFi Collective has played a crucial role in supporting Pool
 This strategic deployment has attracted and sustained a total value locked (TVL) of $80-100k, helping the POOL token reach a liquidity depth on Optimism similar to the one observed on mainnet.
 
 
-![pool-velodrome](images/image1.png "image_tooltip")
+![pool-velodrome](https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/pttdc/pool-velodrome.png "POOL/ETH pool on Velodrome")
 
 
 ### The Collaboration in Focus
@@ -34,12 +34,12 @@ Our collaboration with PoolTogether reached a new milestone with the successful 
 
 This collaboration is designed to strengthen PoolTogether by expanding the strategic liquidity enhancement to Base and Arbitrum networks by leveraging the Collective's significant voting powers to incentivize deeper POOL liquidity:
 
-![pool-aerodrome](images/image1.png "image_tooltip")
+![pool-aerodrome](https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/pttdc/pool-aerodrome.png "POOL/LUSD pool on Aerodrome")
 
 * Base Network: Our efforts are concentrated on Aerodrome Finance, where we deployed and support a POOL/LUSD liquidity pool, again utilizing our voting power to drive liquidity and participation. The pool was seeded with $100k worth of LUSD and POOL and receives veAERO voting support from the Collective.
 * Arbitrum Network: [Ramses Exchange](https://www.ramses.exchange/) is our exchange of choice. The pool was seeded with $78k of POOL & ETH and receives veRAM voting support from the Collective. 
 
-![pool-ramses](images/image1.png "image_tooltip")
+![pool-ramses](https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/pttdc/pool-ramses.png "POOL/ETH pool on Ramses")
 
 Together, the two endeavors aim to grow POOL’s liquidity on two major L2s where the application will be deployed.
 
