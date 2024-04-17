@@ -1,5 +1,5 @@
 ---
-title: "Treasury Management Policy v.1 (March 25 2024)"
+title: "Treasury Management Policy v1 (March 25, 2024)"
 # meta title
 meta_title: "The DeFi Collective - Treasury Management Policy"
 # meta description

@@ -1,5 +1,5 @@
 ---
-title: "Reporting Policy v.1 (February 12 2024)"
+title: "Reporting Policy v1 (February 12, 2024)"
 # meta title
 meta_title: "The DeFi Collective - Reporting Policy"
 # meta description
