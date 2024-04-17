@@ -2,7 +2,7 @@
 title: "Release of the DeFi Protocol Guidelines"
 meta_title: ""
 description: "The DeFi Protocol Guidelines provide a comprehensive framework for the characterization of Genuine DeFi systems and the identification of On-chain CeFi services."
-date: 2024-04-17T15:00:00Z
+date: 2024-04-17T00:00:00Z
 image: "/images/articles/defi-protocol-guidelines.png"
 categories: ["Policy"]
 author: "nilsbundi"
