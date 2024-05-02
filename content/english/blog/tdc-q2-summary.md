@@ -25,7 +25,7 @@ We invite you to consult our detailed [Reporting Policy](https://deficollective.
 
 The Collective's financials are stronger than ever. **Quarterly revenue settled at $173,424.10, and earnings were $131,210.97**. The growth is impressive compared to the first quarter, as both figures increased by more than 85%.
 
-![q1-2024-consolidated-revenues](/images/articles/q1-2024-consolidated-revenues.jpg)
+![q1-2024-consolidated-revenues](https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/articles/q1-2024-consolidated-revenues.jpg)
 
 
 With the hiring of new contributors and some contracting works, expenses have increased yet remain sustainable: at the current pace, the Collective's current stablecoin reserves are sufficient to cover more than two and half years of expenses.
