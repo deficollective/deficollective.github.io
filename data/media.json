@@ -1,6 +1,13 @@
 {
     "2024": [
         {
+            "tags": ["Audio", "Twitter Space"],
+            "name": "PossumLabs x DeFi Collective: thoughts on DeFi endgoal, what decentralization entails & zoom on the collaboration between Possum & DeFi Collective",
+            "host": "DeFi Collective",
+            "link": "https://twitter.com/i/spaces/1lPKqbdbXDnGb",
+			"language": "en"
+        },
+        {
             "tags": ["Text", "Gov. Proposal"],
             "name": "Improve HAI & KITE liquidity strategy thanks to several optimizations",
             "host": "HAI.money DAO",
