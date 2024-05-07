@@ -1,6 +1,20 @@
 {
     "2024": [
         {
+            "tags": ["Video", "Interview"],
+            "name": "A-Team & Defi Collective: Decentralized Stablecoin Frens!",
+            "host": "ATeamDeFi",
+            "link": "https://www.youtube.com/live/TFruMoKRk3A?feature=share",
+            "language": "en"
+        },
+        {
+            "tags": ["Audio", "Twitter Space"],
+            "name": "Accelerated Yield: With Possum Labs, DeFi Collective, and Ramses",
+            "host": "Possum Labs",
+            "link": "https://twitter.com/i/spaces/1ypKdkOZmVoxW/",
+            "language": "en"
+        },
+        {
             "tags": ["Audio", "Twitter Space"],
             "name": "PossumLabs x DeFi Collective: thoughts on DeFi endgoal, what decentralization entails & zoom on the collaboration between Possum & DeFi Collective",
             "host": "DeFi Collective",
