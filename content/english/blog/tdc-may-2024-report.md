@@ -30,7 +30,7 @@ No new chains were launched in May, however, the Collective initiated support fo
 
 ## Expenses Report
 
-Expenses were up slightly in May, mostly due to one-off expenses like the Collective contributors getting together to spread the Ant gospel at [ETH Belgrade](https://ethbelgrade.rs/). Contributor expenses were also up as the one-month lag for contributor payments caught up after onboarding our new content strategist in April. The Collective also continued to support those who support our cause by donating 1000 LUSD to [insert here] who have supported the Collective with X.
+Expenses were up slightly in May, mostly due to one-off expenses like the Collective contributors getting together to spread the Ant gospel at [ETH Belgrade](https://ethbelgrade.rs/). Contributor expenses were also up as the one-month lag for contributor payments caught up after onboarding our new content strategist in April. The Collective also continued to support those who support our cause by donating 1000 LUSD to [0xKhmer](https://twitter.com/0xKhmer) who builds & maintains a comprehensive [gas tracking Dune analytics dashboard](https://dune.com/0xkhmer/gas-spent-checker) allowing the Collective to streamline the accounting of gas-related expenses.
 
 ![tdc-may-2024-expenses](https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/tdc-may-2024-report/expenses.jpg)
 
@@ -39,7 +39,7 @@ Gas costs were down significantly in all previous months, with minimal Collectiv
 
 ## Revenues Report
 
-**Revenues are up 17.57% compared to April, settling at $57,383.30. **The revenue increase was primarily due to the reduction in incentivization-related expenses compared to April, with total income for May being the third best month behind March and April. We expect this to become the new baseline as we continue our work supporting mission-critical protocols, regardless of the earnings they provide.
+**Revenues are up 17.57% compared to April, settling at $57,383.30.** The revenue increase was primarily due to the reduction in incentivization-related expenses compared to April, with total income for May being the third best month behind March and April. We expect this to become the new baseline as we continue our work supporting mission-critical protocols, regardless of the earnings they provide.
 
 ![tdc-may-2024-l2-revenues](https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/tdc-may-2024-report/l2-revenues.jpg)
 
