@@ -45,7 +45,7 @@ Gas costs were down significantly in all previous months, with minimal Collectiv
 
 As always, we strive for sustainability, with our total revenues at a 72.27% surplus over the expenses. This allows us to scale up our support for existing partners and accumulate firepower to onboard the next mission-critical protocols we identify.
 
-![tdc-may-consolidated-report](https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/tdc-may--2024-report/consolidated-report.jpg)
+![tdc-may-consolidated-report](https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/tdc-may-2024-report/consolidated-report.jpg)
 
 ## Impact Report
 
