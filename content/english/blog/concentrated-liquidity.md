@@ -4,7 +4,7 @@ meta_title: ""
 description: "Concentrated Liquidity has been out since 2021, yet it is struggling to fully replace previous versions of the on-chain AMM. Let's try to understand why."
 date: 2024-06-20T05:00:00Z
 image: "/images/concentrated-liquidity-banner.png"
-categories: ["Campaign"]
+categories: ["Research"]
 author: "spicypiz"
 tags: ["Liquidity Management", "Liquidity-driving Tokens", "Collective"]
 draft: false
