@@ -14,7 +14,6 @@ To build and deploy this project, you need to have some prerequisites installed 
 - [Node v18+](https://nodejs.org/en/download/)
 - [Go v1.20+](https://go.dev/doc/install)
 
-
 ### 👉 Install Dependencies
 
 Install all the dependencies using the following command.
@@ -45,6 +44,18 @@ Build your project locally with the following command. It will purge all the unu
 
 ```bash
 npm run build
+```
+
+## Dune Dashboards
+
+To reference dune graphs use iframe html component. (Note: Only works with opening and closing tag)
+
+```html
+<iframe
+  height="500"
+  width="100%"
+  src="https://dune.com/embeds/3894718/6545129/"
+></iframe>
 ```
 
 ## 🐞 Reporting Issues
