@@ -62,4 +62,9 @@ partners:
         dark: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/zero-dark.svg"
         alt: "Logo Zero"
         height: "45px"
+      - id: velodrome
+        light: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/velodrome-light.svg"
+        dark: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/velodrome-dark.svg"
+        alt: "Velodrome"
+        height: "45px"
 ---
