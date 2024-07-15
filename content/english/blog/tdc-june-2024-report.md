@@ -32,9 +32,6 @@ Gas costs increased significantly compared to May, the Collective’s lowest mon
 ![tdc-june-2024-gas-expenses](https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/tdc-june-2024-report/gas-expenses.png)
 
 
-[INSERT HERE IMAGE FOR EXPENSES +  GAS EXPENSES]
-
-
 ## Revenues Report
 
 **Revenues are down 28.04% compared to May, settling at $41,290.38 for the month**. The revenue decrease was primarily due to the falling market price of assets yielded during farming operations and the Collective's reduced veRAM position removing some voting firepower. In addition, the treasury management team did not harvest mainnet positions in June, which will be carried over into the July harvest.
