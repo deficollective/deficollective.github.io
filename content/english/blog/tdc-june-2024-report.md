@@ -21,23 +21,15 @@ As always, for more information on the Collective activities, where the revenues
 
 **The face value of assets controlled by the Collective** (excluding grants) **decreased by -30.81%** in June, decreasing from $2,935,202 on the 1st of June to **$2,030,737** by the 30th of June. The treasury decline compared to May was mainly driven by the contraction in the market, especially the Collective’s locked positions (veVELO, veAERO, and veRAM), which saw their face value fall almost 50% compared to May. However, this significant drop in value wasn't entirely market-related, as the collective returned 3M veRAM to Ramses upon their request. More details about this asset return will be highlighted below.
 
-
-![alt_text](images/image1.png "image_tooltip")
-
-
-[INSERT HERE ASSET VALUE IMAGE] 
-
+![tdc-june-2024-net-worth](https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/tdc-june-2024-report/net-worth.png)
 
 ## Expenses Report
 
 Expenses returned to the expected baseline in June, with no one-off expenses. We expect expenses to remain steady over the coming months, allowing the treasury management team to bolster our firepower as we head into the latter half of the year.
 
 
-![alt_text](images/image2.png "image_tooltip")
-
-
 Gas costs increased significantly compared to May, the Collective’s lowest month ever. The increase was primarily due to the creation of Maverick v2 LUSD/USDC BP#2 and BP#3. The Collective also migrated its DYAD position to the v2 contract, which saw further mainnet operations increase gas expenses. Gas costs on L2 chains remained steady and moderate, as observed since Dencun.
-![alt_text](images/image3.png "image_tooltip")
+![tdc-june-2024-gas-expenses](https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/tdc-june-2024-report/gas-expenses.png)
 
 
 [INSERT HERE IMAGE FOR EXPENSES +  GAS EXPENSES]
@@ -50,10 +42,7 @@ Gas costs increased significantly compared to May, the Collective’s lowest mon
 Although revenues were down compared to May, due to the reduced expenses outlined above, the Collective increased its surplus, which leaves us in a very healthy position even with decreasing revenues. 
 
 
-![alt_text](images/image4.png "image_tooltip")
-
-
-[INSERT HERE IMAGE FOR CONSOLIDATED EARNINGS/EXPENSES/REVENUES]
+![tdc-june-2024-consolidated-report](https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/tdc-june-2024-report/consolidated-report.png)
 
 
 ## Impact Report
