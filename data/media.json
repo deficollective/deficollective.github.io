@@ -1,6 +1,13 @@
 {
     "2024": [
         {
+            "tags": ["Video", "Conference"],
+            "name": "Harnessing DeFi to Better DeFi: The DeFi Collective - TokenBrice",
+            "host": "ETH Belgrade",
+            "link": "https://www.youtube.com/watch?v=xKPolVNaHj4",
+            "language": "en"
+        },
+        {
             "tags": ["Video", "Interview"],
             "name": "A-Team & Defi Collective: Decentralized Stablecoin Frens!",
             "host": "ATeamDeFi",

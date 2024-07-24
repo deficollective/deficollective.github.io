@@ -12,6 +12,12 @@ draft: false
 
 The DeFi Collective is looking to hire two additional contributors focused on community and content to help raise its awareness and spotlight the top-notch projects it supports. Below are descriptions of the two positions and information on how to apply.
 
+---
+
+_**July 2024 update**: We've found and hired both our [Content Strategist - Spicypiz](https://twitter.com/spicypiz) and our [Community Manager - Stengarl](https://twitter.com/stengarl): the positions presented in this post are no longer available. However the Collective is still open to hire more relevant contributors, feel free to reach out or ask in the Discord if you're interested in contributing._
+
+---
+
 If you are unfamiliar with the DeFi Collective, we invite you to browse this website for more context; a short introduction follows. The Collective is a Swiss nonprofit association **harnessing DeFi to nudge it toward maximal resilience and responsibility**. It **self-appoints** to support the most resilient DeFi projects, no question asked, thanks to its own assets, including sizable liquidity-driving token balances (veVELO, veAERO, veRAM, etc.). The Collective has been **self-sufficient since its inception**, generating ~$30k of monthly earnings, compounded into its treasury to further its impact — check the monthly treasury report for more information. 
 
 The two profiles will work closely together, as they essentially work towards a common goal — raising the public profile of the Collective and growing its community, but with different means. The Community Manager is focused on the day-to-day tactics, while the Content Strategist will oversee the longer-term strategy and its implementation.
