@@ -1,4 +1,3 @@
-```
 ---
 title: "The DeFi Collective - 3rd Quarter Summary [Q2 2024]"
 meta_title: ""
@@ -10,7 +9,6 @@ author: "tokenbrice"
 tags: ["TDC Quarterly Summary", "Liquidity Management",  "Collective"]
 draft: false
 ---
-```
 
 The Collective was born nine months ago; it’s time for its third quarterly summary. With two new hires, our first alumni, protocol reviews coming soon, and many other developments, there is much to discuss: let’s dive right in.
 
@@ -32,7 +30,7 @@ After an impressive revenue and earning growth last quarter, the figures are sta
 The expenses lowered to $36,411.25 despite our hires, as we had to face exceptional expenses in the previous quarter. Thus, the Surplus remains constant, still above 75%, giving ample margin to the Collective to cover its expenses while compounding most of the earnings to grow the treasury further.
 
 
-![alt_text](images/image1.png "image_tooltip")
+![tdc-q3-consolidate-report](https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/tdc-q3-report/consolidated-report.png)
 
 
 
@@ -95,7 +93,7 @@ With Spicypiz and Stengarl onboarded, the marketing & community team now has all
 Another critical work stream is to **provide more contextualized information on the liquidity-driving activities of the Collective**, allowing anyone to grasp its impact quickly and how it harnesses its various liquidity-driving positions such as veAERO, veRAM, or veVELO. After some discussions and iterations regarding the most suitable format for this project, the appropriate form has been found, and work is already underway. Spicypiz, our content strategist, doubled down as a Dune Analytics wizard and is building network-specific dashboards that provide all relevant information.
 
 
-![alt_text](images/image2.png "image_tooltip")
+![optimism-vote](https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/tdc-q3-report/optimism-votes.png)
 
 
 The first one is already live and will help you better understand and track the [Collective’s impact on Optimism with its usage of Velodrome](https://dune.com/spicypiz/defi-collective-pools). Others will follow to track our activity on Base with Aerodrome, Arbitrum with Ramses, and any other relevant DEX/L2.
@@ -122,7 +120,7 @@ We’ve started experimenting in July with a hybrid strategy for stablecoin pool
 2. Some voting power is still directed to the corresponding CL pool to attract a reasonably small but maximally efficient TVL supplied entirely by other liquidity providers.
 
 
-![alt_text](images/image3.png "image_tooltip")
+![voting-strategy-update](https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/tdc-q3-report/voting-strategy-update.png)
 
 
 This strategy has been highly effective since its inception. In fact, LUSD pools on Optimism have seen a great increase thanks to basic pools and market conditions.
