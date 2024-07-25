@@ -130,7 +130,7 @@ If this new strategy proves efficient, we will update our [treasury management p
 
 ### Internal Compliance
 
-Finally, we’ve also defined some internal goals for the next quarter to improve the Collective's legal processes and ensure continued compliance. Two documents are expected: one providing a risk overview of the Collective’s situation and another about the reviewing process of the token we’re interacting with as liquidity provider to ensure none are securities.
+Finally, we’ve also defined some internal goals for the next quarter to improve the Collective’s legal processes and ensure continued compliance.
 
 
 ## Parting Words
