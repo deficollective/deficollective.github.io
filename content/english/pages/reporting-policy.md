@@ -1,5 +1,5 @@
 ---
-title: "Reporting Policy v1 (February 12, 2024)"
+title: "Reporting Policy v1.1 (February 31, 2024)"
 # meta title
 meta_title: "The DeFi Collective - Reporting Policy"
 # meta description
@@ -14,7 +14,7 @@ The Collective is leading by example with the transparency offered on its treasu
 
 ## Reporting Policies
 
-This document is v1 of the Collective’s Reporting Policy, released on February 12th, 2024. Seven reporting policies are currently enforced:
+This document is v1.1 of the Collective’s Reporting Policy, released on February 12th, 2024 (v1) and updated on July 31th, 2024 (v1.1). Seven reporting policies are currently enforced:
 
 
 ### RP.1: Two weeks delta
@@ -91,11 +91,11 @@ Grants from ecosystems, such as the OP donation granted from the Optimism Founda
 
 ## Tools & Solutions Used for Reporting
 
-The accounting process is currently basic, with the data in beefy Google Sheets documents and imputed weekly at each harvest. While our current accounting process allows us a deep level of accuracy and a breakdown of revenues between three distinct sources across many chains, the time dedicated to the task will increase with the number of chains the Collective is on and protocols used. Thus, we are exploring solutions that could automate the process.
+The accounting process is currently basic, with the data in beefy Google Sheets documents and imputed weekly at each harvest. While our current accounting process allows us a deep level of accuracy and a breakdown of revenues between three distinct sources across many chains, the time dedicated to the task will increase with the number of chains the Collective is on and protocols used. Thus, we are exploring solutions that could automate the process. A Dune Dashboard is currently being worked on to automate reporting on the main chain the Collective is active on (Optimism, Base & Arbitrum).
 
-Parallel to our current sheets-based accounting, we started harnessing [Den](https://www.onchainden.com/) bookkeeping features, enabling us to tag, potentially according to rules, all our tokens inbound. As the rule-building process takes time, and we just started with Den, we are currently using the two solutions in parallel. This solution is particularly relevant to us, as we already use the Den UI to interact with our Safe, enabling the annotation of transactions and the tagging of contracts we interact with.
+[DeBank's Time Machine](https://debank.com/paid) is used to access the historical state of the Collective's portofolio at the time needed for the reporting. 
 
-To ease the accounting of gas expenses, we consolidate the execution of the transactions on one signing wallet as much as possible. We can quickly get the total gas expenditure per month and period using [Disiaque’s WhoSigned gas tracking tool](http://gas.who-signed.xyz/).
+To ease the accounting of gas expenses, we consolidate the execution of the transactions on one signing wallet as much as possible. Then, we use [0xKhmer's Gas Spent Checker](https://dune.com/0xkhmer/gas-spent-checker) to get a gas-token-denominated and dollar denominated overview of the gas spending on each chain.
 
 Finally, we used [Smoldapp’s Multisafe tool](https://smold.app/safe) to deploy the Collective’s safes, enabling it to have the same address for its safes on all the chains it is active on (mainnet, Arbitrum, Optimism, Base, Polygon-PoS, Polygon-zkEVM, Mantle & Linea). It dramatically improves tracking the gas balance, accounting, and bridging operations.
 
