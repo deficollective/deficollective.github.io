@@ -1,5 +1,5 @@
 ---
-title: "Reporting Policy v1.1 (February 31, 2024)"
+title: "Reporting Policy v1.1 (July 31, 2024)"
 # meta title
 meta_title: "The DeFi Collective - Reporting Policy"
 # meta description
@@ -95,7 +95,7 @@ The accounting process is currently basic, with the data in beefy Google Sheets 
 
 [DeBank's Time Machine](https://debank.com/paid) is used to access the historical state of the Collective's portofolio at the time needed for the reporting. 
 
-To ease the accounting of gas expenses, we consolidate the execution of the transactions on one signing wallet as much as possible. Then, we use [0xKhmer's Gas Spent Checker](https://dune.com/0xkhmer/gas-spent-checker) to get a gas-token-denominated and dollar denominated overview of the gas spending on each chain.
+To ease the accounting of gas expenses, we consolidate the execution of the transactions on one signing wallet as much as possible. Then, we use [0xKhmer's Gas Spent Checker](https://dune.com/0xkhmer/gas-spent-checker) to get a gas-token-denominated and dollar denominated overview of the gas spent on each chain.
 
 Finally, we used [Smoldapp’s Multisafe tool](https://smold.app/safe) to deploy the Collective’s safes, enabling it to have the same address for its safes on all the chains it is active on (mainnet, Arbitrum, Optimism, Base, Polygon-PoS, Polygon-zkEVM, Mantle & Linea). It dramatically improves tracking the gas balance, accounting, and bridging operations.
 
