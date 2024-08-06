@@ -1,5 +1,5 @@
 ---
-title: "Impact Dashboard: Liquidity Support"
+title: "Impact Dashboard: Liquidity Growth Support"
 # meta title
 meta_title: ""
 # meta description
@@ -8,13 +8,13 @@ description: "An overview of the impact the Collective has on its supported proj
 draft: false
 ---
 
-The DeFi Collective was built to give genuine DeFi projects an edge. It supports them with offchain means, such as advising on liquidity structures, tokenomics, protocol design, or communications, as well as onchain means—the most notable and measurable of which is liquidity.
+The DeFi Collective was built to give genuine DeFi projects an edge. It supports them with offchain means, such as advising on tokenomics, protocol design, or communications, as well as onchain means—the most notable and measurable of which is liquidity growth.
 
-The Collective harnesses liquidity-driving positions, allowing it to direct incentives to providers of selected liquidity pools. These include veVELO ([Velodrome](https://velodrome.finance/)), veAERO ([Aerodrome](https://aerodrome.finance/)), and veRAM ([Ramses](https://www.ramses.exchange/)).
+The Collective harnesses liquidity-driving tokens, including veVELO ([Velodrome](https://velodrome.finance/)), veAERO ([Aerodrome](https://aerodrome.finance/)), and veRAM ([Ramses](https://www.ramses.exchange/)). These allow the Collective to vote on a reoccuring basis on the respective DEX, whereby the DEX emissions incentives to liquidity providers of the liquidity pools that receive the most votes.  In line with the Collective's treasury policy, the Collective votes on liquidity pool containing token of genuine DeFi projects. Our voting helps to attract liquidity providers and hence grow the liquidity for the token - thus we refer to it as liquidity growth support. 
 
-This page provides all the context for our community to **follow the support provided to genuine DeFi projects on the main chain the Collective is active on: Optimism, Base, and Arbitrum**.
+This page provides all the context for our community to **follow the liquidity growth support provided to genuine DeFi projects on the main chain the Collective is active on: Optimism, Base, and Arbitrum**.
 
-It will prove useful to any community members looking to better understand how the Collective helps genuine DeFi projects, and to those who seek to join in the support as well by providing liquidity on supported pools.
+It will prove useful to any community members looking to better understand how the Collective helps genuine DeFi projects, and to those who seek to join in the support as well by providing liquidity on voted pools.
 
 ## Optimism (Velodrome)
 
@@ -30,7 +30,7 @@ Optimism is the chain where the Collective has the most impact, thanks to a larg
 
 ### veVELO Active Votes
 
-These votes are active for the current voting period, which lasts a week (epoch flips at 2AM GMT+2). Pools that are voted on by the Collective receives increased VELO emissions, helping them to attract more liquidity providers.
+These votes are active for the current voting period, which lasts a week (epoch flips at 2AM GMT+2). Pools that are voted on by the Collective receives increased VELO emissions by the Velodrome DEX, helping them to attract more third-party liquidity providers.
 
 <iframe
   height="350"
@@ -40,7 +40,7 @@ These votes are active for the current voting period, which lasts a week (epoch 
 
 ### veVELO Vote History
 
-This dashboard enables you to track the evolution of the voting strategy on a weekly basis.
+This dashboard enables you to track the evolution of the Collective's strategy on a weekly basis.
 
 <iframe
   height="350"
@@ -54,7 +54,7 @@ Find the full context on our activity on Optimism in the dedicated Dune Analytic
 
 ## Base (Aerodrome)
 
-Base is the second top chain for the Collective, thanks to a growing veAERO position compounded every week.
+Base is the second top chain for the Collective, thanks to a growing veAERO position.
 
 ### veAERO Position Overview
 
@@ -66,7 +66,7 @@ Base is the second top chain for the Collective, thanks to a growing veAERO posi
 
 ### veAERO Active Votes
 
-These votes are active for the current voting period, which lasts a week (epoch flips at 2AM GMT+2). The Collective's veAERO vote directs AERO emissions to targeted pools, helping them to attract more liquidity providers.
+These votes are active for the current voting period, which lasts a week (epoch flips at 2AM GMT+2). The Collective's veAERO vote directs AERO emissions from the Aerodrome DEX to targeted pools, helping them to attract more third-party liquidity providers.
 
 <iframe
   height="350"
@@ -76,7 +76,7 @@ These votes are active for the current voting period, which lasts a week (epoch 
 
 ### veAERO Vote History
 
-This dashboard enables you to track the evolution of the voting strategy on a weekly basis.
+This dashboard enables you to track the evolution of the Collective's voting on a weekly basis.
 
 <iframe
   height="350"
@@ -112,7 +112,7 @@ These votes are active for the current voting period, which lasts a week (epoch 
 
 ### veRAM Vote History
 
-This dashboard enables you to track the evolution of the voting strategy on a weekly basis.
+This dashboard enables you to track the evolution of the Collective's voting on a weekly basis.
 
 <iframe
   height="350"
