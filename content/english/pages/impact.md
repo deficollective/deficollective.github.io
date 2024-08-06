@@ -1,5 +1,5 @@
 ---
-title: "Collective's Impact: Liquidity Support"
+title: "Impact Dashboard: Liquidity Support"
 # meta title
 meta_title: ""
 # meta description
@@ -12,7 +12,7 @@ The DeFi Collective was built to give genuine DeFi projects an edge. It supports
 
 The Collective harnesses liquidity-driving positions, allowing it to direct incentives to providers of selected liquidity pools. These include veVELO ([Velodrome](https://velodrome.finance/)), veAERO ([Aerodrome](https://aerodrome.finance/)), and veRAM ([Ramses](https://www.ramses.exchange/)).
 
-This page provides all the context for our community to follow the support provided to genuine DeFi projects on the main chain the Collective is active on: Optimism, Base, and Arbitrum.
+This page provides all the context for our community to **follow the support provided to genuine DeFi projects on the main chain the Collective is active on: Optimism, Base, and Arbitrum**.
 
 It will prove useful to any community members looking to better understand how the Collective helps genuine DeFi projects, and to those who seek to join in the support as well by providing liquidity on supported pools.
 
@@ -50,7 +50,7 @@ This dashboard enables you to track the evolution of the voting strategy on a we
 
 Find the full context on our activity on Optimism in the dedicated Dune Analytics dashboard: 
 
-### [🐜 DeFi Collective Pools - Optimism - Velodrome](https://dune.com/spicypiz/defi-collective-pools) 
+### [Full Dune Dashboard: 🐜 Pools - Optimism (Velodrome)](https://dune.com/spicypiz/defi-collective-pools) 
 
 ## Base (Aerodrome)
 
@@ -86,7 +86,7 @@ This dashboard enables you to track the evolution of the voting strategy on a we
 
 Find the full context on our activity on Base in the dedicated Dune Analytics dashboard:
 
-### [🐜 DeFi Collective Pools - Base - Aerodrome](https://dune.com/spicypiz/defi-collective-pools-base)
+### [Full Dune Dashboard: 🐜 Pools - Base (Aerodrome)](https://dune.com/spicypiz/defi-collective-pools-base)
 
 ## Arbitrum (Ramses)
 
@@ -122,4 +122,4 @@ This dashboard enables you to track the evolution of the voting strategy on a we
 
 Find the full context on our activity on Arbitrum in the dedicated Dune Analytics dashboard:
 
-### [🐜 DeFi Collective Pools - Arbitrum - Ramses](https://dune.com/spicypiz/defi-collective-pools-arbitrum)
+### [Full Dune Dashboard: 🐜 Pools - Arbitrum (Ramses)](https://dune.com/spicypiz/defi-collective-pools-arbitrum)

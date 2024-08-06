@@ -17,8 +17,8 @@ url = "policies/"
 weight = 3
 
 [[main]]
-name = "Support"
-url = "support/"
+name = "Impact"
+url = "impact/"
 weight = 4
 
 [[main]]
