@@ -125,6 +125,8 @@ Imagine the following flow: you have LINK and want to sell them for USDC and dep
 3. Approve USDC for deposit on Aave
 4. Deposit USDC on Aave
 
+{{< youtube sAl4Qxlo7ag >}}
+
 With Brahma, this is **compressed to a single transaction to sign**, doing all of the above. Indeed, Brahma incorporates a local fork of the blockchain's state, allowing it to anticipate the results of your transactions and sequence–batch them.
 
 
@@ -170,7 +172,7 @@ The challenge of OpSec is balancing security with ease of use: the most secure f
 Whatever your wallet solution is, securing your wallet seed phrases is one of the most important dimensions of your OpSec procedures. We won’t cover the best practices here, considering the length of this article; feel free to refer to the following guides:
 
 * [Lopp – How to Back Up a Seed Phrase](https://blog.lopp.net/how-to-back-up-a-seed-phrase/)
-* [The Ultimate Guide to Safe Seed Phrase Storage](https://blog.lopp.net/how-to-back-up-a-seed-phrase/)
+* [The Ultimate Guide to Safe Seed Phrase Storage](https://unchained.com/blog/how-to-store-bitcoin-seed-phrase-backups/)
 
 By using Rabby and implementing all of the above security measures, you can greatly reduce the risks of an onchain exploit and ensure the wallet's longevity. Now let’s discuss some tools specific to Gnosis Safes:
 
