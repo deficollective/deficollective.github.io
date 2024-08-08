@@ -17,11 +17,6 @@ partners:
       label: "Support DeFi"
       link: "#"
     logo:
-      - id: blueprint
-        light: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/blueprint-light.svg"
-        dark: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/blueprint-dark.svg"
-        alt: "Logo Blueprint"
-        height: "45px"
       - id: cat-in-a-box
         light: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/cat-in-a-box-light.svg"
         dark: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/cat-in-a-box-dark.svg"
@@ -56,11 +51,6 @@ partners:
         light: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/retro-light.svg"
         dark: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/retro-dark.svg"
         alt: "Logo Retro"
-        height: "45px"
-      - id: zero
-        light: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/zero-light.svg"
-        dark: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/zero-dark.svg"
-        alt: "Logo Zero"
         height: "45px"
       - id: velodrome
         light: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/velodrome-dark.svg"
