@@ -47,11 +47,6 @@ partners:
         dark: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/polygon-labs-dark.svg"
         alt: "Logo Polygon Labs"
         height: "40px"
-      - id: retro
-        light: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/retro-light.svg"
-        dark: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/retro-dark.svg"
-        alt: "Logo Retro"
-        height: "45px"
       - id: velodrome
         light: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/velodrome-dark.svg"
         dark: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/velodrome-light.svg"
