@@ -9,7 +9,7 @@ draft: false
 ---
 
 
-The Collective is leading by example with the transparency offered on its treasury activity, with the publication of a [monthly detailed report](https://deficollective.org/categories/monthly-report/). This document details our reporting policies to accompany the reports and explicitly describes their context.
+The Collective is leading by example with the transparency offered on its treasury activity, with the publication of [monthly detailed reports](../categories/monthly-report/). This document details our reporting policies to accompany the reports and explicitly describes their context.
 
 
 ## Reporting Policies
