@@ -1,5 +1,5 @@
 ---
-title: "Reporting Policy v1.1 (July 31, 2024)"
+title: "Reporting Policy v1.2 (September 19, 2024)"
 # meta title
 meta_title: "The DeFi Collective - Reporting Policy"
 # meta description
@@ -16,6 +16,13 @@ The Collective is leading by example with the transparency offered on its treasu
 
 This document is v1.1 of the Collective’s Reporting Policy, released on February 12th, 2024 (v1) and updated on July 31th, 2024 (v1.1). Seven reporting policies are currently enforced:
 
+### RP.0: Maximally transparent operations
+
+The Collective operates fully onchain, and organizes its wallet infrastructure to provide maximal transparency. [Monthly reports](../categories/monthly-report/) and [quarterly summaries](../categories/quarterly-summary/) are publish to provide a comprehensive overview of the funds usage. Anyone can assess the state of the treasury at any time:
+
+1. The main treasury operations, such as providing liquidity or mobilizing liquidity-directing tokens are conducted at [deficollective.eth](https://debank.com/profile/0x6665e62ef6f6db29d5f8191fbac472222c2cc80f).
+2. Grants are received and mobilized at [grantsfortheants.eth](https://debank.com/profile/0xDc6f869d2D34E4aee3E89A51f2Af6D54F0F7f690).
+3. Finally, expenses incurred are all funded from the [0xACC wallet](https://debank.com/profile/0xACC557BF9E48FECF9414268b2774C25eF41911Ec).
 
 ### RP.1: Two weeks delta
 
