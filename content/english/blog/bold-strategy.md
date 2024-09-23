@@ -57,6 +57,7 @@ Regarding the pairing, the following will be supported:
 * sAMM_BOLD/BOLD_local_fork: The Collective will support the pool by pairing it with the OG if a BOLD fork is present on the chain.
 * sAMM_BOLD/stable_partner: if other friendly stablecoin projects are willing to co-incentivize (such as GRAI or HAI), the Collective will support such pairs.
 
+To provide seeding for the BOLD pools on Optimism and Base, the Collective is setting aside **100 ETH to be used for BOLD minting** as soon as possible after the protocol's launch.
 
 ## Fork Strategy
 
