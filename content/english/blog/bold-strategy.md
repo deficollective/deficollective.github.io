@@ -33,7 +33,7 @@ With the arrival of BOLD, the Collective will refocus its support on BOLD, start
 ## The Ants BOLD Liquidity Initiative
 
 
-![bold-strategy-overview](/images/bold-strategy/bold-strategy-overview.png)
+![bold-strategy-overview](https://raw.githubusercontent.com/deficollective/deficollective.github.io/refs/heads/main/assets/images/bold-strategy/bold-strategy-overview.png)
 
 
 The Collective will present a Liquidity Initiative to the LQTY stakers, entirely focused on growing BOLD’s liquidity on Layer 2:
