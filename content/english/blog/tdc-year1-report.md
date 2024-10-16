@@ -2,7 +2,7 @@
 title: "The DeFi Collective - First Year Financial Report(Oct2023 - Oct2024)"
 meta_title: ""
 description: "The Collective concluded its first year of activity: it's time to review the results obtained so far."
-date: 2024-10-16T05:00:00Z
+date: 2024-10-17T05:00:00Z
 image: "/images/tdc-year1-report-cover.png"
 categories: ["Yearly Report"]
 author: "tokenbrice"
