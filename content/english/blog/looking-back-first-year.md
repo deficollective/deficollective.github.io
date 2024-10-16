@@ -28,7 +28,7 @@ The first iteration around the idea of the Collective started in early 2023, as 
 * Hosting and operating front ends
 * Etc.
 
-Often, such operations are not immediately profitable to the teams performing them, which translates into uncertainty for projects, as they must provide incentives to ensure they are consistently performed (e.g., Liquity v1 front-end incentives), direct and maintain funding to third parties, or have team members themselves performing these tasks.
+Often, such operations are not immediately profitable to the teams performing them, which translates into uncertainty for projects. To ensure they are consistently performed, they must provide incentives (e.g., Liquity v1 front-end incentives), direct and maintain funding to third parties, or have team members themselves perform these tasks.
 
 Thus, to exist and thrive, maximally decentralized projects needed a new type of structure able to handle such missions and more, freed from the need for continuous external funding: enter the early DeFi Collective.
 
@@ -37,7 +37,7 @@ Thus, to exist and thrive, maximally decentralized projects needed a new type of
 
 To exist, the Collective needed its own assets, enabling it to both generate revenues to cover its expenses autonomously, and provide on-chain and concrete support to the protocols that are part of its scope. Doing so required initial donations; no strings-attached donations, as it was a necessity to preserve the Collective’s autonomy and independence.
 
-Finding projects that were willing to even consider such an endeavour was difficult, as it required faith in the Collective’s vision, and its boardmembers capacity to deliver on it. Only a handful of teams were even willing to contemplate donating to an association over which they had no control and that did not not directly benefited them. All of the top 10 DeFi protocols contacted refused.
+Finding projects willing to consider such an endeavour was difficult, as it required faith in the Collective’s vision and its boardmembers' capacity to deliver on it. Only a handful of teams were even willing to contemplate donating to an association over which they had no control and that did not directly benefit them. All of the top 10 DeFi protocols contacted refused.
 
  
 
@@ -57,8 +57,8 @@ All of the above is done in **full transparency**, and the DeFi Collective is pi
 
 
 1. The main treasury operations, such as providing liquidity or mobilizing liquidity-directing tokens are conducted at [deficollective.eth](https://debank.com/profile/0x6665e62ef6f6db29d5f8191fbac472222c2cc80f).
-2. Grants are received and mobilized at [grantsfortheants.eth](https://debank.com/profile/0xDc6f869d2D34E4aee3E89A51f2Af6D54F0F7f690).
-3. Finally, expenses incurred are all funded from the [0xACC wallet](https://debank.com/profile/0xACC557BF9E48FECF9414268b2774C25eF41911Ec).
+2. Grants are received and mobilized at [grants.deficollective.eth](https://debank.com/profile/0xDc6f869d2D34E4aee3E89A51f2Af6D54F0F7f690).
+3. Finally, expenses incurred are all funded from the [accounting.deficollective.eth](https://debank.com/profile/0xACC557BF9E48FECF9414268b2774C25eF41911Ec).
 
 The excess generated from the treasury management activity (we call it the surplus: the % of revenues remaining after expenses are covered) is entirely compounded into the treasury and use to further grow the Collective’s footprint. It averaged 78.59% in our first year of operations.
 
@@ -73,7 +73,7 @@ Starting with a handful of protocols reviewed on this first release, our ambitio
 
 Next to the protocol reviews, our main arc for the year, we will of course continue to provide onchain support and offchain advising to relevant and critical DeFi protocols, as done since our inception, with the support we’ve provided to PoolTogether, Dyad, HAI, Diva and many more. In this second year, we want to focus particularly on delivering this support to nascent, even pre-market relevant protocols, as we realized this is where we can be the most impactful.
 
-To deliver on these two goals and more, we’ll be of course expanding the team of contributors further. We’re open to consider all kind of profiles for hires, as most current contributors essentially [created their own roles](https://deficollective.org/blog/contributing-to-the-collective/), yet **we’re particularly looking for two specific profiles**:
+To deliver on these two goals and more, we’ll be, of course, expanding the team of contributors further. We’re open to considering all kind of profiles for hires, as most current contributors essentially [created their own roles](https://deficollective.org/blog/contributing-to-the-collective/), yet **we’re particularly looking for two specific profiles**:
 
 
 
