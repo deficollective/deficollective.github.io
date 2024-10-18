@@ -46,9 +46,9 @@ To support the DeFi Collective and help us celebrate our first anniversary. Many
 
 Each NFT can be minted for 0.01 ETH (~ $24 at the time of writing) on Optimism. You can mint multiple NFTs if you wish to donate more. All donations are sent to grantsfortheants.eth. The NFT collection has no creator fee. 
 
-An unlimited amount of NFTs can be minted during the minting period: from October 16th to November 6th, 2024. After November 6th, minting will be closed. No more NFTs will be issued after this date. 
+Up to 1000 NFTs can be minted during the minting period: from October 16th to November 6th, 2024. After November 6th, minting will be closed. No more NFTs will be issued after this date. 
 
-If you missed the deadline, you can still donate to us at grantsfortheants.eth, and drop us a message on our discord. Please check out our support page [here](https://deficollective.org/support/).
+If you missed the deadline or did not make it in the first 1000 minters, you can still donate to us at grantsfortheants.eth, and drop us a message on our discord. Please check out our support page [here](https://deficollective.org/support/).
 
 If you can’t give that amount and still want to support the DeFi Collective, there are plenty of ways: join our discord and start contributing to the discussion today!
 
