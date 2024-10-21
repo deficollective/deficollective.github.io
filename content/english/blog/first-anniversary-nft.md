@@ -18,6 +18,10 @@ Please note that this NFT is a pure collectible with **no utility** apart from b
 
 ### Connect your wallet and mint it here (on Optimism):
 
+{{< notice info >}}
+All the 1000 NFTs that were available have been minted. We're grateful for your support and thrilled to see the anniversary NFT so well received!
+{{< /notice >}}
+
 *Note: We have had feedback that the below embed does not work for all wallets. If it does not allow you to mint your NFT, consider minting using [this link](https://thirdweb.com/optimism/0x3aC9274EEfc727439B546b5224Aa896101813f9f/nfts) instead.*
 
 <iframe
