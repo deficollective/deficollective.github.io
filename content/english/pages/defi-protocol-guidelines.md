@@ -1,171 +1,225 @@
 ---
-title: "DeFi Protocol Guidelines v1 (April 17, 2024)"
+title: "DeFi Protocol Guidelines v2 (October 23, 2024)"
 meta_title: "The DeFi Collective - DeFi Protocol Guidelines"
-description: "The DeFi Protocol Guidelines provide a comprehensive framework for the characterization of Genuine DeFi systems and the identification of On-chain CeFi services."
+description: "The DeFi Protocol Guidelines provide a comprehensive framework for decentralization in DeFi protocols"
 draft: false
 ---
 
 
 ## Summary
 
-The DeFi Collective’s mission is to advance the decentralization of financial infrastructure. The DeFi Protocol Guidelines outline a comprehensive framework for the distinction between decentralized finance infrastructure (Genuine DeFi) and blockchain-based, centralized financial services (On-chain CeFi). This assessment is critical for the DeFi Collective's mission and the allocation of support to value-aligned (Genuine) DeFi systems. 
+The DeFi Collective’s mission is to advance the decentralization of financial infrastructure. The DeFi Protocol Guidelines outline a comprehensive framework for the distinction between finance infrastructure with advanced decentralization and blockchain-based, centralized financial services (On-chain CeFi). This assessment is critical for the DeFi Collective's mission and the allocation of support to value-aligned DeFi systems. 
 
 
-## Objectives
+## Background
 
-DeFi systems are motivated by the idea, that a public technology can replace the various intermediaries in the traditional financial services industry. Centralized counterparties are therefore replaced by protocols and software code in order to create a more open, robust, and transparent financial infrastructure. Genuine DeFi systems promise a more accessible, reliable, and secure financial system. On the other hand, On-chain CeFi services offer decentralization and its benefits "only on paper" and thus potentially expose users to unknown risks. The DeFi Protocol Guidelines provide a comprehensive framework for the assessment of Genuine DeFi systems and their eligibility for support by the DeFi Collective.
+DeFi technology goes through a number of stages characterized by different degrees of decentralization. Upon deployment, DeFi protocols often expose critical risks from centralized permissions and dependencies. As the protocol matures, these risks are eliminated through the introduction of fallbacks, exit windows and other mechanisms. To date, however, these stages of progressing maturity have not been formalized resulting in a lack of transparency both for users and developers. 
+
+The framework presented here, DeFiScan, is inspired by three main streams of previous work: 
+
+First, our analysis is based on the characterization of DeFi systems in terms of different technological layers and the centralization risks found on those layers as discussed e.g. in [Buterin](https://medium.com/@VitalikButerin/the-meaning-of-decentralization-a0c92b76a274), [Halpin](https://www.scitepress.org/Link.aspx?doi=10.5220/0009892405050512), and [Schuler et al](https://academic.oup.com/jfr/article/10/2/213/7606986). 
+
+Second, the formalization of centralization risk events is inspired by the risk classification systems found across the auditing industry. In particular, our Centralization Risk Scoring is informed by Immunefi’s [Vulnerability Severity Classification System](https://immunefi.com/immunefi-vulnerability-severity-classification-system-v2-3).
+
+Finally, L2Beat’s work on L2 Rollup maturity and the [Stages Framework](https://medium.com/l2beat/introducing-stages-a-framework-to-evaluate-rollups-maturity-d290bb22befe) which emphasizes the evolving nature of decentralization in maturing L2 technologies. Today, L2Beat is the accepted standard for measuring the maturity of L2s and monitoring the related risks. The framework presented here is heavily inspired by L2Beat’s Stages Framework. In particular, we adopt the three decentralization stages and propose five dimensions of centralization risks which reflect the nuances of all types of DeFi protocols.
 
 
-## Methodology
+## DeFi Centralization Risks
 
-Our methodology builds on two main concepts. First, DeFi systems are composed of different technological layers on which centralization can occur. Second, centralization manifests in the ability of certain counterparties to exercise control in a financial technology. This control can be characterized in few distinct centralization vectors. We thus propose a set of qualitative criteria aimed at identifying centralization vectors on the various layers of a DeFi system. These criteria are summarized in the following table.
+A broad range of DeFi technologies exists covering all major financial verticals including exchanges, lending & borrowing and derivatives. All these technologies can be characterized by the same layers and the respective centralization risks. We classify these centralization risks in five fundamental dimensions and assign each a risk score on the scale of “High”, “Medium” and “Low” risk. These risk scores then ultimately imply the stage of decentralization and the maturity of a DeFi protocol. 
+
+
+### Chain
+
+This concerns the chain (L1, L2) on which a DeFi protocol is deployed. The rationale for starting the analysis with the chain is that the related centralization risks directly propagate to the DeFi protocol and its users. For instance, the ability to censor users’ transactions on a given chain translates to all DeFi protocols deployed on the chain and their users. DeFi protocols have no means to mitigate this risk apart from carefully identifying a chain with the desired maturity before deployment.
+
+The risk score for the Chain dimension is assigned as follows:
 
 <table>
   <tr>
-   <td rowspan="2" >Centralization Vector
+   <td>High
    </td>
-   <td colspan="4"; style="text-align: center" >DeFi Layer
+   <td>Medium
    </td>
-  </tr>
-  <tr>
-   <td>Settlement
-   </td>
-   <td>Asset
-   </td>
-   <td>Protocol
-   </td>
-   <td>Application
+   <td>Low
    </td>
   </tr>
   <tr>
-   <td>Technology
+   <td>L2Beat Stage 0
    </td>
-   <td colspan="3" >Public access to all functions without restrictions or privileges implemented for certain counterparties 
+   <td>L2Beat Stage 1
    </td>
-   <td>Use of application is optional and user is not “locked in” in a single (instance of an) application
-   </td>
-  </tr>
-  <tr>
-   <td>Governance
-   </td>
-   <td colspan="3" >Coordination around system updates (blockchain forks, parameter updates, etc.) is implemented in a public and transparent governance process including:
-<ul>
-
-<li>public access allowing anyone to participate
-
-<li>public coordination tools, e.g. “forum”, “voting system”, etc
-
-<li>ability to “opt-out” of system updates, e.g. through timelocks
-</li>
-</ul>
-   </td>
-   <td>N/A 
+   <td>Ethereum mainnet or a comparable L1, or 
 <p>
-(application including updates is “opt-out” by design)
-   </td>
-  </tr>
-  <tr>
-   <td>Transparency
-   </td>
-   <td colspan="4" >All relevant information on the DeFi system and its dependencies is publicly accessible, including:
-<ul>
-
-<li>Source code (under a license that grants unrestricted non-commercial use)
-
-<li>Security audits, including scope, identified vulnerabilities and mitigation measures, are published and unaudited components of the system, including risks arising out of the fact that these components were not audited, are prominently published
-
-<li>Documentation covering all assumptions, concepts, and protocol functions 
-
-<li>Declarations around risks, fees, and other provisions
-</li>
-</ul>
+L2Beat Stage 2
    </td>
   </tr>
 </table>
 
 
-## Decentralization Status and Eligibility
 
-In practice, _full_ decentralization is often achieved after an initial period with certain centralization vectors still active. For a blockchain, this can be explained by the fact that decentralization involves attracting a diverse set of network nodes participating in the consensus mechanism. Or, for a DeFi system there may be good reasons to revoke control over certain security related functions only after an initial bootstrapping period. We account for this by assessing and monitoring a DeFi system's _decentralization status_. Eligibility for support by the DeFi Collective is restricted to decentralization milestones if a system is not yet fully decentralized. 
+### Upgradability
+
+Upgradability refers to the ability of a permission owner to make changes to a DeFi protocol. Thereby, the permissioned updates are not limited to the strict notion of smart contract upgrades but cover all sorts of changes to the contracts and their parameters. Hence, more generally we speak of permissioned (update) functions that exist in a DeFi protocol and the respective permission owners who are in control of these functions.
+
+As seen from various incidents in the past, the ability to update a DeFi protocol introduces critical risks including that of exploits, unintended side-effects or censorship. As is general practice in auditing firms, these risks can be classified based on their severity: “Critical”, if it can result in the direct theft or loss (aka permanent freezing) of user funds. “High”, if it can result in the theft or loss of unclaimed yield. “Medium” and “Low” if it can cause interruptions but does not materially change the expected performance of the DeFi protocol. The risks associated with permissioned functions across all sorts of DeFi protocols can be classified in this same way.
+
+Over the lifecycle of DeFi protocols, the control over such permissioned functions is revoked in stages in order to mitigate the associated risks. In the final stage, control over critical permissions is either fully revoked or transferred to an on-chain governance system and coupled with an exit window. As a result, the expected performance of the DeFi system cannot be altered anymore eliminating the associated risks and giving users maximal predictability.
+
+The risk score for the Upgradability dimension is assigned as follows:
 
 <table>
   <tr>
-   <td rowspan="2" >
+   <td>High
    </td>
-    <td colspan="3"; style="text-align: center" >Status
+   <td>Medium
    </td>
-  </tr>
-  <tr>
-   <td>Genuine DeFi
-   </td>
-   <td>Monitoring
-   </td>
-   <td>On-chain CeFi
+   <td>Low
    </td>
   </tr>
   <tr>
-   <td>Qualification
+   <td>Possible updates may result in the theft or loss of user funds
    </td>
-   <td>The system adheres to the criteria outlined in the Genuine DeFi Classification System
+   <td>Possible updates may result in the theft or loss of unclaimed yield or may otherwise materially change the system (but user funds remain unaffected)
    </td>
-   <td>The system exhibits centralization vectors but has a measurable decentralization strategy in place
-   </td>
-   <td>The system exhibits centralization vectors without a measurable decentralization strategy in place
-   </td>
-  </tr>
-  <tr>
-   <td>Eligibility
-   </td>
-   <td>Yes
-   </td>
-   <td>Conditional on milestones
-   </td>
-   <td>No
+   <td>Possible updates do not materially change the system (or result in the theft or loss of user funds and unclaimed yield)
    </td>
   </tr>
 </table>
 
 
-## Discussion
+
+### Autonomy
+
+This addresses possible risks from external dependencies in a DeFi protocol and failures thereof. Prominent examples include stablecoins backed by fiat assets, which are held in custody by third parties, lending protocols making use of external price feeds, aka oracles, and aggregators integrating with external yield sources. The risk of failures of a DeFi protocol typically arise from missing sanity checks and fallback mechanisms. 
+
+The risk assessment thus focuses on the identification of external dependencies and the existence of mechanisms to prevent a DeFi protocols to fail in case of a dependency failure. Similar to the Upgradeability dimension, the classification of risks arising from dependencies can be based on the same severity assessment. While the nuances of different DeFi technologies play into the severity assessment, this risk classification system can again be applied across all sorts of technologies. 
+
+The risk score for the Autonomy dimension is assigned as follows:
+
+<table>
+  <tr>
+   <td>High
+   </td>
+   <td>Medium
+   </td>
+   <td>Low
+   </td>
+  </tr>
+  <tr>
+   <td>Failure of a dependency may result in the theft or loss of user funds
+   </td>
+   <td>Failure of a dependency may result in the theft or loss of unclaimed yield or may otherwise materially change the performance of the system (but user funds remain unaffected)
+   </td>
+   <td>Failure of a dependency does not materially change the performance of the system (or result in the theft or loss of user funds and unclaimed yield)
+   </td>
+  </tr>
+</table>
 
 
-### DeFi Layers
 
-Blockchain-based financial technology builds on different technological layers. [Schär](https://doi.org/10.20955/r.103.153-74) proposes a “DeFi Stack” that consists of five layers: Settlement (blockchain), Asset (tokens), Protocol (smart contracts), Application (user interface), and Aggregators (applications that integrate with various DeFi systems). These layers prove very helpful in assessing where centralization vectors in a DeFi system occur and what the associated risks for users are. Our methodology builds on these layers, with the simplification of combining Schär’s Aggregator and Application layers as one can argue that the former is a special case of the latter. 
+### Exit Window
 
-Furthermore, a discussion of centralization risks in the respective layers can be found in [Schuler et al](https://doi.org/10.1093/jfr/fjad014) and is summarized here:
+An exit window allows users to withdraw assets before an unwanted update is implemented in a DeFi protocol. Exit windows are often implemented through *timelock* contracts which enforce a certain time period between the queuing and execution of an update. During this period, users are able to withdraw their funds or otherwise adjust their position in a DeFi protocol prior to the execution of the update.
 
-The **Settlement Layer** is the foundational technology piece underpinning any DeFi system. Centralization on the settlement layer can occur by restricting access to certain data on and functions of the blockchain, lacking a (technically and factually) distributed consensus, or having only a single client implementation. Centralization is directly inherited by the layers above.
+Exit windows thus are an important element of a robust governance process in a DeFi protocol. In particular, exit windows are an effective mechanism to mitigate the risks associated with permissioned functions often found in the early stages of a DeFi technology. Moreover, in the early stages these update functions are often coupled with less robust permission ownership setups, such as low threshold multisigs. In this setup, exit windows can significantly reduce the risks for users while allowing a DeFi team to implement a more robust governance process.
 
-The **Asset Layer** refers to the economic value captured through standardized token smart contracts. DeFi systems often use system-native tokens and typically integrate with a variety of other tokens. Centralization occurs, similar to the Protocol Layer, when there is control over permissioned functions of a token smart contract (e.g., freezing balances or minting additional supply) or over an underlying off-chain asset through a legal construct (RWAs).
+The risk score for the Exit Window dimension is assigned as follows:
 
-The **Protocol Layer** represents the various smart contracts that form the business logic of a DeFi system and are deployed on the settlement layer. Centralization on this layer is found in the form of permissioned functions enabling restricted or privileged access to the DeFi system for certain counterparties (for upgrading, whitelisting, etc).
-
-The **Application Layer** refers to the off-chain user interfaces that facilitate interactions with a DeFi system but do not grant access to users' assets. A critical assumption is that the use of an interface is optional and only intended to simplify user interactions with the system’s Protocol Layer. Thereby, these interfaces generally assists users in expressing their intended interaction with the Protocol Layer as a transaction payload that users then sign and broadcast to the Settlement Layer. This introduces various risks for users including unintended behavior due to improper or incomplete information and the possibility for fraudulent transaction payloads unknowingly signed by users.  
-
-
-### Centralization Vectors
-
-Genuine DeFi systems employ public blockchain and smart contract technology in order to eliminate all intermediaries with some form of central control. On the other hand, the existence of central control in a blockchain-based financial technology renders this an On-chain CeFi service. A _Centralization Vector_ thus is any form of central control exercised by a single or group of counterparties within a DeFi system.
-
-In general, three centralization vectors can be found in blockchain-based financial technology: 
-
-**Technology** relates to the technical layers, such as the implementation and operation of the blockchain, smart contracts or user interface, of a DeFi system. Centralized control in the technical layers generally pertains to “permissioned” functions with restricted or privileged access given to individual or groups of counterparties. Note, however, that the concept of “permissioned” functions as used here should not be confused with the implementation of restricted access within e.g. a system of smart contracts. In many systems such restrictions are in place to control access to critical system functions, e.g. the minting of a DeFi stablecoin requires another module ensuring that collateral is deposited. A centralization vector on the technical layer involves that such permissions are given to individual or groups of counterparties (as opposed to other smart contracts). The existence of restricted or privileged access is characteristic to Onchain CeFi systems leveraging blockchain technology to decentralize some system components but keeping control over others. In contrast, Genuine DeFi systems do not expose such restricted or privileged access.  
-
-**Governance** addresses the process through which the community coordinates around discrete system updates. Such updates encompass simple parameters like Uniswap’s fee switch, or critical smart contract upgrades. In a Genuine DeFi system this process is public, meaning that everyone has the ability to; 1) follow and participate in the relevant discussions (e.g. through a public “Forum”), 2) propose new updates and review proposed updates (e.g. through a public code repository), 3) participate in the decision making around implementing proposed updates (e.g. by means of a “voting system”), 5) implement an “approved” update (i.e. the responsibility of implementing an update is not delegated to a central counterparty). Finally, this process also allows users to “opt out” of an update e.g. by withdrawing assets before the update is implemented (e.g. through a “timelock”).
-
-**Transparency** pertains to the publication and accessibility of all relevant information regarding a DeFi system. This includes appropriate documentation about the available functions, the source code of the various components and dependencies across the DeFi layers, and the publishing of adequate disclaimers around risks, fees and all other relevant provisions. Absence of this transparency creates information asymmetry which ultimately enables centralized control in a system.
-
-
-### Systemic Dependencies
-
-The DeFi Layers discussed above establish a hierarchical structure of DeFi systems where components built on one layer inherit the characteristics of all layers below. As an example, the smart contracts on the Protocol layer may be free from centralization vectors. If, however, the underlying blockchain, or the Settlement layer respectively, is controlled by a central counterparty this still renders the overall technology an On-chain CeFi system. It is thus important to assess a system’s dependencies within and across layers in order to fully comprehend its decentralization status.
-
-Depending on the function of such a dependency, centralization vectors can have different consequences for its users. For instance, Mochi DAO’s USDM stablecoin (now defunct) was highly centralized giving individuals the privilege of minting unbacked coins which was used in an attempted [governance attack](https://www.coindesk.com/business/2021/11/11/curve-wars-heat-up-emergency-dao-invoked-after-clear-governance-attack/) on Curve DAO. If central functions of a DeFi system depend on the USDM stablecoin and are affected by failures thereof, then this system itself is exposed to the same centralization vectors. An example for this inheritance would be a decentralized stablecoin backed by USDM or derived assets. Solvency and peg of this decentralized stablecoin depend on its backing and thus inherit the respective centralization vectors.  On the other hand, if the dependency is contained in a “local” system context and a failure does not affect its overall performance, then the centralization vector too is not inherited. Following the USDM example above, this can be found e.g. in an isolated DEX liquidity pool, such as Uniswap’s, where even if the pool is affected by a failure of one of its assets, the DEX system continues to function properly. 
-
-To account for this, we introduce the notion of _systemic_ and _non-systemic_ dependencies. Systemic dependencies are central to the proper functioning of the entire DeFi system, and a malfunction or exploit can have a critical impact on all functions of the system. Non-systemic dependencies do not serve a central function; a potential failure only has a limited impact on the system and its users. A Genuine DeFi system does not exhibit centralization vectors inherited from systemic dependencies. 
+<table>
+  <tr>
+   <td>High
+   </td>
+   <td>Medium
+   </td>
+   <td>Low
+   </td>
+  </tr>
+  <tr>
+   <td>Permissions are NOT protected with an exit window or the exit window is less than 7 days
+   </td>
+   <td>Permissions are protected with an exit window of at least 7 days
+   </td>
+   <td>Permissions are fully revoked OR transferred to an on-chain governance process AND protected with an exit window of at least 30 days
+   </td>
+  </tr>
+</table>
 
 
-### Decentralization Status
 
-Decentralization is generally a desired end-state and only achievable over time. It involves, among other things, the growth of a community of active participants on the various layers of a Genuine DeFi system, diversification of tooling, and revoking privileged access to certain functions kept during a guarded launch. The decentralization status captures the maturity of a Genuine DeFi system’s _Decentralization Strategy_. This strategy involves the identification of existing centralization vectors, steps required to eliminate these and a respective timeline with measurable milestones. An active decentralization strategy and the successful achievement of the formulated milestones are monitored until all centralization vectors are eliminated and the system complies with the Genuine DeFi Classification Framework.
+### Accessibility
+
+User interfaces facilitate users’ interactions with a DeFi protocol and are thus an important element of the DeFi stack. The inability to access the DeFi protocol or targeted access restrictions can result in the loss of user funds, e.g. through liquidations in a volatile market environment, or add cost to recover inaccessible funds. Hence, availability and diversity in user interfaces significantly reduces these risks. Similar to the other dimensions these risks are often accepted in the early stages of a DeFi technology and only mitigated as it matures. It is thus equally important to capture this element when assessing and monitoring the maturity of a DeFi protocol.
+
+The risk score for the Accessibility dimension is assigned as follows:
+
+<table>
+  <tr>
+   <td>High
+   </td>
+   <td>Medium
+   </td>
+   <td>Low
+   </td>
+  </tr>
+  <tr>
+   <td>A single user interface exists without a backup solution
+   </td>
+   <td>A single user interface exists with public access to a backup solution such as a self-hosting app
+   </td>
+   <td>Multiple independent user interfaces exist, e.g. websites, in-wallet access, etc., guaranteeing access to user funds even if one interface is shutdown
+   </td>
+  </tr>
+</table>
+
+
+
+## DeFi Stages
+
+The maturity of DeFi systems typically progresses in stages. Along these stages, control over permissioned functions is gradually revoked with the goal to eliminate the associated risks. Our DeFi Stages framework thus directly relates to the risk scores discussed above.
+
+
+### Stage 0 - Full training wheels
+
+This is the first stage of a DeFi protocol where basic requirements give the technology a decentralized foundation. Critical permissions are still controlled by centralized operators and external dependencies may expose critical risks to users.  Yet, its logic and performance can be inspected, monitored and validated by anyone giving it a foundation for the gradual decentralization.
+
+The following requirements qualify a DeFi protocol to enter Stage 0:
+
+* ✅ Blockchain-based, financial technology
+* ✅ Assets are not in custody by centralized entity
+* ✅ Public documentation exists that outlines the protocol and its expected performance
+* ✅ Source-available codebase
+* ✅ Verified contracts
+
+
+### Stage 1 - Limited training wheels
+
+In the second stage, risks from critical permissions and dependencies are significantly reduced by: either revoking critical permissions, or establishing a _Security Council_ (see qualifying criteria below) to control such permissions, or enforcing an exit window of at least 7 days so users can withdraw funds in case of an unwanted protocol update. Critical risks from external dependencies are mitigated by the implementation of appropriate fallback mechanisms. Furthermore, the underlying chain cannot censor users’ transactions and a backup user interface exists guaranteeing access to user funds.
+
+The requirements to enter Stage 1 can be summarized as follows:
+
+* ✅ At least "Medium" risk score for Chain, Autonomy, Accessibility
+* ✅ IF Exit Window receives "High" risk, THEN control over permissions MUST be transferred to a Security Council
+
+
+### Stage 2 - No training wheels
+
+The final stage is reached when critical permissions have either been revoked or delegated to an on-chain governance system with ample time for users to exit in case of an unwanted protocol update. Risks from external dependencies have been further reduced such that users’ funds and unclaimed yield remain unaffected by a failure. In addition, different independent user interfaces and a fully decentralized underlying chain guarantee access to users’ funds at any time.
+
+To enter Stage 2, a DeFi protocol has to satisfy the following requirements:
+
+* ✅ At least "Low" risk score for Chain, Autonomy, Exit Window, Accessibility
+
+
+## Security Council
+
+Delegating control over permissioned functions from the initial Operators to a Security Council, or on-chain governance system, is a critical step for a maturing DeFi system. The objective of this step is to eliminate the possibility of a group of insiders to abuse, willingly or forcibly, their control and introduce a more robust governance process around the use of permissioned functions. It is thus important to define the requirements for a setup to qualify as a Security Council.
+
+Specifically, we propose an acceptable Security Council setup to consist of a multisig account with the following requirements on its signers:
+
+* At least 7 signers
+* At least 50% threshold
+* At least 51% non-team signers
+* Signers are publicly announced (with name or pseudonym)
+
+While the requirements defined here are opinionated, they have proven meaningful and practical. Similar setups are found across a number of matured DeFi systems and are, in fact, used by L2beat’s requirement for Stage 1 rollups.
