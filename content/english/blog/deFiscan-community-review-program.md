@@ -5,7 +5,7 @@ description: "How much De is in my Fi? Help the crowds figure it out, and earn L
 date: 2024-11-19T05:00:00Z
 image: "/images/defiscan-community-review-program-cover.png"
 categories: ["Campaign"]
-author: "tokenbrice"
+author: "nils"
 tags: ["DeFiScan", "Community Review Program"]
 draft: false
 ---
