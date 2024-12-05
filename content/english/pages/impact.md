@@ -10,12 +10,15 @@ draft: false
 
 The DeFi Collective is designed to maximize the positive impact of maximally decentralized protocols. There are currently four main methods harnessed to achieve the core objective of maximizing the number and value secured by stage 2 DeFi protocols:
 
-1. **DeFiScan**: The decentralization status of protocols is analyzed on DeFiScan, helping to raise awareness for genuine DeFi.
+1. **DeFiScan**: DeFiScan analyzes protocols' decentralization status, helping to raise awareness for genuine DeFi.
 2. **PermaLP**: The Collective assets are mobilized to ensure a constant product liquidity baseline on pairs involving stage 1 & 2 tokens.
 3. **Liquidity Support**: Incentives are directed to pairs involving stage 1 & 2 tokens, helping to attract and retain liquidity.
 4. **Community Relays**: Velodrome & Aerodrome voting strategies, managed by the Collective, to further support liquidity on tokens of stage 1 & 2 protocols
 
 ![impact-overview](https://github.com/deficollective/deficollective.github.io/blob/main/assets/images/impact-overview.png)
+
+a
+![impact-overview](/images/impact-overview.png)
 
 ## DeFiScan
 
