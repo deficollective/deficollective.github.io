@@ -89,7 +89,7 @@ This dashboard enables you to track the evolution of the Collective's strategy o
 
 Find the full context on our activity on Optimism in the dedicated Dune Analytics dashboard: 
 
-### [Full Dune Dashboard: 🐜 Pools - Optimism (Velodrome)](https://dune.com/spicypiz/defi-collective-pools) 
+**[🌐 Full Dune Dashboard: 🐜 Pools - Optimism (Velodrome)](https://dune.com/spicypiz/defi-collective-pools)**
 
 ## Base (Aerodrome)
 
@@ -125,7 +125,7 @@ This dashboard enables you to track the evolution of the Collective's voting on 
 
 Find the full context on our activity on Base in the dedicated Dune Analytics dashboard:
 
-### [Full Dune Dashboard: 🐜 Pools - Base (Aerodrome)](https://dune.com/spicypiz/defi-collective-pools-base)
+**[🌐Full Dune Dashboard: 🐜 Pools - Base (Aerodrome)](https://dune.com/spicypiz/defi-collective-pools-base)**
 
 ## Arbitrum (Ramses)
 
@@ -161,7 +161,7 @@ This dashboard enables you to track the evolution of the Collective's voting on 
 
 Find the full context on our activity on Arbitrum in the dedicated Dune Analytics dashboard:
 
-### [Full Dune Dashboard: 🐜 Pools - Arbitrum (Ramses)](https://dune.com/spicypiz/defi-collective-pools-arbitrum)
+**[🌐 Full Dune Dashboard: 🐜 Pools - Arbitrum (Ramses)](https://dune.com/spicypiz/defi-collective-pools-arbitrum)**
 
 ## Community Relays
 
