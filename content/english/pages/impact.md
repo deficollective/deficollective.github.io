@@ -15,16 +15,19 @@ The DeFi Collective is designed to maximize the positive impact of maximally dec
 3. **Liquidity Support**: Incentives are directed to pairs involving stage 1 & 2 tokens, helping to attract and retain liquidity.
 4. **Community Relays**: Velodrome & Aerodrome voting strategies, managed by the Collective, to further support liquidity on tokens of stage 1 & 2 protocols
 
-![impact-overview](https://github.com/deficollective/deficollective.github.io/blob/main/assets/images/impact-overview.png)
-
-a
 ![impact-overview](/images/impact-overview.png)
 
 ## DeFiScan
 
+**Goal**: Allow anyone, even non-technical users, to properly assess the decentralization stage of a given protocol.
+**Mean**: A neutral and fact-based framework to review the decentralization status of protocols.
+
 [DeFiScan](https://defiscan.info) is a framework to review the decentralization stage of DeFi protocols. The results of DeFiScan's reviews are also used internally within the Collective to determine where to provide the most support and deploy assets.
 
 ## PermaLP
+
+**Goal**: Grow synergetic and mutually beneficial synergies with stage 1 & 2 protocols.
+**Mean**: Matched donations to secure a wide liquidity baseline for projects & sustainable revenue streams for the Collective.
 
 Maximally decentralized projects often need help with liquidity management. In addition to its existing activities, the Collective sometimes provides additional support to stage 1 and 2 protocols by matching donations received with its own assets to permanently supply liquidity. The Collective commits to keep supplying the assets in liquidity pools in perpetuity, although freedom of allocation is preserved for strategic reasons: while the funds remain in a pool, their DEX or pairing might evolve. Rewards earned with these permaLP positions are used to serve the core objective of the Collective further.
 
@@ -49,6 +52,9 @@ The table below provides an overview of the ongoing and previous permaLP sources
 A [Dune Dashboard](https://dune.com/spicypiz/defi-collective-perma-lp) is available to faciliaate the tracking of the Collective's permaLP positions.
 
 ## Liquidity Support
+
+**Goal**: Support the liquidity of tokens associated with stage 1 & stage 2 protocols.
+**Mean**: Liquidity-driving positions are harnessed to direct a continuous flow of incentives to relevant token pairs.
 
 The DeFi Collective was built to give genuine DeFi projects an edge. It supports them with offchain means, such as advising on tokenomics, protocol design, or communications, as well as onchain means—the most notable and measurable of which is liquidity growth.
 
@@ -167,6 +173,9 @@ Find the full context on our activity on Arbitrum in the dedicated Dune Analytic
 **[🌐 Full Dune Dashboard: 🐜 Pools - Arbitrum (Ramses)](https://dune.com/spicypiz/defi-collective-pools-arbitrum)**
 
 ## Community Relays
+
+**Goal**: Supercharge the liquidity growth activity, by enabling the community to join the effort.
+**Mean**: veVELO/veAERO relays, enabling any holder to seamlessly and effortlessly support maximally decentralized DeFi protocols with their position.
 
 The Collective operates a relay on both Velodrome and Aerodrome. Relays are a voting strategy that any holder of veAERO/veVELO can opt in to while remaining in complete control of its assets and the rewards it earns. The Collective relays vote exclusively on pools involving tokens from stage 1 & 2 protocols. Community members who hold veAERO/veVELO and would like to support the most decentralized protocols can delegate here:
 - [🚲 DeFiScan Stage 1 & 2 Support Flywheel veVELO](https://velodrome.finance/relay?deposit=true&relay=0x8A9719d2207a9520E345194435F61f5e09C38493)
