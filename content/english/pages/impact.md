@@ -3,7 +3,7 @@ title: "Impact Overview"
 # meta title
 meta_title: ""
 # meta description
-description: "An overview of the Collective's impact on its supported projects: this page collect all useful resources to track and audit the Collective's activities and their impact."
+description: "An overview of the Collective's impact on its supported projects: this page collects all useful resources to track and audit the Collective's activities and their impact."
 # save as draft
 draft: false
 ---
