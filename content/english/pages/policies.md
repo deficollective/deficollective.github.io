@@ -17,4 +17,4 @@ Policies are maintained in markdown documents, enabling the easy tracking of the
 | [**Articles of Association**](../articles-of-association)    | v1 (2023-09-28)   |
 | [**Reporting Policy**](../reporting-policy)                  | v1.2 (2024-09-19) |
 | [**Treasury Management Policy**](../treasury-management-policy) | v1 (2024-03-25)   |
-| [**DeFi Protocol Guidelines**](../defi-protocol-guidelines)  | v1 (2024-04-17)   |
+| [**DeFi Protocol Guidelines**](../defi-protocol-guidelines)  | v2 (2024-10-23)   |
