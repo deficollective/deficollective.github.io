@@ -8,7 +8,7 @@ description: "An overview of the Collective's impact on its supported projects: 
 draft: false
 ---
 
-The DeFi Collective is designed to maximize the positive impact of maximally decentralized protocols. There are currently four main methods harnessed to achieve the core objective of maximizing the number and value secured by stage 2 DeFi protocols:
+The DeFi Collective is designed to support maximally decentralized protocols. There are currently four main methods harnessed to achieve the core objective of maximizing the number and value secured by stage 2 DeFi protocols:
 
 1. **DeFiScan**: DeFiScan analyzes protocols' decentralization status, helping to raise awareness for genuine DeFi.
 2. **PermaLP**: The Collective assets are mobilized to ensure a constant product liquidity baseline on pairs involving stage 1 & 2 tokens.
@@ -35,11 +35,11 @@ Maximally decentralized projects often need help with liquidity management. In a
 
 The table below provides an overview of the ongoing and previous permaLP sources:
 
-| Project      | Status               | Pace           |
-| ------------ | -------------------- | -------------- |
-| PoolTogether | Delivered (one time) |                |
-| PossumLabs   | Ongoing (continuous) | 0.5  ETH/month |
-| BOLD         | Ready                | $20 000/month  |
+| Project      | Status               | Pace           | Context        |
+| ------------ | -------------------- | -------------- | -------------- |
+| PoolTogether | Delivered (one time) |                | [Empowering fun & resilient finance](https://deficollective.org/blog/pttdc/)               |
+| PossumLabs   | Ongoing (continuous) | 0.5  ETH/month | [The DeFi Collective is partnering with Possum Labs](https://deficollective.org/blog/possum-portals-v2/)               |
+| BOLD         | Ready                | $20 000/month  | [Maximizing BOLD Footprint on L2: The DeFi Collective BOLD Liquidity Initiative](https://voting.liquity.org/t/the-defi-collective-bold-liquidity-initiative-maximize-bold-footprint-on-l2s/15)               |
 
 ### PermaLP Tracking
 
@@ -49,7 +49,7 @@ The table below provides an overview of the ongoing and previous permaLP sources
   src="https://dune.com/embeds/4349447/7319132/"
 ></iframe>
 
-A [Dune Dashboard](https://dune.com/spicypiz/defi-collective-perma-lp) is available to faciliaate the tracking of the Collective's permaLP positions.
+A [Dune Dashboard](https://dune.com/spicypiz/defi-collective-perma-lp) facilitates tracking the Collective's permaLP positions. All permaLP positions are secured with a separate wallet, `0x9c413014c0b8b853b93953537d9aF112aD821345`, resolved at `permalp.deficollective.eth` to further ease their tracking.
 
 ## Liquidity Support
 
@@ -58,11 +58,9 @@ A [Dune Dashboard](https://dune.com/spicypiz/defi-collective-perma-lp) is availa
 
 The DeFi Collective was built to give genuine DeFi projects an edge. It supports them with offchain means, such as advising on tokenomics, protocol design, or communications, as well as onchain means—the most notable and measurable of which is liquidity growth.
 
-The Collective harnesses liquidity-driving tokens, including veVELO ([Velodrome](https://velodrome.finance/)), veAERO ([Aerodrome](https://aerodrome.finance/)), and veRAM ([Ramses](https://www.ramses.exchange/)). These allow the Collective to vote regularly on the respective DEX, whereby the DEX emissions incentives to liquidity providers of the liquidity pools that receive the most votes.  In line with the Collective's treasury policy, the Collective votes on a liquidity pool containing tokens of genuine DeFi projects. Our voting helps to attract liquidity providers and hence grow the liquidity for the token - thus we refer to it as liquidity growth support. 
+The Collective harnesses liquidity-driving tokens, including veVELO ([Velodrome](https://velodrome.finance/)), veAERO ([Aerodrome](https://aerodrome.finance/)), and veRAM ([Ramses](https://www.ramses.exchange/)). These allow the Collective to vote regularly on the respective DEX, whereby the DEX emissions incentives to liquidity providers of the liquidity pools that receive the most votes.  In line with DeFiScan's reviews, the Collective votes on a liquidity pool containing tokens of stage 1 & 2 DeFi projects. It helps to attract liquidity providers and hence grow the liquidity for the token - thus we refer to it as liquidity growth support. 
 
 This page provides all the context for our community to **follow the liquidity growth support provided to genuine DeFi projects on the main chain the Collective is active on: Optimism, Base, and Arbitrum**.
-
-It will prove useful to any community members looking to better understand how the Collective helps genuine DeFi projects and to those who seek to join in the support by providing liquidity on voted pools.
 
 ## Optimism (Velodrome)
 
@@ -78,7 +76,7 @@ Optimism is the chain where the Collective has the most impact, thanks to a larg
 
 ### veVELO Active Votes
 
-These votes are active for the current voting period, which lasts a week (epoch flips at 2AM GMT+2). Pools that are voted on by the Collective receives increased VELO emissions by the Velodrome DEX, helping them to attract more third-party liquidity providers.
+These votes are active for the current voting period, which lasts a week. Pools voted on by the Collective receive increased VELO emissions, helping them attract more third-party liquidity providers.
 
 <iframe
   height="350"
@@ -88,7 +86,7 @@ These votes are active for the current voting period, which lasts a week (epoch 
 
 ### veVELO Vote History
 
-This dashboard enables you to track the evolution of the Collective's strategy on a weekly basis.
+This dashboard enables you to track the evolution of the Collective's strategy weekly.
 
 <iframe
   height="350"
@@ -114,7 +112,7 @@ Base is the second top chain for the Collective, thanks to a growing veAERO posi
 
 ### veAERO Active Votes
 
-These votes are active for the current voting period, which lasts a week (epoch flips at 2AM GMT+2). The Collective's veAERO vote directs AERO emissions from the Aerodrome DEX to targeted pools, helping them to attract more third-party liquidity providers.
+These votes are active for the current voting period, which lasts a week. The Collective's veAERO vote directs AERO emissions to targeted pools, helping them to attract more third-party liquidity providers.
 
 <iframe
   height="350"
@@ -124,7 +122,7 @@ These votes are active for the current voting period, which lasts a week (epoch 
 
 ### veAERO Vote History
 
-This dashboard enables you to track the evolution of the Collective's voting on a weekly basis.
+This dashboard enables you to track the evolution of the Collective's voting weekly.
 
 <iframe
   height="350"
@@ -138,7 +136,7 @@ Find the full context on our activity on Base in the dedicated Dune Analytics da
 
 ## Arbitrum (Ramses)
 
-Arbitrum is the third top chain for the Collective, and home to the only L2-native genuine DeFi project we support so far: Possum.
+Arbitrum is the third top chain for the Collective.
 
 ### veRAM Position Overview
 
@@ -150,7 +148,7 @@ Arbitrum is the third top chain for the Collective, and home to the only L2-nati
 
 ### veRAM Active Votes
 
-These votes are active for the current voting period, which lasts a week (epoch flips at 2AM GMT+2).
+These votes are active for the current voting period, which lasts a week.
 
 <iframe
   height="350"
@@ -160,7 +158,7 @@ These votes are active for the current voting period, which lasts a week (epoch 
 
 ### veRAM Vote History
 
-This dashboard enables you to track the evolution of the Collective's voting on a weekly basis.
+This dashboard lets you track the evolution of the Collective's weekly voting.
 
 <iframe
   height="350"
