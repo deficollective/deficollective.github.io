@@ -12,8 +12,8 @@ The DeFi Collective is designed to support maximally decentralized protocols. Th
 
 1. **DeFiScan**: DeFiScan analyzes protocols' decentralization status, helping to raise awareness for genuine DeFi.
 2. **PermaLP**: The Collective assets are mobilized to ensure a constant product liquidity baseline on pairs involving stage 1 & 2 tokens.
-3. **Liquidity Support**: Incentives are directed to pairs involving stage 1 & 2 tokens, helping to attract and retain liquidity.
-4. **Community Relays**: Velodrome & Aerodrome voting strategies, managed by the Collective, to further support liquidity on tokens of stage 1 & 2 protocols
+3. **Community Relays**: Velodrome & Aerodrome voting strategies, managed by the Collective, to further support liquidity on tokens of stage 1 & 2 protocols
+4. **Liquidity Support**: Incentives are directed to pairs involving stage 1 & 2 tokens, helping to attract and retain liquidity.
 
 ![impact-overview](/images/impact-overview.png)
 
@@ -49,7 +49,19 @@ The table below provides an overview of the ongoing and previous permaLP sources
   src="https://dune.com/embeds/4349447/7319132/"
 ></iframe>
 
-A [Dune Dashboard](https://dune.com/spicypiz/defi-collective-perma-lp) facilitates tracking the Collective's permaLP positions. All permaLP positions are secured with a separate wallet, `0x9c413014c0b8b853b93953537d9aF112aD821345`, resolved at `permalp.deficollective.eth` to further ease their tracking.
+A [Dune Dashboard](https://dune.com/spicypiz/defi-collective-perma-lp) facilitates tracking the Collective's permaLP positions. All permaLP positions are secured with a separate wallet, `0x9c413014c0b8b853b93953537d9aF112aD821345`, resolved at `permalp.deficollective.eth` to ease their tracking further.
+
+## Community Relays
+
+- **Goal**: Supercharge the liquidity growth activity by enabling the community to join the effort.
+- **Mean**: veVELO/veAERO relays, enabling any holder to seamlessly and effortlessly support maximally decentralized DeFi protocols with their position.
+
+### Deposite into DeFiScan Stage 1 & 2 Support Flywheel veAERO/veVELO Relays
+
+The Collective operates a relay on both Velodrome and Aerodrome. Relays are a voting strategy that any holder of veAERO/veVELO can opt in to while remaining in complete control of its assets and the rewards it earns. The Collective relays vote exclusively on pools involving tokens from stage 1 & 2 protocols. Community members who hold veAERO/veVELO and would like to support the most decentralized protocols can delegate here:
+- [🚲 DeFiScan Stage 1 & 2 Support Flywheel veVELO](https://velodrome.finance/relay?deposit=true&relay=0x8A9719d2207a9520E345194435F61f5e09C38493)
+- [✈️ DeFiScan Stage 1 & 2 Support Flywheel veAERO](https://aerodrome.finance/relay?deposit=true&relay=0x53217f639470eFaF365Fe917EAE1C436e8FB952F)
+
 
 ## Liquidity Support
 
@@ -169,12 +181,3 @@ This dashboard lets you track the evolution of the Collective's weekly voting.
 Find the full context on our activity on Arbitrum in the dedicated Dune Analytics dashboard:
 
 **[🌐 Full Dune Dashboard: 🐜 Pools - Arbitrum (Ramses)](https://dune.com/spicypiz/defi-collective-pools-arbitrum)**
-
-## Community Relays
-
-- **Goal**: Supercharge the liquidity growth activity, by enabling the community to join the effort.
-- **Mean**: veVELO/veAERO relays, enabling any holder to seamlessly and effortlessly support maximally decentralized DeFi protocols with their position.
-
-The Collective operates a relay on both Velodrome and Aerodrome. Relays are a voting strategy that any holder of veAERO/veVELO can opt in to while remaining in complete control of its assets and the rewards it earns. The Collective relays vote exclusively on pools involving tokens from stage 1 & 2 protocols. Community members who hold veAERO/veVELO and would like to support the most decentralized protocols can delegate here:
-- [🚲 DeFiScan Stage 1 & 2 Support Flywheel veVELO](https://velodrome.finance/relay?deposit=true&relay=0x8A9719d2207a9520E345194435F61f5e09C38493)
-- [✈️ DeFiScan Stage 1 & 2 Support Flywheel veAERO](https://aerodrome.finance/relay?deposit=true&relay=0x53217f639470eFaF365Fe917EAE1C436e8FB952F)
