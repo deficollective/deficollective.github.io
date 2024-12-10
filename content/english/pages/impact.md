@@ -56,11 +56,31 @@ A [Dune Dashboard](https://dune.com/spicypiz/defi-collective-perma-lp) facilitat
 - **Goal**: Supercharge the liquidity growth activity by enabling the community to join the effort.
 - **Mean**: veVELO/veAERO relays, enabling any holder to seamlessly and effortlessly support maximally decentralized DeFi protocols with their position.
 
-### Deposite into DeFiScan Stage 1 & 2 Support Flywheel veAERO/veVELO Relays
+### Deposit - DeFiScan Stage 1 & 2 Support Flywheel veAERO/veVELO Relays
 
-The Collective operates a relay on both Velodrome and Aerodrome. Relays are a voting strategy that any holder of veAERO/veVELO can opt in to while remaining in complete control of its assets and the rewards it earns. The Collective relays vote exclusively on pools involving tokens from stage 1 & 2 protocols. Community members who hold veAERO/veVELO and would like to support the most decentralized protocols can delegate here:
+The Collective operates a relay on both Velodrome and Aerodrome. Relays are a voting strategy that any holder of veAERO/veVELO can opt-in to while remaining in complete control of its assets and the rewards it earns. The Collective relays vote exclusively on pools involving tokens from stage 1 & 2 protocols. Community members who hold veAERO/veVELO and would like to support the most decentralized protocols can delegate here:
 - [🚲 DeFiScan Stage 1 & 2 Support Flywheel veVELO](https://velodrome.finance/relay?deposit=true&relay=0x8A9719d2207a9520E345194435F61f5e09C38493)
 - [✈️ DeFiScan Stage 1 & 2 Support Flywheel veAERO](https://aerodrome.finance/relay?deposit=true&relay=0x53217f639470eFaF365Fe917EAE1C436e8FB952F)
+
+### DeFiScan veVELO Relay Tracking
+
+<iframe
+  height="175"
+  width="75%"
+  src="https://dune.com/embeds/4402907/7378091/"
+></iframe>
+
+### DeFiScan veAERO Relay Tracking
+
+<iframe
+  height="175"
+  width="75%"
+  src="https://dune.com/embeds/4312420/7243458/"
+></iframe>
+
+A comprehensive Dune Dashboard is made available to track the voting power, APR, votes, and weekly balance compounded of each relay:
+- [DeFiScan veVELO Relay Tracking](https://dune.com/spicypiz/velodrome-relayers)
+- [DeFiScan veAERO Relay Tracking](https://dune.com/spicypiz/aerodrome-relayers)
 
 
 ## Liquidity Support
