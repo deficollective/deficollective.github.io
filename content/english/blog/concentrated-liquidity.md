@@ -10,8 +10,6 @@ tags: ["Liquidity Management", "Liquidity-driving Tokens", "Collective"]
 draft: false
 ---
 
-## What’s holding up Concentrated Liquidity?
-
 Uniswap [launched its v3](https://blog.uniswap.org/uniswap-v3) in 2021. With v3, Uniswap introduced the concept of Concentrated Liquidity (CL). If you're unfamiliar with this concept, the [Uniswap Docs](https://docs.uniswap.org/concepts/protocol/concentrated-liquidity) are the best place to learn about it.
 
 v3 was built to be more capital-efficient than v2. CL enables Liquidity Providers (LPs) to concentrate the range in which their assets can be traded. Since the range is more concentrated, the assets are expected to be used more often, which can generate more fees. LPs can expect a higher yield for the same amount of capital. However, there is no free lunch, and CL also has higher risks. Managing a position and staying profitable in any market condition is extremely challenging for LPs. Yields are much harder to anticipate since they vary greatly depending on concentration levels. Some less sophisticated actors attracted by the high APRs can get eaten up by the high Impermanent Loss (IL).
