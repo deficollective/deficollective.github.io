@@ -87,12 +87,22 @@
               <div class="mb:md-0 {{ if not (modBool $i 2) }} md:order-2 {{ end }} md:col-7">
                   <div class="grid grid-cols-3 gap-8 justify-center place-items-center">
                       <!-- Individual logos will go here -->
-                        {{ range .logo }}
-                        <div class="flex justify-center items-center">
-                          <div class="logo-light"><img src="{{ .light }}" alt="{{ .alt }}" style="height: {{ .height }};"></div>
-                          <div class="logo-dark"><img src="{{ .dark }}" alt="{{ .alt }}" style="height: {{ .height }};"></div>
-                        </div>
-                        {{ end }}
+                      {{ range .logo }}
+                      <div class="flex justify-center items-center">
+                          <img 
+                              src="{{ .light }}" 
+                              alt="{{ .alt }}" 
+                              style="height: {{ .height }}" 
+                              class="block dark:hidden" 
+                          >
+                          <img 
+                              src="{{ .dark }}" 
+                              alt="{{ .alt }}" 
+                              style="height: {{ .height }}" 
+                              class="hidden dark:block" 
+                          >
+                      </div>
+                      {{ end }}
                   </div>
               </div>
               
