@@ -1,5 +1,5 @@
 ---
-title: "Reporting Policy v1.2 (September 19, 2024)"
+title: "Reporting Policy v1.3 (December 12, 2024)"
 # meta title
 meta_title: "The DeFi Collective - Reporting Policy"
 # meta description
@@ -14,11 +14,17 @@ The Collective is leading by example with the transparency offered on its treasu
 
 ## Reporting Policies
 
-This document is v1.1 of the Collective’s Reporting Policy, released on February 12th, 2024 (v1) and updated on July 31th, 2024 (v1.1). Seven reporting policies are currently enforced:
+This document is v1.3 of the Collective’s Reporting Policy: 
+1. v1 was released on February 12th,
+2. updated on July 31th, 2024 (v1.1), 
+3. updated on September 19, 2024 (v1.2),
+4. last update on December 12, 2024 (v1.3)
+
+Seven reporting policies are currently enforced:
 
 ### RP.0: Maximally transparent operations
 
-The Collective operates fully onchain, and organizes its wallet infrastructure to provide maximal transparency. [Monthly reports](../categories/monthly-report/) and [quarterly summaries](../categories/quarterly-summary/) are publish to provide a comprehensive overview of the funds usage. Anyone can assess the state of the treasury at any time:
+The Collective operates fully onchain, and organizes its wallet infrastructure to provide maximal transparency. [Monthly reports](../categories/monthly-report/) and [quarterly summaries](../categories/quarterly-summary/) are published to provide a comprehensive overview of the funds usage. Anyone can assess the state of the treasury at any time:
 
 1. The main treasury operations, such as providing liquidity or mobilizing liquidity-directing tokens are conducted at [deficollective.eth](https://debank.com/profile/0x6665e62ef6f6db29d5f8191fbac472222c2cc80f).
 2. Grants are received and mobilized at [grantsfortheants.eth](https://debank.com/profile/0xDc6f869d2D34E4aee3E89A51f2Af6D54F0F7f690).
@@ -92,9 +98,6 @@ The positions' growth and valuation are tracked thanks to a monthly snapshot of 
 As a Swiss non-profit organization supporting DeFi's most resilient and ideologically aligned protocols that can use the extra support compared to their competition, the Collective actively seeks grants to assist with this goal. 
 
 These grants can come in all shapes and sizes, such as anonymous donations in ETH and ERC-20 tokens to grantsfortheants.eth or via ecosystems that align with the Collective and wish to support our mission while we operate on their chain.
-
-Grants from ecosystems, such as the OP donation granted from the Optimism Foundation, which are destined for bribes on their specific L1/L2 are posted directly from grantsfortheants.eth and, are not counted towards the accounting figures for each month.
-
 
 ## Tools & Solutions Used for Reporting
 
