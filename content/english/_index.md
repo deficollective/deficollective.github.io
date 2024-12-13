@@ -44,7 +44,7 @@ partners:
         height: "40px"
       - id: pooltogether-labs
         light: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/pooltogether-logo-dark.svg"
-        dark: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/pooltogether-logo-light.svg"
+        dark: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/pooltogether-logo.svg"
         alt: "Pooltogether"
         height: "40px"
       - id: velodrome
