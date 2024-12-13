@@ -44,8 +44,13 @@ partners:
         height: "40px"
       - id: pooltogether-labs
         light: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/pooltogether-logo-dark.svg"
-        dark: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/pooltogether-logo-light.svg"
+        dark: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/pooltogether-logo.svg"
         alt: "Pooltogether"
+        height: "40px"
+      - id: possum-labs
+        light: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/Possum-Labs-light-bg.svg"
+        dark: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/Possum-Labs-dark-bg.svg"
+        alt: "Possum Labs"
         height: "40px"
       - id: velodrome
         light: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/velodrome-dark.svg"
