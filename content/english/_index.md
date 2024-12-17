@@ -11,7 +11,7 @@ banner:
 # Partners
 partners:
   - title: "They joined the anthill"
-    content: "Teams believing in maximized decentralization and trustless support the DeFi Collective's mission and vision with donations and loans. Join them !"
+    content: "Teams believing in maximized decentralization and trustless support the DeFi Collective's mission and vision. Join them !"
     button:
       enable: false
       label: "Support DeFi"
