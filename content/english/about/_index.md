@@ -8,7 +8,7 @@ description: "Who we are and what we do"
 draft: false
 ---
 
-The DeFi Collective, or "the Ants" as we like to refer to ourselves, is a non-profit association, incorporated under the laws of Switzerland. Just as ants work together seamlessly to build their colonies, the DeFi Collective's purpose is to collaborate in globally supporting and promoting the advancement of decentralized finance (DeFi) technology and projects.
+The DeFi Collective, or "the Ants" as we like to refer to ourselves, is a non-profit association. Just as ants work together seamlessly to build their colonies, the DeFi Collective's purpose is to collaborate in globally supporting and promoting the advancement of decentralized finance (DeFi) technology and projects.
 
 The DeFi Collective is an independent legal entity. It consists of the members and the board of directors. The DeFi Collective has no equity and no shareholders. While the board is responsible for the operational activities, the DeFi Collective is ultimately driven by its members who can elect and dismiss the board, review financial statements, pass resolutions, etc. Our Articles of Association are publicly available [here]({{< ref "articles-of-association" >}}).
 
