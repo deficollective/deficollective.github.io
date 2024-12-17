@@ -10,7 +10,7 @@ draft: false
 
 ## Introduction
 
-These terms and conditions ("**Terms**") apply to your ("**You**" or "**User**") access and use of the website [https://deficollective.org](https://deficollective.org/), and any associated content or feature, including the Collective's social media channels ("**Website**"), offered by the Swiss non-profit association DeFi Collective, Dammstrasse 16, 6300 Zug, Switzerland ("**Collective**" or "**We**").
+These terms and conditions ("**Terms**") apply to your ("**You**" or "**User**") access and use of the website [https://deficollective.org](https://deficollective.org/), and any associated content or feature, including the Collective's social media channels ("**Website**"), offered by non-profit association DeFi Collective, Dammstrasse 16, 6300 Zug ("**Collective**" or "**We**").
 
 Please read these Terms carefully when accessing or using the Website. Each time You do access or use the Website, You irrevocably agree to be bound by the most current version of these Terms, as indicated above. If You do not agree to these Terms, as amended from time to time, You may not access or use the Website.
 
@@ -101,6 +101,6 @@ Other than the above, both You and the Collective retain all rights, titles and 
 
 **Severability:** If any provision of these Terms (in whole or part) is held to be illegal, invalid or otherwise unenforceable, the other provisions will remain in full force and effect. 
 
-**Governing Law & Jurisdiction:** These Terms, and all claims or causes of action that may be based upon, arise out of or relate to these Terms shall be governed by and construed in accordance with the substantive laws of Switzerland, excluding its conflict of law provisions and the United Nations Convention on Contracts for the International Sale of Goods (CISG). The ordinary courts at the seat of the Collective have exclusive jurisdiction for all disputes arising from or in connection with these Terms.
+**Governing Law & Jurisdiction:** These Terms, and all claims or causes of action that may be based upon, arise out of or relate to these Terms shall be governed by and construed in accordance Swiss substantive laws, excluding its conflict of law provisions and the United Nations Convention on Contracts for the International Sale of Goods (CISG). The ordinary courts at the seat of the Collective have exclusive jurisdiction for all disputes arising from or in connection with these Terms.
 
 If You have any questions, concerns or suggestions, please contact the Collective at hello@deficollective.org.
