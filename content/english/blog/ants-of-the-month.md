@@ -3,7 +3,7 @@ title: "Rewarding our most active members with genuine DeFi"
 meta_title: ""
 description: "The DeFi Collective, as the name suggests, is a community-driven organization. Therefore, involving the community is necessary and all spontaneous contributions are welcome."
 date: 2024-12-18T12:00:00Z
-image: "/images/cover-contributing-to-collective.png"
+image: ""
 categories: ["Announcement"]
 author: "stengarl"
 tags: ["Collective"]
