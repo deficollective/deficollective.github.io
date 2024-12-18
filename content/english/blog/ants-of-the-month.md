@@ -61,3 +61,4 @@ Cleminso gave us a good example of what we receive as Ant of the Month: for one 
 Most of the revenue is distributed in the form of OP tokens, but since we are in a lottery, it's also possible to have a stroke of luck and win a larger amount in one go.
 
 Thanks to the PoolTogether delegation, we can reward genuine DeFi dedicated members with genuine DeFi. Somehow, we use DeFi for better DeFi and that’s all the Collective is about!
+
