@@ -10,8 +10,6 @@ tags: ["Research", "Open source", "Collective"]
 draft: false
 ---
 
-# Software licenses for DeFi
-
 In DeFi, we regularly observe clashes between ideals and realities; the topic of software licensing models for DeFi protocols being one of the latest and most prominent examples. In DeFi's early days, the consensus was to use fully open source licenses to align with DeFi's ideals of openness and transparency. However, DeFi staple protocols such as Uniswap or Aave have recently opted for more restrictive licenses. Others such as EigenLayer or Liquity are following suit.
 
 This article dives into software licenses for DeFi projects, outlining the basics before looking at various software licenses - in particular the Business Source License (BSL) - and their use in DeFi.

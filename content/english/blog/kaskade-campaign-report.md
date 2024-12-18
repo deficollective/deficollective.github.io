@@ -10,8 +10,6 @@ tags: ["Liquidity Management", "Liquidity-driving Tokens", "Collective"]
 draft: false
 ---
 
-### Kaskade campaign report
-
 In our [post](https://deficollective.org/blog/kaskade-campaign-launch/) announcing the Kaskade partnership, we made it clear that we were trying a new approach. We saw that opportunity as an experiment: a new innovative tool is being developed; let’s try it out and throw a small budget at it. If it works well, we might want to integrate it into our list of regular tools. If it did not, at least we would have learned something. 
 
 We were very confident in the Kaskade pitch and general approach. We did have one worry: what if the rewards are eaten up by a few smart arbitrage bots that figure out a way to generate wash trading volume profitably? If that happens, we will have spent all the incentive money to reward this smart bot rather than to generate genuine trading volume and improve liquidity.

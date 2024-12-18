@@ -10,6 +10,8 @@ tags: ["DeFiScan", "DeFi Risks", "DeFi Maturity", "Decentralization"]
 draft: false
 ---
 
+> 🚨The DeFiScan framework presented here has been updated on 2024-12-13 based on the discussion [here](./defiscan-update-methodology.md).
+
 
 DeFiScan is a new framework formalizing the decentralization stages of DeFi protocols. It allows, for the first time, to assess and monitor the maturity and risks of DeFi technology in a verifiable manner. DeFiScan will foster transparency and make DeFi more secure for everyone.
 
@@ -21,6 +23,7 @@ These stages can be summarized as follows:
 
 * **Stage 2 - No Training Wheels**: The final stage is reached when permissions have been fully revoked or delegated to a transparent, on-chain governance system with ample time for users to exit in case of an unwanted protocol update. Remaining risks from external dependencies, the underlying chain and user interfaces have been eliminated. The protocol now operates fully autonomous.
 
+* **Review - Stage Unclear**: The review of a protocol cannot be completed due to missing information or a change in conditions. As a result, the analysis is incomplete or inaccurate and the Stage unclear.
 
 ## Background
 
@@ -135,6 +138,8 @@ An exit window allows users to withdraw assets before an unwanted update is impl
 
 Exit windows thus are an important element of a robust governance process in a DeFi protocol. In particular, exit windows are an effective mechanism to mitigate the risks associated with permissioned functions often found in the early stages of a DeFi technology. Moreover, in the early stages these update functions are often coupled with less robust permission ownership setups, such as low threshold multisigs. In this setup, exit windows can significantly reduce the risks for users while allowing a DeFi team to implement a more robust governance process.
 
+Thereby, the additional guarantees an Exit Window can give of course depends on the potential impact of the underlying permissions it protects. The analysis of the Exit Window and its risk scores is thus coupled with the scores achieved in the Upgradeability dimension by a protocol. 
+
 The risk score for the Exit Window dimension is assigned as follows:
 
 <table>
@@ -147,15 +152,14 @@ The risk score for the Exit Window dimension is assigned as follows:
    </td>
   </tr>
   <tr>
-   <td>Permissions are NOT protected with an exit window or the exit window is less than 7 days
+   <td>Upgradeability score is "High" AND permissions are NOT protected with an exit window or the exit window is less than 7 days
    </td>
-   <td>Permissions are protected with an exit window of at least 7 days
+   <td>Upgradeability score is "Medium" OR permissions are protected with an exit window of at least 7 days
    </td>
-   <td>Permissions are fully revoked OR transferred to an on-chain governance process AND protected with an exit window of at least 30 days
+   <td>Upgradeability score is "Low" OR permissions are transferred to an on-chain governance process AND protected with an exit window of at least 30 days
    </td>
   </tr>
 </table>
-
 
 
 ### Accessibility
@@ -220,6 +224,17 @@ The final stage is reached when critical permissions have either been revoked or
 To enter Stage 2, a DeFi protocol has to satisfy the following requirements:
 
 * ✅ At least "Low" risk score for Chain, Autonomy, Exit Window, Accessibility
+
+
+### Review - Stage unclear
+
+The review of a protocol cannot be completed due to missing information or a change in conditions. As a result, the analysis is incomplete or inaccurate and the Stage unclear.
+
+Acceptable reason for the use of this stage are:
+- Public documentation is missing or incomplete but the team is working on a fix
+- Source code, or parts thereof, are not publicly available but the team is working on a fix
+- Peripheral smart contracts, but not the core contracts, are not verified on a public block explorer but the team is working on a fix
+
 
 
 ## Security Council

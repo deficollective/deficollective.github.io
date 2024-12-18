@@ -11,21 +11,16 @@ banner:
 # Partners
 partners:
   - title: "They joined the anthill"
-    content: "Teams believing in maximized decentralization and trustless support the DeFi Collective's mission and vision with donations and loans. Join them !"
+    content: "Teams believing in maximized decentralization and trustless support the DeFi Collective's mission and vision. Join them !"
     button:
       enable: false
       label: "Support DeFi"
       link: "#"
     logo:
-      - id: cat-in-a-box
-        light: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/cat-in-a-box-light.svg"
-        dark: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/cat-in-a-box-dark.svg"
-        alt: "Logo Cat in a Box"
-        height: "50px"
-      - id: diva
-        light: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/diva-light.svg"
-        dark: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/diva-dark.svg"
-        alt: "Logo Diva"
+      - id: aerodrome
+        light: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/aerodrome-dark.svg"
+        dark: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/aerodrome-light.svg"
+        alt: "Aerodrome"
         height: "45px"
       - id: dyad
         light: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/dyad-light.svg"
@@ -47,14 +42,19 @@ partners:
         dark: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/polygon-labs-dark.svg"
         alt: "Logo Polygon Labs"
         height: "40px"
+      - id: pooltogether-labs
+        light: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/pooltogether-logo-dark.svg"
+        dark: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/pooltogether-logo.svg"
+        alt: "Pooltogether"
+        height: "40px"
+      - id: possum-labs
+        light: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/Possum-Labs-light-bg.svg"
+        dark: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/Possum-Labs-dark-bg.svg"
+        alt: "Possum Labs"
+        height: "40px"
       - id: velodrome
         light: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/velodrome-dark.svg"
         dark: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/velodrome-light.svg"
         alt: "Velodrome"
-        height: "45px"
-      - id: aerodrome
-        light: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/aerodrome-dark.svg"
-        dark: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/aerodrome-light.svg"
-        alt: "Aerodrome"
         height: "45px"
 ---

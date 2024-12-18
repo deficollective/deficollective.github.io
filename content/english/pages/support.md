@@ -31,4 +31,4 @@ Join our community on [Discord](https://discord.gg/Z467Ehv6VU) or reach out to h
 
 ### Disclaimer
 
-*The DeFi Collective is a Swiss non-profit association. Donations are not deductible for tax income purposes under Swiss law. No direct support or reciprocation (e.g., goods or services) will be received in return for any donation. Please refer to our [Donation Terms](../donation-terms) for more information.*
+*The DeFi Collective is a non-profit association. Donations may not be deductible for tax income purposes under applicable law. No direct support or reciprocation (e.g., goods or services) will be received in return for any donation. Please refer to our [Donation Terms](../donation-terms) for more information.*
