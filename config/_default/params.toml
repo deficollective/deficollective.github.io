@@ -2,8 +2,8 @@
 # favicon
 favicon = "images/symbol_tdc_color.png"
 # logo
-logo = "images/logo_tdc_horizontal_color.svg"
-logo_darkmode = "images/logo_tdc_horizontal_white.svg"
+logo = "images/horizontal_defi_collective_color_for_light_background.svg"
+logo_darkmode = "images/horizontal_defi_collective_color_for_dark_background.svg"
 # use `px` or `x` with logo_width, example: "100px".
 # Note: logo_width is not work with .svg file
 logo_width = "304px"
