@@ -38,7 +38,7 @@ Gas expenses continue to fall month-on-month, with activity on mainnet slowing a
 
 ## Revenues Report
 
-**Revenues are down -42.62% compared to October, finishing the month at $12,295.76.** This sharp decrease in revenues is something we are aware of and will work to rectify in the coming months, however, it is not as bad as it seems on paper. October was an outlier month with an increase of 38.81% in comparison to September, driven mostly by the $20,000 in donations the Collective received from the 1st anniversary NFT mint. Along with this, expenses increased during November and the Collective hold a large amount of mainnet assets in auto-compounding vaults which delays the reporting of revenues received from these assets.
+**Revenues are down -42.62% compared to October, finishing the month at $32,508.79.** This sharp decrease in revenues is something we are aware of and will work to rectify in the coming months, however, it is not as bad as it seems on paper. October was an outlier month with an increase of 38.81% compared to September, driven mostly by the $20,000 in donations the Collective received from the 1st anniversary NFT mint. Additionally, expenses increased during November and the Collective hold a large amount of mainnet assets in auto-compounding vaults which delays the reporting of revenues received from these assets.
 
 Revenues recorded on mainnet and L2’s remained steady in comparison to September. The treasury management team will aim to increase these slightly over the coming months to compensate for the expected increase in expenses and to ensure a healthy surplus is maintained.
 
