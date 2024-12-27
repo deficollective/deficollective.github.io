@@ -4,11 +4,14 @@ meta_title: ""
 description: "We discuss updates and clarifications on the DeFiScan methodology."
 date: 2024-12-12T12:00:00Z
 image: "/images/articles/defiscan-announcement.png"
-categories: ["Announcement"]
+categories: ["Policy"]
 author: "nilsbundi"
 tags: ["DeFiScan", "DeFi Risks", "DeFi Maturity", "Decentralization"]
 draft: false
 ---
+
+
+> 🚨Update (2024-12-27): We align the terminology on protocols not meeting (all of) the Stage 0 requirements with L2Beat's "Others" category that was recently [introduced](https://medium.com/l2beat/framework-update-l2-projects-recategorization-5d43b0d1fe50). All other changes in the methodology remain unaffected by this update.
 
 In October we have introduced DeFiScan - a new framework and database for the analysis and monitoring of the maturity and risks of DeFi infrastructure in a verifiable manner.
 
@@ -18,26 +21,26 @@ In this post, we present these learnings and enhancements to the DeFiScan framew
 
 ## Failure to meet Stage 0 requirements
 
-The Stage 0 requirements set some fundamental properties common to all DeFi protocols. The objective is to define the basic technological requirements based on which the maturity of DeFi protocols can be assessed. Any protocol not fulfilling these requirements A) is not considered a "financial" application, B) lacks a "decentralized" basis, or C) cannot be assessed because important information is not publicly available.
+The Stage 0 requirements set some fundamental properties common to all DeFi protocols. The objective is to define the basic technological requirements based on which the maturity of DeFi protocols can be assessed. Any protocol not fulfilling these requirements A) is not considered a blockchain-based, "financial" application, B) lacks a "decentralized" basis, or C) cannot be assessed because important information is not publicly available.
 
 We find two challenges with this:
 
 1) In a number of cases, we found that protocols fail to meet a subset of the requirements simply because of an oversight or not being aware of the significance of it. As an example, we found reputed projects which are clearly built and operated following the outlined principles but e.g. missed verification of a smart contract. While the analysis cannot be completed in this case, the existing results can still add value to users.
 
-2) The classification of non-DeFi protocols, or DINO protocols, is implicit rather then explicit. Because DeFiScan only analyzes protocols that fulfill the Stage 0 requirements, users have no information on DINO protocols and the reason why they fail the Stage 0 "test". On the other hand, listing DINO protocols and the requirements they fail to meet makes this classification explicit and adds further transparency.
+2) The classification of non-DeFi protocols is implicit rather then explicit. Because DeFiScan only analyzes protocols that fulfill the Stage 0 requirements, users have no information on "Other" protocols and the reason why they fail the Stage 0 "test". Listing "Other" protocols and the requirements they fail to meet makes this classification explicit and adds further transparency.
 
 **Updates to the methodology**
 
-In order to address the first challenge, we introduce a new stage, "Review", which indicates that the review for a DeFi protocol cannot be completed and, as a result, the stage cannot be assigned. This can be the case when conducting the initial review or when the conditions of an existing protocol change and a reassessment is needed.
+In order to address these challenges, we introduce a new protocol category, "Others", which is assigned to protocols meeting only a subset of the Stage 0 requirements:
 
-Acceptable reason for the use of this stage are:
-- Public documentation is missing or incomplete but the team is working on a fix
-- Source code, or parts thereof, are not publicly available but the team is working on a fix
-- Peripheral smart contracts, but not the core contracts, are not verified on a public block explorer but the team is working on a fix
+* ✅ Blockchain-based, financial technology
+* ❌ Assets are not in custody by centralized entity
+* ❌ Public documentation exists that outlines the protocol and its expected performance
+* ❌ Source-available codebase
+* ❌ Verified contracts
 
-Note that the acceptable reasons do not include a failure to meet other requirements. Furthermore, it is assumed that the "Review" stage is only a temporary status which is rectified by the team within a reasonable time window.
+In other words, protocols characterized as a "Blockchain-based, financial technology" but NOT meeting any of the other Stage 0 requirements are now categorized as "Others". Protocols in the "Others" category thus either miss an adequate technological basis on which further decentralization is possible or their decentralization stage cannot be evaulated due to a lack of public information.
 
-> 🚨We are still in the process of discussing additional updates to the methodology and a possible Stage for DINO projects which fail to meet fundamental Stage 0 requirements.
 
 ## Defining the protocol scope
 

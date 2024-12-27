@@ -4,7 +4,7 @@ meta_title: ""
 description: "DeFiScan is a framework for the assessment and monitoring of the maturity and risks of DeFi infrastructure in a verifiable manner"
 date: 2024-10-23T14:00:00Z
 image: "/images/articles/defiscan-announcement.png"
-categories: ["Announcement"]
+categories: ["Policy"]
 author: "nilsbundi"
 tags: ["DeFiScan", "DeFi Risks", "DeFi Maturity", "Decentralization"]
 draft: false
