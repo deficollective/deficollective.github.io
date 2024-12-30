@@ -8,6 +8,6 @@
     }
   },
   "buildCommand": "npm run vercel-build",
-  "installCommand": "npm install",
+  "installCommand": "npm install --include=dev",
   "framework": "hugo"
 }
