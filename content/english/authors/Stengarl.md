@@ -1,16 +1,16 @@
 ---
 title: Stengarl
 email: stengarl@deficollective.org
-image: "/images/avatar-tokenbrice.png"
-description: Author profile for TokenBrice
+image: "/images/avatar-stengarl.png"
+description: Author profile for Stengarl
 social:
   - name: github
     icon: fa-brands fa-github
-    link: https://github.com/Stengarl
+    link: https://github.com/stengarl
 
   - name: twitter
     icon: fa-brands fa-x-twitter
     link: https://twitter.com/stengarl
 ---
 
-Stengarl is specialized in content creation and general ecosystem monitoring
+Stengarl specializes in content creation and general ecosystem monitoring.
