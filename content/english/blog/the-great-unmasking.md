@@ -43,7 +43,7 @@ While these five requirements seem consensual and minimalist, many protocols do 
 
 The Others stage has a special status in the framework, operating under a different logic. Stage 0, 1 and 2 are based on requirements to be met: if they are, the protocol is awarded the corresponding stage. Allocating a stage requires completing a full and exhaustive analysis of the protocol. Others, on the other hand, works more like eliminatory criterion: failing on any of the five requirements is sufficient to classify a protocol as Others, without conducting the full analysis (that cannot be conducted until the requirements are met).
 
-Our goal with this endeavour is not to shame and condemn such protocols, but merely to explicit their decentralization status and provide a more comprehensive overview of the current landscape of blockchain-based financial technology. If a given protocol, initially classified as Others, was to be updated to meet the Stage 0 or above requirements, our team would be thrilled to update the review. Overall, the objective of the DeFiScan team remains to maximize the amount of maximally decentralized protocols, and providing clear unbiased information about decentralization stages is one of the best levers to pull to achieve such a result.
+Our goal with this endeavor is not to shame and condemn such protocols but merely to explicit their decentralization status and provide a more comprehensive overview of the current landscape of blockchain-based financial technology. If a given protocol, initially classified as Others, was to be updated to meet the Stage 0 or above requirements, our team would be thrilled to update the review. Overall, the objective of the DeFiScan team remains to maximize the amount of maximally decentralized protocols, and providing clear unbiased information about decentralization stages is one of the best levers to pull to achieve such a result.
 
 Expliciting the Others decentralization stage will help to nurture a healthy competition for protocols to reach stage 0 or higher, and thus eventually establish stage 0 as a standard.
 
@@ -52,14 +52,16 @@ Expliciting the Others decentralization stage will help to nurture a healthy com
 
 Introducing the Others stage also enables us to broaden the scope of who can contribute to DeFiScan. Finding an Others protocol simply requires proof that at least one of the five stage 0 requirements is not met.
 
-So to spice things up, we’d like once again to call to the community to contribute, and we will reward those who do so. **The Great Unmasking is an incentivized Others stage protocol discovery campaign**: any sourced and factual report of a Others stage, concerning a protocol that is not already reviewed, and **handling at least $10M of assets (TVL) on an EVM-chain** will be **rewarded with 100 LUSD**. To ensure broad participation in the campaign, submissions are limited to up to 5 per individual. In practice that means finding:
+So to spice things up, we’d like once again to call to the community to contribute, and we will reward those who do so. **The Great Unmasking is an incentivized Others stage protocol discovery campaign**: any sourced and factual report of a Others stage, concerning a protocol that is not already reviewed, and **handling at least $10M of assets (TVL) on an EVM-chain** will be **rewarded with 100 LUSD**. To ensure broad participation in the campaign, submissions are limited to up to 5 per individual. In practice, that means finding:
 
 1. Critical unverified contracts
 2. Assets in centralized custody
 3. Essential function undocumented
 4. Non-source available code
 
-For the first trial of the great unmasking, we are allocating a 10,000 LUSD budget, enabling to reward up to 100 submissions. If the campaign proves successful, we will be happy to scale it further.
+For the first trial of the great unmasking, we are allocating a 10,000 LUSD budget, enabling to reward up to 100 submissions. If the campaign proves successful, we will happily scale it further.
+
+Submissionss are expected on [DeFiScan repository](https://github.com/deficollective/defiscan), and if you have any questions, hop on the [DeFiScan Discord channel](https://discord.gg/7RKxSJvvXM).
 
 We look forward to reviewing the community submissions and opening the great unmasking ball with a surprising finding: the first protocol for obtaining the dreaded Others grade is no less than… Uniswap V3 on Arbitrum! Indeed, Uniswap’s Arbitrum deployment harnesses unverified smart contracts for critical functions involved with the NFT LP positions (NFTDescriptor - 0x42B24A95702b9986e82d421cC3568932790A48Ec, Multicall - 0xadF885960B47eA2CD9B55E6DAc6B42b7Cb2806dB, and NonfungibleTokenPositionDescriptor - 0x91ae842A5Ffd8d12023116943e72A606179294f3). 
 
