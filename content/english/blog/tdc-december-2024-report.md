@@ -21,7 +21,7 @@ So, without further ado, let's dive in and see what the ants achieved in Decembe
 
 ## Treasury Report
 
-**The face value of assets controlled by the Collective** (excluding grants) **increased by 0.56%** in December, increasing from **$3,589,755 **on December 1 to **$3,609,919** by December 31. This total comprises **56%** in locked assets, **10.6%** in L2 liquid positions, and **25%** in liquid positions on mainnet. Additionally, the Collective's Perma-LP wallet holds **8.4%** in assets, providing a strong liquidity base for supported protocols. The treasury management team is satisfied with the current treasury composition and will maintain its strategy of increasing strategic asset holdings while building assets to support upcoming launches, such as BOLD.
+**The face value of assets controlled by the Collective** (excluding grants) **increased by 0.56%** in December, increasing from **$3,589,755** on December 1 to **$3,609,919** by December 31. This total comprises **56%** in locked assets, **10.6%** in L2 liquid positions, and **25%** in liquid positions on mainnet. Additionally, the Collective's Perma-LP wallet holds **8.4%** in assets, providing a strong liquidity base for supported protocols. The treasury management team is satisfied with the current treasury composition and will maintain its strategy of increasing strategic asset holdings while building assets to support upcoming launches, such as BOLD.
 
 ![tdc-dec-2024-net-worth](https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/tdc-december-2024-report/net-worth.png)
 
