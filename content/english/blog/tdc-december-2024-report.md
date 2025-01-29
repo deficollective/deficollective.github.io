@@ -39,7 +39,7 @@ Gas costs continue to follow the trend of decreasing M/M, with L2 gas costs virt
 
 ## Revenues Report
 
-**Revenues are up 65.06% compared to November, finishing the month at $40,583.61.** As noted in the November report, growing revenues throughout December was a key priority for the treasury management team. While December included an extra week due to accounting practices, the month delivered strong results. The team plans to maintain this successful revenue growth strategy where feasible.
+**Earnings are up 65.06% compared to November, finishing the month at $40,583.61.** As noted in the November report, growing revenues throughout December was a key priority for the treasury management team. While December included an extra week due to accounting practices, the month delivered strong results. The team plans to maintain this successful revenue growth strategy where feasible.
 
 With the surplus again exceeding 70%, the Collective can expand and bring on new contributors to help scale DeFiScan and other upcoming initiatives.
 
