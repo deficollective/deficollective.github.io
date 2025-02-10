@@ -37,7 +37,7 @@ The table below provides an overview of the ongoing and previous permaLP sources
 
 | Project      | Status               | Pace           | Context        |
 | ------------ | -------------------- | -------------- | -------------- |
-| PoolTogether | Delivered (two times) |                | [Empowering fun & resilient finance](https://deficollective.org/blog/pttdc/) [Expanding POOL Liquidity with The DeFi Collective]((https://www.tally.xyz/gov/pooltogether/proposal/93876808417419111083296081392309916569096683999104363114126411252509744837334?govId=eip155:1:0x8a907De47E00830a2b742db65e938a3ea1070A2E)              |
+| PoolTogether | Delivered (two times) |                | [Empowering fun & resilient finance](https://deficollective.org/blog/pttdc/) [Expanding POOL Liquidity with The DeFi Collective](https://www.tally.xyz/gov/pooltogether/proposal/93876808417419111083296081392309916569096683999104363114126411252509744837334?govId=eip155:1:0x8a907De47E00830a2b742db65e938a3ea1070A2E)              |
 | PossumLabs   | Ongoing (continuous) | 0.5  ETH/month | [The DeFi Collective is partnering with Possum Labs](https://deficollective.org/blog/possum-portals-v2/)               |
 | BOLD         | Ready                | $20 000/month  | [Maximizing BOLD Footprint on L2: The DeFi Collective BOLD Liquidity Initiative](https://voting.liquity.org/t/the-defi-collective-bold-liquidity-initiative-maximize-bold-footprint-on-l2s/15)               |
 
