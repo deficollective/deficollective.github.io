@@ -10,38 +10,35 @@ tags: ["DeFiScan", "DeFi Risks", "DeFi Maturity", "Decentralization"]
 draft: false
 ---
 
-> 🚨The DeFiScan framework presented here has been updated on 2024-12-13 based on the discussion [here](./defiscan-update-methodology.md).
-
+> 🚨The DeFiScan framework presented here has been updated on 2024-12-13 based on the discussion [here](https://deficollective.org/blog/defiscan-update-methodology/).
 
 DeFiScan is a new framework formalizing the decentralization stages of DeFi protocols. It allows, for the first time, to assess and monitor the maturity and risks of DeFi technology in a verifiable manner. DeFiScan will foster transparency and make DeFi more secure for everyone.
 
 These stages can be summarized as follows:
 
-* **Stage 0 - Full Training Wheels**: This is the first stage where a DeFi protocol is effectively controlled by an operator. External dependencies are not secured with fallbacks and access can be restricted (censored) both on the chain and user interface level. Yet, its logic and performance can be inspected, monitored and validated by anyone giving it a foundation for the gradual decentralization.
+- **Stage 0 - Full Training Wheels**: This is the first stage where a DeFi protocol is effectively controlled by an operator. External dependencies are not secured with fallbacks and access can be restricted (censored) both on the chain and user interface level. Yet, its logic and performance can be inspected, monitored and validated by anyone giving it a foundation for the gradual decentralization.
 
-* **Stage 1 - Limited Training Wheels**: In the second stage, critical permissions and dependencies are either revoked or replaced with more secure mechanisms such as a Security Council, an exit window of at least 7 days for users or appropriate fallbacks. Furthermore, the underlying chain cannot censor users’ transactions and a backup user interface exists guaranteeing access to user funds.
+- **Stage 1 - Limited Training Wheels**: In the second stage, critical permissions and dependencies are either revoked or replaced with more secure mechanisms such as a Security Council, an exit window of at least 7 days for users or appropriate fallbacks. Furthermore, the underlying chain cannot censor users’ transactions and a backup user interface exists guaranteeing access to user funds.
 
-* **Stage 2 - No Training Wheels**: The final stage is reached when permissions have been fully revoked or delegated to a transparent, on-chain governance system with ample time for users to exit in case of an unwanted protocol update. Remaining risks from external dependencies, the underlying chain and user interfaces have been eliminated. The protocol now operates fully autonomous.
+- **Stage 2 - No Training Wheels**: The final stage is reached when permissions have been fully revoked or delegated to a transparent, on-chain governance system with ample time for users to exit in case of an unwanted protocol update. Remaining risks from external dependencies, the underlying chain and user interfaces have been eliminated. The protocol now operates fully autonomous.
 
-* **Review - Stage Unclear**: The review of a protocol cannot be completed due to missing information or a change in conditions. As a result, the analysis is incomplete or inaccurate and the Stage unclear.
+- **Review - Stage Unclear**: The review of a protocol cannot be completed due to missing information or a change in conditions. As a result, the analysis is incomplete or inaccurate and the Stage unclear.
 
 ## Background
 
-DeFi technology goes through a number of stages characterized by different degrees of decentralization. Upon deployment, DeFi protocols often expose critical risks from centralized permissions and dependencies. As the protocol matures, these risks are eliminated through the introduction of fallbacks, exit windows and other mechanisms. To date, however, these stages of progressing maturity have not been formalized resulting in a lack of transparency both for users and developers. 
+DeFi technology goes through a number of stages characterized by different degrees of decentralization. Upon deployment, DeFi protocols often expose critical risks from centralized permissions and dependencies. As the protocol matures, these risks are eliminated through the introduction of fallbacks, exit windows and other mechanisms. To date, however, these stages of progressing maturity have not been formalized resulting in a lack of transparency both for users and developers.
 
-The framework presented here, DeFiScan, is inspired by three main streams of previous work: 
+The framework presented here, DeFiScan, is inspired by three main streams of previous work:
 
-First, our analysis is based on the characterization of DeFi systems in terms of different technological layers and the centralization risks found on those layers as discussed e.g. in [Buterin](https://medium.com/@VitalikButerin/the-meaning-of-decentralization-a0c92b76a274), [Halpin](https://www.scitepress.org/Link.aspx?doi=10.5220/0009892405050512), and [Schuler et al](https://academic.oup.com/jfr/article/10/2/213/7606986). 
+First, our analysis is based on the characterization of DeFi systems in terms of different technological layers and the centralization risks found on those layers as discussed e.g. in [Buterin](https://medium.com/@VitalikButerin/the-meaning-of-decentralization-a0c92b76a274), [Halpin](https://www.scitepress.org/Link.aspx?doi=10.5220/0009892405050512), and [Schuler et al](https://academic.oup.com/jfr/article/10/2/213/7606986).
 
 Second, the formalization of centralization risk events is inspired by the risk classification systems found across the auditing industry. In particular, our Centralization Risk Scoring is informed by Immunefi’s [Vulnerability Severity Classification System](https://immunefi.com/immunefi-vulnerability-severity-classification-system-v2-3).
 
 Finally, L2Beat’s work on L2 Rollup maturity and the [Stages Framework](https://medium.com/l2beat/introducing-stages-a-framework-to-evaluate-rollups-maturity-d290bb22befe) which emphasizes the evolving nature of decentralization in maturing L2 technologies. Today, L2Beat is the accepted standard for measuring the maturity of L2s and monitoring the related risks. The framework presented here is heavily inspired by L2Beat’s Stages Framework. In particular, we adopt the three decentralization stages and propose five dimensions of centralization risks which reflect the nuances of all types of DeFi protocols.
 
-
 ## DeFi Centralization Risks
 
-A broad range of DeFi technologies exists covering all major financial verticals including exchanges, lending & borrowing and derivatives. All these technologies can be characterized by the same layers and the respective centralization risks. We classify these centralization risks in five fundamental dimensions and assign each a risk score on the scale of “High”, “Medium” and “Low” risk. These risk scores then ultimately imply the stage of decentralization and the maturity of a DeFi protocol. 
-
+A broad range of DeFi technologies exists covering all major financial verticals including exchanges, lending & borrowing and derivatives. All these technologies can be characterized by the same layers and the respective centralization risks. We classify these centralization risks in five fundamental dimensions and assign each a risk score on the scale of “High”, “Medium” and “Low” risk. These risk scores then ultimately imply the stage of decentralization and the maturity of a DeFi protocol.
 
 ### Chain
 
@@ -69,8 +66,6 @@ L2Beat Stage 2
    </td>
   </tr>
 </table>
-
-
 
 ### Upgradability
 
@@ -101,13 +96,11 @@ The risk score for the Upgradability dimension is assigned as follows:
   </tr>
 </table>
 
-
-
 ### Autonomy
 
-This addresses possible risks from external dependencies in a DeFi protocol and failures thereof. Prominent examples include stablecoins backed by fiat assets, which are held in custody by third parties, lending protocols making use of external price feeds, aka oracles, and aggregators integrating with external yield sources. The risk of failures of a DeFi protocol typically arise from missing sanity checks and fallback mechanisms. 
+This addresses possible risks from external dependencies in a DeFi protocol and failures thereof. Prominent examples include stablecoins backed by fiat assets, which are held in custody by third parties, lending protocols making use of external price feeds, aka oracles, and aggregators integrating with external yield sources. The risk of failures of a DeFi protocol typically arise from missing sanity checks and fallback mechanisms.
 
-The risk assessment thus focuses on the identification of external dependencies and the existence of mechanisms to prevent a DeFi protocols to fail in case of a dependency failure. Similar to the Upgradeability dimension, the classification of risks arising from dependencies can be based on the same severity assessment. While the nuances of different DeFi technologies play into the severity assessment, this risk classification system can again be applied across all sorts of technologies. 
+The risk assessment thus focuses on the identification of external dependencies and the existence of mechanisms to prevent a DeFi protocols to fail in case of a dependency failure. Similar to the Upgradeability dimension, the classification of risks arising from dependencies can be based on the same severity assessment. While the nuances of different DeFi technologies play into the severity assessment, this risk classification system can again be applied across all sorts of technologies.
 
 The risk score for the Autonomy dimension is assigned as follows:
 
@@ -130,15 +123,13 @@ The risk score for the Autonomy dimension is assigned as follows:
   </tr>
 </table>
 
-
-
 ### Exit Window
 
-An exit window allows users to withdraw assets before an unwanted update is implemented in a DeFi protocol. Exit windows are often implemented through *timelock* contracts which enforce a certain time period between the queuing and execution of an update. During this period, users are able to withdraw their funds or otherwise adjust their position in a DeFi protocol prior to the execution of the update.
+An exit window allows users to withdraw assets before an unwanted update is implemented in a DeFi protocol. Exit windows are often implemented through _timelock_ contracts which enforce a certain time period between the queuing and execution of an update. During this period, users are able to withdraw their funds or otherwise adjust their position in a DeFi protocol prior to the execution of the update.
 
 Exit windows thus are an important element of a robust governance process in a DeFi protocol. In particular, exit windows are an effective mechanism to mitigate the risks associated with permissioned functions often found in the early stages of a DeFi technology. Moreover, in the early stages these update functions are often coupled with less robust permission ownership setups, such as low threshold multisigs. In this setup, exit windows can significantly reduce the risks for users while allowing a DeFi team to implement a more robust governance process.
 
-Thereby, the additional guarantees an Exit Window can give of course depends on the potential impact of the underlying permissions it protects. The analysis of the Exit Window and its risk scores is thus coupled with the scores achieved in the Upgradeability dimension by a protocol. 
+Thereby, the additional guarantees an Exit Window can give of course depends on the potential impact of the underlying permissions it protects. The analysis of the Exit Window and its risk scores is thus coupled with the scores achieved in the Upgradeability dimension by a protocol.
 
 The risk score for the Exit Window dimension is assigned as follows:
 
@@ -160,7 +151,6 @@ The risk score for the Exit Window dimension is assigned as follows:
    </td>
   </tr>
 </table>
-
 
 ### Accessibility
 
@@ -187,25 +177,21 @@ The risk score for the Accessibility dimension is assigned as follows:
   </tr>
 </table>
 
-
-
 ## DeFi Stages
 
 The maturity of DeFi systems typically progresses in stages. Along these stages, control over permissioned functions is gradually revoked with the goal to eliminate the associated risks. Our DeFi Stages framework thus directly relates to the risk scores discussed above.
 
-
 ### Stage 0 - Full training wheels
 
-This is the first stage of a DeFi protocol where basic requirements give the technology a decentralized foundation. Critical permissions are still controlled by centralized operators and external dependencies may expose critical risks to users.  Yet, its logic and performance can be inspected, monitored and validated by anyone giving it a foundation for the gradual decentralization.
+This is the first stage of a DeFi protocol where basic requirements give the technology a decentralized foundation. Critical permissions are still controlled by centralized operators and external dependencies may expose critical risks to users. Yet, its logic and performance can be inspected, monitored and validated by anyone giving it a foundation for the gradual decentralization.
 
 The following requirements qualify a DeFi protocol to enter Stage 0:
 
-* ✅ Blockchain-based, financial technology
-* ✅ Assets are not in custody by centralized entity
-* ✅ Public documentation exists that outlines the protocol and its expected performance
-* ✅ Source-available codebase
-* ✅ Verified contracts
-
+- ✅ Blockchain-based, financial technology
+- ✅ Assets are not in custody by centralized entity
+- ✅ Public documentation exists that outlines the protocol and its expected performance
+- ✅ Source-available codebase
+- ✅ Verified contracts
 
 ### Stage 1 - Limited training wheels
 
@@ -213,9 +199,8 @@ In the second stage, risks from critical permissions and dependencies are signif
 
 The requirements to enter Stage 1 can be summarized as follows:
 
-* ✅ At least "Medium" risk score for Chain, Autonomy, Accessibility
-* ✅ IF Exit Window receives "High" risk, THEN control over permissions MUST be transferred to a Security Council
-
+- ✅ At least "Medium" risk score for Chain, Autonomy, Accessibility
+- ✅ IF Exit Window receives "High" risk, THEN control over permissions MUST be transferred to a Security Council
 
 ### Stage 2 - No training wheels
 
@@ -223,19 +208,17 @@ The final stage is reached when critical permissions have either been revoked or
 
 To enter Stage 2, a DeFi protocol has to satisfy the following requirements:
 
-* ✅ At least "Low" risk score for Chain, Autonomy, Exit Window, Accessibility
-
+- ✅ At least "Low" risk score for Chain, Autonomy, Exit Window, Accessibility
 
 ### Review - Stage unclear
 
 The review of a protocol cannot be completed due to missing information or a change in conditions. As a result, the analysis is incomplete or inaccurate and the Stage unclear.
 
 Acceptable reason for the use of this stage are:
+
 - Public documentation is missing or incomplete but the team is working on a fix
 - Source code, or parts thereof, are not publicly available but the team is working on a fix
 - Peripheral smart contracts, but not the core contracts, are not verified on a public block explorer but the team is working on a fix
-
-
 
 ## Security Council
 
@@ -243,13 +226,12 @@ Delegating control over permissioned functions from the initial Operators to a S
 
 Specifically, we propose an acceptable Security Council setup to consist of a multisig account with the following requirements on its signers:
 
-* At least 7 signers
-* At least 50% threshold
-* At least 51% non-team signers
-* Signers are publicly announced (with name or pseudonym)
+- At least 7 signers
+- At least 50% threshold
+- At least 51% non-team signers
+- Signers are publicly announced (with name or pseudonym)
 
 While the requirements defined here are opinionated, they have proven meaningful and practical. Similar setups are found across a number of matured DeFi systems and are, in fact, used by L2beat’s requirement for Stage 1 rollups.
-
 
 ## What’s Next
 
