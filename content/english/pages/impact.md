@@ -37,16 +37,16 @@ The table below provides an overview of the ongoing and previous permaLP sources
 
 | Project      | Status               | Pace           | Context        |
 | ------------ | -------------------- | -------------- | -------------- |
-| PoolTogether | Delivered (two times) | Non-recurring | [Empowering fun & resilient finance](https://deficollective.org/blog/pttdc/), [Expanding POOL Liquidity with The DeFi Collective](https://www.tally.xyz/gov/pooltogether/proposal/93876808417419111083296081392309916569096683999104363114126411252509744837334?govId=eip155:1:0x8a907De47E00830a2b742db65e938a3ea1070A2E)              |
-| Sir Trading | Delivered (two times) | Non-recurring | [First 15M SIR donation matched with 1 ETH](https://x.com/DeFiCollective_/status/1895815491366813865), [Second 5.2M SIR donation matched with 5 ETH](https://x.com/DeFiCollective_/status/1897241770880327746)              |
-| PossumLabs   | Terminated (PSM phaseout) | 0.5  ETH/month | [The DeFi Collective is partnering with Possum Labs](https://deficollective.org/blog/possum-portals-v2/)               |
-| BOLD         | Suspended (Pending relaunch)                | $20 000/month  | [Maximizing BOLD Footprint on L2: The DeFi Collective BOLD Liquidity Initiative](https://voting.liquity.org/t/the-defi-collective-bold-liquidity-initiative-maximize-bold-footprint-on-l2s/15)               |
+| [PoolTogether](https://pooltogether.com/) | Delivered (two times) | Non-recurring | [Empowering fun & resilient finance](https://deficollective.org/blog/pttdc/), [Expanding POOL Liquidity with The DeFi Collective](https://www.tally.xyz/gov/pooltogether/proposal/93876808417419111083296081392309916569096683999104363114126411252509744837334?govId=eip155:1:0x8a907De47E00830a2b742db65e938a3ea1070A2E)              |
+| [Sir Trading](sir.trading) | Delivered (two times) | Non-recurring | [First 15M SIR donation matched with 1 ETH](https://x.com/DeFiCollective_/status/1895815491366813865), [Second 5.2M SIR donation matched with 5 ETH](https://x.com/DeFiCollective_/status/1897241770880327746)              |
+| [PossumLabs](https://www.possumlabs.io/)   | Terminated (PSM phaseout) | 0.5  ETH/month | [The DeFi Collective is partnering with Possum Labs](https://deficollective.org/blog/possum-portals-v2/)               |
+| [Liquity v2 BOLD](https://www.liquity.org/)         | Suspended (Pending relaunch)                | $20 000/month  | [Maximizing BOLD Footprint on L2: The DeFi Collective BOLD Liquidity Initiative](https://voting.liquity.org/t/the-defi-collective-bold-liquidity-initiative-maximize-bold-footprint-on-l2s/15)               |
 
 ## PermaLP Tracking
 
 <iframe
-  height="175"
-  width="75%"
+  height="400"
+  width="90%"
   src="https://dune.com/embeds/4807117/7967637/"
 ></iframe>
 
