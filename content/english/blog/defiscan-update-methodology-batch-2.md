@@ -2,7 +2,7 @@
 title: "DeFiScan: Updates to the methodology (03/2025)"
 meta_title: ""
 description: "We discuss updates and clarifications on the DeFiScan methodology."
-date: 2025-03-11T10:00:00Z
+date: 2025-03-12T12:00:00Z
 image: "/images/articles/defiscan-announcement.png"
 categories: ["Policy"]
 author: "nilsbundi"
