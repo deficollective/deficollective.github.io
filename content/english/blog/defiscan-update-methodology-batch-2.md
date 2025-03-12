@@ -10,42 +10,35 @@ tags: ["DeFiScan", "DeFi Risks", "DeFi Maturity", "Decentralization"]
 draft: false
 ---
 
-With the next batch of DeFi protocols reviewed, including Aave, Compound, Uniswap and more, we have identified a number of areas in the DeFiScan framework that require clarifications and/or improvments.
+With the next batch of DeFi protocols reviewed, including Aave, Compound, Uniswap and more, we have identified a number of areas in the DeFiScan methodology that require clarifications and/or improvments.
 
-In this post we present the following updates and clarifications:
-- Autonomy risk scores to account for decentralization of protocol dependencies
-- Security Council to mitigate insufficient Exit Windows in onchain governance
-- Security Council requirements to shift from "non-team" to "non-insider" rule
+In this post we discuss the following updates:
+- **Autonomy risk scores to account for decentralization of protocol dependencies**
+- **Security Council to mitigate insufficient Exit Windows in onchain governance**
+- **Security Council requirements to shift from "non-team" to "non-insider" rule**
 
-These updates are also reflected in the DeFiScan methodology and will be incorporated in protocol reviews immediately.
+These updates are implemented in the DeFiScan methodology immediately and applied to current and future reviews.
 
 ## Autonomy risk scores
 
 The Autonomy dimension captures risks from centralization in protocol dependencies. Such dependencies include oracle price feeds in lending protocols, the collateral asset in a CDP, and any other third-party infrastructure that a DeFi protocol is integrated with.
 
-In this update we have revised the centralization risk scores associated with a protocol dependency to reflect **the risk of a failure of a protocol dependency due to centralization in the dependency itself**. 
-The updated Autonomy risk scoring methodology thus builds on the existing assessment of the potential impact of a dependency failure:
+In this update we have revised the centralization risk scores associated with a protocol dependency to reflect **the risk of failure of a protocol dependency due to centralization in the dependency itself**. 
+The updated Autonomy risk scoring methodology thus builds on the existing assessment of the severity of a dependency failure:
 
-- High risk: a failure of the dependency may result in the theft or loss of user funds
-- Medium risk: a failure of the dependency may result in the theft or loss of unclaimed yield or may otherwise materially change the expected protocol performance
-- Low risk: No dependencies or a failure cannot materially change the expected protocol performance
+- High severity: a failure of the dependency may result in the theft or loss of user funds
+- Medium severity: a failure of the dependency may result in the theft or loss of unclaimed yield or may otherwise materially change the expected protocol performance
+- Low severity: No dependencies or a failure cannot materially change the expected protocol performance
 
-The methodology then continues to assess decentralization of the dependency itself as follows:
+The methodology then continues to assess centralization of the dependency itself:
 
-- Stage 0, or equivalent, decentralization: 
-- Stage 1, or equivalent, decentralization:
-- Stage 2, or equivalent, decentralization:
+- Highly centralized: Stage 0, or equivalent, dependency
+- Moderately centralized: Stage 1, or equivalent, dependency
+- Decentralized: Stage 2, or equivalent, dependency
 
-Similar to L2s and DeFi protocols, decentralization of the dependency is seen as a strategy to mitigate centralization risks and should thus be reflected in the Autonomy score.
+*Note that the dependency itself may not necessarily be a DeFi protocol with an associated Stage score. In this case, centralization of the dependency is assessed based on equivalent criteria where possible.*
 
-For instance, consider a lending protocol that relies on an external oracle price feed. If this feed fails, e.g. by pushing an asset price of 0 due to an operational error or an attack, user funds may be lost or frozen thus earning the lending protocol a "High risk" impact score.
-Since we here focus on centralization risks, instead of e.g. technical or economic risks, we are interested in reasons for such a failure related to existing permissions and control in the oracle system. 
-In the example of an oracle system, centralization may occur if asset prices are determined by a single party or if a single party, or otherwise not sufficiently decentralized set of parties, holds critical permissions in the system such as the permission to upgrade contracts. 
-
-This concept is very similar to how DeFiScan already captures centralization risks exhibited by the underlying chain. 
-DeFi protocols inherit centralization risks of their dependencies just like they do for the underlying chain.
-
-In the following table this logic is outlined in the updated Autonomy risk scores.
+These two scores, the severity of a dependency failure and the centralization of the dependency itself, are then combined into an Autonomy risk score according to the table below. Thereby, the risk from dependencies associated with a high severity of a potential failure can be mitigated by decentralizing control in the dependency. Thus, a DeFi protocol may improve its Autonomy score by carefully selecting dependencies that are decentralized. 
 
 <table>
   <tr>
@@ -66,15 +59,21 @@ In the following table this logic is outlined in the updated Autonomy risk score
   </tr>
 </table>
 
+As an example, consider a lending protocol that relies on an external oracle price feed. If this feed fails, e.g. by pushing an asset price of 0 due to an operational error or the oracle system being comprimised by malicious actors, user funds may be lost or frozen thus earning the lending protocol a "High" severity score. The lending protocol has two options to improve its Autonomy score:
+1. Implement price validation rules and fallback mechanisms in case of an "invalid" price pushed by the oracle feed
+2. Integrate with "sufficiently" decentralized oracle systems to ensure respective risks are mitigated
+
+Similar to the Upgradeability risk dimension, here centralization of the dependency refers to the ability to individuals or groups of individuals to control critical permissions. For the oracle system in the example, this can mean that asset prices are determined by a single party or a single party, or group of parties, controlling contract upgrades. 
+
+Hence, DeFi protocols effectively inherit centralization risks of their dependencies. This concept is very similar to how DeFiScan already translates centralization risks exhibited by the underlying chain.
 
 ## Role of Security Council in onchain governance
 
-The Security Council, generally speaking a multisig account adhering to certain requirements, is used as an acceptable measure to mitigate certain centralization risks to reach Stage 1 decentralization. 
-So far, the framework allowed a DeFi protocol with `High` Upgradeability risk score, or the impact of permissioned functions included *theft or loss of user funds*, to achieve Stage 1 decentralization if control over these permissions was transferred to a Security Council.
-Thereby, the requirement to protect ciritical control in the DeFi protocol with an Exit Window was effectively overruled by the existence of the Security Council.
+The Security Council is used as an acceptable measure to mitigate Upgradeability risks and enable a DeFi protocol to reach Stage 1 decentralization.
 
-With this update, we expand the role of the Security Council to also offer mitigation to the risk of an insufficient Exit Window in an onchain governance system.
-Specifically, if permissions resulting in a `High` Upgradeability risk score are controlled by an onchain governance system with an Exit Window of less then 7 days, then a **Security Council must have the ability to veto proposals** for the DeFi protocol to reach Stage 1.
+So far, the framework allowed a DeFi protocol with "High" Upgradeability risk score, earned due to the existence of permissioned functions with a potential impact of *theft or loss of user funds*, to achieve Stage 1 decentralization if control over these permissions was transferred to a Security Council. Thereby, the requirement to protect ciritical control in the DeFi protocol with an Exit Window was effectively overruled by the existence of the Security Council.
+
+With this update, we expand the role of the Security Council to also offer mitigation to the risk of an insufficient Exit Window in an onchain governance system. Specifically, if permissions resulting in a "High" Upgradeability risk score are controlled by an onchain governance system with an Exit Window of less then 7 days, then a **Security Council must have the ability to veto proposals** for the DeFi protocol to reach Stage 1.
 
 As a result of this update, the Stage 1 requirements change to:
 - '✅ At least a "Medium" risk score for Chain, Autonomy, Accessibility'
