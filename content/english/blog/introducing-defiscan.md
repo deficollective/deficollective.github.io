@@ -10,7 +10,7 @@ tags: ["DeFiScan", "DeFi Risks", "DeFi Maturity", "Decentralization"]
 draft: false
 ---
 
-> 🚨The DeFiScan framework presented here has been updated on 2024-12-13 based on the discussion [here](https://deficollective.org/blog/defiscan-update-methodology/).
+> 🚨The DeFiScan framework presented here has been updated on 2024-12-13 (read more [here](https://deficollective.org/blog/defiscan-update-methodology/)) and on 2025-03-12 (read more [here](https://deficollective.org/blog/defiscan-update-methodology-batch-2/)).
 
 DeFiScan is a new framework formalizing the decentralization stages of DeFi protocols. It allows, for the first time, to assess and monitor the maturity and risks of DeFi technology in a verifiable manner. DeFiScan will foster transparency and make DeFi more secure for everyone.
 
@@ -114,11 +114,11 @@ The risk score for the Autonomy dimension is assigned as follows:
    </td>
   </tr>
   <tr>
-   <td>Failure of a dependency may result in the theft or loss of user funds
+   <td>Dependencies may cause theft or loss of user funds AND exhibit Stage 0, or equivalent, centralization
    </td>
-   <td>Failure of a dependency may result in the theft or loss of unclaimed yield or may otherwise materially change the performance of the system (but user funds remain unaffected)
+   <td>Dependencies may cause theft or loss of unclaimed yield, or may otherwise materially change the expected protocol performance, OR dependencies exhibit Stage 1, or equivalent, decentralization
    </td>
-   <td>Failure of a dependency does not materially change the performance of the system (or result in the theft or loss of user funds and unclaimed yield)
+   <td>Dependencies (if any) cannot materially change the expected protocol performance, OR dependencies exhibit Stage 2, or equivalent, decentralization
    </td>
   </tr>
 </table>
@@ -199,8 +199,8 @@ In the second stage, risks from critical permissions and dependencies are signif
 
 The requirements to enter Stage 1 can be summarized as follows:
 
-- ✅ At least "Medium" risk score for Chain, Autonomy, Accessibility
-- ✅ IF Exit Window receives "High" risk, THEN control over permissions MUST be transferred to a Security Council
+- '✅ At least a "Medium" risk score for Chain, Autonomy, Accessibility'
+- '✅ IF Exit Window receives "High" risk, THEN a Security Council must be in place with ownership of or veto over permissions'
 
 ### Stage 2 - No training wheels
 
@@ -210,15 +210,19 @@ To enter Stage 2, a DeFi protocol has to satisfy the following requirements:
 
 - ✅ At least "Low" risk score for Chain, Autonomy, Exit Window, Accessibility
 
-### Review - Stage unclear
+### Others category
 
-The review of a protocol cannot be completed due to missing information or a change in conditions. As a result, the analysis is incomplete or inaccurate and the Stage unclear.
+The stages framework considers a set of basic requirements to enter Stage 0 and qualify as a DeFi protocol. 
 
-Acceptable reason for the use of this stage are:
+The *Others* protocol category captures "financial" protocols which are built using blockchain technology but which do not meet the Stage 0 requirements:
 
-- Public documentation is missing or incomplete but the team is working on a fix
-- Source code, or parts thereof, are not publicly available but the team is working on a fix
-- Peripheral smart contracts, but not the core contracts, are not verified on a public block explorer but the team is working on a fix
+✅ Blockchain-based, financial technology
+❌ Assets are not in custody by centralized entity
+❌ Public documentation exists that outlines the protocol and its expected performance
+❌ Source-available codebase
+❌ Verified contracts
+
+Protocols in the "Others" category thus either miss an adequate technological basis on which further decentralization is possible or their decentralization stage cannot be evaulated due to a lack of public information.
 
 ## Security Council
 
@@ -228,7 +232,7 @@ Specifically, we propose an acceptable Security Council setup to consist of a mu
 
 - At least 7 signers
 - At least 50% threshold
-- At least 51% non-team signers
+- At least 51% non-insider signers
 - Signers are publicly announced (with name or pseudonym)
 
 While the requirements defined here are opinionated, they have proven meaningful and practical. Similar setups are found across a number of matured DeFi systems and are, in fact, used by L2beat’s requirement for Stage 1 rollups.
