@@ -34,7 +34,7 @@ partners:
         height: "40px"
       - id: glo-dollar
         light: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/glo_dollar.svg"
-        dark: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/glo_dollar.svg"
+        dark: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/glo_dollar_dark.svg"
         alt: "Logo Glo Dollar"
         height: "40px"
       - id: maverick
