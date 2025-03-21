@@ -27,10 +27,20 @@ partners:
         dark: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/dyad-dark.svg"
         alt: "Logo Dyad"
         height: "55px"
+      - id: ef
+        light: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/ethereum-foundation.svg"
+        dark: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/ethereum-foundation.svg"
+        alt: "Ethereum Foundation"
+        height: "55px"
       - id: liquity
         light: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/liquity-light.svg"
         dark: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/liquity-dark.svg"
         alt: "Logo Liquity"
+        height: "40px"
+      - id: glo-dollar
+        light: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/glo_dollar.svg"
+        dark: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/glo_dollar.svg"
+        alt: "Logo Glo Dollar"
         height: "40px"
       - id: maverick
         light: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/maverick-light.svg"
@@ -51,6 +61,11 @@ partners:
         light: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/Possum-Labs-light-bg.svg"
         dark: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/Possum-Labs-dark-bg.svg"
         alt: "Possum Labs"
+        height: "40px"
+      - id: sir
+        light: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/sir-light.svg"
+        dark: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/sir-dark.svg"
+        alt: "Synthetics Implemented Right"
         height: "40px"
       - id: velodrome
         light: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/velodrome-dark.svg"
