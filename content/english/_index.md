@@ -27,11 +27,6 @@ partners:
         dark: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/dyad-dark.svg"
         alt: "Logo Dyad"
         height: "55px"
-      - id: ef
-        light: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/ethereum-foundation.svg"
-        dark: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/ethereum-foundation.svg"
-        alt: "Ethereum Foundation"
-        height: "55px"
       - id: liquity
         light: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/liquity-light.svg"
         dark: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/liquity-dark.svg"
