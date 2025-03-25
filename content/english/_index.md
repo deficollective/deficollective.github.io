@@ -63,8 +63,8 @@ partners:
         alt: "Possum Labs"
         height: "40px"
       - id: sir
-        light: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/sir-light.svg"
-        dark: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/sir-dark.svg"
+        light: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/SIR_BlackFont.svg"
+        dark: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/SIR_WhiteFont.svg"
         alt: "Synthetics Implemented Right"
         height: "40px"
       - id: velodrome
