@@ -6,7 +6,7 @@ date: 2025-03-25T12:00:00Z
 image: "/images/ef-grants-cover.png"
 categories: ["Announcement"]
 author: "tokenbrice"
-tags: ["Collective"]
+tags: ["DeFiScan, Grants"]
 draft: false
 ---
 
@@ -17,7 +17,7 @@ It will enable us to speed up ongoing efforts, with the **North Star goal of max
 
 ### Growing DeFiScan’s team with dedicated full-time contributors
 
-DeFiScan is a public good dedicated to providing transparency on DeFi protocols’ level of decentralization. Much like L2BEAT pioneered extremely high-quality reviews on the decentralization of L2 chains, we strive to provide the most accurate and reliable information on DeFi protocols. DeFiScan aims to provide transparent, unbiased information on DeFi protocols' decentralization levels, enabling users to make informed decisions about protocol usage and associated risks. We are building the tool we would love to have had when we started exploring DeFi. Our North Star is to reach 95% of the total DeFi TVL covered with qualitative, accurate, unbiased, and up-to-date reviews.
+DeFiScan is a public good dedicated to providing transparency on DeFi protocols’ level of decentralization. Much like L2BEAT pioneered extremely high-quality reviews on the decentralization of L2 chains, we strive to provide the most accurate and reliable information on DeFi protocols. DeFiScan aims to provide transparent, unbiased information on DeFi protocols' decentralization levels, enabling users to make informed decisions about protocol usage and associated risks. We are building the tool we would have loved to have when we started exploring DeFi. Our North Star is to reach 95% of the total DeFi TVL covered with qualitative, accurate, unbiased, and up-to-date reviews.
 
 Reviewing the decentralization of DeFi protocols is no easy feat. One needs to have a deep level of expertise and put in the right amount of time to produce an accurate and unbiased review of one protocol. Each review needs to be double-checked by multiple experts before it is published to ensure neutrality.
 
@@ -26,7 +26,7 @@ To progress towards our North Star, we are working both with internal contributo
 
 
 * We are hiring two full-time contributors to DeFiScan. Preference will be given to profiles that have already submitted and successfully merged one or several DeFiScan reviews. If you are interested, grabbing our attention is straightforward: show us that you can do the work. 
-* Community members can participate by submitting individual reviews as well. The first submission will be rewarded with a minimum of 1,000 LUSD and up to **a new** **maximum payout of 3,000 LUSD per review**—reflecting the complexity of reviewing large, intricate codebases like Aave. We will publish a blog post detailing the revised review program shortly.
+* Community members can also participate by submitting individual reviews. The first submission will be rewarded with a minimum of 1,000 LUSD and up to a new maximum payout of 3,000 LUSD per review, reflecting the complexity of reviewing large, intricate codebases like Aave. We will publish a blog post detailing the revised review program shortly.
 
 Finally, we want to keep investing in awareness, education, and outreach activities. More specifically, that means:
 
@@ -38,7 +38,7 @@ Finally, we want to keep investing in awareness, education, and outreach activit
 
 ### What it means for DeFiScan and DeFi
 
-Following the investments mentioned above, we will be able to increase the pace of review publication. **We aim to publish 25 reviews over the** **next 6 months**, covering currently missing DeFi staples such as Aave v3, Lido v3, Uniswap v4, Pendle, or Maker/Sky.
+Following the investments mentioned above, we can increase the pace of review publication. **We aim to publish 25 reviews over the** **next 6 months**, covering currently missing DeFi staples such as Aave v3, Lido v3, Uniswap v4, Pendle, or Maker/Sky.
 
 Launched in October 2024 with 7 initial reviews**, the total has already doubled to 14 in ~5 months**, and we’ve learned tons about the reviewing process and the intricacies of applying the DeFiScan framework.
 
