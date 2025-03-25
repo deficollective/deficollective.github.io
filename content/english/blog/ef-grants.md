@@ -1,5 +1,5 @@
 ---
-title: "The Ethereum Foundation allocates a grant to DeFiScan to document protocols’ decentralization status and promote maximal decentralization"
+title: "The Ethereum Foundation allocates a grant to DeFiScan"
 meta_title: ""
 description: "With the support of the Ethereum Foundation, DeFiscan will be able to pick up the pace to cover ever more protocols."
 date: 2025-03-25T08:00:00Z
@@ -10,7 +10,7 @@ tags: ["DeFiScan, Grants"]
 draft: false
 ---
 
-The Ethereum Foundation has allocated a $75,000 grant to The DeFi Collective to develop further [DeFiScan](https://www.defiscan.info/), DeFi’s first framework that formalizes the decentralization stages of DeFi technology.
+The Ethereum Foundation has allocated a grant to The DeFi Collective to develop further [DeFiScan](https://www.defiscan.info/), DeFi’s first framework that formalizes the decentralization stages of DeFi technology.
 
 It will enable us to speed up ongoing efforts, with the **North Star goal of maximizing DeFiScan's percentage of DeFi TVL coverage**. The funds received will help us onboard one full-time contributor dedicated to DeFiScan, scale up our community submission program, and raise awareness of DeFiScan.
 
@@ -44,7 +44,7 @@ Launched in October 2024 with 7 initial reviews**, the total has already doubled
 
 With increased resources and awareness, DeFiScan will have all it needs to grow its coverage, awareness, and mindshare in the DeFi ecosystem. 
 
-All major protocols will eventually be reviewed, and with their decentralization status neutrally documented: there will be no more surprises. The DeFi Collective's support of stage 1 and 2 protocols means that **all incentives are now in place to maximize the number and TVL share of maximally decentralized protocols.**
+All major protocols will eventually be reviewed, and with their decentralization status neutrally documented, there will be no more surprises. The DeFi Collective's support of stage 1 and 2 protocols means that **all incentives are now in place to maximize the number and TVL share of maximally decentralized protocols.**
 
 We are thankful to the Ethereum Foundation for proactively recognizing the value of the technical information delivered by DeFiScan.This support is a testament to DeFiScan's pivotal role in driving the decentralization of the DeFi landscape, and we are honored to be advancing this mission within the Ethereum ecosystem. We are also thrilled to see this grant implemented shortly after the [Ethereum Foundation’s first sizable deployment of assets](https://x.com/ethereumfndn/status/1889978208986280031) in the DeFi ecosystem.
 
