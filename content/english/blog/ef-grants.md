@@ -2,7 +2,7 @@
 title: "The Ethereum Foundation allocates a grant to DeFiScan to document protocols’ decentralization status and promote maximal decentralization"
 meta_title: ""
 description: "With the support of the Ethereum Foundation, DeFiscan will be able to pick up the pace to cover ever more protocols."
-date: 2025-03-25T12:00:00Z
+date: 2025-03-25T08:00:00Z
 image: "/images/ef-grants-cover.png"
 categories: ["Announcement"]
 author: "tokenbrice"
