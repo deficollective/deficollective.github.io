@@ -1,8 +1,8 @@
 ---
 title: "The Ants of the Month remake"
-meta_title: ""
-description: "The DeFi Collective, as the name suggests, is a community-driven organization. Therefore, involving the community is necessary and all spontaneous contributions are welcome."
-date: 2024-12-18T12:00:00Z
+meta_title: "The Ants of the Month remake"
+description: "Get rewarded with 3 different Ant of the Month titles associated with different skills"
+date: 2025-04-10T12:00:00Z
 image: "/images/ants-of-the-month-cover.png"
 categories: ["Announcement"]
 author: "stengarl"
