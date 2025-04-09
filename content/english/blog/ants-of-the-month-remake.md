@@ -35,9 +35,13 @@ This delegation of 75,000 POOL will be split into three, as it will be possible 
 ## How to participate?
 
 Everything happens in the DeFi Collective’s Discord Server, and anyone can participate in becoming an Ant of the Month by doing as following:
+![tdc_discord](https://raw.githubusercontent.com/Stengarl/img/refs/heads/main/TDC_aotm.png)
 **Step 1:** Get into the channel associated with the category you wish to participate in.
+
 **Step 2:** Create a thread in that channel 
+
 **Step 3:** Put your name and associated accounts (Socials, GitHub, Dune...) in the thread 
+
 **Step 4:** Post your contributions in your thread, with the necessary information:
 * One sentence descriptor
 * Date
@@ -59,7 +63,7 @@ There will be **three votes** for Developer, Data Analysis and Awareness. The vo
 **Finally, the vote can be weighted**. Each voter may spread voting power across any number of choices, e.g, 100% for one, 80% / 20% for two, or 50% / 20% / 20% / 10% for four choices, so they can weigh up the contributions or skills they want to reward.
 
 The contributor with the most votes will get the "Ant of the month" title in their associated category and a 25,000 POOL delegation for one month! This delegation will be run in parallel with the already existing 10,000 USDC delegation, so participants will have many more opportunities.
-
+![aotm_rewards](https://raw.githubusercontent.com/Stengarl/img/refs/heads/main/aotm_pool.png)
 A 25,000 przPOOL delegation on Ethereum mainnet currently amounts to 1 in 1.29 monthly chances of winning. From a certain point of view, achieving Ant of the Month status allows you to become a whale.
 
 The amount that can be won currently ranges from $28 to $5,062. Thanks to the same position (przPOOL), [the Collective recently won a 4 ETH jackpot](https://x.com/DeFiCollective_/status/1894407070423642560), you could be next!
