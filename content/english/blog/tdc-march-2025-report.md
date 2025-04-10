@@ -24,7 +24,7 @@ While March was disappointing, let’s take a closer look at the details and how
 
 **The face value of assets controlled by the Collective** (excluding grants) **decreased by 15.3%** in February, falling from **$2,009,451** on March 1 to **$1,701,941** by March 31. This total comprises **40%** in locked assets, **12%** in L2 liquid positions, and **32%** in liquid positions on mainnet. The Collective's Perma-LP wallet holds the remaining **16%** in assets. This slight decrease in treasury value was primarily driven by the continued downturn in the Collective’s liquidity-driving positions, compounded by broader market declines affecting the value of liquid assets. Given the persistent downward trend in recent months, the treasury management team will emphasize revenue growth and increasing holdings of strategic assets.
 
-![tdc-march-2025-net-worth](https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/tdc-march-2025-report/networth.png)
+![tdc-march-2025-net-worth](https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/tdc-march-2025-report/net-worth.png)
 
 ## Expenses Report
 
