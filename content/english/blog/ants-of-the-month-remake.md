@@ -3,7 +3,7 @@ title: "The Ants of the Month remake"
 meta_title: "The Ants of the Month remake"
 description: "Get rewarded with 3 different Ant of the Month titles associated with different skills"
 date: 2025-04-10T12:00:00Z
-image: "/images/ants-of-the-month-cover.png"
+image: "/images/kaskade-campaign-report/kaskade-report-cover.png"
 categories: ["Announcement"]
 author: "stengarl"
 tags: ["Collective"]
