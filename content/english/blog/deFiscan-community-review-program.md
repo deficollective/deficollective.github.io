@@ -16,6 +16,8 @@ After the successful release of [DeFiScan](https://www.defiscan.info/) and the â
 
 This article outlines the details of the program.
 
+**This program has been replaced by [the DeFiScan Bounty Program](https://deficollective.org/blog/defiscan-bounties/)**.
+
 
 ### Key Information
 
