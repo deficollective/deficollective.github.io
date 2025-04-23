@@ -2,7 +2,7 @@
 title: "The Ants of the Month remake"
 meta_title: "The Ants of the Month remake"
 description: "Get rewarded with 3 different Ant of the Month titles associated with different skills"
-date: 2025-04-10T12:00:00Z
+date: 2025-04-21T12:00:00Z
 image: "/images/ants-of-the-month-cover.png"
 categories: ["Announcement"]
 author: "stengarl"
@@ -25,7 +25,7 @@ This delegation of 75,000 POOL will be split into three, as it will be possible 
 
 **The Data analysis title:** Create dashboards on Dune showing data about supported protocols ([example](https://dune.com/alice_rozengarden/liquity-v2-vote)) or identifying suspicious activity like washtrading ([Kaskade](https://deficollective.org/blog/kaskade-campaign-report/) campaign report)
 
-**The Awareness title:  Everything about bringing visibility to the Collective, DeFiScan, or any supported protocol as a whole
+**The Awareness title:**  Everything about bringing visibility to the Collective, DeFiScan, or any supported protocol as a whole
 * Visibility for the collective or DeFiScan (participation on social media, content creation)
 * Ping DeFi protocols that pretend to be decentralized or spot genuinely decentralized protocols so they can get in touch with the Collective 
 * Improvement proposals for the Collective or DeFiScan
@@ -43,16 +43,17 @@ Everything happens in the DeFi Collective’s Discord Server, and anyone can par
 **Step 3:** Put your name and associated accounts (Socials, GitHub, Dune...) in the thread 
 
 **Step 4:** Post your contributions in your thread, with the necessary information:
-* One sentence descriptor
+* One sentence description
 * Date
 * Link
-* Other relevant information like screens
+* Other relevant information, like screenshots
+
 **Once you have created your thread and made a relevant contribution for the current month, you will be able to participate in the winner selection!**
 
 ## Winner selection and rewards
 All members who made at least one relevant contribution for the current month in their respective threads are eligible to be elected “Ant of the Month” in the category in which they participated. 
 
-For example, members with contributions in their thread during May are qualified for the May Ants of the Month title, and members without a thread (or with a thread not having any saved contribution during that month) are not qualified. As soon as the month is over, the nomination is made, and the Ants of the Month are voted on.
+For example, members with contributions in their thread during May are qualified for the May Ants of the Month title, and members without a thread (or with a thread not having any saved contribution during that month) are not qualified. The nomination is made as soon as the month is over, and the Ants of the Month are voted on.
 
 The DeFi Collective makes it a point of honor to get the community involved, especially our supporters. Therefore, the First Anniversary Commemorative NFT holders will elect the Ants of the Month!
 
