@@ -18,6 +18,7 @@ draft: false
 
 With 8 protocols already reviewed and 7 currently in the process, we’re thrilled to see the positive reception of the framework and its adoption amongst responsible builders who are now starting to self-review. However, we believe it’s time to scale DeFiScan further, with the **introduction of a new stage: Others.**
 
+**This program has been replaced by [the DeFiScan Bounty Program](https://deficollective.org/blog/defiscan-bounties/)**.
 
 ### What does an “Others” decentralization stage mean?
 
