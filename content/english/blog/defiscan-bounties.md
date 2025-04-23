@@ -27,7 +27,7 @@ Introducing DeFiScan’s revamped incentivized review program: join us in our mi
 
 Explore the up-to-date list of available protocols and payouts on the DeFiScan GitHub Pull Requests page: **[DeFiScan GitHub - Pull Requests](https://github.com/deficollective/defiscan/pull).**
 
-![defiscan-bounties](https://github.com/deficollective/deficollective.github.io/blob/main/assets/images/defiscan-bounties.png)
+![defiscan-bounties](https://raw.githubusercontent.com/deficollective/deficollective.github.io/refs/heads/main/assets/images/defiscan-bounties.png)
 
 We're launching with an initial batch of 8 bounties, with more to come.
 
