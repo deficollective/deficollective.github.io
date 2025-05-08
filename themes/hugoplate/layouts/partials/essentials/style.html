@@ -31,6 +31,9 @@
 
 <!-- plugins + stylesheet -->
 {{ $styles := slice }}
+
+
+<!-- Process plugin CSS files -->
 {{ range site.Params.plugins.css }}
   {{ if findRE "^http" .link }}
     <link
@@ -43,17 +46,26 @@
     {{ $styles = $styles | append (resources.Get .link) }}
   {{ end }}
 {{ end }}
-{{ $styles := $styles | append (resources.Get "scss/main.scss" | toCSS) }}
-{{ $styles := $styles | resources.Concat "css/style.css" }}
-{{ $styles = $styles | css.PostCSS }}
+
+
+<!-- Process main SCSS -->
+{{ $mainScss := resources.Get "scss/main.scss" }}
+{{ $mainStyle := $mainScss | toCSS }}
+{{ $styles := $styles | append $mainStyle }}
+
+
+<!-- Concatenate all styles -->
+{{ $allStyles := $styles | resources.Concat "css/style.css" }}
+
+
+<!-- Process for production or development -->
 {{ if hugo.IsProduction }}
-  {{ $styles = $styles | resources.ExecuteAsTemplate "css/style.css" . | minify | fingerprint | resources.PostProcess }}
+  {{ $allStyles = $allStyles | resources.ExecuteAsTemplate "css/style.css" . | minify | fingerprint }}
+  <link
+    href="{{ $allStyles.RelPermalink }}"
+    integrity="{{ $allStyles.Data.Integrity }}"
+    rel="stylesheet" />
 {{ else }}
-  {{ $styles = $styles | resources.ExecuteAsTemplate "css/style.css" . }}
+  {{ $allStyles = $allStyles | resources.ExecuteAsTemplate "css/style.css" . }}
+  <link href="{{ $allStyles.RelPermalink }}" rel="stylesheet" />
 {{ end }}
-
-
-<link
-  href="{{ $styles.RelPermalink }}"
-  integrity="{{ $styles.Data.Integrity }}"
-  rel="stylesheet" />
