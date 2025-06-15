@@ -29,14 +29,11 @@ For a full breakdown of revenue streams, accounting methodology, and Collective 
 
 ## Expenses Report
 
-Following April’s record-high expenses, the Collective focused more on cost reduction and saw modest progress in May. This decrease was largely due to the unfortunate departure of two part-time contributors.
+Following April’s record-high expenses, the Collective focused more on cost reduction and saw modest progress in May. This decrease was largely due to the unfortunate departure of two part-time contributors, Spicypiz and CookingCrypto, although they remain open to collaborating on a task-by-task basis.
 
 Looking ahead, the Collective remains committed to further lowering expenses where possible. Combined with efforts to grow earnings, this strategy keeps us on track to return to a surplus in the coming months.
 
 Currently, the Collective is supported by a lean team of two full-time and five part-time contributors, covering key functions such as treasury management, business development and partnerships, community and marketing, protocol research, full-stack development, and data analysis. 
-
-Two contributors were let go in May: Spicypiz and CookingCrypto, although they remain open to collaborating on a task-by-task basis.
-
 
 ![tdc-may-2025-expenses](https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/tdc-may-2025-report/expenses.png)
 
