@@ -45,7 +45,7 @@ Gas expenses returned to baseline in June. We expect this trend to continue as t
 
 **Earnings fell by 2.10% in June**, declining from May's spike to close the month at **-$5,739.9**. This decrease was driven by slightly higher expenses and lower revenues. We aren't too concerned about this small setback as market volatility appears to be increasing along with demand for BOLD across L2s.
 
-The Collective can remain solvent longer than the market stays retarded: our current stablecoin reserves enable us to sustain more than four years.stays retarded 
+The Collective can remain solvent longer than the market stays retarded: our current stablecoin reserves enable us to sustain more than four years.
 
 The Collective's BOLD PIL initiative continues to drive impressive results with **$24,505.58** in donations to the Collective, enabling us to increase APRs on both the Collective's BOLD perma-LP position and general treasury positions. This cohesive flywheel is working well and demonstrates what a great liquidity mechanism Liquity has brought to market.
 
