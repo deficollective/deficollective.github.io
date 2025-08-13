@@ -22,7 +22,7 @@ For a full breakdown of revenue streams, accounting methodology, and Collective 
 The treasury closed the month at **$2,182,248** (**+12.32% MoM**, up from $1,942,935 in June). Gains in veAERO, veVELO, and ETH led the way, supported by a stable foundation in income-generating assets. By the end of July, locked assets made up **37.9%** of the treasury, with L2 positions accounting for **10.1%** and L1 positions representing **30.9%**. Perma LPs comprised **15.9%** of the portfolio, with the remainder held in smaller liquid positions and operational balances.
 
 
-![tdc-july-2025-net-worth](https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/tdc-july-2025-report/net-worth.png)
+![tdc-july-2025-net-worth](https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/tdc-july-2025-report/networth.png)
 
 
 ## Expenses Report
