@@ -9,7 +9,7 @@ author: "stengarl"
 tags: ["Collective"]
 draft: false
 ---
-The DeFi Collective is excited to announce a strategic collaboration and partnership with [BottoDAO](https://x.com/BottoDAO), the community governing [Botto Project]((https://x.com/bottoproject)).
+The DeFi Collective is excited to announce a strategic collaboration and partnership with [BottoDAO](https://x.com/BottoDAO), the community governing [Botto Project](https://x.com/bottoproject).
 
 ## What is Botto?
 
