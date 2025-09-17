@@ -3,7 +3,7 @@ title: "CV Summit"
 meta_title: "DeFiCollective attends CV Summit 2025"
 description: "DeFiCollective attends CV Summit 2025"
 date: 2025-09-17T12:00:00Z
-image: "/images/articles/the-defi-collective-introduction.jpg"
+image: "/images/articles/cvsummit2025.png"
 categories: ["Announcement"]
 author: "stengarl"
 tags: ["Collective"]
