@@ -1,5 +1,5 @@
 ---
-title: "CV Summit"
+title: "CV Summit Community Partner"
 meta_title: ""
 description: "DeFiCollective attends CV Summit 2025"
 date: 2025-09-17T12:00:00Z
@@ -9,8 +9,6 @@ author: "stengarl"
 tags: ["Collective"]
 draft: false
 ---
-
-# The DeFi Collective partners with CV Summit
 
 CV Summit is one of the largest events taking place in Switzerland focused on digital assets, blockchain, and AI, bringing together leading financial institutions, investors, and technology leaders.
 
