@@ -1,6 +1,6 @@
 ---
 title: "CV Summit"
-meta_title: "DeFiCollective attends CV Summit 2025"
+meta_title: ""
 description: "DeFiCollective attends CV Summit 2025"
 date: 2025-09-17T12:00:00Z
 image: "/images/articles/cvsummit2025.png"
@@ -25,8 +25,6 @@ Topics that will be covered at CV Summit 2025 include:
 ## The Collective's participation
 
 The DeFi Collective is happy to be one of the community partners of the CV Summit 2025 alongside many other non-profits and research institutes in the local crypto community.
-
-[CVSummit2025](https://raw.githubusercontent.com/Stengarl/img/refs/heads/main/CVSummit2025.png)
 
 The DeFi Collective will be here to discuss everything related to decentralized finance, as well as the importance of promoting decentralization in this industry, with tools like @defiscan_info available to assist in this regard.
 
