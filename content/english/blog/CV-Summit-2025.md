@@ -9,7 +9,6 @@ author: "stengarl"
 tags: ["Collective"]
 draft: false
 ---
-
 CV Summit is one of the largest events taking place in Switzerland focused on digital assets, blockchain, and AI, bringing together leading financial institutions, investors, and technology leaders.
 
 Topics that will be covered at CV Summit 2025 include:
