@@ -3,7 +3,7 @@ title: "The DeFi Collective - August 2025 Report"
 meta_title: ""
 description: "Monthly report for the treasury-related activities of the Collective in August 2025."
 date: 2025-09-22T05:00:00Z
-image: "/images/tdc-july-2025-report-cover.png"
+image: "/images/tdc-august-2025-report-cover.png"
 categories: ["Monthly Report"]
 author: "luude"
 tags: ["TDC Monthly Report", "Liquidity Management", "Liquidity-driving Tokens", "Collective"]
