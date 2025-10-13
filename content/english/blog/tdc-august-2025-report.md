@@ -24,7 +24,7 @@ The treasury closed August at **$2,990,278** (**+28.27% MoM**, up from $2,331,25
 By the end of August, **38%** of the treasury was allocated to locked assets, **6%** to L2 liquidity positions, **24%** to L1 liquidity positions, and **13%** to Perma LPs, with the remaining **19%** held in smaller liquid positions and operational balances. This mix continues to mute volatility while positioning the treasury for sustainable long-term returns.
 
 
-![tdc-august-2025-net-worth](https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/tdc-august-2025-report/networth.png)
+![tdc-august-2025-net-worth](https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/tdc-august-2025-report/net-worth.png)
 
 
 ## Expenses Report
