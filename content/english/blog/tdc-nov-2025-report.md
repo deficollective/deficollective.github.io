@@ -10,7 +10,7 @@ tags: ["TDC Monthly Report", "Liquidity Management", "Liquidity-driving Tokens",
 draft: false
 ---
 
-November was a harsher month for the Collective, closing its books in the red with a shortfall of - $16 863.79. This represents a drop of revenues of about 35% month-on-month, which reverted to baseline after September’s spike following the SYND launch.
+November was a harsher month for the Collective, closing its books in the red with a shortfall of - $16 863.79. This represents a drop of revenues of about 35% month-on-month.
 
 Expenses and other revenues remained steady, and there were no major strategic adjustments to treasury composition. The focus remained firmly on sustainability and supporting our ecosystem partners.
 
