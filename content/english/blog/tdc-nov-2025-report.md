@@ -42,7 +42,7 @@ Overall, expenses remain stable within expected ranges, and no material increase
 
 ## Earnings Report
 
-Revenues totaled **$29,518.83 (-34.62% MoM)**, resulting in a shortfall of -$16,863.79. Adverse market conditions, decreasing DEX volumes contributed to this underperformance, however, the Collective holds enough stablecoin balance to weather yet another storm.
+Revenues totaled **$19,298.55 (-34.62% MoM)**, resulting in a shortfall of -$16,863.79. Adverse market conditions, decreasing DEX volumes contributed to this underperformance, however, the Collective holds enough stablecoin balance to weather yet another storm.
 
 L2 revenues came in at **$9,416.55**, representing a fall of about 50% against October, mostly explained by accounting logic (5 weeks in Oct vs 4 in Nov), and depreciating revenues on Ramses and Nile.
 
