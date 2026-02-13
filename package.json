@@ -9,12 +9,14 @@
     "build": "hugo --gc --minify --templateMetrics --templateMetricsHints --forceSyncStatic",
     "test": "hugo server --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --watch --forceSyncStatic -e production --minify",
     "dev:example": "cd exampleSite; hugo server",
+    "vercel-build": "curl -L -o go.tar.gz https://go.dev/dl/go1.21.0.linux-amd64.tar.gz && tar -C /usr/local -xzf go.tar.gz && export PATH=$PATH:/usr/local/go/bin && npm install  && npm run build:tailwind && NODE_ENV=production && HUGO_ENVIRONMENT=production hugo --gc --minify",
+    "build:tailwind": "npx tailwindcss -i ./themes/hugoplate/assets/scss/main.scss -o ./themes/hugoplate/assets/css/style.css --minify",
     "build:example": "cd exampleSite; hugo --gc --minify --templateMetrics --templateMetricsHints --forceSyncStatic",
     "test:example": "cd exampleSite; hugo server --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --watch --forceSyncStatic -e production --minify",
     "update-modules": "node ./scripts/clearModules.js && hugo mod clean --all && hugo mod get -u ./... && hugo mod tidy",
     "format": "prettier -w ."
   },
-  "devDependencies": {
+  "dependencies": {
     "@fullhuman/postcss-purgecss": "^5.0.0",
     "@tailwindcss/forms": "^0.5.6",
     "@tailwindcss/typography": "^0.5.10",
