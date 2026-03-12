@@ -3,7 +3,7 @@ title: "PermaLP Position Unwinding Report"
 meta_title: "PermaLP Position Unwinding Report"
 description: "The PermaLP positions have been unwound, in collaboration with each affected communities: this report provides the full context and the receipts."
 date: 2026-03-12T15:00:00Z
-image: 
+image: "/images/articles/permalp-unwind.png"
 categories: ["Announcement"]
 author: "tokenbrice"
 tags: ["Collective"]
