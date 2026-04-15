@@ -1,0 +1,71 @@
+{{ $class:= .Class }}
+{{ $context:= .Context }}
+{{ $permalink:= $context.RelPermalink }}
+
+{{ with site.Params.search }}
+  {{ if .enable }}
+    <script id="search-result-item-template" type="text/x-js-template">
+      <div class="search-result-item">
+        <div class="search-result-item-image">
+          #{image}
+        </div>
+        <div class="search-result-item-body">
+          <a href="#{slug}" class="search-result-item-title">#{title}</a>
+          <p class="search-result-item-description">#{description}</p>
+          <p class="search-result-item-content">#{content}</p>
+          <div class="search-result-item-taxonomies">
+            <div>
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 16 16" style="margin-top:-2px">
+                <path d="M11 0H3a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2 2 2 0 0 0 2-2V4a2 2 0 0 0-2-2 2 2 0 0 0-2-2zm2 3a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1V3zM2 2a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V2z"/>
+              </svg>
+              #{categories}
+            </div>
+            <div>
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 16 16">
+                <path d="M3 2v4.586l7 7L14.586 9l-7-7H3zM2 2a1 1 0 0 1 1-1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 2 6.586V2z"/>
+                <path d="M5.5 5a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm0 1a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM1 7.086a1 1 0 0 0 .293.707L8.75 15.25l-.043.043a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 0 7.586V3a1 1 0 0 1 1-1v5.086z"/>
+              </svg>
+              #{tags}
+            </div>
+          </div>
+        </div>
+      </div>
+    </script>
+    <div
+      class="search-page {{ $class }}"
+      style="--color-primary: {{ site.Params.search.primary_color | default `#7f0ec6` }}">
+      <div
+        class="search-wrapper"
+        data-image="{{ site.Params.search.show_image | default false }}"
+        data-description="{{ site.Params.search.show_description | default true }}"
+        data-tags="{{ site.Params.search.show_tags | default true }}"
+        data-categories="{{ site.Params.search.show_categories | default true }}">
+        <div class="search-wrapper-header">
+          <input
+            id="search-input"
+            type="text"
+            class="!px-4"
+            data-search-input
+            placeholder="{{ i18n `search_input_placeholder` | default .input_placeholder }}"
+            aria-label="Search"
+            autocomplete="off"
+            autofocus />
+        </div>
+        <span class="search-result-info"></span>
+        <div class="search-wrapper-body">
+          <div class="search-result" data-search-result></div>
+          <span class="search-result-empty">
+            {{ i18n `search_initial_message` }}
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const removeSearchModal = document.querySelector(".search-modal");
+      if (removeSearchModal) {
+        removeSearchModal.remove();
+      }
+    </script>
+  {{ end }}
+{{ end }}

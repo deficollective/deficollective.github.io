@@ -1,0 +1,93 @@
+{{ $imagePath:= string .Src }}
+{{ $image:= . }}
+{{ $size:= .Size }}
+{{ $perspective:= .Perspective | default "cover" }}
+{{ $position:= .Position | default "center center" }}
+{{ $repeat:= .Repeat | default "no-repeat" }}
+{{ $webp:= .Webp | default true }}
+{{ $context:= .Context | default . }}
+{{ $contentImage:= false }}
+{{ $assetImage:= false }}
+{{ $placeholder:= .Placeholder | default false }}
+{{ $placeholderQuality:= "40x q20" }}
+
+<!-- check content image  -->
+{{ with $context.Resources }}
+{{ if .GetMatch $imagePath }}
+{{ $contentImage = true }}
+{{ end }}
+{{ end }}
+<!-- /check content image -->
+
+<!-- check asset image -->
+{{ if fileExists (add `assets/` (string $imagePath)) }}
+{{ $assetImage = true }}
+{{ end }}
+<!-- /check asset image -->
+
+{{ if or (hasPrefix $imagePath "http") (fileExists (add `static/` (string $imagePath))) }}
+style="background-size: {{$size}};background-position: {{$position}};background-repeat: {{$repeat}};" {{if $placeholder}}data-src="{{ $imagePath | absURL }}"{{end}}
+
+<!-- check file existence -->
+{{ else if or $assetImage $contentImage }}
+
+{{ if $assetImage }}
+{{ $image = resources.Get $imagePath }}
+{{ else if $contentImage }}
+{{ $image = $context.Resources.GetMatch $imagePath }}
+{{ end }}
+
+<!-- image extension -->
+{{ $imageExt := path.Ext $image }}
+
+<!-- image height, width (if not svg) -->
+{{ if eq $imageExt `.svg` }}
+{{ .Scratch.Set "image-height" "" }}
+{{ .Scratch.Set "image-width" "" }}
+{{ else }}
+{{ .Scratch.Set "image-height" $image.Height }}
+{{ .Scratch.Set "image-width" $image.Width }}
+{{ end }}
+{{ $imageHeight:= .Scratch.Get "image-height" }}
+{{ $imageWidth:= .Scratch.Get "image-width" }}
+
+<!-- gif/svg image -->
+{{ if or (eq $imageExt `.gif`) (eq $imageExt `.svg`) }}
+
+<!-- placeholder -->
+style="background-image: url({{ $image.RelPermalink }});background-size: {{$perspective}};background-position: {{$position}};background-repeat: {{$repeat}};"
+
+{{ else }}
+
+{{ if $size }}
+
+{{ $imageWebp:= $image.Resize (add (string $size) " webp") }}
+{{ if not $webp }}
+{{ $imageWebp = $image.Resize (string $size) }}
+{{ end }}
+
+<!-- placeholder -->
+{{ $placeholderImage := ($imageWebp.Resize $placeholderQuality) | images.Filter (images.GaussianBlur 5) }}
+
+style="background-image: url({{if $placeholder}}data:image/jpeg;base64,{{ $placeholderImage.Content | base64Encode }}{{else}}{{ $imageWebp.RelPermalink }}{{end}});background-size: {{$perspective}};background-position: {{$position}};background-repeat: {{$repeat}};" {{if $placeholder}}data-src="{{ $imageWebp.RelPermalink }}"{{end}}
+
+{{ else }} <!-- if not size -->
+
+{{ $height:= string $image.Height }}
+{{ $width:= string $image.Width }}
+{{ $defaultSize:= add (add $width "x") $height }}
+{{ $imageWebp:= $image.Resize (add $defaultSize " webp") }}
+{{ if not $webp }}
+{{ $imageWebp = $image.Resize (string $defaultSize) }}
+{{ end }}
+
+<!-- placeholder -->
+{{ $placeholderImage := ($imageWebp.Resize $placeholderQuality) | images.Filter (images.GaussianBlur 5) }}
+
+style="background-image: url({{if $placeholder}}data:image/jpeg;base64,{{ $placeholderImage.Content | base64Encode }}{{else}}{{ $imageWebp.RelPermalink }}{{end}}); background-size: {{$perspective}};background-position: {{$position}};background-repeat: {{$repeat}};" {{if $placeholder}}data-src="{{ $imageWebp.RelPermalink }}"{{end}}
+
+{{ end }} <!-- /if size -->
+
+{{ end }} <!-- /check file existence -->
+
+{{ end }}

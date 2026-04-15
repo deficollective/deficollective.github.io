@@ -1,0 +1,27 @@
+{{ with site.Params.site_verification.google }}
+<!-- google site verification -->
+<meta name="google-site-verification" content="{{ . }}" />
+{{ end }}
+
+
+{{ with site.Params.site_verification.bing }}
+<!-- bing site verification -->
+<meta name="msvalidate.01" content="{{ . }}" />
+{{ end }}
+
+
+{{ with site.Params.site_verification.baidu }}
+<!-- baidu site verification -->
+<meta name="baidu-site-verification" content="{{ . }}" />
+{{ end }}
+
+
+{{ with site.Params.site_verification.facebook }}
+<!-- facebook site verification -->
+<meta name="facebook-domain-verification" content="{{ . }}" />
+{{ end }}
+
+{{ with site.Params.site_verification.mastodon }}
+<!-- Mastodon site verification -->
+<link rel="me" href="{{ . }}" type="text/html">
+{{ end }}
