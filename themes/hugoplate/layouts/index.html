@@ -1,5 +1,5 @@
 {{ define "main" }}
-  
+
   <!-- Banner -->
   {{ with .Params.banner }}
   <div class="bg-main bg-right-top">
@@ -22,46 +22,47 @@
               {{ end }}
             {{ end }}
           </div>
-          {{/*  <div class="col-12">
-            {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class" "mx-auto" "Size" "800x") }}
-          </div>  */}}
         </div>
       </div>
     </section>
   {{ end }}
   <!-- /Banner -->
 
-  <!-- blog posts -->
-  <section class="section">
+  </div>
+
+  <!-- Mission -->
+  {{ with .Params.mission }}
+  <section id="mission" class="section bg-theme-light">
     <div class="container">
-      <div class="lg:col mb-8 text-left">
-        <h3>Recent Posts</h3>
-      </div>
-      <div class="row">
-        <div class="lg:col">
-          <div class="flex flex-wrap mb-4">
-            {{ $paginator:= .Paginate (where .Site.RegularPages "Section" "blog")  }}
-            {{ range $paginator.Pages }}
-              <div class="w-full md:w-1/3 mb-8 sm:mb-8 md:pr-8 md:last:pr-0">
-                {{ partial "components/blog-card-minimal" . }}
-              </div>
-            {{ end }}
-          </div>
-          <a class="btn btn-outline-primary mt-1" href="blog">
-            {{ i18n "read_more" }}
-            <i class="fa fa-arrow-right pl-2"></i>
-          </a>
+      <div class="row justify-center mb-12">
+        <div class="lg:col-8 text-center">
+          <h2 class="mb-6">{{ .title }}</h2>
+          <p class="text-lg">
+            {{ .content | markdownify }}
+          </p>
         </div>
+      </div>
+      <div class="row justify-center">
+        {{ range .activities }}
+        <div class="md:col-6 lg:col-3 mb-8 text-center">
+          <div class="rounded-lg bg-white p-8 shadow-sm h-full">
+            <div class="mb-4 text-4xl text-primary">
+              <i class="{{ .icon }}"></i>
+            </div>
+            <h4 class="mb-4">{{ .title }}</h4>
+            <p>{{ .content }}</p>
+          </div>
+        </div>
+        {{ end }}
       </div>
     </div>
   </section>
-  </div>
-  <!-- blog posts -->
+  {{ end }}
+  <!-- /Mission -->
 
-
-  <!-- partners -->
+  <!-- Partners -->
   {{ range $i, $e:= .Params.partners }}
-    <section class="section bg-top-left bg-partners {{ if (modBool $i 2) }}{{ end }}">
+    <section id="partners" class="section bg-top-left bg-partners {{ if (modBool $i 2) }}{{ end }}">
 
       <div class="container">
         <div class="row items-center flex flex-wrap -mx-3 justify-between">
@@ -82,34 +83,58 @@
                   {{ end }}
                 {{ end }}
               </div>
-    
+
               <!-- Logo Mosaic Section -->
               <div class="mb:md-0 {{ if not (modBool $i 2) }} md:order-2 {{ end }} md:col-7">
                   <div class="grid grid-cols-3 gap-8 justify-center place-items-center">
-                      <!-- Individual logos will go here -->
                       {{ range .logo }}
                       <div class="flex justify-center items-center">
-                          <img 
-                              src="{{ .light }}" 
-                              alt="{{ .alt }}" 
-                              style="height: {{ .height }}" 
-                              class="block dark:hidden" 
+                          <img
+                              src="{{ .light }}"
+                              alt="{{ .alt }}"
+                              style="height: {{ .height }}"
+                              class="block dark:hidden"
                           >
-                          <img 
-                              src="{{ .dark }}" 
-                              alt="{{ .alt }}" 
-                              style="height: {{ .height }}" 
-                              class="hidden dark:block" 
+                          <img
+                              src="{{ .dark }}"
+                              alt="{{ .alt }}"
+                              style="height: {{ .height }}"
+                              class="hidden dark:block"
                           >
                       </div>
                       {{ end }}
                   </div>
               </div>
-              
 
         </div>
       </div>
     </section>
   {{ end }}
-  <!-- partners -->
+  <!-- /Partners -->
+
+  <!-- Support -->
+  {{ with .Params.support }}
+  <section id="support" class="section bg-theme-light">
+    <div class="container">
+      <div class="row justify-center">
+        <div class="lg:col-8 text-center">
+          <h2 class="mb-6">{{ .title }}</h2>
+          <p class="text-lg mb-8">
+            {{ .content | markdownify }}
+          </p>
+          {{ with .button }}
+            {{ if .enable }}
+              <a class="btn btn-outline-primary" href="{{ .link | relLangURL }}">
+                {{ .label }}
+                <i class="fa-solid fa-arrow-right pl-2"></i>
+              </a>
+            {{ end }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </section>
+  {{ end }}
+  <!-- /Support -->
+
 {{ end }}

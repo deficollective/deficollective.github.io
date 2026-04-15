@@ -15,10 +15,10 @@ logo_text = "The DeFi Collective"
 # navbar fixed to top
 navbar_fixed = true
 # theme-mode
-theme_switcher = true
-theme_default = "system" # available options [light/dark/system]
+theme_switcher = false
+theme_default = "light" # available options [light/dark/system]
 # Main Sections
-mainSections = ["blog"]
+mainSections = []
 # contact form action
 contact_form_action = "#" # contact form works with [https://airform.io/] or [https://formspree.io]
 
@@ -36,15 +36,15 @@ preloader = "" # use jpg, png, svg or gif format.
 # Navigation button
 [navigation_button]
 enable = true
-label = "DeFiScan"
-link = "https://www.defiscan.info/"
+label = "Support"
+link = "support/"
 
 # search
 # search module: https://github.com/gethugothemes/hugo-modules/tree/master/search
 [search]
-enable = true
+enable = false
 primary_color = "#4800b9"
-include_sections = ["blog"]
+include_sections = []
 show_image = true
 show_description = true
 show_tags = true

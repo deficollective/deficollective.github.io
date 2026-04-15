@@ -1,17 +1,44 @@
 ---
 # Banner
 banner:
-  title: "**Advance the decentralization** of financial infrastructure"
-  content: "We are a non-profit organization harnessing relevant on-chain and off-chain resources to support decentralized finance (DeFi) on its mission to transform financial services into a secure, transparent and inclusive public infrastructure."
+  title: "**Advancing the decentralization** of financial infrastructure"
+  content: "The DeFi Collective is a non-profit organization dedicated to supporting decentralized finance. We harness on-chain and off-chain resources to help DeFi fulfill its promise of secure, transparent and inclusive public financial infrastructure."
   button:
     enable: true
     label: "Get in touch"
     link: "https://discord.gg/Z467Ehv6VU"
 
+# Mission
+mission:
+  title: "What we do"
+  content: "We foster an environment where DeFi protocols can emerge as a trusted alternative to traditional financial services. Our work spans four key areas:"
+  activities:
+    - title: "Education"
+      icon: "fa-solid fa-graduation-cap"
+      content: "We raise public awareness of the benefits and risks of decentralized infrastructure, building informed trust in this new technology through research, social media and public communication."
+    - title: "Governance"
+      icon: "fa-solid fa-landmark"
+      content: "We actively participate in DeFi governance, leveraging our expertise and reputation to advocate for the growth of decentralized protocols and support mission-critical teams."
+    - title: "Liquidity"
+      icon: "fa-solid fa-droplet"
+      content: "Bootstrapping liquidity is one of the hardest challenges for public infrastructure projects. We help DeFi protocols overcome this barrier with our network, expertise and assets."
+    - title: "Infrastructure"
+      icon: "fa-solid fa-server"
+      content: "We support the teams building the foundational layers of decentralized finance, because reliable infrastructure is the bedrock of a secure and resilient DeFi ecosystem."
+
+# Support
+support:
+  title: "Support the Ants"
+  content: "The DeFi Collective relies on community support to sustain its mission. Whether through donations, partnerships or direct contributions, every bit helps advance decentralized finance."
+  button:
+    enable: true
+    label: "Learn how to support us"
+    link: "support/"
+
 # Partners
 partners:
-  - title: "They joined the anthill"
-    content: "Teams believing in maximized decentralization and trustless support the DeFi Collective's mission and vision. Join them !"
+  - title: "Our partners"
+    content: "From the Ethereum Foundation to leading DeFi protocols and infrastructure teams, we have partnered with organizations that share our commitment to maximizing decentralization."
     button:
       enable: false
       label: "Support DeFi"
@@ -25,7 +52,7 @@ partners:
       - id: dyad
         light: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/dyad-light.svg"
         dark: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/dyad-dark.svg"
-        alt: "Logo Dyad"
+        alt: "Dyad"
         height: "55px"
       - id: ef
         light: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/ethereum-foundation-light.svg"
@@ -35,27 +62,27 @@ partners:
       - id: liquity
         light: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/liquity-light.svg"
         dark: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/liquity-dark.svg"
-        alt: "Logo Liquity"
+        alt: "Liquity"
         height: "40px"
       - id: glo-dollar
         light: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/glo_dollar.svg"
         dark: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/glo_dollar_dark.svg"
-        alt: "Logo Glo Dollar"
+        alt: "Glo Dollar"
         height: "40px"
       - id: maverick
         light: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/maverick-light.svg"
         dark: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/maverick-dark.svg"
-        alt: "Logo Maverick"
+        alt: "Maverick"
         height: "55px"
       - id: polygon-labs
         light: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/polygon-labs-light.svg"
         dark: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/polygon-labs-dark.svg"
-        alt: "Logo Polygon Labs"
+        alt: "Polygon Labs"
         height: "40px"
       - id: pooltogether-labs
         light: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/pooltogether-logo-dark.svg"
         dark: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/pooltogether-logo.svg"
-        alt: "Pooltogether"
+        alt: "PoolTogether"
         height: "40px"
       - id: possum-labs
         light: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/Possum-Labs-light-bg.svg"
@@ -66,6 +93,11 @@ partners:
         light: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/SIR_BlackFont.svg"
         dark: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/SIR_WhiteFont.svg"
         alt: "Synthetics Implemented Right"
+        height: "40px"
+      - id: defiscan
+        light: "/images/partners/defiscan-dark.svg"
+        dark: "/images/partners/defiscan-light.svg"
+        alt: "DeFiScan"
         height: "40px"
       - id: velodrome
         light: "https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/partners/velodrome-dark.svg"

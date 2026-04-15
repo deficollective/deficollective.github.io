@@ -1,68 +1,19 @@
 ############# English navigation ##############
 
-# main menu
-[[main]]
-name = "Home"
-url = "/"
-weight = 1
-
-[[main]]
-name = "About"
-url = "about/"
-weight = 2
-
-[[main]]
-name = "Policies"
-url = "policies/"
-weight = 3
-
-[[main]]
-name = "Impact"
-url = "impact/"
-weight = 4
-
-[[main]]
-name = "Blog"
-url = "blog/"
-weight = 5
-
-[[main]]
-name = "Media"
-url = "media/"
-weight = 6
+# main menu (empty - navbar menu removed)
 
 # footer menu
 [[footer]]
-name = "About"
-url = "about/"
-weight = 1
-
-[[footer]]
-name = "Policies"
-url = "policies/"
-weight = 2
-
-[[footer]]
 name = "Support"
 url = "support/"
-weight = 3
-
-[[footer]]
-name = "Blog"
-url = "blog/"
-weight = 4
+weight = 1
 
 [[footer]]
 name = "Privacy Policy"
 url = "privacy-policy/"
-weight = 5
+weight = 2
 
 [[footer]]
 name = "Terms"
 url = "terms/"
-weight = 6
-
-[[footer]]
-name = "Donation Terms"
-url = "donation-terms/"
-weight = 7
+weight = 3
