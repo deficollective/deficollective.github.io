@@ -1,40 +1,72 @@
 {{ $page := .Page }}
 {{ $headingLevel := .HeadingLevel | default 3 }}
 {{ $headingTag := printf "h%d" $headingLevel }}
+{{ $image := $page.Params.image }}
+{{ $categories := $page.Params.categories | default slice }}
 
-<article class="article-card">
-  {{ $image := $page.Params.image }}
+{{ $imagePresentation := lower ($page.Params.image_presentation | default "") }}
+{{ $bannerPresentation := false }}
+{{ if in (slice "banner" "contain") $imagePresentation }}
+  {{ $bannerPresentation = true }}
+{{ else if not (in (slice "cover" "photo" "photograph") $imagePresentation) }}
+  {{ if and $image (not (or (hasPrefix $image "http://") (hasPrefix $image "https://"))) }}
+    {{ with resources.Get (strings.TrimPrefix "/" $image) }}
+      {{ if and (ne .MediaType.SubType "svg") (gt .Height 0) }}
+        {{ if ge (div (float .Width) (float .Height)) 2.4 }}
+          {{ $bannerPresentation = true }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+  {{ if and $image (not $bannerPresentation) }}
+    {{ $imageName := lower $image }}
+    {{ range slice "banner" "cover" "report" "summary" "strategy" "guideline" }}
+      {{ if in $imageName . }}
+        {{ $bannerPresentation = true }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ $imageMode := cond $bannerPresentation "banner" "cover" }}
+
+
+<article class="article-card article-card--minimal">
   {{ if $image }}
-    <div class="image-card">
+    <div class="image-card image-card--{{ $imageMode }}">
       <a
         href="{{ $page.RelPermalink }}"
         aria-label="{{ printf "Read %s" $page.Title }}">
         {{ partial "image" (dict
           "Src" $image
           "Alt" ""
-          "Class" "card-image"
-          "Size" "640x360"
-          "Command" "Fill"
+          "Class" (printf "card-image card-image--%s" $imageMode)
+          "Size" (cond $bannerPresentation "800x" "800x450")
+          "Command" (cond $bannerPresentation "Resize" "Fill")
           "Loading" "lazy"
-        ) }}
+          "Context" $page
+          )
+        }}
       </a>
     </div>
   {{ end }}
 
+
   <div class="bg-card p-8">
-    {{ $categories := $page.Params.categories }}
     {{ range $index, $category := $categories }}
-      <a
-        class="tag-uppercase inline-block mb-3"
-        href="{{ `categories/` | relLangURL }}{{ $category | urlize | lower }}/">
-        {{- $category | humanize -}}
-        {{- if ne $index (sub (len $categories) 1) }}, {{ end -}}
-      </a>
+      {{ if $category }}
+        <a
+          class="tag-uppercase article-card__type inline-block mb-3"
+          href="{{ `categories/` | relLangURL }}{{ $category | urlize | lower }}/">
+          {{- $category | humanize -}}
+          {{- if ne $index (sub (len $categories) 1) }},{{ end -}}
+        </a>
+      {{ end }}
     {{ end }}
 
     {{ printf "<%s class=\"h5 mb-3\">" $headingTag | safeHTML }}
-      <a href="{{ $page.RelPermalink }}">{{ $page.Title }}</a>
+    <a href="{{ $page.RelPermalink }}">{{ $page.Title }}</a>
     {{ printf "</%s>" $headingTag | safeHTML }}
+
 
     <p class="mb-3 limited-height">{{ $page.Summary | plainify }}</p>
 
@@ -50,11 +82,13 @@
             "Size" "48x48"
             "Command" "Fill"
             "Loading" "lazy"
-          ) }}
+            )
+          }}
         {{ end }}
         <span>{{ .Title }}</span>
       </div>
     {{ end }}
+
 
     <a
       class="highlight"

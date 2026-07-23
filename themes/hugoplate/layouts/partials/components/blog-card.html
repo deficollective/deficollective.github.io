@@ -1,68 +1,164 @@
 {{ $page := .Page }}
 {{ $headingLevel := .HeadingLevel | default 2 }}
 {{ $headingTag := printf "h%d" $headingLevel }}
-
-<article class="article-card">
-  {{ $image := $page.Params.image }}
-  {{ if $image }}
-    <div class="image-card">
-      <a
-        href="{{ $page.RelPermalink }}"
-        aria-label="{{ printf "Read %s" $page.Title }}">
-        {{ partial "image" (dict
-          "Src" $image
-          "Alt" ""
-          "Class" "card-image"
-          "Size" "640x360"
-          "Command" "Fill"
-          "Loading" "lazy"
-        ) }}
-      </a>
-    </div>
+{{ $variant := .Variant | default "card" }}
+{{ $image := $page.Params.image }}
+{{ $categories := $page.Params.categories | default slice }}
+{{ $contentCategory := "" }}
+{{ $contentType := "Update" }}
+{{ range $categories }}
+  {{ if and (not $contentCategory) . }}
+    {{ $contentCategory = . }}
+    {{ $contentType = . | humanize }}
   {{ end }}
+{{ end }}
 
-  <div class="bg-card p-8">
-    {{ $categories := $page.Params.categories }}
-    {{ range $index, $category := $categories }}
-      <a
-        class="tag-uppercase inline-block mb-3"
-        href="{{ `categories/` | relLangURL }}{{ $category | urlize | lower }}/">
-        {{- $category | humanize -}}
-        {{- if ne $index (sub (len $categories) 1) }}, {{ end -}}
-      </a>
-    {{ end }}
-
-    {{ printf "<%s class=\"h5 mb-3\">" $headingTag | safeHTML }}
-      <a href="{{ $page.RelPermalink }}">{{ $page.Title }}</a>
-    {{ printf "</%s>" $headingTag | safeHTML }}
-
-    <p class="mb-3 limited-height">{{ $page.Summary | plainify }}</p>
-
-    {{ $authorName := $page.Params.author }}
-    {{ $author := site.GetPage (print "authors/" $authorName) }}
-    {{ with $author }}
-      <div class="mb-3 flex items-center">
-        {{ with .Params.image }}
-          {{ partial "image" (dict
-            "Src" .
-            "Alt" (printf "Avatar of %s" $author.Title)
-            "Class" "author-avatar inline-block rounded-2xl mr-2"
-            "Size" "48x48"
-            "Command" "Fill"
-            "Loading" "lazy"
-          ) }}
+{{ $imagePresentation := lower ($page.Params.image_presentation | default "") }}
+{{ $bannerPresentation := false }}
+{{ if in (slice "banner" "contain") $imagePresentation }}
+  {{ $bannerPresentation = true }}
+{{ else if not (in (slice "cover" "photo" "photograph") $imagePresentation) }}
+  {{ if and $image (not (or (hasPrefix $image "http://") (hasPrefix $image "https://"))) }}
+    {{ with resources.Get (strings.TrimPrefix "/" $image) }}
+      {{ if and (ne .MediaType.SubType "svg") (gt .Height 0) }}
+        {{ if ge (div (float .Width) (float .Height)) 2.4 }}
+          {{ $bannerPresentation = true }}
         {{ end }}
-        <span>{{ .Title }}</span>
+      {{ end }}
+    {{ end }}
+  {{ end }}
+  {{ if and $image (not $bannerPresentation) }}
+    {{ $imageName := lower $image }}
+    {{ range slice "banner" "cover" "report" "summary" "strategy" "guideline" }}
+      {{ if in $imageName . }}
+        {{ $bannerPresentation = true }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ $imageMode := cond $bannerPresentation "banner" "cover" }}
+
+{{ if eq $variant "archive" }}
+  <article
+    class="article-card article-card--archive{{ if not $image }}
+      article-card--no-image
+    {{ end }}">
+    <time
+      class="archive-entry__date"
+      datetime="{{ $page.Date.Format "2006-01-02" }}">
+      {{ $page.Date.Format "Jan 2, 2006" }}
+    </time>
+
+    {{ if $image }}
+      <div class="image-card image-card--{{ $imageMode }}">
+        <a
+          href="{{ $page.RelPermalink }}"
+          aria-label="{{ printf "Read %s" $page.Title }}">
+          {{ partial "image" (dict
+            "Src" $image
+            "Alt" ""
+            "Class" (printf "card-image card-image--%s" $imageMode)
+            "Size" (cond $bannerPresentation "800x" "800x450")
+            "Command" (cond $bannerPresentation "Resize" "Fill")
+            "Loading" "lazy"
+            "Context" $page
+            )
+          }}
+        </a>
       </div>
     {{ end }}
 
-    <a
-      class="highlight"
-      href="{{ $page.RelPermalink }}"
-      aria-label="{{ printf "%s: %s" (i18n "read_more") $page.Title }}">
-      {{ i18n "read_more" }}<i
-        class="fa fa-arrow-right highlight pl-2"
-        aria-hidden="true"></i>
-    </a>
-  </div>
-</article>
+
+    <div class="archive-entry__content">
+      {{ if $contentCategory }}
+        <a
+          class="archive-entry__type"
+          href="{{ `categories/` | relLangURL }}{{ $contentCategory | urlize | lower }}/">
+          {{ $contentType }}
+        </a>
+      {{ else }}
+        <span class="archive-entry__type">{{ $contentType }}</span>
+      {{ end }}
+
+      {{ printf "<%s class=\"archive-entry__title\">" $headingTag | safeHTML }}
+      <a href="{{ $page.RelPermalink }}">{{ $page.Title }}</a>
+      {{ printf "</%s>" $headingTag | safeHTML }}
+
+      {{ $summary := $page.Params.description | default $page.Summary }}
+      {{ with $summary }}
+        <p class="archive-entry__summary">{{ . | plainify | htmlUnescape }}</p>
+      {{ end }}
+    </div>
+  </article>
+{{ else }}
+  <article class="article-card article-card--standard">
+    {{ if $image }}
+      <div class="image-card image-card--{{ $imageMode }}">
+        <a
+          href="{{ $page.RelPermalink }}"
+          aria-label="{{ printf "Read %s" $page.Title }}">
+          {{ partial "image" (dict
+            "Src" $image
+            "Alt" ""
+            "Class" (printf "card-image card-image--%s" $imageMode)
+            "Size" (cond $bannerPresentation "800x" "800x450")
+            "Command" (cond $bannerPresentation "Resize" "Fill")
+            "Loading" "lazy"
+            "Context" $page
+            )
+          }}
+        </a>
+      </div>
+    {{ end }}
+
+
+    <div class="bg-card p-8">
+      {{ range $index, $category := $categories }}
+        {{ if $category }}
+          <a
+            class="tag-uppercase article-card__type inline-block mb-3"
+            href="{{ `categories/` | relLangURL }}{{ $category | urlize | lower }}/">
+            {{- $category | humanize -}}
+            {{- if ne $index (sub (len $categories) 1) }},{{ end -}}
+          </a>
+        {{ end }}
+      {{ end }}
+
+      {{ printf "<%s class=\"h5 mb-3\">" $headingTag | safeHTML }}
+      <a href="{{ $page.RelPermalink }}">{{ $page.Title }}</a>
+      {{ printf "</%s>" $headingTag | safeHTML }}
+
+
+      <p class="mb-3 limited-height">{{ $page.Summary | plainify }}</p>
+
+      {{ $authorName := $page.Params.author }}
+      {{ $author := site.GetPage (print "authors/" $authorName) }}
+      {{ with $author }}
+        <div class="mb-3 flex items-center">
+          {{ with .Params.image }}
+            {{ partial "image" (dict
+              "Src" .
+              "Alt" (printf "Avatar of %s" $author.Title)
+              "Class" "author-avatar inline-block rounded-2xl mr-2"
+              "Size" "48x48"
+              "Command" "Fill"
+              "Loading" "lazy"
+              )
+            }}
+          {{ end }}
+          <span>{{ .Title }}</span>
+        </div>
+      {{ end }}
+
+
+      <a
+        class="highlight"
+        href="{{ $page.RelPermalink }}"
+        aria-label="{{ printf "%s: %s" (i18n "read_more") $page.Title }}">
+        {{ i18n "read_more" }}<i
+          class="fa fa-arrow-right highlight pl-2"
+          aria-hidden="true"></i>
+      </a>
+    </div>
+  </article>
+{{ end }}

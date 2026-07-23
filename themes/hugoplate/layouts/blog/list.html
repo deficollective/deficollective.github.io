@@ -1,38 +1,42 @@
 {{ define "main" }}
-
-  <section class="section-sm">
+  <section class="section-sm archive-page" aria-labelledby="archive-title">
     <div class="container">
-      <div class="row justify-center">
-        <div class="lg:col-12">
-          <!-- header -->
-          <div class="mb-10">
-            <h1>
-              {{ .Title }}
-            </h1>
-          </div>
-          <!-- blog posts -->
-          <div class="row">
-            <div class="lg:col-8 sm:mb-14 mr-6">
-              <div class="row">
-                {{ $paginator:= .Paginate .RegularPages }}
-                {{ range $paginator.Pages }}
-                  <div class="md:col-4 mb-4 sm:mb-8">
-                    {{ partial "components/blog-card" (dict "Page" . "HeadingLevel" 2) }}
-                  </div>
-                {{ end }}
-              </div>
-              {{ partial "components/pagination.html" . }}
-            </div>
-            <!-- sidebar -->
-            <div class="lg:col-3 mb-4 sm:mb-8">
-              <!-- widget -->
-              {{ $widget:= site.Params.widgets.sidebar }}
-              {{ partialCached "widgets/widget-wrapper" ( dict "Widgets" $widget "Scope" . ) }}
-            </div>
-          </div>
+      <div class="archive-page__inner">
+        <header class="archive-header">
+          <h1 id="archive-title">Reports &amp; Updates</h1>
+          {{ with .Content }}
+            <div class="archive-header__intro">{{ . }}</div>
+          {{ end }}
+        </header>
+
+        <div class="archive-toolbar">
+          {{ partial "widgets/categories" . }}
+          {{ partial "widgets/tags" . }}
+        </div>
+
+        {{ $pages := .RegularPages.ByDate.Reverse }}
+        {{ $paginator := .Paginate $pages 8 }}
+        <div
+          class="archive-list"
+          aria-label="Reports and updates, newest first">
+          {{ range $paginator.Pages }}
+            {{ partial "components/blog-card" (dict
+              "Page" .
+              "HeadingLevel" 2
+              "Variant" "archive"
+              )
+            }}
+          {{ else }}
+            <p class="archive-list__empty">
+              No reports or updates are available.
+            </p>
+          {{ end }}
+        </div>
+
+        <div class="archive-pagination">
+          {{ partial "components/pagination.html" . }}
         </div>
       </div>
     </div>
   </section>
 {{ end }}
-
