@@ -2,15 +2,41 @@
 title: "Policies"
 meta_title: "The DeFi Collective - Policies"
 description: "Published governance, reporting, treasury management, and protocol policy documents from the DeFi Collective."
+layout: "policies"
 draft: false
+documents:
+  - title: "Articles of Association"
+    status: "current"
+    status_label: "Current"
+    version: "v1"
+    published: "September 9, 2023"
+    href: "/articles-of-association/"
+    action: "Read articles"
+    note: "The association's governing document."
+  - title: "Reporting Policy"
+    status: "archived"
+    status_label: "Archived cadence"
+    version: "v1.3"
+    published: "December 12, 2024"
+    href: "/reporting-policy/"
+    action: "Read policy"
+    note: "Preserved for its accounting logic; its monthly cadence predates the July 2026 move to biannual reports."
+  - title: "Treasury Management Policy"
+    status: "current"
+    status_label: "Current"
+    version: "v1"
+    published: "March 25, 2024"
+    href: "/treasury-management-policy/"
+    action: "Read policy"
+    note: "The current framework for treasury operations and risk management."
+  - title: "DeFi Protocol Guidelines"
+    status: "current"
+    status_label: "Current"
+    version: "Published reference"
+    published: "April 17, 2024"
+    href: "/blog/tdc-protocol-guidelines/"
+    action: "Read guidelines"
+    note: "The Collective's framework for identifying Genuine DeFi systems."
 ---
 
-The Collective's published governance and operating documents remain available for reference. Each document carries its own version and publication date.
-
-| Document | Published version |
-| --- | --- |
-| [Articles of Association](/articles-of-association/) | v1 (September 28, 2023) |
-| [Reporting Policy](/reporting-policy/) | v1.3 (December 12, 2024) |
-| [Treasury Management Policy](/treasury-management-policy/) | v1 (March 25, 2024) |
-| [DeFi Protocol Guidelines](/blog/tdc-protocol-guidelines/) | April 17, 2024 |
-
+The Collective's governance and operating documents remain available as a public reference. Status identifies the current documents and preserves the reporting policy whose publication cadence has since changed.

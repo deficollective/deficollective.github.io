@@ -1,0 +1,138 @@
+{{ define "main" }}
+  <section
+    class="section-sm reference-page reference-support"
+    aria-labelledby="reference-page-title">
+    <div class="container">
+      {{ partial "components/reference-page-header.html" . }}
+
+      {{ with .Params.donation }}
+        <section
+          class="reference-page__section"
+          aria-labelledby="donation-title">
+          <div class="reference-page__section-heading">
+            <h2 id="donation-title" class="reference-page__section-title">
+              Donate on-chain
+            </h2>
+            <p>{{ .accepted_assets }}</p>
+          </div>
+
+          <div class="reference-address">
+            <div class="reference-address__name">
+              <span class="reference-field-label">Verified ENS name</span>
+              <a href="{{ .explorer_url }}">{{ .ens }}</a>
+            </div>
+
+            <div class="reference-address__value">
+              <span class="reference-field-label">Full address</span>
+              <code id="donation-address">{{ .address }}</code>
+            </div>
+
+            <div class="reference-address__actions">
+              <button
+                class="reference-copy"
+                type="button"
+                data-copy-address
+                data-copy-value="{{ .address }}"
+                data-copy-status="copy-address-status"
+                data-copy-success="Address copied"
+                data-copy-error="Copy failed. Select and copy the address above."
+                aria-describedby="copy-address-help copy-address-status">
+                <i class="fa-regular fa-copy" aria-hidden="true"></i>
+                <span>Copy address</span>
+              </button>
+              <a class="reference-action" href="{{ .explorer_url }}">
+                Verify on Etherscan
+                <i
+                  class="fa-solid fa-arrow-up-right-from-square"
+                  aria-hidden="true"></i>
+              </a>
+            </div>
+
+            <p id="copy-address-help" class="sr-only">
+              Copies the full donation address to the clipboard.
+            </p>
+            <p
+              id="copy-address-status"
+              class="reference-copy__status"
+              data-copy-status
+              aria-live="polite"></p>
+          </div>
+
+          <div class="reference-support__details">
+            <div>
+              <h3>Supported networks</h3>
+              <ul class="reference-networks">
+                {{ range .networks }}
+                  <li>{{ . }}</li>
+                {{ end }}
+              </ul>
+            </div>
+
+            <div
+              class="reference-support__notice"
+              role="note"
+              aria-labelledby="network-notice-title">
+              <h3 id="network-notice-title">
+                <i
+                  class="fa-solid fa-triangle-exclamation"
+                  aria-hidden="true"></i>
+                Check before sending
+              </h3>
+              <p>{{ .risk_notice }}</p>
+            </div>
+          </div>
+
+          <p class="reference-support__terms">
+            Every donation to this address is subject to the
+            <a href="{{ .terms_url }}">Donation Terms</a>.
+          </p>
+        </section>
+      {{ end }}
+
+
+      <section
+        class="reference-page__section reference-support__secondary"
+        aria-labelledby="other-support-title">
+        <div>
+          <h2 id="other-support-title" class="reference-page__section-title">
+            Other ways to contribute
+          </h2>
+          {{ range .Params.contributions }}
+            <p>{{ . }}</p>
+          {{ end }}
+          <p>{{ .Params.funding_note }}</p>
+        </div>
+
+        <div class="reference-support__contact">
+          <h2 class="reference-page__section-title">Contact the Ants</h2>
+          <p>Discuss a contribution or get involved with the community.</p>
+          <div class="reference-support__contact-actions">
+            <a
+              class="reference-action"
+              href="mailto:{{ .Params.contact.email }}">
+              {{ .Params.contact.email }}
+              <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+            </a>
+            <a
+              class="reference-action"
+              href="{{ .Params.contact.discord_url }}">
+              Join Discord
+              <i class="fa-brands fa-discord" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <aside
+        class="reference-support__disclaimer"
+        aria-labelledby="support-disclaimer-title">
+        <h2 id="support-disclaimer-title">Donation disclaimer</h2>
+        <p>
+          {{ .Params.disclaimer }} Read the
+          <a href="{{ .Params.donation.terms_url }}">Donation Terms</a> before
+          contributing.
+        </p>
+      </aside>
+    </div>
+  </section>
+{{ end }}

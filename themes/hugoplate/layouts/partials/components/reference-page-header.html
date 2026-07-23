@@ -1,0 +1,8 @@
+<header class="reference-page__header">
+  <h1 id="reference-page-title" class="reference-page__title">{{ .Title }}</h1>
+  {{ with .Content }}
+    <div class="content reference-page__intro">
+      {{ . }}
+    </div>
+  {{ end }}
+</header>

@@ -1,0 +1,55 @@
+{{ define "main" }}
+  <section
+    class="section-sm reference-page reference-policies"
+    aria-labelledby="reference-page-title">
+    <div class="container">
+      {{ partial "components/reference-page-header.html" . }}
+
+
+      <section
+        class="reference-page__section"
+        aria-labelledby="policy-register-title">
+        <div class="reference-page__section-heading">
+          <h2 id="policy-register-title" class="reference-page__section-title">
+            Document register
+          </h2>
+          <p>Versions and dates refer to the publication linked in each row.</p>
+        </div>
+
+        <div class="reference-documents__head" aria-hidden="true">
+          <span>Document</span>
+          <span>Status</span>
+          <span>Published</span>
+          <span>Action</span>
+        </div>
+        <ol class="reference-documents">
+          {{ range .Params.documents }}
+            <li class="reference-document">
+              <div class="reference-document__identity">
+                <h3><a href="{{ .href }}">{{ .title }}</a></h3>
+                <p>{{ .note }}</p>
+              </div>
+              <div class="reference-document__status">
+                <span class="reference-field-label">Status</span>
+                <span class="reference-status reference-status--{{ .status }}"
+                  >{{ .status_label }}</span
+                >
+                <span class="reference-document__version">{{ .version }}</span>
+              </div>
+              <div class="reference-document__published">
+                <span class="reference-field-label">Published</span>
+                <time>{{ .published }}</time>
+              </div>
+              <a
+                class="reference-action reference-document__action"
+                href="{{ .href }}">
+                {{ .action }}
+                <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+              </a>
+            </li>
+          {{ end }}
+        </ol>
+      </section>
+    </div>
+  </section>
+{{ end }}

@@ -1,29 +1,43 @@
-<div class="bg-card rounded p-8 text-center">
-  {{ $image:= .Params.image }}
-  {{ if $image }}
-    {{ partial "image" (dict "Src" $image "Alt" .Title "Class" "mx-auto mb-6 rounded" "size" "120x120") }}
-  {{ else if .Params.Email }}
-    <img
-      class="mx-auto mb-6 rounded"
-      alt="{{ .Title }}"
-      height="120"
-      width="120"
-      src="https://www.gravatar.com/avatar/{{ md5 .Params.email }}?s=128&pg&d=identicon" />
-  {{ end }}
-  <h2 class="h4 mb-3">
-    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-  </h2>
-  <p class="mb-4">
-    {{ .Summary }}
-  </p>
-  <ul class="social-icons">
-    {{ range .Params.social }}
-      <li>
-        <a href="{{ .link | safeURL }}" target="_blank" rel="noopener nofollow">
-          <span class="sr-only">{{ .title }}</span>
-          <i class="{{ .icon }}"></i>
-        </a>
-      </li>
+<article class="reference-person">
+  <div class="reference-person__portrait">
+    {{ $image:= .Params.image }}
+    {{ if $image }}
+      {{ partial "image" (dict "Src" $image "Alt" "" "Class" "reference-person__image" "Size" "320x320") }}
+    {{ else if .Params.Email }}
+      <img
+        class="reference-person__image"
+        alt=""
+        height="320"
+        width="320"
+        src="https://www.gravatar.com/avatar/{{ md5 .Params.email }}?s=320&pg&d=identicon" />
     {{ end }}
-  </ul>
-</div>
+  </div>
+
+  <div class="reference-person__body">
+    <h3 class="reference-person__name">
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </h3>
+    <div class="reference-person__summary">
+      {{ .Summary }}
+    </div>
+    {{ with .Params.social }}
+      <ul
+        class="social-icons reference-person__social"
+        aria-label="{{ $.Title }} social links">
+        {{ range . }}
+          <li>
+            <a
+              href="{{ .link | safeURL }}"
+              target="_blank"
+              rel="noopener nofollow">
+              <span class="sr-only"
+                >{{ .name | default "Social profile" }}</span
+              >
+              <i class="{{ .icon }}" aria-hidden="true"></i>
+            </a>
+          </li>
+        {{ end }}
+      </ul>
+    {{ end }}
+  </div>
+</article>

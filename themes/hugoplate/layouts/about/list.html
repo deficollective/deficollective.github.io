@@ -1,25 +1,20 @@
 {{ define "main" }}
-
-<section class="section-sm">
-  <div class="container">
-    <div class="row justify-center">
-      <div class="lg:col-10 max-w-800">
-        <div class="mb-10">
-          <h1>{{ .Title }}</h1>
+  <section class="section-sm reference-about" aria-labelledby="about-title">
+    <div class="container">
+      <div class="reference-about__intro">
+        <h1 id="about-title" class="reference-page__title">{{ .Title }}</h1>
+        <div class="content reference-about__content">
+          {{ .Content }}
         </div>
-
-          <div class="content max-w-800 mb-12 mx-auto">{{ .Content }}</div>
       </div>
-    </div>
 
-    <div class="row justify-center">
-      {{ range .RegularPages }}
-        <div class="md:col-4 lg:col-4 mb-14">
-          {{ partial "components/author-card" . }}
+      {{ with .RegularPages }}
+        <div class="reference-about__people" aria-label="Board members">
+          {{ range . }}
+            {{ partial "components/author-card" . }}
+          {{ end }}
         </div>
       {{ end }}
     </div>
-
   </section>
-  
 {{ end }}

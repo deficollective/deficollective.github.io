@@ -1,0 +1,95 @@
+{{ define "main" }}
+  <section
+    class="section-sm reference-page reference-impact"
+    aria-labelledby="reference-page-title">
+    <div class="container">
+      {{ partial "components/reference-page-header.html" . }}
+
+
+      <section
+        class="reference-page__section"
+        aria-labelledby="current-context-title">
+        <div class="reference-page__section-heading">
+          <h2 id="current-context-title" class="reference-page__section-title">
+            Current context
+          </h2>
+          <p>The latest operating record and activity that remains current.</p>
+        </div>
+
+        {{ with .Params.current_report }}
+          <article class="reference-current-report">
+            <div>
+              <span class="reference-status reference-status--active"
+                >Current report</span
+              >
+              <h3 class="reference-current-report__title">
+                <a href="{{ .href }}">{{ .title }}</a>
+              </h3>
+              <p class="reference-current-report__period">{{ .period }}</p>
+            </div>
+            <p class="reference-current-report__cadence">{{ .cadence }}</p>
+            <a class="reference-action" href="{{ .href }}">
+              Read current report
+              <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+            </a>
+          </article>
+        {{ end }}
+
+        {{ with .Params.active_initiatives }}
+          <ul class="reference-register" aria-label="Current initiatives">
+            {{ range . }}
+              <li class="reference-register__item">
+                <div class="reference-register__identity">
+                  <span class="reference-status reference-status--{{ .status }}"
+                    >{{ .status_label }}</span
+                  >
+                  <h3>{{ .name }}</h3>
+                  <p class="reference-register__period">{{ .period }}</p>
+                </div>
+                <p class="reference-register__outcome">{{ .outcome }}</p>
+                <a class="reference-action" href="{{ .source_href }}">
+                  {{ .source_title }}
+                  <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              </li>
+            {{ end }}
+          </ul>
+        {{ end }}
+      </section>
+
+      <section
+        class="reference-page__section"
+        aria-labelledby="historical-record-title">
+        <div class="reference-page__section-heading">
+          <h2
+            id="historical-record-title"
+            class="reference-page__section-title">
+            Historical record
+          </h2>
+          <p>
+            Initiatives are retained here with their final published context.
+          </p>
+        </div>
+
+        <ul class="reference-register" aria-label="Historical initiatives">
+          {{ range .Params.historical_initiatives }}
+            <li class="reference-register__item">
+              <div class="reference-register__identity">
+                <span class="reference-status reference-status--{{ .status }}"
+                  >{{ .status_label }}</span
+                >
+                <h3>{{ .name }}</h3>
+                <p class="reference-register__period">{{ .period }}</p>
+              </div>
+              <p class="reference-register__outcome">{{ .outcome }}</p>
+              <a class="reference-action" href="{{ .source_href }}">
+                {{ .source_title }}
+                <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+              </a>
+            </li>
+          {{ end }}
+        </ul>
+      </section>
+    </div>
+  </section>
+{{ end }}
