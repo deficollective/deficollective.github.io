@@ -1,0 +1,27 @@
+{{- $page := .Page -}}
+{{- $variant := default "desktop" .Variant -}}
+{{- $toc := replace $page.TableOfContents `<nav id="TableOfContents">` "" -}}
+{{- $toc = replace $toc "</nav>" "" -}}
+
+{{- if eq $variant "mobile" -}}
+  <details class="report-toc report-toc--mobile">
+    <summary class="report-toc__summary">
+      <span>Contents</span>
+      <span class="report-toc__indicator" aria-hidden="true"></span>
+    </summary>
+    <nav class="report-toc__links" aria-label="Contents">
+      {{ $toc | safeHTML }}
+    </nav>
+  </details>
+{{- else -}}
+  <aside
+    class="report-toc report-toc--desktop"
+    aria-labelledby="report-contents-title">
+    <div class="report-toc__sticky">
+      <h2 class="report-toc__title" id="report-contents-title">Contents</h2>
+      <nav class="report-toc__links" aria-label="Contents">
+        {{ $toc | safeHTML }}
+      </nav>
+    </div>
+  </aside>
+{{- end -}}

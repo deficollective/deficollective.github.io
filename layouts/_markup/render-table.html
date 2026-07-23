@@ -1,43 +1,94 @@
 {{- $tableNumber := add .Ordinal 1 -}}
-{{- $label := printf "%s, data table %d" .Page.Title $tableNumber -}}
-<div
-  class="table-scroll"
-  role="region"
-  aria-label="{{ $label }}"
-  tabindex="0">
-  <table
-    {{- range $key, $value := .Attributes }}
-      {{- if $value }}
-        {{- printf " %s=%q" $key $value | safeHTMLAttr }}
-      {{- end }}
-    {{- end }}>
-    <thead>
-      {{- range .THead }}
-        <tr>
-          {{- range . }}
-            <th
-              {{- with .Alignment }}
-                {{- printf " style=%q" (printf "text-align: %s" .) | safeHTMLAttr }}
-              {{- end }}>
-              {{- .Text -}}
-            </th>
-          {{- end }}
-        </tr>
-      {{- end }}
-    </thead>
-    <tbody>
-      {{- range .TBody }}
-        <tr>
-          {{- range . }}
-            <td
-              {{- with .Alignment }}
-                {{- printf " style=%q" (printf "text-align: %s" .) | safeHTMLAttr }}
-              {{- end }}>
-              {{- .Text -}}
-            </td>
-          {{- end }}
-        </tr>
-      {{- end }}
-    </tbody>
-  </table>
+{{- $headers := slice -}}
+{{- $columnCount := 0 -}}
+{{- range first 1 .THead -}}
+  {{- $columnCount = len . -}}
+  {{- range . -}}
+    {{- $headers = $headers | append (.Text | plainify) -}}
+  {{- end -}}
+{{- end -}}
+{{- $visibleHeaders := first 3 $headers -}}
+{{- $headerSummary := delimit $visibleHeaders ", " -}}
+{{- if gt $columnCount 3 -}}
+  {{- $remaining := sub $columnCount 3 -}}
+  {{- $headerSummary = printf "%s, and %d more %s" $headerSummary $remaining (cond (eq $remaining 1) "column" "columns") -}}
+{{- end -}}
+{{- $caption := printf "Data table %d: %s" $tableNumber $headerSummary -}}
+{{- with .Attributes -}}
+  {{- with index . "caption" -}}
+    {{- $caption = . -}}
+  {{- end -}}
+{{- end -}}
+{{- $captionID := printf "data-table-caption-%d" $tableNumber -}}
+{{- $hintID := printf "data-table-hint-%d" $tableNumber -}}
+{{- $isComparison := ge $columnCount 3 -}}
+{{- $blockClass := "table-block" -}}
+{{- $scrollClass := "table-scroll" -}}
+{{- if $isComparison -}}
+  {{- $blockClass = printf "%s table-block--comparison" $blockClass -}}
+  {{- $scrollClass = printf "%s table-scroll--comparison" $scrollClass -}}
+{{- end -}}
+
+
+<div class="{{ $blockClass }}">
+  <p class="table-scroll__hint" id="{{ $hintID }}">
+    Scroll horizontally to view every column.
+    <span aria-hidden="true">&nbsp;&rarr;</span>
+  </p>
+  <div
+    class="{{ $scrollClass }}"
+    role="region"
+    aria-labelledby="{{ $captionID }}"
+    aria-describedby="{{ $hintID }}"
+    tabindex="0">
+    <table
+      {{- range $key, $value := .Attributes }}
+        {{- if and $value (ne $key "caption") }}
+          {{- printf " %s=%q" $key $value | safeHTMLAttr }}
+        {{- end }}
+      {{- end }}>
+      <caption id="{{ $captionID }}">
+        {{ $caption }}
+      </caption>
+      <thead>
+        {{- range .THead }}
+          <tr>
+            {{- range . }}
+              <th
+                scope="col"
+                {{- with .Alignment }}
+                  {{- printf " style=%q" (printf "text-align: %s" .) | safeHTMLAttr }}
+                {{- end }}>
+                {{- .Text -}}
+              </th>
+            {{- end }}
+          </tr>
+        {{- end }}
+      </thead>
+      <tbody>
+        {{- range .TBody }}
+          <tr>
+            {{- range $columnIndex, $cell := . }}
+              {{- if eq $columnIndex 0 }}
+                <th
+                  scope="row"
+                  {{- with $cell.Alignment }}
+                    {{- printf " style=%q" (printf "text-align: %s" .) | safeHTMLAttr }}
+                  {{- end }}>
+                  {{- $cell.Text -}}
+                </th>
+              {{- else }}
+                <td
+                  {{- with $cell.Alignment }}
+                    {{- printf " style=%q" (printf "text-align: %s" .) | safeHTMLAttr }}
+                  {{- end }}>
+                  {{- $cell.Text -}}
+                </td>
+              {{- end }}
+            {{- end }}
+          </tr>
+        {{- end }}
+      </tbody>
+    </table>
+  </div>
 </div>

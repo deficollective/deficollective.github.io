@@ -1,10 +1,25 @@
 {{ define "main" }}
-  <section class="section pt-7 bg-article">
+  {{ $categories := default (slice) .Params.categories }}
+  {{ $tags := default (slice) .Params.tags }}
+  {{ $taxonomyText := lower (delimit (append $categories $tags) " ") }}
+  {{ $headingCount := strings.Count "<li>" .TableOfContents }}
+  {{ $hasReportTaxonomy := or (strings.Contains $taxonomyText "report") (strings.Contains $taxonomyText "summary") }}
+  {{ $isLongForm := or $hasReportTaxonomy (ge $headingCount 6) }}
+  {{ $showTOC := and $isLongForm (ge $headingCount 4) }}
+  {{ $sectionClass := "section pt-7 bg-article article-page" }}
+  {{ $articleClass := "lg:col-10" }}
+  {{ if $isLongForm }}
+    {{ $sectionClass = printf "%s article-page--report" $sectionClass }}
+    {{ $articleClass = "report-article lg:col-12" }}
+  {{ end }}
+
+
+  <section class="{{ $sectionClass }}">
     <div class="container">
       <div class="row justify-center">
-        <article class="lg:col-10">
-            <p class="text-center">
-              {{ $categories:= .Params.categories }}
+        <article class="{{ $articleClass }}">
+          <header class="{{ if $isLongForm }}report-article__header{{ end }}">
+            <p class="text-center article-categories">
               {{ range $i,$p:= $categories }}
                 <a
                   href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}/"
@@ -18,86 +33,177 @@
             <h1 class="mb-4 font-bold text-center">
               {{ .Title }}
             </h1>
-            <ul class="mb-10 text-center">
-              <li class="mr-4 inline-block">
-                <a
-                  href="{{ `authors/` | relLangURL }}{{ .Params.Author | urlize }}/">
-                  {{ $authorName := .Params.author }}
-                  {{ $author := site.GetPage (print "authors/" $authorName) }}
+            <ul class="mb-10 text-center article-byline">
+              {{ $authorName := .Params.author }}
+              {{ with $authorName }}
+                {{ $author := site.GetPage (print "authors/" .) }}
+                <li class="mr-4 inline-block">
                   {{ if $author }}
-                      <!-- Add author's avatar -->
-                      {{ if $author.Params.image }}
-                          {{ partial "image" (dict
-                            "Src" $author.Params.image
-                            "Alt" (printf "Avatar of %s" $author.Title)
-                            "Class" "author-avatar inline-block rounded-2xl mr-2"
-                            "Size" "48x48"
-                            "Command" "Fill"
-                            "Loading" "lazy"
-                          ) }}
+                    <a href="{{ `authors/` | relLangURL }}{{ . | urlize }}/">
+                      {{ with $author.Params.image }}
+                        {{ partial "image" (dict
+                          "Src" .
+                          "Alt" (printf "Avatar of %s" $author.Title)
+                          "Class" "author-avatar inline-block rounded-2xl mr-2"
+                          "Size" "48x48"
+                          "Command" "Fill"
+                          "Loading" "lazy"
+                          )
+                        }}
                       {{ end }}
-                      <!-- Display author information here -->
                       {{ $author.Title }}
-                  {{ end }}       
-                </a>
-              </li>
+                    </a>
+                  {{ else }}
+                    <span>{{ . | humanize }}</span>
+                  {{ end }}
+                </li>
+              {{ end }}
+
 
               <li class="mr-4 inline-block">
-                <i class="fa-regular fa-clock mr-2"></i>
-                {{ time.Format ":date_long" .PublishDate }}
+                <i class="fa-regular fa-clock mr-2" aria-hidden="true"></i>
+                <time datetime="{{ .PublishDate.Format "2006-01-02" }}">
+                  {{ time.Format ":date_long" .PublishDate }}
+                </time>
               </li>
             </ul>
-            <div class="bg-card shadow-b-16">
-                {{ $image:= .Params.image }}
-                {{ if $image }}
-                  <div>
-                    {{ partial "image" (dict "Src" $image "Alt" .Title "Class" "w-full rounded") }}
+          </header>
+
+          {{ $image := .Params.image }}
+          {{ if $isLongForm }}
+            {{ with $image }}
+              <div class="report-article__cover">
+                {{ partial "image" (dict
+                  "Src" .
+                  "Alt" $.Title
+                  "Class" "report-article__cover-image w-full"
+                  )
+                }}
+              </div>
+            {{ end }}
+
+
+            <div class="report-article__surface">
+              {{ $reportLayoutClass := "report-layout" }}
+              {{ if not $showTOC }}
+                {{ $reportLayoutClass = printf "%s report-layout--without-toc" $reportLayoutClass }}
+              {{ end }}
+              <div class="{{ $reportLayoutClass }}">
+                {{ if $showTOC }}
+                  {{ partial "components/report-toc" (dict "Page" . "Variant" "desktop") }}
+                {{ end }}
+
+
+                <div class="report-layout__main">
+                  {{ with .Params.in_brief }}
+                    <section
+                      class="report-in-brief"
+                      aria-labelledby="report-in-brief-title">
+                      <h2 id="report-in-brief-title">In brief</h2>
+                      <div class="report-in-brief__body">
+                        {{ . | markdownify }}
+                      </div>
+                    </section>
+                  {{ end }}
+
+                  {{ if $showTOC }}
+                    {{ partial "components/report-toc" (dict "Page" . "Variant" "mobile") }}
+                  {{ end }}
+
+
+                  <div class="content report-content">
+                    {{ .Content }}
+                  </div>
+                </div>
+              </div>
+
+              <div class="report-article__footer">
+                <div
+                  class="row items-start justify-between article-interactions">
+                  <div class="col-8 flex items-center">
+                    <ul>
+                      {{ range $tags }}
+                        <li class="inline-block">
+                          <a
+                            class="bg-tag m-1 block rounded px-3 py-1 hover:text-white"
+                            href="{{ `tags/` | relLangURL }}{{ . | urlize | lower }}/">
+                            {{ . | humanize }}
+                          </a>
+                        </li>
+                      {{ end }}
+                    </ul>
+                  </div>
+                  <div class="col-4 flex items-center">
+                    <span class="share-title">{{ i18n "share" }}:</span>
+                    {{ partial "social-share" (dict
+                      "Context" .
+                      "Class" "share-icons"
+                      "Whatsapp" false
+                      "Telegram" false
+                      "Pinterest" false
+                      "Tumblr" false
+                      "Vk" false
+                      )
+                    }}
+                  </div>
+                </div>
+                {{ if site.Config.Services.Disqus.Shortname }}
+                  <div class="my-10">
+                    {{ template "_internal/disqus.html" . }}
                   </div>
                 {{ end }}
-                <div class="content p-8 lg:col-10 mx-auto mb-10">
-                  {{ .Content }}
+              </div>
+            </div>
+          {{ else }}
+            <div class="bg-card shadow-b-16">
+              {{ with $image }}
+                <div>
+                  {{ partial "image" (dict "Src" . "Alt" $.Title "Class" "w-full rounded") }}
                 </div>
-                <div class="row">
-                  <div class="col-10 mx-auto mb-10">
-                    <div class="row items-start justify-between article-interactions">
-                      <div class="col-8 flex items-center">
-                        <ul>
-                          {{ $tags:= .Params.tags }}
-                          {{ range $i,$p:= $tags }}
-                            <li class="inline-block">
-                              <a
-                                class="bg-tag m-1 block rounded px-3 py-1 hover:text-white"
-                                href="{{ `tags/` | relLangURL }}{{ . | urlize | lower }}/">
-                                {{ . | humanize }}
-                              </a>
-                            </li>
-                          {{ end }}
-                        </ul>
-                      </div>
-                      <div class="col-4 flex items-center">
-                        <span class="share-title">{{ i18n "share" }}:</span>
-                        {{ partial "social-share" (dict
-                          "Context" .
-                          "Class" "share-icons"
-                          "Whatsapp" false
-                          "Telegram" false
-                          "Pinterest" false
-                          "Tumblr" false
-                          "Vk" false
-                        ) }}
-                      </div>
+              {{ end }}
+              <div class="content p-8 lg:col-10 mx-auto mb-10">
+                {{ .Content }}
+              </div>
+              <div class="row">
+                <div class="col-10 mx-auto mb-10">
+                  <div
+                    class="row items-start justify-between article-interactions">
+                    <div class="col-8 flex items-center">
+                      <ul>
+                        {{ range $tags }}
+                          <li class="inline-block">
+                            <a
+                              class="bg-tag m-1 block rounded px-3 py-1 hover:text-white"
+                              href="{{ `tags/` | relLangURL }}{{ . | urlize | lower }}/">
+                              {{ . | humanize }}
+                            </a>
+                          </li>
+                        {{ end }}
+                      </ul>
                     </div>
-                    <div class="row">
-                      <!-- comments -->
-                      {{ if site.Config.Services.Disqus.Shortname }}
-                        <div class="my-10">
-                          {{ template "_internal/disqus.html" . }}
-                        </div>
-                      {{ end }}
+                    <div class="col-4 flex items-center">
+                      <span class="share-title">{{ i18n "share" }}:</span>
+                      {{ partial "social-share" (dict
+                        "Context" .
+                        "Class" "share-icons"
+                        "Whatsapp" false
+                        "Telegram" false
+                        "Pinterest" false
+                        "Tumblr" false
+                        "Vk" false
+                        )
+                      }}
                     </div>
                   </div>
+                  {{ if site.Config.Services.Disqus.Shortname }}
+                    <div class="my-10">
+                      {{ template "_internal/disqus.html" . }}
+                    </div>
+                  {{ end }}
                 </div>
-          </div>
+              </div>
+            </div>
+          {{ end }}
         </article>
       </div>
 
