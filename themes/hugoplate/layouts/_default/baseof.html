@@ -7,6 +7,20 @@
   lang="{{ site.Language.Locale | default `en-US` }}"
   itemtype="http://schema.org/WebPage">
   <head>
+    {{ if site.Params.theme_switcher }}
+      <script>
+        (() => {
+          const storedTheme = localStorage.getItem("theme");
+          const prefersDark = window.matchMedia(
+            "(prefers-color-scheme: dark)",
+          ).matches;
+          const useDark =
+            storedTheme === "dark" || (storedTheme === null && prefersDark);
+          document.documentElement.classList.toggle("dark", useDark);
+        })();
+      </script>
+    {{ end }}
+
     <!-- head (don't cache it) -->
     {{ partial "essentials/head.html" . }}
 

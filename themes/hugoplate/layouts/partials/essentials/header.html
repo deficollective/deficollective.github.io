@@ -2,7 +2,7 @@
   class="header {{ if site.Params.navbar_fixed }}sticky top-0{{ end }} z-30">
   <nav class="navbar container">
     <!-- logo -->
-    <div class="order-0">
+    <div class="order-0 min-w-0">
       <!-- navbar brand/logo -->
       <a class="navbar-brand block" href="{{ site.Home.RelPermalink }}">
         {{ partial "logo" }}
@@ -101,6 +101,12 @@
           </li>
         {{ end }}
       {{ end }}
+      {{ if site.Params.theme_switcher }}
+        <li class="mobile-theme-control lg:hidden">
+          <span>Appearance</span>
+          {{ partial "components/theme-switcher" (dict "Class" "") }}
+        </li>
+      {{ end }}
       {{ if site.Params.navigation_button.enable }}
         <li class="mt-4 inline-block lg:hidden">
           <a
@@ -112,13 +118,13 @@
       {{ end }}
     </ul>
 
-    <div class="order-1 ml-auto flex items-center md:order-2 lg:ml-0">
+    <div class="header-tools order-1 ml-auto flex items-center md:order-2 lg:ml-0">
       {{ with site.Params.search }}
         {{ if .enable }}
           <button
             type="button"
             aria-label="Search"
-            class="mr-5 inline-block border-r pr-5 text-xl"
+            class="header-search inline-flex items-center justify-center text-xl"
             data-target="search-modal">
             <i class="fa-solid fa-search"></i>
           </button>
@@ -126,7 +132,7 @@
       {{ end }}
 
       {{ partial "components/language-switcher" (dict "Context" . "Class" "mr-5 pl-2 py-1 dark:bg-darkmode-theme-light rounded") }}
-      {{ partial "components/theme-switcher" (dict "Class" "mr-5") }}
+      {{ partial "components/theme-switcher" (dict "Class" "hidden lg:inline-flex") }}
 
 
       <!-- navigation btn -->

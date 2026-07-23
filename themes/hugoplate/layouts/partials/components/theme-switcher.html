@@ -6,40 +6,9 @@
       type="button"
       class="theme-switcher-button mr-2 inline-block text-xl"
       aria-label="Toggle color theme"
-      id="theme-switcher"
       data-theme-switcher>
-        <!-- sun -->
-        <i class="z-10 dark:hidden fa-regular fa-sun" aria-hidden="true"></i>
-        
-        <!-- moon -->
-        <i class="z-10 hidden dark:block fa-regular fa-moon" aria-hidden="true"></i>
+      <i class="z-10 dark:hidden fa-regular fa-sun" aria-hidden="true"></i>
+      <i class="z-10 hidden dark:block fa-regular fa-moon" aria-hidden="true"></i>
     </button>
   </div>
-
-  <!-- theme switcher script -->
-  {{ if site.Params.theme_switcher }}
-  <script>
-    var darkMode = {{if eq site.Params.theme_default "dark"}}true{{else}}false{{end}};
-
-    {{ if eq site.Params.theme_default "system" }}
-    if (window.matchMedia("(prefers-color-scheme: dark)").matches){darkMode = true}
-    {{ end }}
-
-    if (localStorage.getItem("theme") === "dark"){darkMode = true}
-    else if (localStorage.getItem("theme") === "light"){darkMode = false}
-    if (darkMode){document.documentElement.classList.add("dark")}
-    var themeSwitch = document.getElementById("theme-switcher");
-
-    document.addEventListener("DOMContentLoaded", () => {
-      themeSwitch.addEventListener("click", () => {
-        document.documentElement.classList.toggle("dark");
-        localStorage.setItem(
-          "theme",
-          document.documentElement.classList.contains("dark") ? "dark" : "light"
-        );
-      });
-    });
-  </script>
-  {{ end }}
-
 {{ end }}

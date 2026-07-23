@@ -49,6 +49,85 @@
     .matchMedia("(min-width: 1024px)")
     .addEventListener("change", () => setNavOpen(false));
 
+  // Color theme
+  // ----------------------------------------
+  const themeSwitchers = document.querySelectorAll("[data-theme-switcher]");
+
+  const setTheme = (theme) => {
+    const isDark = theme === "dark";
+    document.documentElement.classList.toggle("dark", isDark);
+    localStorage.setItem("theme", theme);
+    themeSwitchers.forEach((switcher) => {
+      switcher.setAttribute("aria-pressed", String(isDark));
+    });
+  };
+
+  const storedTheme = localStorage.getItem("theme");
+  const initialTheme =
+    storedTheme === "dark" || storedTheme === "light"
+      ? storedTheme
+      : window.matchMedia("(prefers-color-scheme: dark)").matches
+        ? "dark"
+        : "light";
+
+  setTheme(initialTheme);
+  themeSwitchers.forEach((switcher) => {
+    switcher.addEventListener("click", () => {
+      setTheme(
+        document.documentElement.classList.contains("dark") ? "light" : "dark",
+      );
+    });
+  });
+
+  // Copy-to-clipboard controls
+  // ----------------------------------------
+  const copyText = async (value) => {
+    try {
+      await navigator.clipboard.writeText(value);
+      return;
+    } catch {
+      const textarea = document.createElement("textarea");
+      textarea.value = value;
+      textarea.setAttribute("readonly", "");
+      textarea.style.position = "fixed";
+      textarea.style.opacity = "0";
+      document.body.append(textarea);
+      textarea.select();
+      const copied = document.execCommand("copy");
+      textarea.remove();
+
+      if (!copied) throw new Error("Copy command was rejected");
+    }
+  };
+
+  document.querySelectorAll("[data-copy-value]").forEach((button) => {
+    const label = button.querySelector("span") || button;
+    const defaultLabel = label.textContent.trim();
+    const status = document.getElementById(button.dataset.copyStatus);
+
+    button.addEventListener("click", async () => {
+      try {
+        await copyText(button.dataset.copyValue);
+        label.textContent = button.dataset.copySuccess || "Copied";
+        if (status) {
+          status.textContent =
+            button.dataset.copySuccess || "Wallet address copied.";
+        }
+      } catch {
+        label.textContent = "Copy failed";
+        if (status) {
+          status.textContent =
+            button.dataset.copyError ||
+            "The address could not be copied. Select the full address instead.";
+        }
+      }
+
+      window.setTimeout(() => {
+        label.textContent = defaultLabel;
+      }, 1800);
+    });
+  });
+
   // Search dialog semantics
   // ----------------------------------------
   const searchModal = document.querySelector(".search-modal");
