@@ -50,7 +50,7 @@ Transparency has always been central to how the Collective operates, and it rema
 
 First and foremost, our treasury is now managed far more passively. With little active, week-to-week position management, a month rarely brings enough meaningful change to warrant a full report — monthly granularity simply makes less sense for how the Collective now operates. Producing those detailed monthly reports is also a recurring effort that turtle mode is better off sparing.
 
-We are therefore **moving from monthly reporting to biannual reporting — a public treasury report twice a year**. Our [Treasury Management Policy](/treasury-management-policy/) is unchanged, our operations remain fully on-chain and auditable at any time, and we will continue to report publicly — just less frequently, and in a more consolidated form.
+We are therefore **moving from monthly reporting to biannual reporting — a public treasury report twice a year**, beginning with our [H1 2026 report](/blog/biannual-financial-report-h1-2026/). Our [Treasury Management Policy](/treasury-management-policy/) is unchanged, our operations remain fully on-chain and auditable at any time, and we will continue to report publicly — just less frequently, and in a more consolidated form.
 
 ## What stays
 
