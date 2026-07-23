@@ -35,9 +35,9 @@ preloader = "" # use jpg, png, svg or gif format.
 
 # Navigation button
 [navigation_button]
-enable = true
-label = "DeFiScan"
-link = "https://www.defiscan.info/"
+enable = false
+label = ""
+link = ""
 
 # search
 # search module: https://github.com/gethugothemes/hugo-modules/tree/master/search

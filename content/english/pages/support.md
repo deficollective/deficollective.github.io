@@ -8,7 +8,7 @@ description: "Ways to support the DeFi Collective"
 draft: false
 ---
 
-DeFi is promising a future of secure, reliable, efficient and global access to public financial infrastructure. The Collective is at the forefront of advancing this movement through direct support of DeFi protocols and work with the broader financial industry, policymakers and general public. But to truly make a difference, the Ants need your support.
+The DeFi Collective is a non-profit association supporting decentralized finance. Contributions from the community help sustain the association and its work.
 
 ### Donations
 
@@ -19,11 +19,9 @@ The Collective sources funds to sustain its activities and support of the DeFi e
 
 ### Contributions
 
-Beyond financial support, there are numerous ways you can directly support and participate in the Collective:
+Beyond donations, the Collective welcomes people who share its values. If you have relevant expertise or would like to get involved, reach out to the Ants directly.
 
-- Expertise & brainpower: Whether you're a developer, researcher, marketer, policy expert, or simply someone passionate about our mission, your insights and skills can make a significant difference. We welcome and value your expertise as a fellow Ant contributor.
-- Partnerships: Collaborating with like-minded organizations and individuals amplifies our impact. If you believe in a partnership that can drive mutual goals in the DeFi space, let's connect.
-- Membership: The Collective is a Swiss nonprofit association, ultimately driven by its members. Members of the Collective are highly value-aligned individuals or organizations with a proven track record in supporting the advancement of DeFi in various fields. By becoming a member, you will play a direct role in the Collective shaping the future of DeFi.
+The Collective is a Swiss nonprofit association, ultimately driven by its members. Membership is extended to highly value-aligned individuals and organizations with a proven track record in supporting the advancement of DeFi.
 
 ### Ready to make a difference?
 

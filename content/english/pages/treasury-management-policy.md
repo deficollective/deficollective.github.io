@@ -8,7 +8,7 @@ description: "The Treasury Management Policy details the logic governing the ope
 draft: false
 ---
 
-The Collective manages its own onchain assets while reporting on its treasury activities with unprecedented transparency, as further explained in the [Reporting Policy](https://deficollective.org/reporting-policy/). All treasury allocation decisions are made following a strict framework: aiming to maximize support for mission-critical DeFi protocols (i.e., the Collective’s core mission), while minimizing any risk incurred on the side of the Collective or the supported projects, and on top of that, generating revenues to enable the Collective to cover its expenses and scale up its support.
+The Collective manages its own onchain assets while reporting on its treasury activities with unprecedented transparency, as further explained in the [Reporting Policy](https://deficollective.org/reporting-policy/). All treasury allocation decisions are made following a strict framework: aiming to maximize support for mission-critical DeFi protocols (i.e., the Collective’s core mission), while minimizing any risk incurred on the side of the Collective or the supported projects, and on top of that, generating revenues to enable the Collective to cover its expenses and sustain its support.
 
 This document details the core principles governing treasury operations.
 

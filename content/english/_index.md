@@ -2,7 +2,7 @@
 # Banner
 banner:
   title: "**Advance the decentralization** of financial infrastructure"
-  content: "We are a non-profit organization harnessing relevant on-chain and off-chain resources to support decentralized finance (DeFi) on its mission to transform financial services into a secure, transparent and inclusive public infrastructure."
+  content: "The DeFi Collective is a Swiss non-profit association dedicated to decentralized finance (DeFi) as a secure, transparent, and inclusive public infrastructure."
   button:
     enable: true
     label: "Get in touch"
@@ -10,8 +10,8 @@ banner:
 
 # Partners
 partners:
-  - title: "They joined the anthill"
-    content: "Teams believing in maximized decentralization and trustless support the DeFi Collective's mission and vision. Join them !"
+  - title: "Projects we've supported"
+    content: "Teams building maximally decentralized, trustless protocols that the DeFi Collective has worked with over the years."
     button:
       enable: false
       label: "Support DeFi"
