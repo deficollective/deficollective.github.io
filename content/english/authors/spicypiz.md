@@ -1,7 +1,7 @@
 ---
 title: Spicypiz
 email: cyril@deficollective.org
-image: "/images/avatar-spicypiz.png"
+image: "/images/avatar-spicypiz.webp"
 description: Introduction of Spicypiz, contributor to the marketing team of the DeFi Collective.
 social:
   - name: twitter
