@@ -24,7 +24,7 @@ copyright = "DeFi Collective"
 
 ########################## Permalinks ############################
 [permalinks.page]
-"pages" = "/:slugorfilename/"
+"pages" = "/:slugorcontentbasename/"
 
 
 ############################# Modules ############################
