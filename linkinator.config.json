@@ -1,0 +1,9 @@
+{
+  "recurse": true,
+  "cleanUrls": true,
+  "verbosity": "error",
+  "skip": ["^(?:https?:)?//(?!localhost|127\\.0\\.0\\.1)", "^mailto:", "^tel:"],
+  "statusCodes": {
+    "404": "error"
+  }
+}

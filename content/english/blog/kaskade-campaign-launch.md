@@ -18,7 +18,7 @@ This campaign will have two sides to it:
 
 
 
-1. On the supply side, since last week and for the upcoming 30 days, the DeFi Collective has been allocating $20k$ of its war chest to boost the largest LUSD/USDC pool on Maverick. 50% of this investment will be allocated to this [“Static” pool - BP#106](bit.ly/MAV-BP106) and 50% to the [“both” strategy - BP#107](https://app.mav.xyz/boosted-positions/0xf21598a36710cbc18912b442e258a3bc48114159?chain=1). 
+1. On the supply side, since last week and for the upcoming 30 days, the DeFi Collective has been allocating $20k$ of its war chest to boost the largest LUSD/USDC pool on Maverick. 50% of this investment will be allocated to this [“Static” pool - BP#106](https://bit.ly/MAV-BP106) and 50% to the [“both” strategy - BP#107](https://app.mav.xyz/boosted-positions/0xf21598a36710cbc18912b442e258a3bc48114159?chain=1).
 2. On the demand side, starting today and for the next 30 days, thanks to the partnership with Kaskade, LUSD/USDC pool traders can earn rewards based on their trading activity. The Collective and Kaskade have allocated $30k$ to reward the traders of those pools. Let’s dive deep into this part of the incentives.
 
 

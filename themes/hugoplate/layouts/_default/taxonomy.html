@@ -10,7 +10,7 @@
           <div class="row">
             {{ range .Data.Pages }}
               <div class="md:col-4 mb-14">
-                {{ partial "components/blog-card" . }}
+                {{ partial "components/blog-card" (dict "Page" . "HeadingLevel" 2) }}
               </div>
             {{ end }}
           </div>

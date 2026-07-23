@@ -9,21 +9,30 @@
       </a>
     </div>
     <!-- navbar toggler -->
-    <input id="nav-toggle" type="checkbox" class="hidden" />
-    <label
-      for="nav-toggle"
-      class="order-3 cursor-pointer flex items-center lg:hidden text-dark dark:text-white lg:order-1">
-      <svg id="show-button" class="h-6 fill-current block" viewBox="0 0 20 20">
-        <title>Menu Open</title>
+    <button
+      id="nav-toggle"
+      type="button"
+      class="order-3 flex h-11 w-11 cursor-pointer items-center justify-center text-dark dark:text-white lg:hidden lg:order-1"
+      aria-controls="nav-menu"
+      aria-expanded="false"
+      aria-label="Open navigation">
+      <svg
+        id="show-button"
+        class="block h-6 fill-current"
+        viewBox="0 0 20 20"
+        aria-hidden="true">
         <path d="M0 3h20v2H0V3z m0 6h20v2H0V9z m0 6h20v2H0V0z"></path>
       </svg>
-      <svg id="hide-button" class="h-6 fill-current hidden" viewBox="0 0 20 20">
-        <title>Menu Close</title>
+      <svg
+        id="hide-button"
+        class="hidden h-6 fill-current"
+        viewBox="0 0 20 20"
+        aria-hidden="true">
         <polygon
           points="11 9 22 9 22 11 11 11 11 22 9 22 9 11 -2 11 -2 9 9 9 9 -2 11 -2"
           transform="rotate(45 10 10)"></polygon>
       </svg>
-    </label>
+    </button>
     <!-- /navbar toggler -->
 
     <!-- main navbar -->
@@ -107,7 +116,8 @@
       {{ with site.Params.search }}
         {{ if .enable }}
           <button
-            aria-label="search"
+            type="button"
+            aria-label="Search"
             class="mr-5 inline-block border-r pr-5 text-xl"
             data-target="search-modal">
             <i class="fa-solid fa-search"></i>

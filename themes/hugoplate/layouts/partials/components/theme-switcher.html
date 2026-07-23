@@ -2,12 +2,17 @@
 {{ $class := .Class }}
 {{ if site.Params.theme_switcher }}
   <div class="theme-switcher {{ $class }}">
-    <button class="inline-block text-xl mr-2" aria-label="theme switcher" id="theme-switcher" data-theme-switcher class="theme-switcher-button">
+    <button
+      type="button"
+      class="theme-switcher-button mr-2 inline-block text-xl"
+      aria-label="Toggle color theme"
+      id="theme-switcher"
+      data-theme-switcher>
         <!-- sun -->
-        <i class="z-10 dark:hidden fa-regular fa-sun" width="15"></i>
+        <i class="z-10 dark:hidden fa-regular fa-sun" aria-hidden="true"></i>
         
         <!-- moon -->
-        <i class="z-10 hidden dark:block fa-regular fa-moon" width="15"></i>
+        <i class="z-10 hidden dark:block fa-regular fa-moon" aria-hidden="true"></i>
     </button>
   </div>
 

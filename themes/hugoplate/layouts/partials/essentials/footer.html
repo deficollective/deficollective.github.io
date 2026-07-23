@@ -34,7 +34,7 @@
       </div>
       <div class="lg:col-4 mb-8 text-center lg:mb-0 lg:mt-0 lg:text-right">
         <ul class="social-icons">
-          {{ range site.Data.social.main }}
+          {{ range (index hugo.Data "social").main }}
             <li>
               <a
                 target="_blank"

@@ -64,7 +64,7 @@ None! There is no utility and you will not receive any financial or non-financia
 
 All donations will be sent to our treasury to support maximally decentralized DeFi projects in line with our purpose. Our operations are fully on-chain and our financials are transparent and auditable. Projects we support include Liquity, DYAD, Aerodrome, Velodrome, Maverick, PoolTogether, Diva, Possum Labs, and HAI.
 
-Please check our [monthly financial reports](https://deficollective.org/tags/tdc-monthly-report/), our [impact page](https://deficollective.org/impact/) and our [blog articles](https://deficollective.org/articles-of-association/) for more information. 
+Please check our [monthly financial reports](/categories/monthly-report/), our [historical impact archive](/impact/), and our [Articles of Association](/articles-of-association/) for more information.
 
 **What if I donated before the campaign?**
 

@@ -65,7 +65,7 @@ We take particular pride in the level of detail of our reporting. We are already
 
 Talking of the association, we have more work for this second quarter. As our activities scale up, so must the structure! We’re **looking forward to onboarding new association members and considering new board members** with relevant experience to help us reach the next step.
 
-Another arc is the internal documentation of the Collective: we are aware that the [Policy page](https://deficollective.org/policies/) still needs more work. **Several policy documents are stated for Q1**, including the much-needed and awaited “Mission-Critical Protocol Guidelines” and two other documents further explicating the accounting logic and treasury management policies.
+Another arc is the internal documentation of the Collective: we are aware that the [policy index](/policies/) still needs more work. **Several policy documents are stated for Q1**, including the much-needed and awaited “Mission-Critical Protocol Guidelines” and two other documents further explicating the accounting logic and treasury management policies.
 
 If you’d like to join us for the next step of the adventure, the [Collective Discord](https://discord.gg/xSCya2FGZb) is the place to be. We’ll also release an article highlighting the stories of the first contributors onboarded and providing more information to community members interested in becoming contributors or association members.
 

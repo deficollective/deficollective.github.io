@@ -55,9 +55,9 @@ show_categories = true
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
 keywords = ["DeFi", "Decentralized Finance", "Unstoppable DeFi", "Non-profit"]
-description = "The DeFi Collective"
-author = "DeFi Collective"
-image = "images/logo_tdc_horizontal_color.svg"
+description = "A Swiss non-profit association advancing decentralized finance as secure, transparent, and inclusive public infrastructure."
+image = "images/twitter_banner.png"
+twitter = "DeFiCollective_"
 
 # site verifications
 # verification module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/site-verifications

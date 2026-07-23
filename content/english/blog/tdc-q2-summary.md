@@ -59,7 +59,7 @@ One of the main goals for our second quarter was to improve the structure of the
 
 1. **[The Reporting Policy](https://deficollective.org/reporting-policy/)** details the accounting logic used for the monthly and quarterly reports.
 2. **[The Treasury Management Policy](https://deficollective.org/treasury-management-policy/)** explains our logic regarding the management of assets.
-3. Last but not least, the **[DeFi protocol Guidelines](https://deficollective.org/defi-protocol-guidelines/)** frame what “Genuine DeFi” means to the Collective. 
+3. Last but not least, the **[DeFi Protocol Guidelines](/blog/tdc-protocol-guidelines/)** frame what “Genuine DeFi” means to the Collective.
 
 The Protocol Guidelines are particularly important, as they explain the evaluation logic of the DeFi protocols performed by the Collective. In addition to their informative value, the guidelines also govern the allocation of funds under the association’s control since only the protocols qualifying in the “Genuine DeFi” or “Monitoring” tier (under certain conditions) are eligible for being supported by the Collective’s assets and expertise.
 

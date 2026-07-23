@@ -79,7 +79,7 @@ footer, .dark footer {
 
 /* HOME */
 .bg-main {
-    background-image: url('https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/background-ants.png');
+    background-image: url('{{ (resources.Get "images/background-ants.png").RelPermalink }}');
     background-repeat: no-repeat;
     background-position: calc(50% + 250px) calc(50% + 100px);
     background-size: 2392px 1230px;
@@ -88,7 +88,7 @@ footer, .dark footer {
 
 .bg-partners {
     background-color: var(--theme-dark);
-    background-image: url('https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/background-anthill.svg');
+    background-image: url('{{ (resources.Get "images/background-anthill.svg").RelPermalink }}');
     background-repeat: no-repeat;
     background-size: 800px;
     background-size: contain;
@@ -225,7 +225,7 @@ a.btn:hover, .dark a.btn:hover {
   .bg-article {  
     background-size: 1659px;
     background-position: 50% 2%;
-    background-image: url('https://raw.githubusercontent.com/deficollective/deficollective.github.io/main/assets/images/background-gems-horizontal.png');
+    background-image: url('{{ (resources.Get "images/background-gems-horizontal.png").RelPermalink }}');
     background-repeat: no-repeat;
   }
 
@@ -241,6 +241,22 @@ a.btn:hover, .dark a.btn:hover {
 
 
 /* Table */
+.table-scroll {
+    max-width: 100%;
+    margin: 2em 0;
+    overflow-x: auto;
+    overflow-y: hidden;
+    overscroll-behavior-inline: contain;
+    -webkit-overflow-scrolling: touch;
+}
+
+.content .table-scroll table {
+    width: max-content;
+    min-width: 100%;
+    max-width: none;
+    margin: 0;
+}
+
 .content :is(:where(th):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
     font-weight: 700;
     color: var(--text-dark);
@@ -266,8 +282,14 @@ a.btn:hover, .dark a.btn:hover {
     color: var(--text-default);
 }
 
-button[aria-label="search"] {
+button[aria-label="Search"] {
     border-color: #766cb0;
+}
+
+#nav-toggle,
+.theme-switcher-button {
+    min-width: 44px;
+    min-height: 44px;
 }
 
 /* Footer */
@@ -281,6 +303,10 @@ footer i {
 
 
 /* Article */
+.content {
+    overflow-wrap: anywhere;
+}
+
 .content :is(:where(p, strong, li):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
     color: var(--text-default);
 }
@@ -335,6 +361,13 @@ footer i {
     object-position: center;
 }
 
+.author-avatar {
+    width: 24px !important;
+    height: 24px !important;
+    flex: 0 0 24px;
+    object-fit: cover;
+}
+
 .bg-card picture>img:first-of-type {
     border-radius: 16px 16px 0 0 !important; 
 }
@@ -350,6 +383,10 @@ footer i {
 .bg-card .bg-tag, .dark .bg-card .bg-tag, .share-icons .share-link, .dark .share-icons .share-link {
     background-color: var(--theme-header);
     color: var(--link-dark);
+}
+
+.dark .bg-card .bg-tag {
+    color: var(--text-light);
 }
 
 .bg-card .bg-tag:hover, .share-icons .share-link:hover,  .social-icons a:hover {
@@ -453,4 +490,31 @@ footer i {
 }
 .search-title {
     color: var(--text-light);
+}
+
+:where(
+    a,
+    button,
+    input,
+    textarea,
+    select,
+    [tabindex]:not([tabindex="-1"])
+):focus-visible {
+    outline: 2px solid #ffffff;
+    outline-offset: 2px;
+    box-shadow: 0 0 0 4px #4800b9;
+}
+
+@media (forced-colors: active) {
+    :where(
+        a,
+        button,
+        input,
+        textarea,
+        select,
+        [tabindex]:not([tabindex="-1"])
+    ):focus-visible {
+        outline: 2px solid CanvasText;
+        box-shadow: none;
+    }
 }

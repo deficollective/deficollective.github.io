@@ -94,8 +94,8 @@ The Linea strategy remained the same during July with a vote-only strategy being
 
 July saw the Collective onboard our newest official contributor, Stengal who will be joining us as a Community Manager. Although it was his first month in his official position, Stengal has been an outstanding contributor to the Collective since he joined, winning Ant of the Month in June and writing content for the Collective over the previous months.
 
-In July, we’ve also launched the Impact page on the website, which enables our community members to easily track the liquidity growth support we provide, and join in on the pools carried by the ants – have a look: [Impact Dashboard – Liquidity Growth Support](https://deficollective.org/impact/).
+In July, we also launched an Impact page that enabled community members to track the liquidity growth support we provided and join in on the pools carried by the ants. The page is now preserved as an [impact archive](/impact/).
 
 Although the markets have been choppy throughout July, the treasury management team is happy with the performance and high surplus we have maintained. This allows us to continue to add to positions and build firepower for when the next protocol is onboarded.
 
-— Luude, on behalf of the treasury and liquidity management team of the DeFi Collective: TokenBrice and myself. 
+— Luude, on behalf of the treasury and liquidity management team of the DeFi Collective: TokenBrice and myself.

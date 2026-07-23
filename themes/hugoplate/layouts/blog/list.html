@@ -6,9 +6,9 @@
         <div class="lg:col-12">
           <!-- header -->
           <div class="mb-10">
-            <h2>
+            <h1>
               {{ .Title }}
-            </h2>
+            </h1>
           </div>
           <!-- blog posts -->
           <div class="row">
@@ -17,7 +17,7 @@
                 {{ $paginator:= .Paginate .RegularPages }}
                 {{ range $paginator.Pages }}
                   <div class="md:col-4 mb-4 sm:mb-8">
-                    {{ partial "components/blog-card" . }}
+                    {{ partial "components/blog-card" (dict "Page" . "HeadingLevel" 2) }}
                   </div>
                 {{ end }}
               </div>
@@ -35,5 +35,4 @@
     </div>
   </section>
 {{ end }}
-
 

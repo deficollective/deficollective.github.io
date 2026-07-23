@@ -35,7 +35,7 @@
   <section class="section">
     <div class="container">
       <div class="lg:col mb-8 text-left">
-        <h3>Recent Posts</h3>
+        <h2 class="h3">Recent Posts</h2>
       </div>
       <div class="row">
         <div class="lg:col">
@@ -43,7 +43,7 @@
             {{ $paginator:= .Paginate (where .Site.RegularPages "Section" "blog")  }}
             {{ range $paginator.Pages }}
               <div class="w-full md:w-1/3 mb-8 sm:mb-8 md:pr-8 md:last:pr-0">
-                {{ partial "components/blog-card-minimal" . }}
+                {{ partial "components/blog-card-minimal" (dict "Page" . "HeadingLevel" 3) }}
               </div>
             {{ end }}
           </div>
@@ -67,9 +67,9 @@
         <div class="row items-center flex flex-wrap -mx-3 justify-between">
               <!-- Text Section -->
               <div class="{{ if not (modBool $i 2) }} md:order-1 {{ end }} md:col-5 lg:col-4">
-                <h3 class="mb-8">
+                <h2 class="h3 mb-8">
                   {{ .title | markdownify }}
-                </h3>
+                </h2>
                 <p class="mb-8">
                   {{ .content | markdownify }}
                 </p>
@@ -88,18 +88,24 @@
                   <div class="grid grid-cols-3 gap-8 justify-center place-items-center">
                       <!-- Individual logos will go here -->
                       {{ range .logo }}
+                      {{ $lightLogo := resources.Get .light }}
+                      {{ $darkLogo := resources.Get .dark }}
                       <div class="flex justify-center items-center">
                           <img 
-                              src="{{ .light }}" 
+                              src="{{ $lightLogo.RelPermalink }}"
                               alt="{{ .alt }}" 
                               style="height: {{ .height }}" 
                               class="block dark:hidden" 
+                              loading="lazy"
+                              decoding="async"
                           >
                           <img 
-                              src="{{ .dark }}" 
+                              src="{{ $darkLogo.RelPermalink }}"
                               alt="{{ .alt }}" 
                               style="height: {{ .height }}" 
                               class="hidden dark:block" 
+                              loading="lazy"
+                              decoding="async"
                           >
                       </div>
                       {{ end }}

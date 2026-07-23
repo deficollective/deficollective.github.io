@@ -1,0 +1,43 @@
+{{- $allSections := slice -}}
+{{- range site.Home.Sections -}}
+  {{- $allSections = $allSections | append .Section -}}
+{{- end -}}
+
+{{- $searchSections := $allSections -}}
+{{- if not site.Params.search.include_all_sections -}}
+  {{- $searchSections = site.Params.search.include_sections | default site.Params.mainSections -}}
+{{- end -}}
+
+{{- $pages := where site.RegularPages "Section" "in" $searchSections -}}
+{{- $pages = where $pages "Params.ignoreSearch" "ne" true -}}
+
+[
+  {{- range $index, $page := $pages -}}
+    {{- $image := "" -}}
+    {{- $imageSmall := "" -}}
+    {{- with $page.Params.image -}}
+      {{- $image = partial "searchImage" (dict "Src" . "Size" "420x" "Command" "Resize") -}}
+      {{- $imageSmall = partial "searchImage" (dict "Src" . "Size" "100x100" "Command" "Fill") -}}
+    {{- else -}}
+      {{- range first 1 ($page.Params.images | default slice) -}}
+        {{- $image = partial "searchImage" (dict "Src" . "Size" "420x" "Command" "Resize") -}}
+        {{- $imageSmall = partial "searchImage" (dict "Src" . "Size" "100x100" "Command" "Fill") -}}
+      {{- end -}}
+    {{- end -}}
+    {{- $content := $page.Plain | htmlUnescape | strings.TrimSpace | truncate 600 -}}
+    {{- if $index }},{{ end }}
+    {
+      "section": {{ $page.Section | humanize | jsonify }},
+      "slug": {{ $page.RelPermalink | jsonify }},
+      "title": {{ $page.Title | jsonify }},
+      "description": {{ $page.Description | jsonify }},
+      "date": {{ time.Format ":date_long" $page.PublishDate | jsonify }},
+      "image": {{ $image | jsonify }},
+      "imageSM": {{ $imageSmall | jsonify }},
+      "searchKeyword": {{ ($page.Params.search_keyword | default "") | jsonify }},
+      "categories": {{ (delimit ($page.Params.categories | default slice) ", ") | jsonify }},
+      "tags": {{ (delimit ($page.Params.tags | default slice) ", ") | jsonify }},
+      "content": {{ $content | jsonify }}
+    }
+  {{- end -}}
+]

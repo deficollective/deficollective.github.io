@@ -7,16 +7,18 @@ image: "/images/articles/defi-protocol-guidelines.png"
 categories: ["Policy"]
 author: "nilsbundi"
 tags: ["Policy", "Decentralization", "Research"]
+aliases:
+  - /defi-protocol-guidelines/
 draft: false
 ---
 
 The DeFi Collective is committed to fostering the decentralization of financial infrastructure.
 
-Understanding and identifying _Genuine DeFi_ systems has remained a challenge as discussed [here](../make-defi-decentralized-again). I am happy to announce the release of our __DeFi Protocol Guidelines__, a comprehensive framework distinguishing between _Genuine DeFi_ systems and _On-chain CeFi_ services.
+Understanding and identifying _Genuine DeFi_ systems has remained a challenge. I am happy to announce the release of our __DeFi Protocol Guidelines__, a comprehensive framework distinguishing between _Genuine DeFi_ systems and _On-chain CeFi_ services.
 
 These guidelines are critical in shaping and implementing our internal policies, guiding protocols in ensuring adherence to the core principles of DeFi, and making DeFi more open, transparent and secure.
 
-This blog post will present the main ideas and concepts behind the DeFi Protocol Guidelines. If you want to dive right into the guidelines, you can find these on the [_Policies_ page](../../policies) on our website.
+This blog post presents the main ideas and concepts behind the DeFi Protocol Guidelines. The Collective's other published governance and operating documents are available on the [_Policies_ page](/policies/).
 
 
 ### What is Genuine DeFi
@@ -63,4 +65,4 @@ As mentioned, DeFi systems inherit the centralization vectors found in dependenc
 
 The DeFi Collective's Protocol Guidelines mark a significant step toward clarifying and systematizing what constitutes a Genuine DeFi system. By setting clear standards and definitions, the DeFi Collective aims to guide the evolution of blockchain-based financial technology toward greater transparency, inclusivity, and decentralization. These guidelines serve as a benchmark for existing systems and as a blueprint for the future development of DeFi projects, ensuring that they align with the ultimate goal of full decentralization.
 
-You can find the [_DeFi Protocol Guidelines_](../../defi-protocol-guidelines) on our _Policies_ page. In the coming weeks, we will start to build up a public database reporting on the _decentralization status_ of DeFi systems. If you are interested in joining us on our mission to advance the decentralization of financial infrastructure or have feedback, please reach out on our [Discord](https://discord.gg/Z467Ehv6VU) or connect on [X](https://twitter.com/DeFiCollective_).
+The Collective's other published governance and operating documents are available on the [_Policies_ page](/policies/). In the coming weeks, we will start to build up a public database reporting on the _decentralization status_ of DeFi systems. If you are interested in joining us on our mission to advance the decentralization of financial infrastructure or have feedback, please reach out on our [Discord](https://discord.gg/Z467Ehv6VU) or connect on [X](https://twitter.com/DeFiCollective_).

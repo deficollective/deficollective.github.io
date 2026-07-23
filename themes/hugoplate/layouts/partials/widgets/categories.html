@@ -2,7 +2,7 @@
 {{ if isset site.Taxonomies "categories" }}
   {{ if not (eq (len site.Taxonomies.categories) 0) }}
     <div class="mb-8">
-      <h5 class="mb-6">{{ i18n "categories" }}</h5>
+      <h2 class="h5 mb-6">{{ i18n "categories" }}</h2>
       <div class="bg-card rounded p-8">
         <ul class="space-y-4">
           {{ range $name, $items := site.Taxonomies.categories }}

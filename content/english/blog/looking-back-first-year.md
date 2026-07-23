@@ -107,7 +107,7 @@ Although the Collective self-appoint to support the projects deemed the most rel
 
 **Establish a presence for the Collective in the space**
 
-Growing the presence and audience of the Collective is key to its objectives, and several endeavours entertained in the first year helped making stride in that direction, including: our presence at [ETH Belgrade](https://www.youtube.com/watch?v=xKPolVNaHj4) & ETHCC, [several interviews and podcasts](https://deficollective.org/media/), and the publication of in-depth articles on topics relevant to the Collective’s expertise: [Software licenses for DeFi](https://deficollective.org/blog/software-licenses-for-defi/), [Making the most of Gnosis Safe: toolbox & tips](https://deficollective.org/blog/safe-toolbox/), [A deep dive in the limitations of Concentrated Liquidity](https://deficollective.org/blog/concentrated-liquidity/), etc.
+Growing the presence and audience of the Collective is key to its objectives, and several endeavours entertained in the first year helped making stride in that direction, including: our presence at [ETH Belgrade](https://www.youtube.com/watch?v=xKPolVNaHj4) & ETHCC, [several interviews and podcasts](/media/), and the publication of in-depth articles on topics relevant to the Collective’s expertise: Software licenses for DeFi, [Making the most of Gnosis Safe: toolbox & tips](/blog/safe-toolbox/), [A deep dive in the limitations of Concentrated Liquidity](/blog/concentrated-liquidity/), etc.
 
 **Growing the team all along the way**
 

@@ -25,7 +25,7 @@ Launched in October 2023, the Collective was created to support genuinely decent
 * On Base, 0.8 ETH have been expended weekly for vote incentives, and a growing voting power of ~400k veAERO is harnessed to support to LUSD-related pools.
 * Although less consequential, various initiatives have also been implemented on mainnet, Arbitrum, Mantle, and Linea.
 
-_Onchain receipts: vote incentives are posted by the [grantsfortheants.eth](https://debank.com/profile/0xDc6f869d2D34E4aee3E89A51f2Af6D54F0F7f690) address ([latest](https://optimistic.etherscan.io/tx/0x6f8fad6c55041a0a2f896fb4fcbfe5886d051f74f801e1b9f669e4effddeab30)), veVELO & veAERO are managed on [deficollective.eth](https://debank.com/profile/0x6665e62ef6f6db29d5f8191fbac472222c2cc80f). The voting activity of the Collective’s vePositions can easily be followed through our [impact dashboard](/impact/)._
+_Onchain receipts: vote incentives are posted by the [grantsfortheants.eth](https://debank.com/profile/0xDc6f869d2D34E4aee3E89A51f2Af6D54F0F7f690) address ([latest](https://optimistic.etherscan.io/tx/0x6f8fad6c55041a0a2f896fb4fcbfe5886d051f74f801e1b9f669e4effddeab30)), veVELO & veAERO are managed on [deficollective.eth](https://debank.com/profile/0x6665e62ef6f6db29d5f8191fbac472222c2cc80f). Historical context for the Collective's voting activity is preserved in the [impact archive](/impact/)._
 
 With the arrival of BOLD, the Collective will refocus its support on BOLD, starting with its top two layers 2 exclusively: Optimism and Base. Support for current LUSD-related liquidity pools will be progressively be phased out, in favor of BOLD-related pools. LUSD/BOLD pools will also be supported on both networks.
 
